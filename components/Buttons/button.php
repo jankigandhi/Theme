@@ -29,6 +29,39 @@
       <button type="button" class="btn-slide slide-5 btn-square rounded-0 btn btn-outline-dark">Dark</button>
     </div>
   </div>
+  <div class="py-4">
+    <h3>Style-2</h3>
+    <div>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-primary">
+        <i class="btn-icon zmdi zmdi-shopping-cart"></i>
+        Primary
+      </button>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-secondary">
+        <i class="btn-icon zmdi zmdi-shopping-cart-plus"></i>
+        Secondary
+      </button>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-success">
+        <i class="btn-icon zmdi zmdi-search"></i>
+        Success
+      </button>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-danger">
+        <i class="btn-icon zmdi zmdi-mail-send"></i>
+        Danger
+      </button>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-warning">
+        <i class="btn-icon zmdi zmdi-email-open"></i>
+        Warning
+      </button>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-info">
+        <i class="btn-icon zmdi zmdi-favorite"></i>
+        Info
+      </button>
+      <button type="button" class="btn-with-icon btn-square rounded-0 btn btn-dark">
+        <i class="btn-icon zmdi zmdi-edit"></i>
+        Dark
+      </button>
+    </div>
+  </div>
 </div>
 </body>
 </html>

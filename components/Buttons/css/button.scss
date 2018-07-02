@@ -9,9 +9,11 @@ $btn-padding: .75rem 2rem;
     border-width: $btn-border-width;
     padding: $btn-padding;
     font-weight: 600;
+    position: relative;
+    margin-bottom: .2rem;
 }
 
-// btn-slide
+// btn-slide:style-1
 @mixin btn-slide($active-background: $color) {
     &:after {
         background-color: $active-background;
@@ -26,7 +28,6 @@ $value in $theme-colors {
 }
 
 .btn-slide {
-    position: relative;
     overflow: hidden;
     &:after {
         @include transition(all .3s linear);
@@ -86,7 +87,7 @@ $value in $theme-colors {
             left: 50%;
             top: 50%;
             width: 110%;
-            @include transform(translate(-50%,-50%)rotate(45deg));
+            @include transform(translate(-50%, -50%)rotate(45deg));
         }
         @include hover-focus-active {
             &:after {
@@ -106,6 +107,50 @@ $value in $theme-colors {
                 height: 80%;
                 opacity: 1;
             }
+        }
+    }
+}
+
+//btn-with-icon:style-2
+@mixin btn-iconbg($active-background: $color) {
+    &:before,
+    &:hover {
+        background-color: darken($active-background, 10%);
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    .btn-#{$color} {
+        @include btn-iconbg($value);
+    }
+}
+
+.btn-with-icon {
+    padding-left: 4.8125rem;
+    border-width: 0;
+    &:before {
+        content: " ";
+        position: absolute;
+        width: 2.81250rem;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: inline-block;
+    }
+    .btn-icon {
+        text-align: center;
+        font-size: 1rem;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 2.81250rem;
+        @include transition(all .2s ease-in-out);
+        @include transform(translateY(-50%));
+    }
+    &:hover {
+        .btn-icon {
+            margin-left: .3125rem;
         }
     }
 }
