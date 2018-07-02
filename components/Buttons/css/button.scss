@@ -1,0 +1,111 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+// variables
+$btn-border-width: 2px;
+$btn-padding: .75rem 2rem;
+.btn-square {
+    border-width: $btn-border-width;
+    padding: $btn-padding;
+    font-weight: 600;
+}
+
+// btn-slide
+@mixin btn-slide($active-background: $color) {
+    &:after {
+        background-color: $active-background;
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    .btn-outline-#{$color} {
+        @include btn-slide($value);
+    }
+}
+
+.btn-slide {
+    position: relative;
+    overflow: hidden;
+    &:after {
+        @include transition(all .3s linear);
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 0;
+    }
+    @include hover-focus-active {
+        background-color: transparent !important;
+        &:after {
+            height: 100%;
+        }
+    }
+    &.slide-1 {
+        &:after {
+            width: 0%;
+        }
+        @include hover-focus-active {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+    &.slide-2 {
+        &:after {
+            width: 0%;
+            height: 100%;
+        }
+        @include hover-focus-active {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+    &.slide-3 {
+        &:after {
+            width: 0%;
+            height: 100%;
+            opacity: 0;
+            right: 0;
+            margin: auto;
+        }
+        @include hover-focus-active {
+            &:after {
+                width: 90%;
+                opacity: 1;
+            }
+        }
+    }
+    &.slide-4 {
+        &:after {
+            opacity: 0;
+            left: 50%;
+            top: 50%;
+            width: 110%;
+            @include transform(translate(-50%,-50%)rotate(45deg));
+        }
+        @include hover-focus-active {
+            &:after {
+                height: 160%;
+                opacity: 1;
+            }
+        }
+    }
+    &.slide-5 {
+        &:after {
+            opacity: 0;
+            top: 50%;
+            @include transform(translateY(-50%));
+        }
+        @include hover-focus-active {
+            &:after {
+                height: 80%;
+                opacity: 1;
+            }
+        }
+    }
+}
