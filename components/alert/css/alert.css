@@ -1,0 +1,27 @@
+.btn-close {
+  position: absolute;
+  top: 50%;
+  margin-top: -.75rem;
+  right: 0;
+  margin-right: 1rem; }
+  .btn-close:hover,
+  .btn-close :focus {
+    color: #000;
+    text-decoration: none;
+    opacity: .75; }
+
+.custom-alert {
+  position: relative;
+  color: #000; }
+  .custom-alert .msgtitle {
+    background: rgba(0, 0, 0, 0.15);
+    border-top: 0;
+    border-bottom: 0; }
+
+.alert-left-border {
+  border-left: 4px solid rgba(0, 0, 0, 0.2); }
+
+.alert-left-white-border {
+  border-left: 1px solid rgba(255, 255, 255, 0.5); }
+
+/*# sourceMappingURL=alert.css.map */

@@ -1,0 +1,49 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.card {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    border: 0;
+    font-weight: 400;
+}
+
+.card-cascade {
+    .narrower {
+        margin-top: 1.25rem;
+        .view.view-cascade {
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: -1.25rem;
+        }
+    }
+    .view {
+        .view-cascade {
+            webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+            -webkit-border-radius: .25rem;
+            border-radius: .25rem;
+            .gradient-card-header {
+                padding: 1.6rem 1rem;
+                text-align: center;
+                .btn-floating {
+                    background-color: rgba(255, 255, 255, .2);
+                    &:hover {
+                        -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+                        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+                    }
+                }
+            }
+        }
+    }
+    .purple-gradient {
+        background: -webkit-linear-gradient(50deg, #ff6ec4, #7873f5)!important;
+        background: -o-linear-gradient(50deg, #ff6ec4, #7873f5)!important;
+        background: linear-gradient(40deg, #ff6ec4, #7873f5)!important;
+    }
+    .view {
+        position: relative;
+        overflow: hidden;
+        cursor: default;
+    }
+}
