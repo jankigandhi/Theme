@@ -1,0 +1,51 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+$gray-light: #666;
+$gray-lighten: #f5f5f5; 
+body {
+    color: $gray-light;
+}
+
+.typrography {
+    .title {
+        letter-spacing: 3px;
+    }
+    .heading-1 {
+        letter-spacing: 17px;
+    }
+    .heading-2 {
+        letter-spacing: 10px;
+    }
+    .heading-3 {
+        letter-spacing: 6px;
+    }
+    .heading-4 {
+        letter-spacing: 3px;
+    }
+    .heading-5 {
+        letter-spacing: 2px;
+    }
+    .heading-6 {
+        letter-spacing: 2px;
+    }
+    .m-width {
+        max-width: 760px;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .pre {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .block-section {
+    	background-color: $gray-lighten;
+    	border-left: 5px solid $gray-200;
+    	.block{
+    		font-size: 20px;
+    		line-height: 40px;
+    	}
+    }
+}

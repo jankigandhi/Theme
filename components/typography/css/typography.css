@@ -1,0 +1,32 @@
+body {
+  color: #666; }
+
+.typrography .title {
+  letter-spacing: 3px; }
+.typrography .heading-1 {
+  letter-spacing: 17px; }
+.typrography .heading-2 {
+  letter-spacing: 10px; }
+.typrography .heading-3 {
+  letter-spacing: 6px; }
+.typrography .heading-4 {
+  letter-spacing: 3px; }
+.typrography .heading-5 {
+  letter-spacing: 2px; }
+.typrography .heading-6 {
+  letter-spacing: 2px; }
+.typrography .m-width {
+  max-width: 760px; }
+.typrography .lead {
+  font-size: 1rem; }
+.typrography .pre {
+  font-size: 13px;
+  line-height: 24px; }
+.typrography .block-section {
+  background-color: #f5f5f5;
+  border-left: 5px solid #e9ecef; }
+  .typrography .block-section .block {
+    font-size: 20px;
+    line-height: 40px; }
+
+/*# sourceMappingURL=typography.css.map */
