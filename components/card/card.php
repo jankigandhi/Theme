@@ -4,6 +4,7 @@
 <body>
 <div class="container my-4">
     <!-- Card -->
+    <h3 class="text-center mb-4">Style-1</h3>
     <div class="card-section card-cascade wider reverse card border-0">
         <!-- Card image -->
         <div class="view view-cascade overlay">
@@ -17,7 +18,7 @@
             <!-- Title -->
             <h4 class="card-title"><strong>My adventure</strong></h4>
             <!-- Subtitle -->
-            <h6 class="indigo-text font-weight-bold py-2">Photography</h6>
+            <h6 class="font-weight-bold py-2">Photography</h6>
             <!-- Text -->
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
             </p>
@@ -31,7 +32,7 @@
     </div>
     <!-- Card -->
     <div  class="py-4">
-        <h3 class="text-center">Action Button using card layout</h3>
+        <h3 class="text-center my-4">Action Button using card layout</h3>
         <div class="row mx-0">
             <div class="col-md-4 py-2">
                 <div class="card-section card">
@@ -126,6 +127,7 @@
         </div>
     </div>
     <div class="pb-4">
+        <h3 class="text-center my-4">Style-3</h3>
         <div class="row mx-0">
             <div class="col-md-4 py-2">
                 <div class="card-section card-cascade wider reverse card border-0">
@@ -141,7 +143,7 @@
                         <!-- Title -->
                         <h4 class="card-title"><strong>My adventure</strong></h4>
                         <!-- Subtitle -->
-                        <h6 class="indigo-text font-weight-bold py-2">Photography</h6>
+                        <h6 class="font-weight-bold py-2">Photography</h6>
                         <!-- Text -->
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
                         </p>
@@ -168,7 +170,7 @@
                         <!-- Title -->
                         <h4 class="card-title"><strong>My adventure</strong></h4>
                         <!-- Subtitle -->
-                        <h6 class="indigo-text font-weight-bold py-2">Photography</h6>
+                        <h6 class="font-weight-bold py-2">Photography</h6>
                         <!-- Text -->
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
                         </p>
@@ -195,7 +197,7 @@
                         <!-- Title -->
                         <h4 class="card-title"><strong>My adventure</strong></h4>
                         <!-- Subtitle -->
-                        <h6 class="indigo-text font-weight-bold py-2">Photography</h6>
+                        <h6 class="font-weight-bold py-2">Photography</h6>
                         <!-- Text -->
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
                         </p>
