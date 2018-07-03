@@ -3,7 +3,7 @@
 @import "../../../css/scss/mixins";
 
 $gray-light: #666;
-$gray-lighten: #f5f5f5; 
+$gray-lighten: #f5f5f5;
 body {
     color: $gray-light;
 }
@@ -31,7 +31,7 @@ body {
         letter-spacing: 2px;
     }
     .m-width {
-        max-width: 760px;
+        max-width: 47.5rem;
     }
     .lead {
         font-size: 1rem;
@@ -41,11 +41,50 @@ body {
         line-height: 24px;
     }
     .block-section {
-    	background-color: $gray-lighten;
-    	border-left: 5px solid $gray-200;
-    	.block{
-    		font-size: 20px;
-    		line-height: 40px;
-    	}
+        background-color: $gray-lighten;
+        border-left: 5px solid $gray-200;
+        .block {
+            font-size: 20px;
+            line-height: 40px;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .typrography {
+        .title,
+        .heading-4,
+        h4 {
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h3,
+        .heading-3 {
+            font-size: 1.5rem;
+        }
+        h5 {
+            font-size: 1rem;
+        }
+        h6,
+        .heading-6 {
+            font-size: 12px;
+        }
+        .heading-1,
+        .heading-2 {
+            font-size: 2rem;
+        }
+        .lead {
+            font-size: 13px;
+        }
+        .pre {
+            font-size: 12px;
+        }
+        .block-section {
+            .block {
+                font-size: 1rem;
+            }
+        }
     }
 }

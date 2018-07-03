@@ -16,7 +16,7 @@ body {
 .typrography .heading-6 {
   letter-spacing: 2px; }
 .typrography .m-width {
-  max-width: 760px; }
+  max-width: 47.5rem; }
 .typrography .lead {
   font-size: 1rem; }
 .typrography .pre {
@@ -28,5 +28,30 @@ body {
   .typrography .block-section .block {
     font-size: 20px;
     line-height: 40px; }
+
+@media (max-width: 767.98px) {
+  .typrography .title,
+  .typrography .heading-4,
+  .typrography h4 {
+    font-size: 18px; }
+  .typrography h1 {
+    font-size: 2rem; }
+  .typrography h3,
+  .typrography .heading-3 {
+    font-size: 1.5rem; }
+  .typrography h5 {
+    font-size: 1rem; }
+  .typrography h6,
+  .typrography .heading-6 {
+    font-size: 12px; }
+  .typrography .heading-1,
+  .typrography .heading-2 {
+    font-size: 2rem; }
+  .typrography .lead {
+    font-size: 13px; }
+  .typrography .pre {
+    font-size: 12px; }
+  .typrography .block-section .block {
+    font-size: 1rem; } }
 
 /*# sourceMappingURL=typography.css.map */
