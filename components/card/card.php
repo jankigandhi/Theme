@@ -43,7 +43,7 @@
                         </a>
                     </div>
                     <!-- Button -->
-                    <a class="btn-floating btn-action mdb-color lighten-3 ml-auto mr-4 align-middle d-inline-flex align-items-center justify-content-center m-2 p-0 text-white text-center"><i class="right-arrow zmdi zmdi-chevron-right pl-1"></i></a>
+                    <a class="btn-floating btn-action mdb-color ml-auto mr-4 align-middle d-inline-flex align-items-center justify-content-center m-2 p-0 text-white text-center"><i class="right-arrow zmdi zmdi-chevron-right pl-1"></i></a>
                     <!-- Card content -->
                     <div class="card-body">
                         <!-- Title -->
@@ -53,7 +53,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <!-- Card footer -->
-                    <div class="rounded-bottom mdb-color lighten-3 text-center pt-3 text-white">
+                    <div class="rounded-bottom mdb-color text-center pt-3 text-white">
                         <ul class="list-unstyled list-inline font-small">
                             <li class="list-inline-item pr-2 white-text"><i class="zmdi zmdi-clock-o pr-1"></i>05/10/2015</li>
                             <li class="list-inline-item pr-2"><a href="#" class="text-white"><i class="zmdi zmdi-email pr-1 text-white"></i>12</a></li>
@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <!-- Button -->
-                    <a class="btn-floating btn-action mdb-color lighten-3 ml-auto mr-4 align-middle d-inline-flex align-items-center justify-content-center m-2 p-0 text-white text-center"><i class="right-arrow zmdi zmdi-chevron-right pl-1"></i></a>
+                    <a class="btn-floating btn-action mdb-color ml-auto mr-4 align-middle d-inline-flex align-items-center justify-content-center m-2 p-0 text-white text-center"><i class="right-arrow zmdi zmdi-chevron-right pl-1"></i></a>
                     <!-- Card content -->
                     <div class="card-body">
                         <!-- Title -->
@@ -83,7 +83,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <!-- Card footer -->
-                    <div class="rounded-bottom mdb-color lighten-3 text-center pt-3 text-white">
+                    <div class="rounded-bottom mdb-color text-center pt-3 text-white">
                         <ul class="list-unstyled list-inline font-small">
                             <li class="list-inline-item pr-2 white-text"><i class="zmdi zmdi-clock-o pr-1"></i>05/10/2015</li>
                             <li class="list-inline-item pr-2"><a href="#" class="text-white"><i class="zmdi zmdi-email pr-1 text-white"></i>12</a></li>
@@ -103,7 +103,7 @@
                         </a>
                     </div>
                     <!-- Button -->
-                    <a class="btn-floating btn-action mdb-color lighten-3 ml-auto mr-4 align-middle d-inline-flex align-items-center justify-content-center m-2 p-0 text-white text-center"><i class="right-arrow zmdi zmdi-chevron-right pl-1"></i></a>
+                    <a class="btn-floating btn-action mdb-color ml-auto mr-4 align-middle d-inline-flex align-items-center justify-content-center m-2 p-0 text-white text-center"><i class="right-arrow zmdi zmdi-chevron-right pl-1"></i></a>
                     <!-- Card content -->
                     <div class="card-body">
                         <!-- Title -->
@@ -113,7 +113,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <!-- Card footer -->
-                    <div class="rounded-bottom mdb-color lighten-3 text-center pt-3 text-white">
+                    <div class="rounded-bottom mdb-color text-center pt-3 text-white">
                         <ul class="list-unstyled list-inline font-small">
                             <li class="list-inline-item pr-2 white-text"><i class="zmdi zmdi-clock-o pr-1"></i>05/10/2015</li>
                             <li class="list-inline-item pr-2"><a href="#" class="text-white"><i class="zmdi zmdi-email pr-1 text-white"></i>12</a></li>

@@ -5,7 +5,6 @@ $indigo: #3f51b5;
 $linkdin:#0082ca;
 $twitter: #55acee;
 $facebook: #3b5998;
-$lighten-3:#929fba;
 .card-section {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     &.wider {
@@ -82,9 +81,6 @@ $lighten-3:#929fba;
      //floating-button card layout css
     .mdb-color {
         background-color: $gray-600;
-        .lighten-3 {
-            background-color: $lighten-3!important;
-        }
     }
     .btn-floating {
         box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
