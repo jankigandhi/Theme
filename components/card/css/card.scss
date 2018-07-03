@@ -1,49 +1,107 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-.card {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+$indigo: #3f51b5;
+$linkdin:#0082ca;
+$twitter: #55acee;
+$facebook: #3b5998;
+$lighten-3:#929fba;
+.card-section {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-    border: 0;
-    font-weight: 400;
-}
-
-.card-cascade {
-    .narrower {
-        margin-top: 1.25rem;
-        .view.view-cascade {
-            margin-left: 4%;
-            margin-right: 4%;
-            margin-top: -1.25rem;
+    &.wider {
+        box-shadow: none;
+        .view {
+            position: relative;
+            overflow: hidden;
+            .view-cascade {
+                z-index: 2;
+            }
+            img {
+                cursor: pointer;
+            }
+            .mask {
+                position: absolute;
+                top: 0;
+                overflow: hidden;
+                background-attachment: fixed;
+            }
         }
-    }
-    .view {
-        .view-cascade {
-            webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
-            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
-            -webkit-border-radius: .25rem;
-            border-radius: .25rem;
-            .gradient-card-header {
-                padding: 1.6rem 1rem;
-                text-align: center;
-                .btn-floating {
-                    background-color: rgba(255, 255, 255, .2);
-                    &:hover {
-                        -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-                        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-                    }
+        .card-body-cascade {
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+            margin: 0 4%;
+            z-index: 1;
+            border-radius: 0 0 .25rem .25rem;
+        }
+        .overlay {
+            .mask {
+                opacity: 0;
+                transition: all .4s ease-in-out;
+                &:hover {
+                    opacity: 1;
                 }
             }
         }
     }
-    .purple-gradient {
-        background: -webkit-linear-gradient(50deg, #ff6ec4, #7873f5)!important;
-        background: -o-linear-gradient(50deg, #ff6ec4, #7873f5)!important;
-        background: linear-gradient(40deg, #ff6ec4, #7873f5)!important;
+    &.card-cascade {
+        .view {
+            &.view-cascade {
+                box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+                border-radius: .25rem;
+            }
+        }
     }
-    .view {
+    &.reverse {
+        .card-body-cascade {
+            z-index: 3;
+            margin-top: -1rem;
+            border-radius: .25rem;
+            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        }
+    }
+    .rgba-white-slight {
+        &.after {
+            background-color: rgba(255, 255, 255, .1);
+        }
+    }
+    .indigo-text {
+        color: $indigo;
+    }
+    .social-icon {
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .li-ic {
+        color: $linkdin!important;
+    }
+    .tw-ic {
+        color: $twitter!important;
+    }
+    .fb-ic {
+        color: $facebook!important;
+    }
+     //floating-button card layout css
+    .mdb-color {
+        background-color: $gray-600;
+        .lighten-3 {
+            background-color: $lighten-3!important;
+        }
+    }
+    .btn-floating {
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        width: 47px;
+        height: 47px;
         position: relative;
+        z-index: 1;
         overflow: hidden;
-        cursor: default;
+        @include transition(all .3s ease-in-out);
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn-action {
+        margin-top: -1.44rem!important;
+        margin-bottom: -1.44rem!important;
+    }
+    .right-arrow{
+        font-size: 1.5rem;
     }
 }
