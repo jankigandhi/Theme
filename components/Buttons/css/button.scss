@@ -1,156 +1,249 @@
-@import "../../../css/scss/functions";
-@import "../../../css/scss/variables";
-@import "../../../css/scss/mixins";
+        @import "../../../css/scss/functions";
+        @import "../../../css/scss/variables";
+        @import "../../../css/scss/mixins";
+         // variables
+        $btn-border-width: 2px;
+        $btn-padding: .75rem 2rem;
+        $btn-rounded: 3.125rem;
 
-// variables
-$btn-border-width: 2px;
-$btn-padding: .75rem 2rem;
-.btn-thick {
-    border-width: $btn-border-width;
-    padding: $btn-padding;
-    font-weight: 600;
-    position: relative;
-    margin-bottom: .5rem;
-}
-
-// btn-slide:style-1
-@mixin btn-slide($active-background: $color) {
-    &:after {
-        background-color: $active-background;
-    }
-}
-
-@each $color,
-$value in $theme-colors {
-    .btn-outline-#{$color} {
-        @include btn-slide($value);
-    }
-}
-
-.btn-slide {
-    overflow: hidden;
-    &:after {
-        @include transition(all .3s linear);
-        content: '';
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        top: 0;
-        left: 0;
-        height: 0;
-    }
-    @include hover-focus-active {
-        background-color: transparent !important;
-        &:after {
-            height: 100%;
+        .btn-thick {
+            border-width: $btn-border-width;
+            padding: $btn-padding;
+            font-weight: 600;
+            position: relative;
+            margin-bottom: .5rem;
         }
-    }
-    &.slide-1 {
-        &:after {
-            width: 0%;
-        }
-        @include hover-focus-active {
+
+         // btn-slide:style-1
+        @mixin btn-slide($active-background: $color) {
             &:after {
+                background-color: $active-background;
+            }
+        }
+
+        @each $color,
+        $value in $theme-colors {
+            .btn-outline-#{$color} {
+                @include btn-slide($value);
+            }
+        }
+
+        .btn-slide {
+            overflow: hidden;
+            &:after {
+                @include transition(all .3s linear);
+                content: '';
+                position: absolute;
+                z-index: -1;
                 width: 100%;
+                top: 0;
+                left: 0;
+                height: 0;
+            }
+            @include hover-focus-active {
+                background-color: transparent !important;
+                &:after {
+                    height: 100%;
+                }
+            }
+            &.slide-1 {
+                &:after {
+                    width: 0%;
+                }
+                @include hover-focus-active {
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+            &.slide-2 {
+                &:after {
+                    width: 0%;
+                    height: 100%;
+                }
+                @include hover-focus-active {
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+            &.slide-3 {
+                &:after {
+                    width: 0%;
+                    height: 100%;
+                    opacity: 0;
+                    right: 0;
+                    margin: auto;
+                }
+                @include hover-focus-active {
+                    &:after {
+                        width: 90%;
+                        opacity: 1;
+                    }
+                }
+            }
+            &.slide-4 {
+                &:after {
+                    opacity: 0;
+                    left: 50%;
+                    top: 50%;
+                    width: 110%;
+                    @include transform(translate(-50%, -50%)rotate(45deg));
+                }
+                @include hover-focus-active {
+                    &:after {
+                        height: 160%;
+                        opacity: 1;
+                    }
+                }
+            }
+            &.slide-5 {
+                &:after {
+                    opacity: 0;
+                    top: 50%;
+                    @include transform(translateY(-50%));
+                }
+                @include hover-focus-active {
+                    &:after {
+                        height: 80%;
+                        opacity: 1;
+                    }
+                }
             }
         }
-    }
-    &.slide-2 {
-        &:after {
-            width: 0%;
-            height: 100%;
+
+         //btn-with-icon:style-2
+        @mixin btn-iconbg($active-background: $color) {
+            &:before,
+            &:hover {
+                background-color: darken($active-background, 10%);
+            }
         }
-        @include hover-focus-active {
-            &:after {
+
+        @each $color,
+        $value in $theme-colors {
+            .btn-#{$color} {
+                @include btn-iconbg($value);
+            }
+        }
+
+        .btn-with-icon {
+            padding-left: 4.8125rem;
+            border-width: 0;
+            &:before {
+                content: " ";
+                position: absolute;
+                width: 2.81250rem;
+                height: 100%;
+                left: 0;
+                top: 0;
+                display: inline-block;
+            }
+            .btn-icon {
+                text-align: center;
+                font-size: 1rem;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 2.81250rem;
+                @include transition(all .2s ease-in-out);
+                @include transform(translateY(-50%));
+            }
+            &:hover {
+                .btn-icon {
+                    margin-left: .3125rem;
+                }
+            }
+        } //hover-icon:style-3
+        .top-hover {
+            position: relative;
+            overflow: hidden;
+            .icon {
+                left: 0;
+                position: absolute;
+                height: 100%;
                 width: 100%;
+                font-size: 2rem;
+                @include transition(all .3s linear);
+                line-height: 1.5;
+                background-color: transparent;
+                &.icon-1 {
+                    top: -100%;
+                }
+                &.icon-2 {
+                    left: -100%;
+                    top: 0;
+                }
             }
-        }
-    }
-    &.slide-3 {
-        &:after {
-            width: 0%;
-            height: 100%;
-            opacity: 0;
-            right: 0;
-            margin: auto;
-        }
-        @include hover-focus-active {
-            &:after {
-                width: 90%;
-                opacity: 1;
+            .hover-text {
+                display: inline-block;
+                @include transition(all .3s linear);
             }
-        }
-    }
-    &.slide-4 {
-        &:after {
-            opacity: 0;
-            left: 50%;
-            top: 50%;
-            width: 110%;
-            @include transform(translate(-50%, -50%)rotate(45deg));
-        }
-        @include hover-focus-active {
-            &:after {
-                height: 160%;
-                opacity: 1;
+            @include hover-focus-active {
+                .icon {
+                    &.icon-1 {
+                        top: 0;
+                    }
+                    &.icon-2 {
+                        left: 0;
+                    }
+                }
+                .hover-text {
+                    &.hover-top {
+                        @include transform(translateY(300%));
+                    }
+                    &.left-hover {
+                        @include transform(translatex(200%));
+                    }
+                }
             }
-        }
-    }
-    &.slide-5 {
-        &:after {
-            opacity: 0;
-            top: 50%;
-            @include transform(translateY(-50%));
-        }
-        @include hover-focus-active {
-            &:after {
-                height: 80%;
-                opacity: 1;
-            }
-        }
-    }
-}
+        } 
 
-//btn-with-icon:style-2
-@mixin btn-iconbg($active-background: $color) {
-    &:before,
-    &:hover {
-        background-color: darken($active-background, 10%);
-    }
-}
-
-@each $color,
-$value in $theme-colors {
-    .btn-#{$color} {
-        @include btn-iconbg($value);
-    }
-}
-
-.btn-with-icon {
-    padding-left: 4.8125rem;
-    border-width: 0;
-    &:before {
-        content: " ";
-        position: absolute;
-        width: 2.81250rem;
-        height: 100%;
-        left: 0;
-        top: 0;
-        display: inline-block;
-    }
-    .btn-icon {
-        text-align: center;
-        font-size: 1rem;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 2.81250rem;
-        @include transition(all .2s ease-in-out);
-        @include transform(translateY(-50%));
-    }
-    &:hover {
-        .btn-icon {
-            margin-left: .3125rem;
+        //hover-icon:style-4
+        .btn-rounded {
+            border-radius: $btn-rounded;
         }
-    }
-}
+
+        .btn-arrows {
+            position: relative;
+            overflow: hidden;
+            .arrow-icon {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                font-size: 1.5rem;
+                @include transition(all .3s linear);
+                &.arrow-1 {
+                    left: 120%;
+                }
+                &.arrow-2 {
+                    right: 120%;
+                }
+                &.arrow-3 {
+                    right: -20%;
+                    opacity: 0;
+                }
+                &.arrow-4 {
+                    left: -20%;
+                    opacity: 0;
+                }
+            }
+            @include hover-focus-active {
+                .arrow-icon {
+                    &.arrow-1 {
+                        left: 35%;
+                    }
+                    &.arrow-2 {
+                        right: 35%;
+                    }
+                    &.arrow-3 {
+                        right: -30%;
+                        opacity: 1;
+                    }
+                    &.arrow-4 {
+                        left: -30%;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
