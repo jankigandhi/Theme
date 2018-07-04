@@ -1,0 +1,118 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.site-header {
+    height: 3rem;
+    .header-menu {
+        width: 100%;
+        display: inline-block;
+        height: 3rem;
+    }
+    .site-logo {
+        a {
+            color: $gray-600;
+            text-decoration:none;
+        }
+    }
+    .site-link {
+        .menu-bar {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .site-link {
+        float: right;
+    }
+    .menu-bar {
+        li {
+            display: inline-block;
+            padding: 1rem;
+            a {
+                color: gray;
+            }
+        }
+    }
+    .bar-icon {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .site-header {
+        .menu-bar {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .3s all linear;
+            background-color: lavender;
+            &.top {
+                margin-top: 3rem;
+                left: 0;
+                right: 0;
+                transform: translateY(-100%);
+                z-index: -1;
+            }
+            &.side-bar {
+                transform: translatex(100%);
+                width: 15rem;
+                height: 100vh;
+            }
+            li {
+                display: block;
+            }
+        }
+        .bar-icon {
+            display: inline-block;
+            color: gray;
+            float: right;
+            font-size: 2rem;
+            a {
+                color: gray;
+            }
+        }
+    }
+    .site-link {
+        &.open {
+            .menu-bar {
+                transform: none;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .header {
+        .header-site {
+            .right-side {
+                &.open {
+                    .menu-header {
+                        transform: none;
+                    }
+                }
+                .menu-header {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin-top: 3rem;
+                    background-color: gray;
+                    transform: translateY(-100%);
+                    transition: .3s all linear;
+                    z-index: -1;
+                    li {
+                        display: block;
+                    }
+                }
+                .bar-icon {
+                    display: inline-block;
+                    float: right;
+                    padding-right: .5rem;
+                    font-size: 2rem;
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
