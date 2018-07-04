@@ -1,13 +1,5 @@
 .progress-1 {
-  height: 32px;
-  margin-bottom: 8px;
-  border-radius: 0;
-  border: none; }
-  .progress-1 .progress-bar {
-    text-align: right;
-    padding-right: 12px;
-    line-height: 32px;
-    border-radius: 0; }
+  height: 32px; }
 
 .progress-bar-section .progress-status,
 .progress-bar-section .score-line {
@@ -20,11 +12,10 @@
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear; }
 
-.progress {
+.progress-section .custom-progress {
   overflow: visible;
-  margin-bottom: 26px;
   height: 16px; }
-  .progress .progress-bar {
+  .progress-section .custom-progress .progress-bar {
     background-color: #0088cc;
     position: relative;
     border-radius: 4px;
@@ -32,17 +23,18 @@
     -o-transition: 0.3s all linear;
     -webkit-transition: 0.3s all linear;
     transition: 0.3s all linear;
-    animation: progress 4s; }
-    .progress .progress-bar span {
-      background-color: #0088cc;
+    animation: progressive-bar 4s; }
+    .progress-section .custom-progress .progress-bar span {
       position: absolute;
       bottom: -20px;
-      font-size: 10px;
       line-height: 10px;
       padding: 2px 3px 2px 4px;
       right: -1.4em;
-      border-radius: 2px; }
-      .progress .progress-bar span:after {
+      border-radius: 2px;
+      animation: fade-in 4s forwards;
+      animation-delay: 4s;
+      opacity: 0; }
+      .progress-section .custom-progress .progress-bar span:after {
         bottom: 100%;
         left: 50%;
         border: solid transparent;
@@ -55,51 +47,56 @@
         border-bottom-color: #0088cc;
         border-width: 5px;
         margin-left: -5px; }
-
-.demo-circle {
-  position: relative; }
-  .demo-circle .u-absoluteCenter {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; }
-  .demo-circle .u-flexCenter {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .demo-circle .u-offscreen {
-    position: absolute;
-    left: -999em; }
-  .demo-circle .demo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; }
-  .demo-circle .progress {
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg); }
-  .demo-circle .progress__value {
-    stroke-dasharray: 339.292;
-    stroke-dashoffset: 226.292;
-    animation: progress-demo 2s; }
+@keyframes progressive-bar {
+  0% {
+    width: 0; } }
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.demo-circle .progress-circle {
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+.demo-circle .progress-value {
+  stroke-dasharray: 339.292;
+  stroke-dashoffset: 339.292;
+  animation: progress-demo 2s forwards; }
 @-webkit-keyframes progress-demo {
   from {
     stroke-dashoffset: 339.292; }
   to {
-    stroke-dashoffset: 0; } }
+    stroke-dashoffset: 226.292; } }
 @keyframes progress {
   from {
     stroke-dashoffset: 339.292; }
   to {
-    stroke-dashoffset: 0; } }
-@keyframes progress {
-  from {
-    width: 0; }
-  to {
-    width: 100; } }
+    stroke-dashoffset: 226.292; } }
+.bg-primary {
+  stroke: #0088cc; }
+
+.bg-secondary {
+  stroke: #6c757d; }
+
+.bg-success {
+  stroke: #4caf50; }
+
+.bg-info {
+  stroke: #17a2b8; }
+
+.bg-warning {
+  stroke: #ffc107; }
+
+.bg-danger {
+  stroke: #e36159; }
+
+.bg-light {
+  stroke: #f8f9fa; }
+
+.bg-dark {
+  stroke: #343a40; }
 
 /*# sourceMappingURL=progressbar.css.map */
