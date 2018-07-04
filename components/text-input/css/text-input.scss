@@ -1,0 +1,215 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.custom-style-1 {
+    .transparent-box {
+        border: 0;
+        border-bottom: 1px solid $blue;
+        background-color: transparent;
+        &:focus {
+            background-color: transparent;
+        }
+    }
+    .custom-input {
+        position: relative;
+        label {
+            font-size: .875em;
+        }
+    }
+    .bar {
+        position: relative;
+        display: block;
+        width: 100%;
+        &:after,
+        &:before {
+            @include transition(all .3s ease);
+            content: '';
+            height: 1px;
+            width: 0;
+            bottom: 1px;
+            position: absolute;
+            background-color: $blue;
+        }
+        &:before {
+            left: 50%;
+        }
+        &:after {
+            right: 50%;
+        }
+    }
+
+    .input-effect {
+        &:focus {
+            border-color: $blue;
+            box-shadow: none!important;
+        }
+        ~label {
+            @include transition(all .3s ease);
+            position: absolute;
+            left: 0;
+            top: 10px;
+            color: $gray-600;
+            pointer-events: none;
+        }
+        &:focus~label,
+        &:not(:placeholder-shown)~label {
+            @include transition(all .3s ease);
+            top: -15px;
+            color: $blue;
+            font-weight: bold;
+        }
+        &:focus~.bar,
+        &:not(:placeholder-shown)~.bar {
+            &:before,
+            &:after {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.custom-style-2 {
+    .transparent-box-2 {
+        border: 2px solid $gray-400;
+        background-color: transparent;
+        &:focus {
+            background-color: transparent;
+            border-color: $red;
+            box-shadow: none;
+        }
+    }
+    .custom-input-2 {
+        position: relative;
+        label {
+            font-size: .875em;
+        }
+    }
+    .input-effect-2 {
+        &:focus {
+            border-color: $red;
+            box-shadow: none!important;
+        }
+        ~label {
+            @include transition(all .3s ease);
+            position: absolute;
+            left: 0;
+            top: 10px;
+            color: $gray-600;
+            pointer-events: none;
+        }
+        &:focus~label,
+        &:not(:placeholder-shown)~label {
+            @include transition(all .3s ease);
+            top: -30px;
+            color: $red;
+            font-weight: bold;
+        }
+    }
+}
+
+.custom-style-3 {
+    .transparent-box-3 {
+        border: 0;
+        background-color: transparent;
+        &:focus {
+            background-color: transparent;
+            border-bottom: 2px solid $purple;
+        }
+    }
+    .custom-input-3 {
+        position: relative;
+        label {
+            font-size: .875em;
+        }
+    }
+    .icon {
+        position: absolute;
+        right: 0;
+        margin-right: 1em;
+        opacity: 1;
+        @include transition(all .3s ease);
+    }
+    .input-effect-3 {
+        &:focus {
+            border-color: $purple;
+            box-shadow: none!important;
+        }
+        ~label {
+            @include transition(all .3s ease);
+            position: absolute;
+            left: 0;
+            top: 10px;
+            color: $gray-600;
+            pointer-events: none;
+        }
+        &:focus~label,
+        &:not(:placeholder-shown)~label {
+            @include transition(all .3s ease);
+            top: -15px;
+            color: $purple;
+            font-weight: bold;
+            .icon {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.custom-style-4 {
+    .transparent-box-4 {
+        border: 2px solid $gray-400;
+        background-color: transparent;
+        &:focus {
+            background-color: transparent;
+            border-color: $green;
+            box-shadow: none;
+        }
+    }
+    .custom-input-4 {
+        position: relative;
+        label {
+            font-size: .875em;
+        }
+    }
+    .icon {
+        position: absolute;
+        left: 0;
+        margin-left: 1em;
+        opacity: 0;
+        font-size:1.5em;
+    }
+    .input-effect-4 {
+        &:focus {
+            border-color: $green;
+            box-shadow: none!important;
+        }
+        ~label {
+            @include transition(all .3s ease);
+            position: absolute;
+            left: 0;
+            top: 10px;
+            color: $gray-600;
+            pointer-events: none;
+        }
+        &:focus~label,
+        &:not(:placeholder-shown)~label {
+            @include transition(all .3s ease);
+            color: $green;
+            font-weight: bold;
+            transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            .text-name{
+            	opacity: 0;
+            	transform:translate3d(100px 0 0);
+            }
+            .icon {
+                opacity: 1;
+            }
+        }
+    }
+}
+.border-radius-20{
+	border-radius:20px;
+}
+.transparent-box-5{
+	border:2px solid $gray-400;
+}
