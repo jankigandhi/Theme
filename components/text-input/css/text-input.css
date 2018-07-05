@@ -1,18 +1,27 @@
-.custom-style-1 .transparent-box {
+.custom-style .transparent-box:focus {
+  box-shadow: none; }
+.custom-style .transparent-box.transparent-box-1 {
   border: 0;
-  border-bottom: 1px solid #0088cc;
-  background-color: transparent; }
-  .custom-style-1 .transparent-box:focus {
-    background-color: transparent; }
-.custom-style-1 .custom-input {
+  border-bottom: 1px solid #0088cc; }
+  .custom-style .transparent-box.transparent-box-1:focus {
+    border-bottom: 2px solid #6f42c1; }
+.custom-style .transparent-box.transparent-box-2:focus {
+  border-color: #e36159; }
+.custom-style .transparent-box.transparent-box-3 {
+  border: 0; }
+  .custom-style .transparent-box.transparent-box-3:focus {
+    border-bottom: 2px solid #6f42c1; }
+.custom-style .transparent-box.transparent-box-4 {
+  border: 2px solid #ced4da; }
+  .custom-style .transparent-box.transparent-box-4:focus {
+    border-color: #4caf50; }
+.custom-style .custom-input {
   position: relative; }
-  .custom-style-1 .custom-input label {
+  .custom-style .custom-input label {
     font-size: .875em; }
-.custom-style-1 .bar {
-  position: relative;
-  display: block;
-  width: 100%; }
-  .custom-style-1 .bar:after, .custom-style-1 .bar:before {
+.custom-style .bar {
+  position: relative; }
+  .custom-style .bar:after, .custom-style .bar:before {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -21,16 +30,16 @@
     height: 1px;
     width: 0;
     bottom: 1px;
-    position: absolute;
-    background-color: #0088cc; }
-  .custom-style-1 .bar:before {
+    position: absolute; }
+  .custom-style .bar:before {
     left: 50%; }
-  .custom-style-1 .bar:after {
+  .custom-style .bar:after {
     right: 50%; }
-.custom-style-1 .input-effect:focus {
-  border-color: #0088cc;
+  .custom-style .bar.bar-1:after, .custom-style .bar.bar-1:before {
+    background-color: #0088cc; }
+.custom-style .input-effect:focus {
   box-shadow: none !important; }
-.custom-style-1 .input-effect ~ label {
+.custom-style .input-effect ~ label {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -40,61 +49,56 @@
   top: 10px;
   color: #6c757d;
   pointer-events: none; }
-.custom-style-1 .input-effect:focus ~ label, .custom-style-1 .input-effect:not(:placeholder-shown) ~ label {
+.custom-style .input-effect:focus ~ label, .custom-style .input-effect:not(:placeholder-shown) ~ label {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  top: -15px;
-  color: #0088cc;
   font-weight: bold; }
-.custom-style-1 .input-effect:focus ~ .bar:before, .custom-style-1 .input-effect:focus ~ .bar:after, .custom-style-1 .input-effect:not(:placeholder-shown) ~ .bar:before, .custom-style-1 .input-effect:not(:placeholder-shown) ~ .bar:after {
+.custom-style .input-effect:focus ~ .bar:before, .custom-style .input-effect:focus ~ .bar:after, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:before, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:after {
   width: 50%; }
-
-.custom-style-2 .transparent-box-2 {
-  border: 2px solid #ced4da;
-  background-color: transparent; }
-  .custom-style-2 .transparent-box-2:focus {
-    background-color: transparent;
-    border-color: #e36159;
-    box-shadow: none; }
-.custom-style-2 .custom-input-2 {
-  position: relative; }
-  .custom-style-2 .custom-input-2 label {
-    font-size: .875em; }
-.custom-style-2 .input-effect-2:focus {
-  border-color: #e36159;
-  box-shadow: none !important; }
-.custom-style-2 .input-effect-2 ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+.custom-style .input-effect.input-effect-1:focus {
+  border-color: #0088cc; }
+.custom-style .input-effect.input-effect-1:focus ~ label, .custom-style .input-effect.input-effect-1:not(:placeholder-shown) ~ label {
+  top: -15px;
+  color: #0088cc; }
+.custom-style .input-effect.input-effect-2:focus {
+  border-color: #e36159; }
+.custom-style .input-effect.input-effect-2:focus ~ label, .custom-style .input-effect.input-effect-2:not(:placeholder-shown) ~ label {
+  top: -30px;
+  color: #e36159; }
+.custom-style .input-effect.input-effect-3:focus {
+  border-color: #6f42c1; }
+.custom-style .input-effect.input-effect-3:focus ~ label, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label {
+  top: -15px;
+  color: #6f42c1; }
+  .custom-style .input-effect.input-effect-3:focus ~ label .icon-right, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label .icon-right {
+    opacity: 0; }
+.custom-style .input-effect.input-effect-4:focus {
+  border-color: #4caf50; }
+.custom-style .input-effect.input-effect-4:focus ~ label, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label {
+  color: #4caf50;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
+  .custom-style .input-effect.input-effect-4:focus ~ label .text-name, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .text-name {
+    opacity: 0;
+    transform: translate3d(100px 0 0); }
+  .custom-style .input-effect.input-effect-4:focus ~ label .icon, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .icon {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 1; }
+.custom-style .icon {
   position: absolute;
   left: 0;
-  top: 10px;
-  color: #6c757d;
-  pointer-events: none; }
-.custom-style-2 .input-effect-2:focus ~ label, .custom-style-2 .input-effect-2:not(:placeholder-shown) ~ label {
+  margin-left: 1em;
+  opacity: 0;
+  font-size: 1.5em;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  top: -30px;
-  color: #e36159;
-  font-weight: bold; }
-
-.custom-style-3 .transparent-box-3 {
-  border: 0;
-  background-color: transparent; }
-  .custom-style-3 .transparent-box-3:focus {
-    background-color: transparent;
-    border-bottom: 2px solid #6f42c1; }
-.custom-style-3 .custom-input-3 {
-  position: relative; }
-  .custom-style-3 .custom-input-3 label {
-    font-size: .875em; }
-.custom-style-3 .icon {
+  transition: all 0.3s ease; }
+.custom-style .icon-right {
   position: absolute;
   right: 0;
   margin-right: 1em;
@@ -103,78 +107,11 @@
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
-.custom-style-3 .input-effect-3:focus {
-  border-color: #6f42c1;
-  box-shadow: none !important; }
-.custom-style-3 .input-effect-3 ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  position: absolute;
-  left: 0;
-  top: 10px;
-  color: #6c757d;
-  pointer-events: none; }
-.custom-style-3 .input-effect-3:focus ~ label, .custom-style-3 .input-effect-3:not(:placeholder-shown) ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  top: -15px;
-  color: #6f42c1;
-  font-weight: bold; }
-  .custom-style-3 .input-effect-3:focus ~ label .icon, .custom-style-3 .input-effect-3:not(:placeholder-shown) ~ label .icon {
-    opacity: 0; }
-
-.custom-style-4 .transparent-box-4 {
-  border: 2px solid #ced4da;
-  background-color: transparent; }
-  .custom-style-4 .transparent-box-4:focus {
-    background-color: transparent;
-    border-color: #4caf50;
-    box-shadow: none; }
-.custom-style-4 .custom-input-4 {
-  position: relative; }
-  .custom-style-4 .custom-input-4 label {
-    font-size: .875em; }
-.custom-style-4 .icon {
-  position: absolute;
-  left: 0;
-  margin-left: 1em;
-  opacity: 0;
-  font-size: 1.5em; }
-.custom-style-4 .input-effect-4:focus {
-  border-color: #4caf50;
-  box-shadow: none !important; }
-.custom-style-4 .input-effect-4 ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  position: absolute;
-  left: 0;
-  top: 10px;
-  color: #6c757d;
-  pointer-events: none; }
-.custom-style-4 .input-effect-4:focus ~ label, .custom-style-4 .input-effect-4:not(:placeholder-shown) ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  color: #4caf50;
-  font-weight: bold;
-  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
-  .custom-style-4 .input-effect-4:focus ~ label .text-name, .custom-style-4 .input-effect-4:not(:placeholder-shown) ~ label .text-name {
-    opacity: 0;
-    transform: translate3d(100px 0 0); }
-  .custom-style-4 .input-effect-4:focus ~ label .icon, .custom-style-4 .input-effect-4:not(:placeholder-shown) ~ label .icon {
-    opacity: 1; }
 
 .border-radius-20 {
   border-radius: 20px; }
 
-.transparent-box-5 {
+.border-box {
   border: 2px solid #ced4da; }
 
 /*# sourceMappingURL=text-input.css.map */
