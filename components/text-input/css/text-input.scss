@@ -125,7 +125,6 @@
             &:focus~label,
             &:not(:placeholder-shown)~label {
                 color: $green;
-                transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
                 .text-name {
                     opacity: 0;
                     transform: translateX(5em);
@@ -146,7 +145,7 @@
     }
     .text-name {
         width: auto;
-        transform: translateX(-1.25em);
+        transform: translateX(.25em);
         @include transition(all .3s linear);
     }
     .icon-right {
