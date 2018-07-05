@@ -5,30 +5,40 @@
 // variables
 $btn-border-width: 2px;
 $btn-padding: .75rem 2rem;
+$btn-rounded: 3.125rem;
+$btn-min-width: 9.375rem;
+// this class for square btn with thick border
 .btn-thick {
     border-width: $btn-border-width;
     padding: $btn-padding;
     font-weight: 600;
     position: relative;
     margin-bottom: .5rem;
+} // this class for rounded button
+.btn-rounded {
+    border-radius: $btn-rounded;
 }
 
-// btn-slide:style-1
-@mixin btn-slide($active-background: $color) {
+// this class for button fix-width
+.btn-min-w {
+    min-width: $btn-min-width;
+}
+
+// Effect-1
+@mixin btn-effect($active-background: $color) {
     &:after {
         background-color: $active-background;
     }
 }
 
-@each $color,
-$value in $theme-colors {
-    .btn-outline-#{$color} {
-        @include btn-slide($value);
-    }
-}
-
-.btn-slide {
+.btn-effect {
     overflow: hidden;
+    @each $color,
+    $value in $theme-colors {
+        &.btn-outline-#{$color} {
+            @include btn-effect($value);
+        }
+    }
     &:after {
         @include transition(all .3s linear);
         content: '';
@@ -45,7 +55,7 @@ $value in $theme-colors {
             height: 100%;
         }
     }
-    &.slide-1 {
+    &.effect-1 {
         &:after {
             width: 0%;
         }
@@ -55,7 +65,7 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-2 {
+    &.effect-2 {
         &:after {
             width: 0%;
             height: 100%;
@@ -66,7 +76,7 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-3 {
+    &.effect-3 {
         &:after {
             width: 0%;
             height: 100%;
@@ -81,7 +91,7 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-4 {
+    &.effect-4 {
         &:after {
             opacity: 0;
             left: 50%;
@@ -96,7 +106,7 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-5 {
+    &.effect-5 {
         &:after {
             opacity: 0;
             top: 50%;
@@ -111,24 +121,23 @@ $value in $theme-colors {
     }
 }
 
-//btn-with-icon:style-2
-@mixin btn-iconbg($active-background: $color) {
+//Effect-2
+@mixin btn-effect-2($active-background: $color) {
     &:before,
     &:hover {
         background-color: darken($active-background, 10%);
     }
 }
 
-@each $color,
-$value in $theme-colors {
-    .btn-#{$color} {
-        @include btn-iconbg($value);
-    }
-}
-
-.btn-with-icon {
+.btn-effect-2 {
     padding-left: 4.8125rem;
     border-width: 0;
+    @each $color,
+    $value in $theme-colors {
+        &.btn-#{$color} {
+            @include btn-effect-2($value);
+        }
+    }
     &:before {
         content: " ";
         position: absolute;
@@ -151,6 +160,66 @@ $value in $theme-colors {
     &:hover {
         .btn-icon {
             margin-left: .3125rem;
+        }
+    }
+}
+
+//Effect-3
+@mixin btn-effect-3($active-background: $color) {
+    &:hover {
+        color: $active-background;
+        background-color: transparent;
+    }
+}
+
+.btn-effect-3 {
+    overflow: hidden;
+    &.effect-2 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-outline-#{$color} {
+                @include btn-effect-3($value);
+            }
+        }
+    }
+    &.effect-1 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-#{$color} {
+                @include btn-effect-3($value);
+            }
+        }
+    }
+    .btn-icon {
+        left: 0;
+        position: absolute;
+        width: 100%;
+        font-size: 1.5rem;
+        @include transition(all .3s linear);
+        background-color: transparent;
+        top: -100%;
+        &.icon-2 {
+            left: -100%;
+            top: 0;
+        }
+    }
+    .btn-text {
+        display: inline-block;
+        @include transition(all .3s linear);
+    }
+    @include hover-focus-active {
+        .btn-icon {
+            top: 50%;
+            @include transform(translateY(-50%));
+            &.icon-2 {
+                left: 0;
+            }
+        }
+        .btn-text {
+            @include transform(translateY(300%));
+            &.text-2 {
+                @include transform(translateX(300%));
+            }
         }
     }
 }
