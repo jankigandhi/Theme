@@ -137,7 +137,7 @@
                 <div class="col-md-6 py-2">
                     <div class="custom-style my-4">
                         <div class="custom-input form-group mb-4">
-                            <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 bg-transparent pl-5 form-control rounded-0" placeholder=" " />
+                            <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 border-box bg-transparent pl-5 form-control rounded-0" placeholder=" " />
                             <label class="text-uppercase text-left w-100 pl-2">
                                 <span class="text-name">Time</span>
                                 <span><i class="icon zmdi zmdi-time"></i></span>
@@ -148,7 +148,7 @@
                 <div class="col-md-6 py-2">
                     <div class="custom-style my-4">
                         <div class="custom-input form-group mb-4">
-                            <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 bg-transparent pl-5 form-control rounded-0" placeholder=" " />
+                            <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 border-box bg-transparent pl-5 form-control rounded-0" placeholder=" " />
                             <label class="text-uppercase text-left w-100 pl-2"><span class="text-name">Phone</span>
                             <span><i class="icon zmdi zmdi-phone"></i></span>
                         </label>

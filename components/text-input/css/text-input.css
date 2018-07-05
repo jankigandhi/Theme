@@ -1,112 +1,118 @@
-.custom-style .transparent-box:focus {
-  box-shadow: none; }
-.custom-style .transparent-box.transparent-box-1 {
-  border: 0;
-  border-bottom: 1px solid #0088cc; }
-  .custom-style .transparent-box.transparent-box-1:focus {
-    border-bottom: 2px solid #6f42c1; }
-.custom-style .transparent-box.transparent-box-2:focus {
-  border-color: #e36159; }
-.custom-style .transparent-box.transparent-box-3 {
-  border: 0; }
-  .custom-style .transparent-box.transparent-box-3:focus {
-    border-bottom: 2px solid #6f42c1; }
-.custom-style .transparent-box.transparent-box-4 {
-  border: 2px solid #ced4da; }
+.custom-style {
+  overflow: hidden; }
+  .custom-style .transparent-box:focus {
+    box-shadow: none; }
+  .custom-style .transparent-box.transparent-box-1 {
+    border: 0;
+    border-bottom: 1px solid #0088cc; }
+    .custom-style .transparent-box.transparent-box-1:focus {
+      border-bottom: 2px solid #6f42c1; }
+  .custom-style .transparent-box.transparent-box-2:focus {
+    border-color: #e36159; }
+  .custom-style .transparent-box.transparent-box-3 {
+    border: 0; }
+    .custom-style .transparent-box.transparent-box-3:focus {
+      border-bottom: 2px solid #6f42c1; }
   .custom-style .transparent-box.transparent-box-4:focus {
     border-color: #4caf50; }
-.custom-style .custom-input {
-  position: relative; }
-  .custom-style .custom-input label {
-    font-size: .875em; }
-.custom-style .bar {
-  position: relative; }
-  .custom-style .bar:after, .custom-style .bar:before {
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    content: '';
-    height: 1px;
-    width: 0;
-    bottom: 1px;
-    position: absolute; }
-  .custom-style .bar:before {
-    left: 50%; }
-  .custom-style .bar:after {
-    right: 50%; }
-  .custom-style .bar.bar-1:after, .custom-style .bar.bar-1:before {
-    background-color: #0088cc; }
-.custom-style .input-effect:focus {
-  box-shadow: none !important; }
-.custom-style .input-effect ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  position: absolute;
-  left: 0;
-  top: 10px;
-  color: #6c757d;
-  pointer-events: none; }
-.custom-style .input-effect:focus ~ label, .custom-style .input-effect:not(:placeholder-shown) ~ label {
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  font-weight: bold; }
-.custom-style .input-effect:focus ~ .bar:before, .custom-style .input-effect:focus ~ .bar:after, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:before, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:after {
-  width: 50%; }
-.custom-style .input-effect.input-effect-1:focus {
-  border-color: #0088cc; }
-.custom-style .input-effect.input-effect-1:focus ~ label, .custom-style .input-effect.input-effect-1:not(:placeholder-shown) ~ label {
-  top: -15px;
-  color: #0088cc; }
-.custom-style .input-effect.input-effect-2:focus {
-  border-color: #e36159; }
-.custom-style .input-effect.input-effect-2:focus ~ label, .custom-style .input-effect.input-effect-2:not(:placeholder-shown) ~ label {
-  top: -30px;
-  color: #e36159; }
-.custom-style .input-effect.input-effect-3:focus {
-  border-color: #6f42c1; }
-.custom-style .input-effect.input-effect-3:focus ~ label, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label {
-  top: -15px;
-  color: #6f42c1; }
-  .custom-style .input-effect.input-effect-3:focus ~ label .icon-right, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label .icon-right {
-    opacity: 0; }
-.custom-style .input-effect.input-effect-4:focus {
-  border-color: #4caf50; }
-.custom-style .input-effect.input-effect-4:focus ~ label, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label {
-  color: #4caf50;
-  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
-  .custom-style .input-effect.input-effect-4:focus ~ label .text-name, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .text-name {
-    opacity: 0;
-    transform: translate3d(100px 0 0); }
-  .custom-style .input-effect.input-effect-4:focus ~ label .icon, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .icon {
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    opacity: 1; }
-.custom-style .icon {
-  position: absolute;
-  left: 0;
-  margin-left: 1em;
-  opacity: 0;
-  font-size: 1.5em;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-.custom-style .icon-right {
-  position: absolute;
-  right: 0;
-  margin-right: 1em;
-  opacity: 1;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  .custom-style .custom-input {
+    position: relative; }
+    .custom-style .custom-input label {
+      font-size: .875em; }
+  .custom-style .bar {
+    position: relative; }
+    .custom-style .bar:after, .custom-style .bar:before {
+      -moz-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      content: '';
+      height: 1px;
+      width: 0;
+      bottom: 1px;
+      position: absolute; }
+    .custom-style .bar:before {
+      left: 50%; }
+    .custom-style .bar:after {
+      right: 50%; }
+    .custom-style .bar.bar-1:after, .custom-style .bar.bar-1:before {
+      background-color: #0088cc; }
+  .custom-style .input-effect:focus {
+    box-shadow: none !important; }
+  .custom-style .input-effect ~ label {
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #6c757d;
+    pointer-events: none; }
+  .custom-style .input-effect:focus ~ label, .custom-style .input-effect:not(:placeholder-shown) ~ label {
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    font-weight: bold; }
+  .custom-style .input-effect:focus ~ .bar:before, .custom-style .input-effect:focus ~ .bar:after, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:before, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:after {
+    width: 50%; }
+  .custom-style .input-effect.input-effect-1:focus {
+    border-color: #0088cc; }
+  .custom-style .input-effect.input-effect-1:focus ~ label, .custom-style .input-effect.input-effect-1:not(:placeholder-shown) ~ label {
+    top: -15px;
+    color: #0088cc; }
+  .custom-style .input-effect.input-effect-2:focus {
+    border-color: #e36159; }
+  .custom-style .input-effect.input-effect-2:focus ~ label, .custom-style .input-effect.input-effect-2:not(:placeholder-shown) ~ label {
+    top: -30px;
+    color: #e36159; }
+  .custom-style .input-effect.input-effect-3:focus {
+    border-color: #6f42c1; }
+  .custom-style .input-effect.input-effect-3:focus ~ label, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label {
+    top: -15px;
+    color: #6f42c1; }
+    .custom-style .input-effect.input-effect-3:focus ~ label .icon-right, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label .icon-right {
+      opacity: 0; }
+  .custom-style .input-effect.input-effect-4:focus {
+    border-color: #4caf50; }
+  .custom-style .input-effect.input-effect-4:focus ~ label, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label {
+    color: #4caf50;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
+    .custom-style .input-effect.input-effect-4:focus ~ label .text-name, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .text-name {
+      opacity: 0;
+      transform: translateX(5em); }
+    .custom-style .input-effect.input-effect-4:focus ~ label .icon, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .icon {
+      -moz-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      margin-left: 1em; }
+  .custom-style .icon {
+    position: absolute;
+    left: 0;
+    margin-left: -2em;
+    font-size: 1.5em;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+  .custom-style .text-name {
+    width: auto;
+    transform: translateX(-1.25em);
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+  .custom-style .icon-right {
+    position: absolute;
+    right: 0;
+    margin-right: 1em;
+    opacity: 1;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
 
 .border-radius-20 {
   border-radius: 20px; }
