@@ -6,7 +6,7 @@
 $btn-border-width: 2px;
 $btn-padding: .75rem 2rem;
 $btn-rounded: 3.125rem;
-$btn-min-width: 9.375rem;
+$btn-min-width: 12rem;
 // this class for square btn with thick border
 .btn-thick {
     border-width: $btn-border-width;
@@ -174,11 +174,43 @@ $btn-min-width: 9.375rem;
 
 .btn-effect-3 {
     overflow: hidden;
-    &.effect-2 {
-        @each $color,
-        $value in $theme-colors {
-            &.btn-outline-#{$color} {
-                @include btn-effect-3($value);
+    .btn-icon {
+        left: 0;
+        position: absolute;
+        width: 100%;
+        font-size: 1.5rem;
+        @include transition(all .3s linear);
+        background-color: transparent;
+        top: -100%;
+        &.icon-2e {
+            left: -100%;
+            top: 0;
+        }
+        &.icon-3e {
+            top: 50%;
+            left: auto;
+            width: auto;
+            opacity: 0;
+            line-height: 0;
+            &.right {
+                right: 0;
+                margin-right: 1rem;
+                @include transform(translate(300%, -50%));
+            }
+            &.left {
+                left: 0;
+                margin-left: 1rem;
+                @include transform(translate(-300%, -50%));
+            }
+            &.rightin {
+                right: 0;
+                margin-right: 2rem;
+                @include transform(translate(0%, -50%));
+            }
+            &.leftin {
+                left: 0;
+                margin-left: 2rem;
+                @include transform(translate(0%, -50%));
             }
         }
     }
@@ -190,17 +222,12 @@ $btn-min-width: 9.375rem;
             }
         }
     }
-    .btn-icon {
-        left: 0;
-        position: absolute;
-        width: 100%;
-        font-size: 1.5rem;
-        @include transition(all .3s linear);
-        background-color: transparent;
-        top: -100%;
-        &.icon-2 {
-            left: -100%;
-            top: 0;
+    &.effect-2 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-outline-#{$color} {
+                @include btn-effect-3($value);
+            }
         }
     }
     .btn-text {
@@ -211,14 +238,29 @@ $btn-min-width: 9.375rem;
         .btn-icon {
             top: 50%;
             @include transform(translateY(-50%));
-            &.icon-2 {
+            &.icon-2e {
                 left: 0;
+            }
+            &.icon-3e {
+                @include transform(translate(0, -50%));
+                opacity: 1;
+                &.rightin {
+                    margin-right: 1rem;
+                }
+                &.leftin {
+                    margin-left: 1rem;
+                }
             }
         }
         .btn-text {
             @include transform(translateY(300%));
-            &.text-2 {
+            opacity: 0;
+            &.text-2e {
                 @include transform(translateX(300%));
+            }
+            &.text-3e {
+                transform: none;
+                opacity: 1;
             }
         }
     }

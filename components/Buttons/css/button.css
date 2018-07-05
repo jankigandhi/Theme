@@ -9,7 +9,7 @@
   border-radius: 3.125rem; }
 
 .btn-min-w {
-  min-width: 9.375rem; }
+  min-width: 12rem; }
 
 .btn-effect {
   overflow: hidden; }
@@ -136,30 +136,58 @@
 
 .btn-effect-3 {
   overflow: hidden; }
-  .btn-effect-3.effect-2.btn-outline-primary:hover {
-    color: #0088cc;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-secondary:hover {
-    color: #6c757d;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-success:hover {
-    color: #4caf50;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-info:hover {
-    color: #17a2b8;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-warning:hover {
-    color: #ffc107;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-danger:hover {
-    color: #e36159;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-light:hover {
-    color: #f8f9fa;
-    background-color: transparent; }
-  .btn-effect-3.effect-2.btn-outline-dark:hover {
-    color: #343a40;
-    background-color: transparent; }
+  .btn-effect-3 .btn-icon {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 1.5rem;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    background-color: transparent;
+    top: -100%; }
+    .btn-effect-3 .btn-icon.icon-2e {
+      left: -100%;
+      top: 0; }
+    .btn-effect-3 .btn-icon.icon-3e {
+      top: 50%;
+      left: auto;
+      width: auto;
+      opacity: 0;
+      line-height: 0; }
+      .btn-effect-3 .btn-icon.icon-3e.right {
+        right: 0;
+        margin-right: 1rem;
+        -moz-transform: translate(300%, -50%);
+        -o-transform: translate(300%, -50%);
+        -ms-transform: translate(300%, -50%);
+        -webkit-transform: translate(300%, -50%);
+        transform: translate(300%, -50%); }
+      .btn-effect-3 .btn-icon.icon-3e.left {
+        left: 0;
+        margin-left: 1rem;
+        -moz-transform: translate(-300%, -50%);
+        -o-transform: translate(-300%, -50%);
+        -ms-transform: translate(-300%, -50%);
+        -webkit-transform: translate(-300%, -50%);
+        transform: translate(-300%, -50%); }
+      .btn-effect-3 .btn-icon.icon-3e.rightin {
+        right: 0;
+        margin-right: 2rem;
+        -moz-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%); }
+      .btn-effect-3 .btn-icon.icon-3e.leftin {
+        left: 0;
+        margin-left: 2rem;
+        -moz-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%); }
   .btn-effect-3.effect-1.btn-primary:hover {
     color: #0088cc;
     background-color: transparent; }
@@ -184,20 +212,30 @@
   .btn-effect-3.effect-1.btn-dark:hover {
     color: #343a40;
     background-color: transparent; }
-  .btn-effect-3 .btn-icon {
-    left: 0;
-    position: absolute;
-    width: 100%;
-    font-size: 1.5rem;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-    background-color: transparent;
-    top: -100%; }
-    .btn-effect-3 .btn-icon.icon-2 {
-      left: -100%;
-      top: 0; }
+  .btn-effect-3.effect-2.btn-outline-primary:hover {
+    color: #0088cc;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-secondary:hover {
+    color: #6c757d;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-success:hover {
+    color: #4caf50;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-info:hover {
+    color: #17a2b8;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-warning:hover {
+    color: #ffc107;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-danger:hover {
+    color: #e36159;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-light:hover {
+    color: #f8f9fa;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-dark:hover {
+    color: #343a40;
+    background-color: transparent; }
   .btn-effect-3 .btn-text {
     display: inline-block;
     -moz-transition: all 0.3s linear;
@@ -211,19 +249,34 @@
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%); }
-    .btn-effect-3:hover .btn-icon.icon-2, .btn-effect-3:focus .btn-icon.icon-2, .btn-effect-3:active .btn-icon.icon-2 {
+    .btn-effect-3:hover .btn-icon.icon-2e, .btn-effect-3:focus .btn-icon.icon-2e, .btn-effect-3:active .btn-icon.icon-2e {
       left: 0; }
+    .btn-effect-3:hover .btn-icon.icon-3e, .btn-effect-3:focus .btn-icon.icon-3e, .btn-effect-3:active .btn-icon.icon-3e {
+      -moz-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      opacity: 1; }
+      .btn-effect-3:hover .btn-icon.icon-3e.rightin, .btn-effect-3:focus .btn-icon.icon-3e.rightin, .btn-effect-3:active .btn-icon.icon-3e.rightin {
+        margin-right: 1rem; }
+      .btn-effect-3:hover .btn-icon.icon-3e.leftin, .btn-effect-3:focus .btn-icon.icon-3e.leftin, .btn-effect-3:active .btn-icon.icon-3e.leftin {
+        margin-left: 1rem; }
   .btn-effect-3:hover .btn-text, .btn-effect-3:focus .btn-text, .btn-effect-3:active .btn-text {
     -moz-transform: translateY(300%);
     -o-transform: translateY(300%);
     -ms-transform: translateY(300%);
     -webkit-transform: translateY(300%);
-    transform: translateY(300%); }
-    .btn-effect-3:hover .btn-text.text-2, .btn-effect-3:focus .btn-text.text-2, .btn-effect-3:active .btn-text.text-2 {
+    transform: translateY(300%);
+    opacity: 0; }
+    .btn-effect-3:hover .btn-text.text-2e, .btn-effect-3:focus .btn-text.text-2e, .btn-effect-3:active .btn-text.text-2e {
       -moz-transform: translateX(300%);
       -o-transform: translateX(300%);
       -ms-transform: translateX(300%);
       -webkit-transform: translateX(300%);
       transform: translateX(300%); }
+    .btn-effect-3:hover .btn-text.text-3e, .btn-effect-3:focus .btn-text.text-3e, .btn-effect-3:active .btn-text.text-3e {
+      transform: none;
+      opacity: 1; }
 
 /*# sourceMappingURL=button.css.map */
