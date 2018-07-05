@@ -96,12 +96,12 @@ $btn-min-width: 12rem;
             opacity: 0;
             left: 50%;
             top: 50%;
-            width: 110%;
+            width: 100%;
             @include transform(translate(-50%, -50%)rotate(45deg));
         }
         @include hover-focus-active {
             &:after {
-                height: 160%;
+                height: 290%;
                 opacity: 1;
             }
         }

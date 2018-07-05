@@ -67,14 +67,14 @@
     opacity: 0;
     left: 50%;
     top: 50%;
-    width: 110%;
+    width: 100%;
     -moz-transform: translate(-50%, -50%) rotate(45deg);
     -o-transform: translate(-50%, -50%) rotate(45deg);
     -ms-transform: translate(-50%, -50%) rotate(45deg);
     -webkit-transform: translate(-50%, -50%) rotate(45deg);
     transform: translate(-50%, -50%) rotate(45deg); }
   .btn-effect.effect-4:hover:after, .btn-effect.effect-4:focus:after, .btn-effect.effect-4:active:after {
-    height: 160%;
+    height: 290%;
     opacity: 1; }
   .btn-effect.effect-5:after {
     opacity: 0;
