@@ -12,12 +12,12 @@
                 border-left-color: $active-background;
             }
             &:hover {
-                background-color: $active-background;
+                 background-color: darken($active-background, 10%);
                 &:before {
-                    border-color: $active-background;
+                     background-color: darken($active-background, 10%);
                 }
                 &:after {
-                    border-left-color: $active-background;
+                     background-color: darken($active-background, 10%);
                 }
             }
             &:active {
