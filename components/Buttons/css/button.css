@@ -8,6 +8,9 @@
 .btn-rounded {
   border-radius: 3.125rem; }
 
+.btn-min-w {
+  min-width: 9.375rem; }
+
 .btn-effect {
   overflow: hidden; }
   .btn-effect.btn-outline-primary:after {
@@ -133,28 +136,52 @@
 
 .btn-effect-3 {
   overflow: hidden; }
-  .btn-effect-3.btn-outline-primary:hover {
+  .btn-effect-3.effect-2.btn-outline-primary:hover {
     color: #0088cc;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-secondary:hover {
+  .btn-effect-3.effect-2.btn-outline-secondary:hover {
     color: #6c757d;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-success:hover {
+  .btn-effect-3.effect-2.btn-outline-success:hover {
     color: #4caf50;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-info:hover {
+  .btn-effect-3.effect-2.btn-outline-info:hover {
     color: #17a2b8;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-warning:hover {
+  .btn-effect-3.effect-2.btn-outline-warning:hover {
     color: #ffc107;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-danger:hover {
+  .btn-effect-3.effect-2.btn-outline-danger:hover {
     color: #e36159;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-light:hover {
+  .btn-effect-3.effect-2.btn-outline-light:hover {
     color: #f8f9fa;
     background-color: transparent; }
-  .btn-effect-3.btn-outline-dark:hover {
+  .btn-effect-3.effect-2.btn-outline-dark:hover {
+    color: #343a40;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-primary:hover {
+    color: #0088cc;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-secondary:hover {
+    color: #6c757d;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-success:hover {
+    color: #4caf50;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-info:hover {
+    color: #17a2b8;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-warning:hover {
+    color: #ffc107;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-danger:hover {
+    color: #e36159;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-light:hover {
+    color: #f8f9fa;
+    background-color: transparent; }
+  .btn-effect-3.effect-1.btn-dark:hover {
     color: #343a40;
     background-color: transparent; }
   .btn-effect-3 .btn-icon {

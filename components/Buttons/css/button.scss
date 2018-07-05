@@ -6,16 +6,22 @@
 $btn-border-width: 2px;
 $btn-padding: .75rem 2rem;
 $btn-rounded: 3.125rem;
+$btn-min-width: 9.375rem;
+// this class for square btn with thick border
 .btn-thick {
     border-width: $btn-border-width;
     padding: $btn-padding;
     font-weight: 600;
     position: relative;
     margin-bottom: .5rem;
-}
-
+} // this class for rounded button
 .btn-rounded {
     border-radius: $btn-rounded;
+}
+
+// this class for button fix-width
+.btn-min-w {
+    min-width: $btn-min-width;
 }
 
 // Effect-1
@@ -122,6 +128,7 @@ $btn-rounded: 3.125rem;
         background-color: darken($active-background, 10%);
     }
 }
+
 .btn-effect-2 {
     padding-left: 4.8125rem;
     border-width: 0;
@@ -156,6 +163,7 @@ $btn-rounded: 3.125rem;
         }
     }
 }
+
 //Effect-3
 @mixin btn-effect-3($active-background: $color) {
     &:hover {
@@ -163,12 +171,23 @@ $btn-rounded: 3.125rem;
         background-color: transparent;
     }
 }
+
 .btn-effect-3 {
     overflow: hidden;
-    @each $color,
-    $value in $theme-colors {
-        &.btn-outline-#{$color} {
-            @include btn-effect-3($value);
+    &.effect-2 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-outline-#{$color} {
+                @include btn-effect-3($value);
+            }
+        }
+    }
+    &.effect-1 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-#{$color} {
+                @include btn-effect-3($value);
+            }
         }
     }
     .btn-icon {

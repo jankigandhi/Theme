@@ -69,89 +69,101 @@
   <div class="py-4">
     <h3 class="mb-4">Style-3</h3>
     <div class="py-3">
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-primary">
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-primary">
         <span class="btn-text">Primary</span>
         <span class="btn-icon">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-secondary">
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-secondary">
         <span class="btn-text text-2">Secondary</span>
         <span class="btn-icon icon-2">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-outline-success">
-        <span class="btn-text">Success</span>
-        <span class="btn-icon">
-          <i class="zmdi zmdi-shopping-cart"></i>
-        </span>
-      </button>
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-outline-danger">
-        <span class="btn-text text-2">Danger</span>
-        <span class="btn-icon icon-2">
-          <i class="zmdi zmdi-shopping-cart"></i>
-        </span>
-      </button>
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-outline-warning">
+      <button type="button" class="btn-effect-3 effect-1 btn-min-w btn-thick rounded-0 btn btn-success">
         <span class="btn-text">Warning</span>
         <span class="btn-icon">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-info">
+      <button type="button" class="btn-effect-3 effect-1 btn-min-w btn-thick rounded-0 btn btn-info">
         <span class="btn-text text-2">Info</span>
         <span class="btn-icon icon-2">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick rounded-0 btn btn-outline-dark">
+      <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-warning">
+        <span class="btn-text">Success</span>
+        <span class="btn-icon">
+          <i class="zmdi zmdi-shopping-cart"></i>
+        </span>
+      </button>
+      <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-danger">
+        <span class="btn-text text-2">Danger</span>
+        <span class="btn-icon icon-2">
+          <i class="zmdi zmdi-shopping-cart"></i>
+        </span>
+      </button>
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-outline-dark">
         <span class="btn-text text-2">Dark</span>
         <span class="btn-icon icon-2">
+          <i class="zmdi zmdi-shopping-cart"></i>
+        </span>
+      </button>
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-outline-primary">
+        <span class="btn-text">Primary</span>
+        <span class="btn-icon">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
     </div>
     <div class="py-3">
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-primary">
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-primary">
         <span class="btn-text">Primary</span>
         <span class="btn-icon">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-secondary">
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-secondary">
         <span class="btn-text text-2">Secondary</span>
         <span class="btn-icon icon-2">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-outline-success">
-        <span class="btn-text">Success</span>
-        <span class="btn-icon">
-          <i class="zmdi zmdi-shopping-cart"></i>
-        </span>
-      </button>
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-outline-danger">
-        <span class="btn-text text-2">Danger</span>
-        <span class="btn-icon icon-2">
-          <i class="zmdi zmdi-shopping-cart"></i>
-        </span>
-      </button>
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-outline-warning">
+      <button type="button" class="btn-effect-3 effect-1 btn-min-w btn-thick btn-rounded btn btn-success">
         <span class="btn-text">Warning</span>
         <span class="btn-icon">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-info">
+      <button type="button" class="btn-effect-3 effect-1 btn-min-w btn-thick btn-rounded btn btn-info">
         <span class="btn-text text-2">Info</span>
         <span class="btn-icon icon-2">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
-      <button type="button" class="btn-effect-3 btn-thick btn-rounded btn btn-outline-dark">
+      <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick btn-rounded btn btn-outline-warning">
+        <span class="btn-text">Success</span>
+        <span class="btn-icon">
+          <i class="zmdi zmdi-shopping-cart"></i>
+        </span>
+      </button>
+      <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick btn-rounded btn btn-outline-danger">
+        <span class="btn-text text-2">Danger</span>
+        <span class="btn-icon icon-2">
+          <i class="zmdi zmdi-shopping-cart"></i>
+        </span>
+      </button>
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-dark">
         <span class="btn-text text-2">Dark</span>
         <span class="btn-icon icon-2">
+          <i class="zmdi zmdi-shopping-cart"></i>
+        </span>
+      </button>
+      <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-primary">
+        <span class="btn-text">Primary</span>
+        <span class="btn-icon">
           <i class="zmdi zmdi-shopping-cart"></i>
         </span>
       </button>
