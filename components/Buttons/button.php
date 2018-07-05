@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/button.css">
 </head>
 <body>
-<div class="container">
+<div class="container text-center">
   <!-- Basic -->
   <div class="py-4">
     <h3 class="mb-4">Basic</h3>
