@@ -145,7 +145,7 @@
     }
     .text-name {
         width: auto;
-        transform: translateX(.25em);
+        transform: translateX(1.25em);
         @include transition(all .3s linear);
     }
     .icon-right {

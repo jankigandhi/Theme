@@ -98,7 +98,7 @@
     transition: all 0.3s linear; }
   .custom-style .text-name {
     width: auto;
-    transform: translateX(0.25em);
+    transform: translateX(1.25em);
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
