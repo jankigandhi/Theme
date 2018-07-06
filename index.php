@@ -21,6 +21,9 @@
         <li>
           <a href="components/alert/alert.php">Alert</a>
         </li>
+        <li>
+          <a href="components/grid/grid.php">Alert</a>
+        </li>
       </ul>
     </div>
   </body>
