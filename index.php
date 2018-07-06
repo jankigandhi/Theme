@@ -18,6 +18,9 @@
         <li>
           <a href="components/Buttons/button.php">Buttons</a>
         </li>
+        <li>
+          <a href="components/alert/alert.php">Alert</a>
+        </li>
       </ul>
     </div>
   </body>
