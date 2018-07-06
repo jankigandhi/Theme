@@ -73,8 +73,7 @@ $facebook: #3b5998;
     }
     .fb-ic {
         color: $facebook!important;
-    }
-     //floating-button card layout css
+    } //floating-button card layout css
     .mdb-color {
         background-color: $gray-600;
     }
@@ -93,19 +92,27 @@ $facebook: #3b5998;
         margin-top: -1.44rem!important;
         margin-bottom: -1.44rem!important;
     }
-    .right-arrow{
+    .right-arrow {
         font-size: 1.5rem;
     }
 }
-
+@mixin circle-img ($size){
+   width: $size;
+   margin-top: -$size;
+}
 //
 .card {
     .bg-img {
-        @include img-inbg;
         padding-bottom: 50%;
         min-height: 150px;
     }
+    .bg-img,
+    .round-img {
+        @include img-inbg;
+        background-color: $gray-200;
+    }
 }
+
 .card-1 {
     .card-body {
         position: relative;
@@ -121,5 +128,12 @@ $facebook: #3b5998;
         top: 0;
         margin-right: 1rem;
         margin-top: -1rem;
+    }
+    .circle-img {
+        @include circle-img(6.875rem);
+    }
+    .round-img {
+        @include size(6.875rem);
+        border: 3px solid $white;
     }
 }

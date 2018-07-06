@@ -65,6 +65,10 @@
     font-size: 1.5rem; }
 
 .card .bg-img {
+  padding-bottom: 50%;
+  min-height: 150px; }
+.card .bg-img,
+.card .round-img {
   height: 100%;
   overflow: hidden;
   background-size: cover;
@@ -73,8 +77,7 @@
   width: 100%;
   position: relative;
   display: inline-block;
-  padding-bottom: 50%;
-  min-height: 150px; }
+  background-color: #e9ecef; }
 
 .card-1 .card-body {
   position: relative; }
@@ -88,5 +91,12 @@
   top: 0;
   margin-right: 1rem;
   margin-top: -1rem; }
+.card-1 .circle-img {
+  width: 6.875rem;
+  margin-top: -6.875rem; }
+.card-1 .round-img {
+  width: 6.875rem;
+  height: 6.875rem;
+  border: 3px solid #fff; }
 
 /*# sourceMappingURL=card.css.map */

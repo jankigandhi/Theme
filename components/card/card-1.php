@@ -5,7 +5,7 @@
 <body>
 <div class="container my-4">
     <div class="card-1 card border-0 py-4">
-        <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
+        <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
         <div class="card-content card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-6 py-2">
             <div class="card-1 card border-0">
-                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
+                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-content card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -37,7 +37,7 @@
     <div class="row py-4">
         <div class="col-md-6 py-2">
             <div class="card-1 card border-0">
-                <div class="bg-img rounded shadow-sm" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
+                <div class="bg-img rounded shadow-sm" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-content card-body rounded shadow-sm">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -59,48 +59,7 @@
     <div class="row py-4">
         <div class="col-md-4 py-2">
             <div class="card-1 card">
-                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
-                    <a href="#" class="btn-float btn btn-dark rounded-circle">
-                        <i class="zmdi zmdi-share"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 py-2">
-            <div class="card-1 card">
-                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
-                    <a href="#" class="btn-float btn btn-dark rounded-circle">
-                        <i class="zmdi zmdi-share"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 py-2">
-            <div class="card-1 card">
-                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
-                    <a href="#" class="btn-float btn btn-dark rounded-circle">
-                        <i class="zmdi zmdi-share"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row py-4">
-        <div class="col-md-4 py-2">
-            <div class="card-1 card">
-                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
+                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -128,6 +87,47 @@
                             15
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row py-4">
+        <div class="col-md-4 py-2">
+            <div class="card-1 card">
+                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <a href="#" class="btn-float btn btn-dark rounded-circle">
+                        <i class="zmdi zmdi-share"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-2">
+            <div class="card-1 card">
+                <div class="bg-img"></div>
+                <div class="card-body text-center">
+                    <div class="circle-img d-inline-block">
+                        <div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
+                    </div>
+                    <h4>Anna Doe</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-2">
+            <div class="card-1 card">
+                <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                <div class="card-body text-center">
+                    <div class="circle-img d-inline-block">
+                        <div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
+                    </div>
+                    <h4>Anna Doe</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
                 </div>
             </div>
         </div>
