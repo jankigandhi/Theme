@@ -1,0 +1,89 @@
+.line-height {
+  line-height: 1; }
+
+.site-header {
+  height: 3rem;
+  position: relative;
+  z-index: 11; }
+  .site-header .header-menu {
+    height: 3rem; }
+  .site-header.header-transperent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background-color: transparent; }
+    .site-header.header-transperent .menu-bar a,
+    .site-header.header-transperent .site-logo a {
+      color: #fff; }
+  .site-header .site-logo {
+    font-size: .5rem; }
+    .site-header .site-logo a {
+      color: #6c757d;
+      text-decoration: none;
+      font-size: 2rem; }
+  .site-header .menu-bar li {
+    display: inline-block; }
+    .site-header .menu-bar li a {
+      color: #adb5bd;
+      text-decoration: none; }
+  .site-header .bar-icon {
+    display: none; }
+
+.banner-image {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 40%; }
+  .banner-image .transforam-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+@media (max-width: 767.98px) {
+  .site-header.header-transperent .bar-icon a {
+    color: #fff; }
+  .site-header .header-menu {
+    z-index: 9;
+    background-color: #212529; }
+  .site-header .menu-bar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .3s all linear; }
+    .site-header .menu-bar.top {
+      margin-top: 3rem;
+      left: 0;
+      right: 0;
+      -moz-transform: translateY(-120%);
+      -o-transform: translateY(-120%);
+      -ms-transform: translateY(-120%);
+      -webkit-transform: translateY(-120%);
+      transform: translateY(-120%);
+      z-index: -1;
+      background-color: #000; }
+    .site-header .menu-bar li {
+      display: block; }
+  .site-header .bar-icon {
+    display: inline-block;
+    float: right;
+    font-size: 2rem; }
+    .site-header .bar-icon a {
+      color: #6c757d;
+      text-decoration: none; }
+
+  .site-link.open .menu-bar {
+    transform: none; } }
+
+/*# sourceMappingURL=nav-bar.css.map */

@@ -13,6 +13,9 @@
     <div class="container">
       <ul class="py-5">
         <li>
+          <a href="components/typography/typography.php">Typography</a>
+        </li>
+        <li>
           <a href="components/Buttons/button.php">Buttons</a>
         </li>
       </ul>

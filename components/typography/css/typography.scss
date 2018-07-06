@@ -1,0 +1,122 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+// variables
+$headings-font-family: 'Raleway';
+$font-weight-medium: 600;
+$headings-font-weight: 400;
+$h1-font-size: 3.5rem;
+$h1-line-height: 4rem;
+$h2-font-size: 2.5rem;
+$h2-line-height: 3rem;
+$h3-font-size: 2rem;
+$h3-line-height: 2.5rem;
+$h4-font-size: 1.5rem;
+$h4-line-height: 2rem;
+$h5-font-size: 1rem;
+$h5-line-height: 1.5rem;
+$h6-font-size: .75rem;
+$h6-line-height: 1.5rem;
+$h1-letter-spacing: 1.0625rem;
+$h2-letter-spacing: .625rem;
+$h3-letter-spacing: .375rem;
+$h4-letter-spacing: .1875rem;
+$h5-letter-spacing: .125rem;
+$h6-letter-spacing: .125rem;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+}
+
+.font-weight-medium {
+    font-weight: $font-weight-medium !important;
+}
+
+h1,
+.h1 {
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+}
+
+h2,
+.h2 {
+    font-size: $h2-font-size;
+    line-height: $h2-line-height;
+}
+
+h3,
+.h3 {
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+}
+
+h4,
+.h4 {
+    font-size: $h4-font-size;
+    line-height: $h4-line-height;
+}
+
+h5,
+.h5 {
+    font-size: $h5-font-size;
+    line-height: $h5-line-height;
+}
+
+h6,
+.h6 {
+    font-size: $h6-font-size;
+    line-height: $h6-line-height;
+}
+
+h1.text-uppercase {
+    letter-spacing: $h1-letter-spacing;
+}
+
+h2.text-uppercase {
+    letter-spacing: $h2-letter-spacing;
+}
+
+h3.text-uppercase {
+    letter-spacing: $h3-letter-spacing;
+}
+
+h4.text-uppercase {
+    letter-spacing: $h4-letter-spacing;
+}
+
+h5.text-uppercase {
+    letter-spacing: $h5-letter-spacing;
+}
+
+h6.text-uppercase {
+    letter-spacing: $h6-letter-spacing;
+}
+
+.light-gray {
+    color: $gray-600;
+}
+
+.blockquote {
+    font-family: "Merriweather", "Georgia", Times New Roman, Times, serif;
+    background-color: $gray-100;
+    border-width: 5px !important;
+}
+
+@include media-breakpoint-down(sm) {
+    html {
+        font-size: .8rem;
+    }
+}
