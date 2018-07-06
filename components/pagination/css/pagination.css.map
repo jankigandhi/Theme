@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,kBAAkB;EAChB,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,aAAa,EAAC,GAAG",
+"mappings": "AAGA,kBAAmB;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;;AAKd,iFAAW;EACP,uCAAuC;EACvC,0CAA0C;EAC1C,aAAa,EAAE,GAAG",
 "sources": ["pagination.scss"],
 "names": [],
 "file": "pagination.css"
