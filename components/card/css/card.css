@@ -64,4 +64,29 @@
   .card-section .right-arrow {
     font-size: 1.5rem; }
 
+.card .bg-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 50%;
+  min-height: 150px; }
+
+.card-1 .card-body {
+  position: relative; }
+.card-1 .card-content {
+  margin: -4% 4% 0 4%;
+  position: relative;
+  background-color: #fff; }
+.card-1 .btn-float {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 1rem;
+  margin-top: -1rem; }
+
 /*# sourceMappingURL=card.css.map */

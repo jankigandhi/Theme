@@ -97,3 +97,29 @@ $facebook: #3b5998;
         font-size: 1.5rem;
     }
 }
+
+//
+.card {
+    .bg-img {
+        @include img-inbg;
+        padding-bottom: 50%;
+        min-height: 150px;
+    }
+}
+.card-1 {
+    .card-body {
+        position: relative;
+    }
+    .card-content {
+        margin: -4% 4% 0 4%;
+        position: relative;
+        background-color: $white;
+    }
+    .btn-float {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 1rem;
+        margin-top: -1rem;
+    }
+}

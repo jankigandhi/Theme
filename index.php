@@ -24,6 +24,9 @@
         <li>
           <a href="components/grid/grid.php" target="_blank">Grid</a>
         </li>
+        <li>
+          <a href="components/card/card-1.php" target="_blank">Cards</a>
+        </li>
       </ul>
     </div>
   </body>
