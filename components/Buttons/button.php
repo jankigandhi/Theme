@@ -1,12 +1,13 @@
 <?php include_once '../../inc/head.php';?>
+<link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" href="css/button.css">
 </head>
 <body>
 <div class="container text-md-left text-center">
   <!-- Basic -->
   <div class="py-4">
-    <h3 class="mb-4">Basic</h3>
-    <div>
+    <h4>Basic</h4>
+    <div class="py-3">
       <button type="button" class="btn btn-primary">Primary</button>
       <button type="button" class="btn btn-secondary">Secondary</button>
       <button type="button" class="btn btn-success">Success</button>
@@ -20,8 +21,8 @@
   </div>
   <!-- Effect-1 -->
   <div class="py-4">
-    <h3 class="mb-4">Style-1</h3>
-    <div>
+    <h4>Style-1</h4>
+    <div class="py-3">
       <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-primary">Primary</button>
       <button type="button" class="btn-effect btn-min-w btn-thick rounded-0 btn btn-outline-secondary">Secondary</button>
       <button type="button" class="btn-effect btn-min-w effect-1 btn-thick rounded-0 btn btn-outline-success">Success</button>
@@ -33,8 +34,8 @@
   </div>
   <!-- Effect-2 -->
   <div class="py-4">
-    <h3 class="mb-4">Style-2</h3>
-    <div>
+    <h4>Style-2</h4>
+    <div class="py-3">
       <button type="button" class="btn-effect-2 btn-min-w btn-thick rounded-0 btn btn-primary">
       <i class="btn-icon zmdi zmdi-shopping-cart"></i>
       Primary
@@ -67,7 +68,7 @@
   </div>
   <!--  Effect-3 -->
   <div class="py-4">
-    <h3 class="mb-4">Style-3</h3>
+    <h4>Style-3</h4>
     <div class="row">
       <div class="col-md-6">
         <!-- Effect-3 first demo-->
