@@ -22,7 +22,7 @@
           <a href="components/alert/alert.php">Alert</a>
         </li>
         <li>
-          <a href="components/grid/grid.php">Alert</a>
+          <a href="components/grid/grid.php">Grid</a>
         </li>
       </ul>
     </div>
