@@ -206,34 +206,6 @@
       </div>
       <div class="col-md-6">
         <div class="py-3">
-          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-primary">
-          <span class="btn-text text-3e">Primary</span>
-          <span class="btn-icon icon-3e right">
-            <i class="zmdi zmdi-long-arrow-right"></i>
-          </span>
-          </button>
-          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-secondary">
-          <span class="btn-text text-3e">Secondary</span>
-          <span class="btn-icon icon-3e left">
-            <i class="zmdi zmdi-long-arrow-left"></i>
-          </span>
-          </button>
-          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-success">
-          <span class="btn-text text-3e">Primary</span>
-          <span class="btn-icon icon-3e rightin">
-            <i class="zmdi zmdi-long-arrow-right"></i>
-          </span>
-          </button>
-          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-danger">
-          <span class="btn-text text-3e">Secondary</span>
-          <span class="btn-icon icon-3e leftin">
-            <i class="zmdi zmdi-long-arrow-left"></i>
-          </span>
-          </button>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="py-3">
           <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-primary">
           <span class="btn-text text-3e">Primary</span>
           <span class="btn-icon icon-3e right">
@@ -253,6 +225,34 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-danger">
+          <span class="btn-text text-3e">Secondary</span>
+          <span class="btn-icon icon-3e leftin">
+            <i class="zmdi zmdi-long-arrow-left"></i>
+          </span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="py-3">
+          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-primary">
+          <span class="btn-text text-3e">Primary</span>
+          <span class="btn-icon icon-3e right">
+            <i class="zmdi zmdi-long-arrow-right"></i>
+          </span>
+          </button>
+          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-secondary">
+          <span class="btn-text text-3e">Secondary</span>
+          <span class="btn-icon icon-3e left">
+            <i class="zmdi zmdi-long-arrow-left"></i>
+          </span>
+          </button>
+          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-success">
+          <span class="btn-text text-3e">Primary</span>
+          <span class="btn-icon icon-3e rightin">
+            <i class="zmdi zmdi-long-arrow-right"></i>
+          </span>
+          </button>
+          <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-danger">
           <span class="btn-text text-3e">Secondary</span>
           <span class="btn-icon icon-3e leftin">
             <i class="zmdi zmdi-long-arrow-left"></i>
