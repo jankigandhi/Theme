@@ -32,6 +32,15 @@
 		</div>
 	</div>
 	<div class="py-3">
+		<h3>Basic Additional content</h3>
+		<div class="alert alert-success" role="alert">
+			<h4 class="alert-heading">Well done!</h4>
+			<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+			<hr>
+			<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+		</div>
+	</div>
+	<div class="py-3">
 		<h3>Style-2</h3>
 		<div class="custom-alert alert-left-border alert alert-primary rounded-0  d-block p-0">
 			<div class="p-3 d-block">
@@ -82,16 +91,7 @@
 		</div>
 	</div>
 	<div class="py-3">
-		<h3>Basic Additional content</h3>
-		<div class="alert alert-success" role="alert">
-			<h4 class="alert-heading">Well done!</h4>
-			<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-			<hr>
-			<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-		</div>
-	</div>
-	<div class="py-3">
-		<h3>Custom-alert</h3>
+		<h3>Style-3</h3>
 		<div class="custom-alert alert-left-border alert alert-warning rounded-0 p-0 d-block">
 			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
 			<div class="d-block pl-3">
