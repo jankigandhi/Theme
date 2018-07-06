@@ -34,49 +34,49 @@
 	<div class="py-3">
 		<h3>Style-2</h3>
 		<div class="custom-alert alert-left-border alert alert-primary rounded-0  d-block p-0">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-thumb-up"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 			</div>
 			<button type="button" class="btn-close close" data-dismiss="alert" aria-hidden="true">×</button>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-secondary rounded-0 d-block p-0">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-close"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-success rounded-0  d-block p-0">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-assignment-alert"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-danger rounded-0 p d-block p-0">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-alert-triangle"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-warning rounded-0  d-block p-0">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-notifications-add"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-info rounded-0 p-0 d-block">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-alert-circle"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-light rounded-0 p- d-block p-0">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-alert-polygon"></i>
 			<strong class="pl-2">Well done!</strong> You successfully read this important alert message.</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-dark rounded-0 p-0 d-block">
-			<div class="alert-left-white-border p-3 d-block">
+			<div class="p-3 d-block">
 				<i class="zmdi zmdi-help-outline"></i>
 			<strong class="pl-2">Well done!</strong> You successfully read this important alert message.</div>
 		</div>
@@ -93,8 +93,8 @@
 	<div class="py-3">
 		<h3>Custom-alert</h3>
 		<div class="custom-alert alert-left-border alert alert-warning rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold">Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
@@ -102,8 +102,8 @@
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-info rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold">Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
@@ -111,8 +111,8 @@
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-secondary rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold">Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
@@ -120,8 +120,8 @@
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-light rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold">Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
@@ -129,8 +129,8 @@
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-danger rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold">Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
@@ -138,8 +138,8 @@
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-dark rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold">Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold">Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
@@ -147,8 +147,8 @@
 			</div>
 		</div>
 		<div class="custom-alert alert-left-border alert alert-success rounded-0 p-0 d-block">
-			<div class="msgtitle  alert-left-white-border p-3 font-weight-bold"><i class="pr-3 zmdi zmdi-edit"></i>Fix the Following Errors:</div>
-			<div class="alert-left-white-border d-block pl-3">
+			<div class="alert-heading p-3 font-weight-bold"><i class="pr-3 zmdi zmdi-edit"></i>Fix the Following Errors:</div>
+			<div class="d-block pl-3">
 				<ul class="mb-0 py-4">
 					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
 					<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
