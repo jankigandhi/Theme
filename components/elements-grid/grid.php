@@ -12,68 +12,68 @@
         </p>
     </div>
     <div>
-        <div class="row mx-0 py-3">
-            <div class="col-sm-12">
+        <div class="row mx-0 py-4">
+            <div class="col-sm-12 px-4">
                 <h5 class="text-uppercase">Twelve columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
         </div>
-        <div class="row mx-0 py-3">
-            <div class="col-sm-6">
+        <div class="row mx-0 py-4">
+            <div class="col-sm-6 px-4">
                 <h5 class="text-uppercase">Six columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 px-4">
                 <h5 class="text-uppercase">Six columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
         </div>
-        <div class="row mx-0 py-3">
-            <div class="col-sm-4">
+        <div class="row mx-0 py-4">
+            <div class="col-sm-4 px-4">
                 <h5 class="text-uppercase">Four columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 px-4">
                 <h5 class="text-uppercase">Four columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 px-4">
                 <h5 class="text-uppercase">Four columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
         </div>
-        <div class="row mx-0 py-3">
-            <div class="col-sm-3">
+        <div class="row mx-0 py-4">
+            <div class="col-sm-3 px-4">
                 <h5 class="text-uppercase">Three columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 px-4">
                 <h5 class="text-uppercase">Three columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 px-4">
                 <h5 class="text-uppercase">Three columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                 </p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 px-4">
                 <h5 class="text-uppercase">Three columns</h5>
                 <p class="text-small">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
