@@ -4,7 +4,10 @@
 </head>
 <body>
 <div class="container my-4">
-    <div class="card-1 card border-0 py-4">
+    <h1 class="h2 text-center mt-3">Cards</h1>
+    <!-- card-with differnt style -->
+    <h4>Style-1</h4>
+    <div class="custom-card card border-0 py-4">
         <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
         <div class="card-content card-body">
             <h5 class="card-title">Card title</h5>
@@ -14,7 +17,7 @@
     </div>
     <div class="row py-4">
         <div class="col-md-6 py-2">
-            <div class="card-1 card border-0">
+            <div class="custom-card card border-0">
                 <div class="bg-img shadow-sm" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
                 <div class="card-content card-body shadow-sm">
                     <h5 class="card-title">Card title</h5>
@@ -24,7 +27,7 @@
             </div>
         </div>
         <div class="col-md-6 py-2">
-            <div class="card-1 card border-0">
+            <div class="custom-card card border-0">
                 <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-content card-body">
                     <h5 class="card-title">Card title</h5>
@@ -36,7 +39,7 @@
     </div>
     <div class="row py-4">
         <div class="col-md-6 py-2">
-            <div class="card-1 card border-0">
+            <div class="custom-card card border-0">
                 <div class="bg-img rounded shadow-sm" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-content card-body rounded shadow-sm">
                     <h5 class="card-title">Card title</h5>
@@ -46,7 +49,7 @@
             </div>
         </div>
         <div class="col-md-6 py-2">
-            <div class="card-1 card border-0">
+            <div class="custom-card card border-0">
                 <div class="bg-img rounded" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
                 <div class="card-content card-body rounded">
                     <h5 class="card-title">Card title</h5>
@@ -56,9 +59,10 @@
             </div>
         </div>
     </div>
+    <h4>Style-2</h4>
     <div class="row py-4">
         <div class="col-md-4 py-2">
-            <div class="card-1 card">
+            <div class="custom-card card">
                 <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -91,9 +95,10 @@
             </div>
         </div>
     </div>
+    <h4>Style-3</h4>
     <div class="row py-4">
         <div class="col-md-4 py-2">
-            <div class="card-1 card">
+            <div class="custom-card card">
                 <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');"></div>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -106,26 +111,26 @@
             </div>
         </div>
         <div class="col-md-4 py-2">
-            <div class="card-1 card">
+            <div class="custom-card card">
                 <div class="bg-img"></div>
                 <div class="card-body text-center">
                     <div class="circle-img d-inline-block">
                         <div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
                     </div>
-                    <h4>Anna Doe</h4>
+                    <h4 class="font-weight-medium">Anna Doe</h4>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 py-2">
-            <div class="card-1 card">
+            <div class="custom-card card">
                 <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 <div class="card-body text-center">
                     <div class="circle-img d-inline-block">
                         <div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
                     </div>
-                    <h4>Anna Doe</h4>
+                    <h4 class="font-weight-medium">Anna Doe</h4>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
                 </div>

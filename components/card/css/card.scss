@@ -96,10 +96,12 @@ $facebook: #3b5998;
         font-size: 1.5rem;
     }
 }
-@mixin circle-img ($size){
-   width: $size;
-   margin-top: -$size;
+
+@mixin circle-img ($size) {
+    width: $size;
+    margin-top: -$size;
 }
+
 //
 .card {
     .bg-img {
@@ -113,7 +115,7 @@ $facebook: #3b5998;
     }
 }
 
-.card-1 {
+.custom-card {
     .card-body {
         position: relative;
     }
@@ -129,9 +131,11 @@ $facebook: #3b5998;
         margin-right: 1rem;
         margin-top: -1rem;
     }
+
     .circle-img {
         @include circle-img(6.875rem);
     }
+
     .round-img {
         @include size(6.875rem);
         border: 3px solid $white;

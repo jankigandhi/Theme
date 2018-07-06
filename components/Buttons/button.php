@@ -4,6 +4,7 @@
 </head>
 <body>
 <div class="container text-md-left text-center">
+  <h1 class="h2 text-center mt-3">Buttons</h1>
   <!-- Basic -->
   <div class="py-4">
     <h4>Basic</h4>

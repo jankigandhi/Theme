@@ -4,6 +4,7 @@
 </head>
 <body>
 <div class="container">
+	<h1 class="h2 text-center mt-3">Alerts</h1>
 	<div class="py-3">
 		<h4 class="mt-5">Basic Alert</h4>
 		<div class="py-3">
