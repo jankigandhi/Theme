@@ -1,0 +1,102 @@
+.progress-1 {
+  height: 32px; }
+
+.progress-bar-section .progress-status,
+.progress-bar-section .score-line {
+  border-radius: 1.25em; }
+.progress-bar-section .progress-status {
+  background-color: #adb5bd; }
+.progress-bar-section .score-line {
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+
+.progress-section .custom-progress {
+  overflow: visible;
+  height: 16px; }
+  .progress-section .custom-progress .progress-bar {
+    background-color: #0088cc;
+    position: relative;
+    border-radius: 4px;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+    animation: progressive-bar 4s; }
+    .progress-section .custom-progress .progress-bar span {
+      position: absolute;
+      bottom: -20px;
+      line-height: 10px;
+      padding: 2px 3px 2px 4px;
+      right: -1.4em;
+      border-radius: 2px;
+      animation: fade-in 4s forwards;
+      animation-delay: 4s;
+      opacity: 0; }
+      .progress-section .custom-progress .progress-bar span:after {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0);
+        border-bottom-color: #0088cc;
+        border-width: 5px;
+        margin-left: -5px; }
+@keyframes progressive-bar {
+  0% {
+    width: 0; } }
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.demo-circle .progress-circle {
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+.demo-circle .progress-value {
+  stroke-dasharray: 339.292;
+  stroke-dashoffset: 339.292;
+  animation: progress-demo 2s forwards; }
+@-webkit-keyframes progress-demo {
+  from {
+    stroke-dashoffset: 339.292; }
+  to {
+    stroke-dashoffset: 226.292; } }
+@keyframes progress {
+  from {
+    stroke-dashoffset: 339.292; }
+  to {
+    stroke-dashoffset: 226.292; } }
+.bg-primary {
+  stroke: #0088cc; }
+
+.bg-secondary {
+  stroke: #6c757d; }
+
+.bg-success {
+  stroke: #4caf50; }
+
+.bg-info {
+  stroke: #17a2b8; }
+
+.bg-warning {
+  stroke: #ffc107; }
+
+.bg-danger {
+  stroke: #e36159; }
+
+.bg-light {
+  stroke: #f8f9fa; }
+
+.bg-dark {
+  stroke: #343a40; }
+
+/*# sourceMappingURL=progressbar.css.map */

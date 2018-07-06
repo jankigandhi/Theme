@@ -1,0 +1,8 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.pagination-circle{
+		width:2rem;
+		height:2rem;
+		border-radius:50%;
+}

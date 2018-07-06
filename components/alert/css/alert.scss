@@ -1,0 +1,33 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.btn-close {
+    position: absolute;
+    top: 50%;
+    margin-top: -.75rem;
+    right: 0;
+    margin-right: 1rem;
+    &:hover,
+     :focus {
+        color: $black;
+        text-decoration: none;
+        opacity: .75;
+    }
+}
+.custom-alert {
+    position: relative;
+    color: $black;
+    .msgtitle {
+        background: rgba($black, .15);
+        border-top: 0;
+        border-bottom: 0;
+    }
+}
+
+.alert-left-border {
+    border-left: 4px solid rgba($black, .2);
+}
+
+.alert-left-white-border {
+    border-left: 1px solid rgba($white, .5);
+}

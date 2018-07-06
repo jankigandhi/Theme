@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,kBAAkB;EAChB,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,aAAa,EAAC,GAAG",
+"sources": ["pagination.scss"],
+"names": [],
+"file": "pagination.css"
+}
