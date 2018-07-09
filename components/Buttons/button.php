@@ -7,7 +7,7 @@
   <h1 class="h2 text-center mt-3">Buttons</h1>
   <!-- Basic -->
   <div class="py-4">
-    <h4>Basic</h4>
+    <h4>Default</h4>
     <div class="py-3">
       <button type="button" class="btn btn-primary">Primary</button>
       <button type="button" class="btn btn-secondary">Secondary</button>
@@ -22,7 +22,7 @@
   </div>
   <!-- Effect-1 -->
   <div class="py-4">
-    <h4>Style-1</h4>
+    <h4>Hover effects</h4>
     <div class="py-3">
       <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-primary">Primary</button>
       <button type="button" class="btn-effect btn-min-w btn-thick rounded-0 btn btn-outline-secondary">Secondary</button>
@@ -35,7 +35,7 @@
   </div>
   <!-- Effect-2 -->
   <div class="py-4">
-    <h4>Style-2</h4>
+    <h4>Buttton with icons</h4>
     <div class="py-3">
       <button type="button" class="btn-effect-2 btn-min-w btn-thick rounded-0 btn btn-primary">
       <i class="btn-icon zmdi zmdi-shopping-cart"></i>
@@ -69,10 +69,11 @@
   </div>
   <!--  Effect-3 -->
   <div class="py-4">
-    <h4>Style-3</h4>
+    <h4>Hover effect with icons</h4>
     <div class="row">
       <div class="col-md-6">
         <!-- Effect-3 first demo-->
+        <h4>Square style</h4>
         <div class="py-3">
           <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-primary">
           <span class="btn-text">Primary</span>
@@ -110,15 +111,15 @@
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
           </button>
-          <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-outline-dark">
-          <span class="btn-text text-2e">Dark</span>
-          <span class="btn-icon icon-2e">
-            <i class="zmdi zmdi-shopping-cart"></i>
-          </span>
-          </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-outline-primary">
           <span class="btn-text">Primary</span>
           <span class="btn-icon">
+            <i class="zmdi zmdi-shopping-cart"></i>
+          </span>
+          </button>
+          <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-outline-dark">
+          <span class="btn-text text-2e">Dark</span>
+          <span class="btn-icon icon-2e">
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
           </button>
@@ -126,6 +127,7 @@
       </div>
       <div class="col-md-6">
         <!-- Effect-3 second demo-->
+        <h4>Rounded style <small>Just add <code>btn-rounded</code> class.</small></h4>
         <div class="py-3">
           <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-primary">
           <span class="btn-text">Primary</span>
@@ -163,15 +165,15 @@
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
           </button>
-          <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-dark">
-          <span class="btn-text text-2e">Dark</span>
-          <span class="btn-icon icon-2e">
-            <i class="zmdi zmdi-shopping-cart"></i>
-          </span>
-          </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-primary">
           <span class="btn-text">Primary</span>
           <span class="btn-icon">
+            <i class="zmdi zmdi-shopping-cart"></i>
+          </span>
+          </button>
+          <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-dark">
+          <span class="btn-text text-2e">Dark</span>
+          <span class="btn-icon icon-2e">
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
           </button>
