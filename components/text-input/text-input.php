@@ -4,7 +4,7 @@
 <body>
 <div class="container my-4">
     <div class="mb-5">
-        <h3>style-1</h3>
+        <h3 class="mb-3">style-1</h3>
         <form>
             <div class="row mx-0">
                 <div class="col-md-6 py-2">
@@ -47,7 +47,7 @@
         </form>
     </div>
     <div class="mb-5">
-        <h3>Style-2</h3>
+        <h3 class="mb-3">Style-2</h3>
         <div class="row mx-0">
             <div class="col-md-6 py-2">
                 <div class="custom-style">
@@ -92,7 +92,7 @@
                         <div class="custom-input form-group mb-4">
                             <input type="name" class="input-effect input-effect-3 transparent-box transparent-box-3 bg-transparent pl-0 form-control rounded-0" placeholder=" " />
                             <label class="text-uppercase text-left w-100">First Name
-                                <span><i class="icon-right zmdi zmdi-edit pl-5"></i></span>
+                                <span class="icon-right"><i class="zmdi zmdi-edit pl-5"></i></span>
                             </label>
                         </div>
                     </div>
