@@ -64,4 +64,39 @@
   .card-section .right-arrow {
     font-size: 1.5rem; }
 
+.card .bg-img {
+  padding-bottom: 50%;
+  min-height: 150px; }
+.card .bg-img,
+.card .round-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  background-color: #e9ecef; }
+
+.custom-card .card-body {
+  position: relative; }
+.custom-card .card-content {
+  margin: -4% 4% 0 4%;
+  position: relative;
+  background-color: #fff; }
+.custom-card .btn-float {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 1rem;
+  margin-top: -1rem; }
+.custom-card .circle-img {
+  width: 6.875rem;
+  margin-top: -6.875rem; }
+.custom-card .round-img {
+  width: 6.875rem;
+  height: 6.875rem;
+  border: 3px solid #fff; }
+
 /*# sourceMappingURL=card.css.map */

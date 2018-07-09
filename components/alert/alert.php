@@ -4,6 +4,7 @@
 </head>
 <body>
 <div class="container">
+	<h1 class="h2 text-center mt-3">Alerts</h1>
 	<div class="py-3">
 		<h4 class="mt-5">Basic Alert</h4>
 		<div class="py-3">
@@ -84,83 +85,6 @@
 				<i class="zmdi zmdi-thumb-up"></i>
 				<strong class="pl-2">Well done!</strong> You successfully read this important alert message.
 				<button type="button" class="close">×</button>
-			</div>
-		</div>
-	</div>
-	<div class="py-3">
-		<h4>Style-3</h4>
-		<div class="py-3">
-			<div class="alert-left-border alert alert-success rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-warning rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-info rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-secondary rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-light rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-danger rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-dark rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0">Well done!</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="alert-left-border alert alert-success rounded-0 p-0">
-				<h5 class="alert-title p-3 font-weight-bold mb-0"><i class="pr-3 zmdi zmdi-edit"></i>Fix the Following Errors:</h5>
-				<div class="p-3">
-					<ul class="mb-0">
-						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, adipisci.</li>
-						<li>Placeat, et hic pariatur fugiat autem earum facere necessitatibus fuga.</li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	</div>

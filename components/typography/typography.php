@@ -3,6 +3,7 @@
 </head>
 <body>
   <div class="container">
+    <h1 class="h2 text-center mt-3">Typography</h1>
     <div class="py-4">
       <h4 class="text-uppercase">Sentence Case</h4>
       <p>The standard display for heading tags in Foundry.</p>
