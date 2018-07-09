@@ -1,5 +1,6 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="css/card.css">
 </head>
 <body>
@@ -12,7 +13,12 @@
         <div class="card-content card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark">Go somewhere</a>
+            <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-dark">
+            <span class="btn-text text-3e">Go somewhere</span>
+            <span class="btn-icon icon-3e rightin">
+                <i class="zmdi zmdi-long-arrow-right"></i>
+            </span>
+            </button>
         </div>
     </div>
     <div class="row py-4">
@@ -22,7 +28,12 @@
                 <div class="card-content card-body shadow-sm">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <a href="#" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-dark">
+                    <span class="btn-text text-3e">Go somewhere</span>
+                    <span class="btn-icon icon-3e rightin">
+                        <i class="zmdi zmdi-long-arrow-right"></i>
+                    </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -73,7 +84,7 @@
                     </a>
                 </div>
                 <div class="card-footer bg-dark text-white text-center">
-                    <ul class="list-unstyled mb-0">
+                    <ul class="list-unstyled mb-0 d-flex justify-content-between">
                         <li class="d-inline-block p-1">
                             <i class="zmdi zmdi-time"></i>
                             05/10/2015

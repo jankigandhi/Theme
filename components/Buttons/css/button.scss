@@ -43,11 +43,15 @@ $btn-min-width: 12rem;
         @include transition(all .3s linear);
         content: '';
         position: absolute;
-        z-index: -1;
+        //z-index: -1;
         width: 100%;
         top: 0;
         left: 0;
         height: 0;
+    }
+    span {
+        z-index: 1;
+        position: relative;
     }
     @include hover-focus-active {
         background-color: transparent !important;
@@ -174,6 +178,7 @@ $btn-min-width: 12rem;
 
 .btn-effect-3 {
     overflow: hidden;
+    padding: .75rem 3rem;
     .btn-icon {
         left: 0;
         position: absolute;
