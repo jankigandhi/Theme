@@ -110,6 +110,8 @@
                     color: $purple;
                     .icon-right {
                         opacity: 0;
+                        transform: translateX(-500px);
+                        @include transition(all .3s linear);
                     }
                 }
             }

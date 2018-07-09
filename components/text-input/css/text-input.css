@@ -68,7 +68,12 @@
   top: -15px;
   color: #6f42c1; }
   .custom-style .input-effect.input-effect-3:focus ~ label .icon-right, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label .icon-right {
-    opacity: 0; }
+    opacity: 0;
+    transform: translateX(-500px);
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
 .custom-style .input-effect.input-effect-4:focus ~ label .text-name, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .text-name {
   opacity: 0;
   transform: translateX(5em); }
