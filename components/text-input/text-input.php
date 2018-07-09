@@ -1,4 +1,5 @@
 <?php include_once '../../inc/head.php';?>
+<link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" type="text/css" href="css/text-input.css">
 </head>
 <body>
