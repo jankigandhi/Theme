@@ -1,7 +1,8 @@
     @import "../../../css/scss/functions";
     @import "../../../css/scss/variables";
     @import "../../../css/scss/mixins";
-    @mixin breadcrumbs-color($active-background: $color) {
+
+ @mixin breadcrumbs-color($active-background: $color) {
         a {
             background-color: $active-background;
             &:before,
