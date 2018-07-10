@@ -1,17 +1,32 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
+body {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .line-height {
     line-height: 1;
+}
+
+.nav-utility {
+    line-height: 43px;
+    overflow: hidden;
+    .navigation,
+    .mail {
+        font-size: .8rem;
+    }
 }
 
 .site-header {
     height: 3rem;
     position: relative;
     z-index: 11;
+    border-top: 1px solid $gray-300;
     .header-menu {
         height: 3rem;
         //background-color: $gray-900;
+        border-bottom: 1px solid $gray-300;
     }
     &.header-transperent {
         position: absolute;
@@ -29,8 +44,6 @@
         }
     }
     .site-logo {
-        font-size: .5rem;
-        line-height: 1;
         a {
             color: $gray-600;
             text-decoration: none;
@@ -43,11 +56,50 @@
             a {
                 color: $gray-500;
                 text-decoration: none;
+                font-size: .75rem;
+            }
+            &:hover {
+                .sub-menu {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translate3d(0, 0px, 0);
+                }
+            }
+        }
+        .sub-menu {
+            width: auto;
+            white-space: nowrap;
+            line-height: 24px;
+            background: $gray-900;
+            position: absolute;
+            z-index: 99;
+            opacity: 0;
+            transition: all 0.3s ease;
+            transform: translate3d(0, 10px, 0);
+            visibility: hidden;
+            margin-top: 16px;
+            ul {
+                li {
+                    display: block;
+                    width: 150px;
+                }
             }
         }
     }
     .bar-icon {
         display: none;
+    }
+    .search-icon {
+        border-left: 1px solid $gray-800;
+        height: 48px;
+        .text {
+            font-size: .75px;
+        }
+        .search {
+            font-size: 20px;
+            opacity: .5;
+            transition: all 0.3s ease;
+        }
     }
 }
 
@@ -63,7 +115,7 @@
 }
 
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     .site-header {
         &.header-transperent {
             .bar-icon {
@@ -74,8 +126,9 @@
         }
         .header-menu {
             z-index: 9;
-            background-color: $gray-900;
+            background-color: $white;
         }
+
         .menu-bar {
             position: absolute;
             right: 0;
@@ -85,9 +138,9 @@
                 margin-top: 3rem;
                 left: 0;
                 right: 0;
-                @include transform(translateY(-120%));
+                @include transform(translateY(-200%));
                 z-index: -1;
-                background-color: $black; 
+                background-color: $black;
             }
             li {
                 display: block;
@@ -102,6 +155,14 @@
                 text-decoration: none;
             }
         }
+        .search-icon {
+            display: none;
+        }
+    }
+    .nav-utility {
+        z-index: 9;
+        background-color: $white;
+        overflow: hidden;
     }
     .site-link {
         &.open {
