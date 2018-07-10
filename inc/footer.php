@@ -2,8 +2,9 @@
 <script type="text/javascript">
 $(document).ready(function() {
   $(".one-open .toggle").on("click", function() {
-    $(".one-open .toggle").removeClass("active");
-    $(this).closest(".toggle").addClass("active");
+    $(this).parent().find(".toggle").removeClass("active");
+    $(this).addClass("active");
+       
   });
   $(".multiple-open .toggle").on("click", function() {
     $(this).closest(".multiple-open .toggle").toggleClass("active");
