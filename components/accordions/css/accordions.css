@@ -52,4 +52,9 @@
   .with-border .content {
     border: 0; }
 
+.alternate-color .toggle:nth-child(even) .accordion-header {
+  background-color: #fff; }
+.alternate-color .content {
+  border: 0; }
+
 /*# sourceMappingURL=accordions.css.map */
