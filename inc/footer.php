@@ -2,12 +2,14 @@
 <script type="text/javascript">
 $(document).ready(function() {
   $(".one-open .toggle").on("click", function() {
-    $(this).parent().find(".toggle").removeClass("active");
-    $(this).addClass("active");
+    var $this = $(this);
+    $this.parent().find(".toggle").removeClass("active");
+    $this.addClass("active");
        
   });
   $(".multiple-open .toggle").on("click", function() {
-    $(this).closest(".multiple-open .toggle").toggleClass("active");
+    var $this = $(this);
+    $this.closest(".multiple-open .toggle").toggleClass("active");
   });
 });
 </script>
