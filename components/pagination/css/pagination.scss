@@ -1,8 +1,18 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-.pagination-circle{
-		width:2rem;
-		height:2rem;
-		border-radius:50%;
+.pagination-circle {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.custom-page-item {
+    &:last-child,&:first-child {
+        .page-link {
+            /* border-top-right-radius: 0.25rem; */
+            /* border-bottom-right-radius: 0.25rem; */
+            border-radius: 50%;
+        }
+    }
 }

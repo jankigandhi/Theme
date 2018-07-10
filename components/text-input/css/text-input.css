@@ -2,17 +2,17 @@
   box-shadow: none; }
 .custom-style .transparent-box.transparent-box-1 {
   border: 0;
-  border-bottom: 1px solid #0088cc; }
+  border-bottom: 1px solid; }
   .custom-style .transparent-box.transparent-box-1:focus {
-    border-bottom: 2px solid #6f42c1; }
+    border-bottom: 2px solid; }
 .custom-style .transparent-box.transparent-box-2:focus {
-  border-color: #e36159; }
+  border: 1px solid; }
 .custom-style .transparent-box.transparent-box-3 {
   border: 0; }
   .custom-style .transparent-box.transparent-box-3:focus {
-    border-bottom: 2px solid #6f42c1; }
+    border-bottom: 2px solid; }
 .custom-style .transparent-box.transparent-box-4:focus {
-  border-color: #4caf50; }
+  border: 1px solid; }
 .custom-style .custom-input {
   position: relative; }
   .custom-style .custom-input label {
@@ -33,8 +33,6 @@
     left: 50%; }
   .custom-style .bar:after {
     right: 50%; }
-  .custom-style .bar.bar-1:after, .custom-style .bar.bar-1:before {
-    background-color: #0088cc; }
 .custom-style .input-effect:focus {
   box-shadow: none !important; }
 .custom-style .input-effect ~ label {
@@ -55,20 +53,33 @@
   font-weight: bold; }
 .custom-style .input-effect:focus ~ .bar:before, .custom-style .input-effect:focus ~ .bar:after, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:before, .custom-style .input-effect:not(:placeholder-shown) ~ .bar:after {
   width: 50%; }
-.custom-style .input-effect.input-effect-1:focus {
-  border-color: #0088cc; }
 .custom-style .input-effect.input-effect-1:focus ~ label, .custom-style .input-effect.input-effect-1:not(:placeholder-shown) ~ label {
-  top: -15px;
-  color: #0088cc; }
+  top: -15px; }
 .custom-style .input-effect.input-effect-2:focus ~ label, .custom-style .input-effect.input-effect-2:not(:placeholder-shown) ~ label {
   top: -30px; }
 .custom-style .input-effect.input-effect-3:focus {
-  border-color: #6f42c1; }
-.custom-style .input-effect.input-effect-3:focus ~ label, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label {
-  top: -15px;
-  color: #6f42c1; }
-  .custom-style .input-effect.input-effect-3:focus ~ label .icon-right, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label .icon-right {
-    opacity: 0; }
+  border-bottom: 1px solid; }
+.custom-style .input-effect.input-effect-3 ~ label {
+  position: static; }
+.custom-style .input-effect.input-effect-3 ~ label span {
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  pointer-events: none;
+  line-height: 1.3; }
+.custom-style .input-effect.input-effect-3:focus ~ label .icon-right, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label .icon-right {
+  opacity: 0;
+  transform: translateX(-500px);
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+.custom-style .input-effect.input-effect-3:focus ~ label span, .custom-style .input-effect.input-effect-3:not(:placeholder-shown) ~ label span {
+  top: -15px; }
 .custom-style .input-effect.input-effect-4:focus ~ label .text-name, .custom-style .input-effect.input-effect-4:not(:placeholder-shown) ~ label .text-name {
   opacity: 0;
   transform: translateX(5em); }
@@ -98,6 +109,8 @@
   right: 0;
   margin-right: 1em;
   opacity: 1;
+  bottom: 0;
+  margin-bottom: 30px;
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -105,57 +118,33 @@
 .custom-style.icon-effect {
   overflow: hidden; }
 
-.border-radius-20 {
+.input-rounded {
   border-radius: 20px; }
 
 .border-box {
-  border: 2px solid #ced4da; }
+  border: 2px solid; }
 
-.border-primary.focus {
-  color: #0088cc;
-  border-color: #0088cc; }
 .border-primary:focus ~ label, .border-primary:not(:placeholder-shown) ~ label {
   color: #0088cc; }
 
-.border-secondary.focus {
-  color: #6c757d;
-  border-color: #6c757d; }
 .border-secondary:focus ~ label, .border-secondary:not(:placeholder-shown) ~ label {
   color: #6c757d; }
 
-.border-success.focus {
-  color: #4caf50;
-  border-color: #4caf50; }
 .border-success:focus ~ label, .border-success:not(:placeholder-shown) ~ label {
   color: #4caf50; }
 
-.border-info.focus {
-  color: #17a2b8;
-  border-color: #17a2b8; }
 .border-info:focus ~ label, .border-info:not(:placeholder-shown) ~ label {
   color: #17a2b8; }
 
-.border-warning.focus {
-  color: #ffc107;
-  border-color: #ffc107; }
 .border-warning:focus ~ label, .border-warning:not(:placeholder-shown) ~ label {
   color: #ffc107; }
 
-.border-danger.focus {
-  color: #e36159;
-  border-color: #e36159; }
 .border-danger:focus ~ label, .border-danger:not(:placeholder-shown) ~ label {
   color: #e36159; }
 
-.border-light.focus {
-  color: #f8f9fa;
-  border-color: #f8f9fa; }
 .border-light:focus ~ label, .border-light:not(:placeholder-shown) ~ label {
   color: #f8f9fa; }
 
-.border-dark.focus {
-  color: #343a40;
-  border-color: #343a40; }
 .border-dark:focus ~ label, .border-dark:not(:placeholder-shown) ~ label {
   color: #343a40; }
 
