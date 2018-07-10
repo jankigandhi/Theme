@@ -1,4 +1,4 @@
-/* .ribbon li {
+.ribbon li {
   height: 50px;
   line-height: 50px;
   width: 150px;
@@ -6,259 +6,42 @@
   font-size: 18px;
   text-align: center;
   position: relative;
-  cursor: pointer;
-  &::before {
+  cursor: pointer; }
+  .ribbon li:before {
     content: '';
     border-left: 25px solid transparent;
     border-top: 25px solid orange;
     border-bottom: 25px solid orange;
     border-right: 0;
     position: absolute;
-    left: -25px;
-  }
-  &::after {
+    left: -25px; }
+  .ribbon li:after {
     content: '';
     border-left: 25px solid orange;
     border-top: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-right: 0;
     position: absolute;
-    right: -25px;
-  }
-  &:hover {
-    background: tomato;
-  }
-}
-
-li.active {
-  background: tomato;
-  &::before {
-    border-left: 25px solid transparent;
-    border-top: 25px solid tomato;
-    border-bottom: 25px solid tomato;
-  }
-}
-
-.ribbon li:hover::before {
-  border-left: 25px solid transparent;
-  border-top: 25px solid tomato;
-  border-bottom: 25px solid tomato;
-}
-
-li.active::after, .ribbon li:hover::after {
-  border-left: 25px solid tomato;
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-} */
-.ribbon li {
-  height: 50px;
-  line-height: 50px;
-  width: 150px;
-  font-size: 18px;
-  position: relative;
-  cursor: pointer;
-  /* &:hover {
-      background: tomato;
-  } */ }
-  .ribbon li:before {
-    content: '';
-    border-left: 25px solid transparent;
-    border-right: 0;
-    position: absolute;
-    left: -25px; }
-  .ribbon li:after {
-    content: '';
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-right: 0;
-    position: absolute;
     right: -25px; }
-
-li.active::before {
-  border-left: 25px solid transparent; }
-
-.ribbon li:hover::before {
-  border-left: 25px solid transparent; }
-
-li.active::after,
-.ribbon li:hover::after {
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent; }
-
-.bg-primary .ribbon li {
-  background: #0088cc; }
-  .bg-primary .ribbon li:before {
-    border-top: 25px solid #0088cc;
-    border-bottom: 25px solid #0088cc; }
-  .bg-primary .ribbon li:after {
-    content: '';
-    border-left: 25px solid #0088cc; }
-  .bg-primary .ribbon li:hover {
-    background: #0088cc; }
-.bg-primary li.active {
-  background: #006699; }
-  .bg-primary li.active::before {
-    border-top: 25px solid #006699;
-    border-bottom: 25px solid #006699; }
-.bg-primary .ribbon li:hover::before {
-  border-top: 25px solid #006699;
-  border-bottom: 25px solid #006699; }
-.bg-primary li.active::after,
-.bg-primary .ribbon li:hover::after {
-  border-left: 25px solid #006699; }
-
-.bg-secondary .ribbon li {
-  background: #6c757d; }
-  .bg-secondary .ribbon li:before {
-    border-top: 25px solid #6c757d;
-    border-bottom: 25px solid #6c757d; }
-  .bg-secondary .ribbon li:after {
-    content: '';
-    border-left: 25px solid #6c757d; }
-  .bg-secondary .ribbon li:hover {
-    background: #6c757d; }
-.bg-secondary li.active {
-  background: #545b62; }
-  .bg-secondary li.active::before {
-    border-top: 25px solid #545b62;
-    border-bottom: 25px solid #545b62; }
-.bg-secondary .ribbon li:hover::before {
-  border-top: 25px solid #545b62;
-  border-bottom: 25px solid #545b62; }
-.bg-secondary li.active::after,
-.bg-secondary .ribbon li:hover::after {
-  border-left: 25px solid #545b62; }
-
-.bg-success .ribbon li {
-  background: #4caf50; }
-  .bg-success .ribbon li:before {
-    border-top: 25px solid #4caf50;
-    border-bottom: 25px solid #4caf50; }
-  .bg-success .ribbon li:after {
-    content: '';
-    border-left: 25px solid #4caf50; }
-  .bg-success .ribbon li:hover {
-    background: #4caf50; }
-.bg-success li.active {
-  background: #3d8b40; }
-  .bg-success li.active::before {
-    border-top: 25px solid #3d8b40;
-    border-bottom: 25px solid #3d8b40; }
-.bg-success .ribbon li:hover::before {
-  border-top: 25px solid #3d8b40;
-  border-bottom: 25px solid #3d8b40; }
-.bg-success li.active::after,
-.bg-success .ribbon li:hover::after {
-  border-left: 25px solid #3d8b40; }
-
-.bg-info .ribbon li {
-  background: #17a2b8; }
-  .bg-info .ribbon li:before {
-    border-top: 25px solid #17a2b8;
-    border-bottom: 25px solid #17a2b8; }
-  .bg-info .ribbon li:after {
-    content: '';
-    border-left: 25px solid #17a2b8; }
-  .bg-info .ribbon li:hover {
-    background: #17a2b8; }
-.bg-info li.active {
-  background: #117a8b; }
-  .bg-info li.active::before {
-    border-top: 25px solid #117a8b;
-    border-bottom: 25px solid #117a8b; }
-.bg-info .ribbon li:hover::before {
-  border-top: 25px solid #117a8b;
-  border-bottom: 25px solid #117a8b; }
-.bg-info li.active::after,
-.bg-info .ribbon li:hover::after {
-  border-left: 25px solid #117a8b; }
-
-.bg-warning .ribbon li {
-  background: #ffc107; }
-  .bg-warning .ribbon li:before {
-    border-top: 25px solid #ffc107;
-    border-bottom: 25px solid #ffc107; }
-  .bg-warning .ribbon li:after {
-    content: '';
-    border-left: 25px solid #ffc107; }
-  .bg-warning .ribbon li:hover {
-    background: #ffc107; }
-.bg-warning li.active {
-  background: #d39e00; }
-  .bg-warning li.active::before {
-    border-top: 25px solid #d39e00;
-    border-bottom: 25px solid #d39e00; }
-.bg-warning .ribbon li:hover::before {
-  border-top: 25px solid #d39e00;
-  border-bottom: 25px solid #d39e00; }
-.bg-warning li.active::after,
-.bg-warning .ribbon li:hover::after {
-  border-left: 25px solid #d39e00; }
-
-.bg-danger .ribbon li {
-  background: #e36159; }
-  .bg-danger .ribbon li:before {
-    border-top: 25px solid #e36159;
-    border-bottom: 25px solid #e36159; }
-  .bg-danger .ribbon li:after {
-    content: '';
-    border-left: 25px solid #e36159; }
-  .bg-danger .ribbon li:hover {
-    background: #e36159; }
-.bg-danger li.active {
-  background: #dc372d; }
-  .bg-danger li.active::before {
-    border-top: 25px solid #dc372d;
-    border-bottom: 25px solid #dc372d; }
-.bg-danger .ribbon li:hover::before {
-  border-top: 25px solid #dc372d;
-  border-bottom: 25px solid #dc372d; }
-.bg-danger li.active::after,
-.bg-danger .ribbon li:hover::after {
-  border-left: 25px solid #dc372d; }
-
-.bg-light .ribbon li {
-  background: #f8f9fa; }
-  .bg-light .ribbon li:before {
-    border-top: 25px solid #f8f9fa;
-    border-bottom: 25px solid #f8f9fa; }
-  .bg-light .ribbon li:after {
-    content: '';
-    border-left: 25px solid #f8f9fa; }
-  .bg-light .ribbon li:hover {
-    background: #f8f9fa; }
-.bg-light li.active {
-  background: #dae0e5; }
-  .bg-light li.active::before {
-    border-top: 25px solid #dae0e5;
-    border-bottom: 25px solid #dae0e5; }
-.bg-light .ribbon li:hover::before {
-  border-top: 25px solid #dae0e5;
-  border-bottom: 25px solid #dae0e5; }
-.bg-light li.active::after,
-.bg-light .ribbon li:hover::after {
-  border-left: 25px solid #dae0e5; }
-
-.bg-dark .ribbon li {
-  background: #343a40; }
-  .bg-dark .ribbon li:before {
-    border-top: 25px solid #343a40;
-    border-bottom: 25px solid #343a40; }
-  .bg-dark .ribbon li:after {
-    content: '';
-    border-left: 25px solid #343a40; }
-  .bg-dark .ribbon li:hover {
-    background: #343a40; }
-.bg-dark li.active {
-  background: #1d2124; }
-  .bg-dark li.active::before {
-    border-top: 25px solid #1d2124;
-    border-bottom: 25px solid #1d2124; }
-.bg-dark .ribbon li:hover::before {
-  border-top: 25px solid #1d2124;
-  border-bottom: 25px solid #1d2124; }
-.bg-dark li.active::after,
-.bg-dark .ribbon li:hover::after {
-  border-left: 25px solid #1d2124; }
+  .ribbon li:hover {
+    background: tomato; }
+    .ribbon li:hover:before {
+      border-left: 25px solid transparent;
+      border-top: 25px solid tomato;
+      border-bottom: 25px solid tomato; }
+    .ribbon li:hover:after {
+      border-left: 25px solid tomato;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent; }
+  .ribbon li.active {
+    background: tomato; }
+    .ribbon li.active:before {
+      border-left: 25px solid transparent;
+      border-top: 25px solid tomato;
+      border-bottom: 25px solid tomato; }
+    .ribbon li.active:after {
+      border-left: 25px solid tomato;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent; }
 
 /*# sourceMappingURL=breadcrumbs.css.map */
