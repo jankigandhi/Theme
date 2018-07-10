@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,YAAa;EACT,gBAAgB,EAAE,mBAAiB;;AAGvC,kBAAmB;EACf,WAAW,EAAE,4BAA0B",
+"sources": ["alert.scss"],
+"names": [],
+"file": "alert.css"
+}

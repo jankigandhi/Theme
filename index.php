@@ -13,7 +13,19 @@
     <div class="container">
       <ul class="py-5">
         <li>
-          <a href="components/Buttons/button.php">Buttons</a>
+          <a href="components/typography/typography.php" target="_blank">Typography</a>
+        </li>
+        <li>
+          <a href="components/Buttons/button.php" target="_blank">Buttons</a>
+        </li>
+        <li>
+          <a href="components/alert/alert.php" target="_blank">Alert</a>
+        </li>
+        <li>
+          <a href="components/grid/grid.php" target="_blank">Grid</a>
+        </li>
+        <li>
+          <a href="components/card/card-1.php" target="_blank">Cards</a>
         </li>
       </ul>
     </div>

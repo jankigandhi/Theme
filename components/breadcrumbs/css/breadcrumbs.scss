@@ -1,0 +1,98 @@
+    @import "../../../css/scss/functions";
+    @import "../../../css/scss/variables";
+    @import "../../../css/scss/mixins";
+    @mixin breadcrumbs-color($active-background: $color) {
+        a {
+            background-color: $active-background;
+            &:before,
+            &:after {
+                border-color: $active-background;
+            }
+            &:after {
+                border-left-color: $active-background;
+            }
+        }
+        &:hover {
+            background-color: darken($active-background, 10%);
+            &:before {
+                background-color: darken($active-background, 10%);
+            }
+            &:after {
+                background-color: darken($active-background, 10%);
+            }
+        }
+        &:active {
+            background-color: darken($active-background, 10%);
+
+            &:before {
+                border-color: darken($active-background, 10%);
+            }
+            &:after {
+                border-left-color: darken($active-background, 10%);
+            }
+        }
+    }
+
+    .custom-breadcrumb {
+        .icon {
+            font-size: 14px;
+        }
+        li {
+            @each $color,
+            $value in $theme-colors {
+                .border-#{$color} {
+                    @include breadcrumbs-color($value);
+                }
+            }
+            a {
+                text-decoration: none;
+                position: relative;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 10px 0 5px;
+            }
+            &:first-child {
+                a {
+                    padding-left: 15px;
+                    @include border-radius(4px 0 0 4px);
+                    &:before {
+                        border: none;
+                    }
+                }
+            }
+            &:last-child {
+                a {
+                    padding-right: 15px;
+                    @include border-radius(0 4px 4px 0);
+                    &:after {
+                        border: none;
+                    }
+                }
+            }
+            a {
+                &:before,
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    border: 0 solid;
+                    border-width: 20px 10px;
+                    width: 0;
+                    height: 0;
+                }
+                &:before {
+                    left: -20px;
+                    border-left-color: transparent;
+                }
+                &:after {
+                    left: 100%;
+                    border-color: transparent; //border-left-color: $blue;
+                }
+                &:hover {
+                    &:before {
+                        border-left-color: transparent;
+                    }
+                }
+            }
+        }
+    }

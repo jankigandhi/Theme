@@ -1,0 +1,47 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+@mixin circle-img ($size) {
+    width: $size;
+    margin-top: -$size;
+}
+
+.card {
+    .bg-img {
+        padding-bottom: 50%;
+        min-height: 150px;
+    }
+    .bg-img,
+    .round-img {
+        @include img-inbg;
+        background-color: $gray-200;
+    }
+}
+
+.custom-card {
+    .card-body {
+        position: relative;
+    }
+    .card-content {
+        margin: -4% 4% 0 4%;
+        position: relative;
+        background-color: $white;
+    }
+    .btn-float {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 1rem;
+        margin-top: -1rem;
+    }
+
+    .circle-img {
+        @include circle-img(6.875rem);
+    }
+
+    .round-img {
+        @include size(6.875rem);
+        border: 3px solid $white;
+    }
+}

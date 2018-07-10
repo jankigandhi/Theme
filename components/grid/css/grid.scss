@@ -1,0 +1,8 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.text-small{
+	font-size: .875em;
+	color: $gray-600;
+	line-height:1.5rem;
+}

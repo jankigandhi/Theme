@@ -1,0 +1,180 @@
+.custom-breadcrumb .icon {
+  font-size: 14px; }
+.custom-breadcrumb li .border-primary a {
+  background-color: #0088cc; }
+  .custom-breadcrumb li .border-primary a:before, .custom-breadcrumb li .border-primary a:after {
+    border-color: #0088cc; }
+  .custom-breadcrumb li .border-primary a:after {
+    border-left-color: #0088cc; }
+.custom-breadcrumb li .border-primary:hover {
+  background-color: #006699; }
+  .custom-breadcrumb li .border-primary:hover:before {
+    background-color: #006699; }
+  .custom-breadcrumb li .border-primary:hover:after {
+    background-color: #006699; }
+.custom-breadcrumb li .border-primary:active {
+  background-color: #006699; }
+  .custom-breadcrumb li .border-primary:active:before {
+    border-color: #006699; }
+  .custom-breadcrumb li .border-primary:active:after {
+    border-left-color: #006699; }
+.custom-breadcrumb li .border-secondary a {
+  background-color: #6c757d; }
+  .custom-breadcrumb li .border-secondary a:before, .custom-breadcrumb li .border-secondary a:after {
+    border-color: #6c757d; }
+  .custom-breadcrumb li .border-secondary a:after {
+    border-left-color: #6c757d; }
+.custom-breadcrumb li .border-secondary:hover {
+  background-color: #545b62; }
+  .custom-breadcrumb li .border-secondary:hover:before {
+    background-color: #545b62; }
+  .custom-breadcrumb li .border-secondary:hover:after {
+    background-color: #545b62; }
+.custom-breadcrumb li .border-secondary:active {
+  background-color: #545b62; }
+  .custom-breadcrumb li .border-secondary:active:before {
+    border-color: #545b62; }
+  .custom-breadcrumb li .border-secondary:active:after {
+    border-left-color: #545b62; }
+.custom-breadcrumb li .border-success a {
+  background-color: #4caf50; }
+  .custom-breadcrumb li .border-success a:before, .custom-breadcrumb li .border-success a:after {
+    border-color: #4caf50; }
+  .custom-breadcrumb li .border-success a:after {
+    border-left-color: #4caf50; }
+.custom-breadcrumb li .border-success:hover {
+  background-color: #3d8b40; }
+  .custom-breadcrumb li .border-success:hover:before {
+    background-color: #3d8b40; }
+  .custom-breadcrumb li .border-success:hover:after {
+    background-color: #3d8b40; }
+.custom-breadcrumb li .border-success:active {
+  background-color: #3d8b40; }
+  .custom-breadcrumb li .border-success:active:before {
+    border-color: #3d8b40; }
+  .custom-breadcrumb li .border-success:active:after {
+    border-left-color: #3d8b40; }
+.custom-breadcrumb li .border-info a {
+  background-color: #17a2b8; }
+  .custom-breadcrumb li .border-info a:before, .custom-breadcrumb li .border-info a:after {
+    border-color: #17a2b8; }
+  .custom-breadcrumb li .border-info a:after {
+    border-left-color: #17a2b8; }
+.custom-breadcrumb li .border-info:hover {
+  background-color: #117a8b; }
+  .custom-breadcrumb li .border-info:hover:before {
+    background-color: #117a8b; }
+  .custom-breadcrumb li .border-info:hover:after {
+    background-color: #117a8b; }
+.custom-breadcrumb li .border-info:active {
+  background-color: #117a8b; }
+  .custom-breadcrumb li .border-info:active:before {
+    border-color: #117a8b; }
+  .custom-breadcrumb li .border-info:active:after {
+    border-left-color: #117a8b; }
+.custom-breadcrumb li .border-warning a {
+  background-color: #ffc107; }
+  .custom-breadcrumb li .border-warning a:before, .custom-breadcrumb li .border-warning a:after {
+    border-color: #ffc107; }
+  .custom-breadcrumb li .border-warning a:after {
+    border-left-color: #ffc107; }
+.custom-breadcrumb li .border-warning:hover {
+  background-color: #d39e00; }
+  .custom-breadcrumb li .border-warning:hover:before {
+    background-color: #d39e00; }
+  .custom-breadcrumb li .border-warning:hover:after {
+    background-color: #d39e00; }
+.custom-breadcrumb li .border-warning:active {
+  background-color: #d39e00; }
+  .custom-breadcrumb li .border-warning:active:before {
+    border-color: #d39e00; }
+  .custom-breadcrumb li .border-warning:active:after {
+    border-left-color: #d39e00; }
+.custom-breadcrumb li .border-danger a {
+  background-color: #e36159; }
+  .custom-breadcrumb li .border-danger a:before, .custom-breadcrumb li .border-danger a:after {
+    border-color: #e36159; }
+  .custom-breadcrumb li .border-danger a:after {
+    border-left-color: #e36159; }
+.custom-breadcrumb li .border-danger:hover {
+  background-color: #dc372d; }
+  .custom-breadcrumb li .border-danger:hover:before {
+    background-color: #dc372d; }
+  .custom-breadcrumb li .border-danger:hover:after {
+    background-color: #dc372d; }
+.custom-breadcrumb li .border-danger:active {
+  background-color: #dc372d; }
+  .custom-breadcrumb li .border-danger:active:before {
+    border-color: #dc372d; }
+  .custom-breadcrumb li .border-danger:active:after {
+    border-left-color: #dc372d; }
+.custom-breadcrumb li .border-light a {
+  background-color: #f8f9fa; }
+  .custom-breadcrumb li .border-light a:before, .custom-breadcrumb li .border-light a:after {
+    border-color: #f8f9fa; }
+  .custom-breadcrumb li .border-light a:after {
+    border-left-color: #f8f9fa; }
+.custom-breadcrumb li .border-light:hover {
+  background-color: #dae0e5; }
+  .custom-breadcrumb li .border-light:hover:before {
+    background-color: #dae0e5; }
+  .custom-breadcrumb li .border-light:hover:after {
+    background-color: #dae0e5; }
+.custom-breadcrumb li .border-light:active {
+  background-color: #dae0e5; }
+  .custom-breadcrumb li .border-light:active:before {
+    border-color: #dae0e5; }
+  .custom-breadcrumb li .border-light:active:after {
+    border-left-color: #dae0e5; }
+.custom-breadcrumb li .border-dark a {
+  background-color: #343a40; }
+  .custom-breadcrumb li .border-dark a:before, .custom-breadcrumb li .border-dark a:after {
+    border-color: #343a40; }
+  .custom-breadcrumb li .border-dark a:after {
+    border-left-color: #343a40; }
+.custom-breadcrumb li .border-dark:hover {
+  background-color: #1d2124; }
+  .custom-breadcrumb li .border-dark:hover:before {
+    background-color: #1d2124; }
+  .custom-breadcrumb li .border-dark:hover:after {
+    background-color: #1d2124; }
+.custom-breadcrumb li .border-dark:active {
+  background-color: #1d2124; }
+  .custom-breadcrumb li .border-dark:active:before {
+    border-color: #1d2124; }
+  .custom-breadcrumb li .border-dark:active:after {
+    border-left-color: #1d2124; }
+.custom-breadcrumb li a {
+  text-decoration: none;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px 0 5px; }
+.custom-breadcrumb li:first-child a {
+  padding-left: 15px;
+  border-radius: 4px 0 0 4px; }
+  .custom-breadcrumb li:first-child a:before {
+    border: none; }
+.custom-breadcrumb li:last-child a {
+  padding-right: 15px;
+  border-radius: 0 4px 4px 0; }
+  .custom-breadcrumb li:last-child a:after {
+    border: none; }
+.custom-breadcrumb li a:before, .custom-breadcrumb li a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border: 0 solid;
+  border-width: 20px 10px;
+  width: 0;
+  height: 0; }
+.custom-breadcrumb li a:before {
+  left: -20px;
+  border-left-color: transparent; }
+.custom-breadcrumb li a:after {
+  left: 100%;
+  border-color: transparent; }
+.custom-breadcrumb li a:hover:before {
+  border-left-color: transparent; }
+
+/*# sourceMappingURL=breadcrumbs.css.map */

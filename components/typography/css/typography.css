@@ -1,57 +1,79 @@
-body {
-  color: #666; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Raleway";
+  font-weight: 400; }
 
-.typrography .title {
-  letter-spacing: 3px; }
-.typrography .heading-1 {
-  letter-spacing: 17px; }
-.typrography .heading-2 {
-  letter-spacing: 10px; }
-.typrography .heading-3 {
-  letter-spacing: 6px; }
-.typrography .heading-4 {
-  letter-spacing: 3px; }
-.typrography .heading-5 {
-  letter-spacing: 2px; }
-.typrography .heading-6 {
-  letter-spacing: 2px; }
-.typrography .m-width {
-  max-width: 47.5rem; }
-.typrography .lead {
-  font-size: 1rem; }
-.typrography .pre {
-  font-size: 13px;
-  line-height: 24px; }
-.typrography .block-section {
-  background-color: #f5f5f5;
-  border-left: 5px solid #e9ecef; }
-  .typrography .block-section .block {
-    font-size: 20px;
-    line-height: 40px; }
+.font-weight-medium {
+  font-weight: 600 !important; }
+
+h1,
+.h1 {
+  font-size: 3.5rem;
+  line-height: 4rem; }
+
+h2,
+.h2 {
+  font-size: 2.5rem;
+  line-height: 3rem; }
+
+h3,
+.h3 {
+  font-size: 2rem;
+  line-height: 2.5rem; }
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+  line-height: 2rem; }
+
+h5,
+.h5 {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+h6,
+.h6 {
+  font-size: 0.75rem;
+  line-height: 1.5rem; }
+
+h1.text-uppercase {
+  letter-spacing: 1.0625rem; }
+
+h2.text-uppercase {
+  letter-spacing: 0.625rem; }
+
+h3.text-uppercase {
+  letter-spacing: 0.375rem; }
+
+h4.text-uppercase {
+  letter-spacing: 0.1875rem; }
+
+h5.text-uppercase {
+  letter-spacing: 0.125rem; }
+
+h6.text-uppercase {
+  letter-spacing: 0.125rem; }
+
+.light-gray {
+  color: #6c757d; }
+
+.blockquote {
+  font-family: "Merriweather", "Georgia", Times New Roman, Times, serif;
+  background-color: #f8f9fa;
+  border-width: 5px !important; }
 
 @media (max-width: 767.98px) {
-  .typrography .title,
-  .typrography .heading-4,
-  .typrography h4 {
-    font-size: 18px; }
-  .typrography h1 {
-    font-size: 2rem; }
-  .typrography h3,
-  .typrography .heading-3 {
-    font-size: 1.5rem; }
-  .typrography h5 {
-    font-size: 1rem; }
-  .typrography h6,
-  .typrography .heading-6 {
-    font-size: 12px; }
-  .typrography .heading-1,
-  .typrography .heading-2 {
-    font-size: 2rem; }
-  .typrography .lead {
-    font-size: 13px; }
-  .typrography .pre {
-    font-size: 12px; }
-  .typrography .block-section .block {
-    font-size: 1rem; } }
+  html {
+    font-size: .8rem; } }
 
 /*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,10 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.alert-title {
+    background-color: rgba($black, .15);
+}
+
+.alert-left-border {
+    border-left: 4px solid rgba($black, .2);
+}

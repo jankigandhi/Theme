@@ -1,45 +1,57 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
-@import "../../../css/scss/mixins"; 
+@import "../../../css/scss/mixins";
 
 // variables
 $btn-border-width: 2px;
 $btn-padding: .75rem 2rem;
 $btn-rounded: 3.125rem;
-
+$btn-min-width: 12rem;
+// this class for square btn with thick border
 .btn-thick {
     border-width: $btn-border-width;
     padding: $btn-padding;
     font-weight: 600;
     position: relative;
     margin-bottom: .5rem;
-} 
+} // this class for rounded button
+.btn-rounded {
+    border-radius: $btn-rounded;
+}
 
-// btn-slide:style-1
-@mixin btn-slide($active-background: $color) {
+// this class for button fix-width
+.btn-min-w {
+    min-width: $btn-min-width;
+}
+
+// Effect-1
+@mixin btn-effect($active-background: $color) {
     &:after {
         background-color: $active-background;
     }
 }
 
-@each $color,
-$value in $theme-colors {
-    .btn-outline-#{$color} {
-        @include btn-slide($value);
-    }
-}
-
-.btn-slide {
+.btn-effect {
     overflow: hidden;
+    @each $color,
+    $value in $theme-colors {
+        &.btn-outline-#{$color} {
+            @include btn-effect($value);
+        }
+    }
     &:after {
         @include transition(all .3s linear);
         content: '';
         position: absolute;
-        z-index: -1;
+        //z-index: -1;
         width: 100%;
         top: 0;
         left: 0;
         height: 0;
+    }
+    span {
+        z-index: 1;
+        position: relative;
     }
     @include hover-focus-active {
         background-color: transparent !important;
@@ -47,7 +59,7 @@ $value in $theme-colors {
             height: 100%;
         }
     }
-    &.slide-1 {
+    &.effect-1 {
         &:after {
             width: 0%;
         }
@@ -57,7 +69,7 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-2 {
+    &.effect-2 {
         &:after {
             width: 0%;
             height: 100%;
@@ -68,7 +80,7 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-3 {
+    &.effect-3 {
         &:after {
             width: 0%;
             height: 100%;
@@ -83,22 +95,22 @@ $value in $theme-colors {
             }
         }
     }
-    &.slide-4 {
+    &.effect-4 {
         &:after {
             opacity: 0;
             left: 50%;
             top: 50%;
-            width: 110%;
+            width: 100%;
             @include transform(translate(-50%, -50%)rotate(45deg));
         }
         @include hover-focus-active {
             &:after {
-                height: 160%;
+                height: 290%;
                 opacity: 1;
             }
         }
     }
-    &.slide-5 {
+    &.effect-5 {
         &:after {
             opacity: 0;
             top: 50%;
@@ -111,26 +123,25 @@ $value in $theme-colors {
             }
         }
     }
-} 
+}
 
-//btn-with-icon:style-2
-@mixin btn-iconbg($active-background: $color) {
+//Effect-2
+@mixin btn-effect-2($active-background: $color) {
     &:before,
     &:hover {
         background-color: darken($active-background, 10%);
     }
 }
 
-@each $color,
-$value in $theme-colors {
-    .btn-#{$color} {
-        @include btn-iconbg($value);
-    }
-}
-
-.btn-with-icon {
+.btn-effect-2 {
     padding-left: 4.8125rem;
     border-width: 0;
+    @each $color,
+    $value in $theme-colors {
+        &.btn-#{$color} {
+            @include btn-effect-2($value);
+        }
+    }
     &:before {
         content: " ";
         position: absolute;
@@ -155,96 +166,105 @@ $value in $theme-colors {
             margin-left: .3125rem;
         }
     }
-} 
+}
 
-//hover-icon:style-3
-.top-hover {
-    position: relative;
+//Effect-3
+@mixin btn-effect-3($active-background: $color) {
+    &:hover {
+        color: $active-background;
+        background-color: transparent;
+    }
+}
+
+.btn-effect-3 {
     overflow: hidden;
-    .icon {
+    padding: .75rem 3rem;
+    .btn-icon {
         left: 0;
         position: absolute;
-        height: 100%;
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         @include transition(all .3s linear);
-        line-height: 1.5;
         background-color: transparent;
-        &.icon-1 {
-            top: -100%;
-        }
-        &.icon-2 {
+        top: -100%;
+        &.icon-2e {
             left: -100%;
             top: 0;
         }
+        &.icon-3e {
+            top: 50%;
+            left: auto;
+            width: auto;
+            opacity: 0;
+            line-height: 0;
+            &.right {
+                right: 0;
+                margin-right: 1rem;
+                @include transform(translate(300%, -50%));
+            }
+            &.left {
+                left: 0;
+                margin-left: 1rem;
+                @include transform(translate(-300%, -50%));
+            }
+            &.rightin {
+                right: 0;
+                margin-right: 2rem;
+                @include transform(translate(0%, -50%));
+            }
+            &.leftin {
+                left: 0;
+                margin-left: 2rem;
+                @include transform(translate(0%, -50%));
+            }
+        }
     }
-    .hover-text {
+    &.effect-1 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-#{$color} {
+                @include btn-effect-3($value);
+            }
+        }
+    }
+    &.effect-2 {
+        @each $color,
+        $value in $theme-colors {
+            &.btn-outline-#{$color} {
+                @include btn-effect-3($value);
+            }
+        }
+    }
+    .btn-text {
         display: inline-block;
         @include transition(all .3s linear);
     }
     @include hover-focus-active {
-        .icon {
-            &.icon-1 {
-                top: 0;
-            }
-            &.icon-2 {
+        .btn-icon {
+            top: 50%;
+            @include transform(translateY(-50%));
+            &.icon-2e {
                 left: 0;
             }
-        }
-        .hover-text {
-            &.hover-top {
-                @include transform(translateY(300%));
-            }
-            &.left-hover {
-                @include transform(translatex(200%));
-            }
-        }
-    }
-}
-
-//hover-icon:style-4
-.btn-rounded {
-    border-radius: $btn-rounded;
-}
-
-.btn-arrows {
-    position: relative;
-    overflow: hidden;
-    .arrow-icon {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        font-size: 1.5rem;
-        @include transition(all .3s linear);
-        &.arrow-1 {
-            left: 120%;
-        }
-        &.arrow-2 {
-            right: 120%;
-        }
-        &.arrow-3 {
-            right: -20%;
-            opacity: 0;
-        }
-        &.arrow-4 {
-            left: -20%;
-            opacity: 0;
-        }
-    }
-    @include hover-focus-active {
-        .arrow-icon {
-            &.arrow-1 {
-                left: 35%;
-            }
-            &.arrow-2 {
-                right: 35%;
-            }
-            &.arrow-3 {
-                right: -30%;
+            &.icon-3e {
+                @include transform(translate(0, -50%));
                 opacity: 1;
+                &.rightin {
+                    margin-right: 1rem;
+                }
+                &.leftin {
+                    margin-left: 1rem;
+                }
             }
-            &.arrow-4 {
-                left: -30%;
+        }
+        .btn-text {
+            @include transform(translateY(300%));
+            opacity: 0;
+            &.text-2e {
+                @include transform(translateX(300%));
+            }
+            &.text-3e {
+                transform: none;
                 opacity: 1;
             }
         }
