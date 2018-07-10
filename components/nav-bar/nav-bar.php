@@ -3,10 +3,10 @@
 </head>
 <body>
 <!-- <div>
-	<div class="header-section">
-		<div class="site-header w-100 header-transperent my-3 px-4">
+	<div class="line-height">
+		<div class="site-header w-100">
 			<div class="header-menu">
-				<h1 class="site-logo mb-0 float-left">
+				<h1 class="site-logo mb-0 mt-1 float-left">
 				<a href="">Logo</a>
 				</h1>
 				<div class="site-link float-right">
@@ -31,7 +31,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="bar-icon">
+				<div class="bar-icon mt-2">
 					<a href="">☰</a>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 	</div>
 	<div>
 		<div class="banner-image" style="background-image: url('images/banner-img.jpg');">
-			<h1 class="transforam-text">Transforam</h1>
+			<h1 class="transforam-text">Transform</h1>
 		</div>
 	</div>
 </div> -->
