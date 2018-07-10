@@ -149,6 +149,78 @@
             </ul>
         </div>
     </div>
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h5>ONE AT A TIME WITH BAKGROUND</h5>
+            <ul class="list-unstyled accordion alternate-color one-open">
+                <li class="with-icon toggle">
+                    <div class="accordion-header p-3">
+                        <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
+                    </div>
+                    <div class="content">
+                        <p class="light-gray small p-3 mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </li>
+                <li class="with-icon toggle">
+                    <div class="accordion-header p-3">
+                        <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
+                    </div>
+                    <div class="content">
+                        <p class="light-gray small p-3 mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </li>
+                <li class="with-icon toggle">
+                    <div class="accordion-header p-3">
+                        <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
+                    </div>
+                    <div class="content">
+                        <p class="light-gray small p-3 mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h5>MULTIPLE OPEN WITH BAKGROUND</h5>
+            <ul class="list-unstyled accordion alternate-color multiple-open">
+                <li class="with-icon toggle">
+                    <div class="accordion-header p-3">
+                        <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
+                    </div>
+                    <div class="content">
+                        <p class="light-gray small p-3 mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </li>
+                <li class="with-icon toggle">
+                    <div class="accordion-header p-3">
+                        <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
+                    </div>
+                    <div class="content">
+                        <p class="light-gray small p-3 mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </li>
+                <li class="with-icon toggle">
+                    <div class="accordion-header p-3">
+                        <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
+                    </div>
+                    <div class="content">
+                        <p class="light-gray small p-3 mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
     <?php include_once '../../inc/footer.php';?>
 </div>
 </body>
