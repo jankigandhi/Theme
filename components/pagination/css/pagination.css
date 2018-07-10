@@ -1,6 +1,39 @@
-.pagination-circle {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%; }
+.pagination-1 .page-link {
+  color: #343a40;
+  width: 2.25rem;
+  height: 2.25rem;
+  text-align: center;
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  .pagination-1 .page-link:hover {
+    background-color: #dee2e6; }
+.pagination-1 .page-item.active .page-link {
+  color: #fff; }
+
+.pagination-primary .page-item.active .page-link {
+  background-color: #0088cc; }
+
+.pagination-secondary .page-item.active .page-link {
+  background-color: #6c757d; }
+
+.pagination-success .page-item.active .page-link {
+  background-color: #4caf50; }
+
+.pagination-info .page-item.active .page-link {
+  background-color: #17a2b8; }
+
+.pagination-warning .page-item.active .page-link {
+  background-color: #ffc107; }
+
+.pagination-danger .page-item.active .page-link {
+  background-color: #e36159; }
+
+.pagination-light .page-item.active .page-link {
+  background-color: #f8f9fa; }
+
+.pagination-dark .page-item.active .page-link {
+  background-color: #343a40; }
 
 /*# sourceMappingURL=pagination.css.map */

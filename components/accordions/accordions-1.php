@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/accordions.css">
 </head>
 <body>
+
 <div class="container">
     <h4 class="mt-4">Accordions</h4>
     <div class="row mb-4">
@@ -19,7 +20,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="with-icon active toggle mb-2">
+                <li class="with-icon toggle mb-2">
                     <div class="accordion-header p-3">
                         <h6 class="title mb-0 font-weight-bold text-uppercase">Toggle Information</h6>
                     </div>

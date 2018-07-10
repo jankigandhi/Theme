@@ -1,8 +1,53 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-.pagination-circle{
-		width:2rem;
-		height:2rem;
-		border-radius:50%;
+// .pagination-circle {
+//     width: 2rem;
+//     height: 2rem;
+//     border-radius: 50%;
+// }
+// .custom-page-item {
+//     &:last-child,&:first-child {
+//         .page-link {
+//             /* border-top-right-radius: 0.25rem; */
+//             /* border-bottom-right-radius: 0.25rem; */
+//             border-radius: 50%;
+//         }
+//     }
+// }
+//new
+@mixin pagination-color($active-background: $color) {
+    .page-item {
+        &.active {
+            .page-link {
+                background-color: $active-background;
+            }
+        }
+    }
+}
+
+.pagination-1 {
+    .page-link {
+        color: $gray-800;
+        @include size(2.25rem);
+        text-align: center;
+        @include transition (.3s all linear);
+        &:hover {
+            background-color: $gray-300;
+        }
+    }
+    .page-item {
+        &.active {
+            .page-link {
+                color: $white;
+            }
+        }
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    .pagination-#{$color} {
+        @include pagination-color($value);
+    }
 }
