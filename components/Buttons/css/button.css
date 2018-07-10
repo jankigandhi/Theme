@@ -36,11 +36,13 @@
     transition: all 0.3s linear;
     content: '';
     position: absolute;
-    z-index: -1;
     width: 100%;
     top: 0;
     left: 0;
     height: 0; }
+  .btn-effect span {
+    z-index: 1;
+    position: relative; }
   .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
     background-color: transparent !important; }
     .btn-effect:hover:after, .btn-effect:focus:after, .btn-effect:active:after {
@@ -135,7 +137,8 @@
     margin-left: .3125rem; }
 
 .btn-effect-3 {
-  overflow: hidden; }
+  overflow: hidden;
+  padding: .75rem 3rem; }
   .btn-effect-3 .btn-icon {
     left: 0;
     position: absolute;

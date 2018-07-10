@@ -24,13 +24,27 @@
   <div class="py-4">
     <h4>Hover effects</h4>
     <div class="py-3">
-      <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn-effect btn-min-w btn-thick rounded-0 btn btn-outline-secondary">Secondary</button>
-      <button type="button" class="btn-effect btn-min-w effect-1 btn-thick rounded-0 btn btn-outline-success">Success</button>
-      <button type="button" class="btn-effect btn-min-w effect-2 btn-thick rounded-0 btn btn-outline-danger">Danger</button>
-      <button type="button" class="btn-effect btn-min-w effect-3 btn-thick rounded-0 btn btn-outline-warning">Warning</button>
-      <button type="button" class="btn-effect btn-min-w effect-4 btn-thick rounded-0 btn btn-outline-info">Info</button>
-      <button type="button" class="btn-effect btn-min-w effect-5 btn-thick rounded-0 btn btn-outline-dark">Dark</button>
+      <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-primary">
+        Primary
+      </button>
+      <button type="button" class="btn-effect btn-min-w btn-thick rounded-0 btn btn-outline-secondary">
+        <span>Secondary</span>
+      </button>
+      <button type="button" class="btn-effect btn-min-w effect-1 btn-thick rounded-0 btn btn-outline-success">
+        <span>Success</span>
+      </button>
+      <button type="button" class="btn-effect btn-min-w effect-2 btn-thick rounded-0 btn btn-outline-danger">
+        <span>Danger</span>
+      </button>
+      <button type="button" class="btn-effect btn-min-w effect-3 btn-thick rounded-0 btn btn-outline-warning">
+        <span>Warning</span>
+      </button>
+      <button type="button" class="btn-effect btn-min-w effect-4 btn-thick rounded-0 btn btn-outline-info">
+        <span>Info</span>
+      </button>
+      <button type="button" class="btn-effect btn-min-w effect-5 btn-thick rounded-0 btn btn-outline-dark">
+        <span>Dark</span>
+      </button>
     </div>
   </div>
   <!-- Effect-2 -->

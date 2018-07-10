@@ -27,6 +27,9 @@
         <li>
           <a href="components/card/card-1.php" target="_blank">Cards</a>
         </li>
+        <li>
+          <a href="components/accordions/accordions-1.php" target="_blank">Accordions</a>
+        </li>
       </ul>
     </div>
   </body>
