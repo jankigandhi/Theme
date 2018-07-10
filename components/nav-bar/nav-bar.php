@@ -1,10 +1,11 @@
 <?php include_once '../../inc/head.php';?>
+<link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
 </head>
 <body>
-<!-- <div>
+<div>
 	<div class="line-height">
-		<div class="site-header w-100">
+		<div class="site-header header-transperent w-100">
 			<div class="header-menu">
 				<h1 class="site-logo mb-0 mt-1 float-left">
 				<a href="">Logo</a>
@@ -42,10 +43,10 @@
 			<h1 class="transforam-text">Transform</h1>
 		</div>
 	</div>
-</div> -->
+</div>
 <div>
 	<div class="line-height">
-		<div class="site-header header-transperent w-100">
+		<div class="site-header bg-dark w-100">
 			<div class="header-menu">
 				<h1 class="site-logo mb-0 mt-1 float-left">
 				<a href="">Logo</a>

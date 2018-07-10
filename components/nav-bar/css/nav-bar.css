@@ -14,11 +14,15 @@
     top: 0;
     z-index: 999;
     background-color: transparent; }
-    .site-header.header-transperent .menu-bar a,
-    .site-header.header-transperent .site-logo a {
-      color: #fff; }
+    .site-header.header-transperent .menu-bar,
+    .site-header.header-transperent .site-logo {
+      line-height: 1; }
+      .site-header.header-transperent .menu-bar a,
+      .site-header.header-transperent .site-logo a {
+        color: #fff; }
   .site-header .site-logo {
-    font-size: .5rem; }
+    font-size: .5rem;
+    line-height: 1; }
     .site-header .site-logo a {
       color: #6c757d;
       text-decoration: none;
