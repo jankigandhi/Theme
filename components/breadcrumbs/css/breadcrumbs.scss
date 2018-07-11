@@ -1,143 +1,73 @@
-@import "../../../css/scss/functions";
-@import "../../../css/scss/variables";
-@import "../../../css/scss/mixins";
+ @import "../../../css/scss/functions";
+ @import "../../../css/scss/variables";
+ @import "../../../css/scss/mixins";
+
+ @mixin breadcrumbs-color($active-background: $color) {
+     background-color: $active-background;
+     &:before {
+         border-top: 25px solid $active-background;
+         border-bottom: 25px solid $active-background;
+     }
+     &:after {
+         border-left: 25px solid $active-background;
+     }
+     &:hover,
+     &.active {
+         background-color: darken($active-background, 10%);
+         &:before {
+             border-top: 25px solid darken($active-background, 10%);
+             border-bottom: 25px solid darken($active-background, 10%);
+         }
+         &:after {
+             border-left: 25px solid darken($active-background, 10%);
+         }
+     }
+ }
 
 
-/* .ribbon li {
-  height: 50px;
-  line-height: 50px;
-  width: 150px;
-  background: orange;
-  font-size: 18px;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-  &::before {
-    content: '';
-    border-left: 25px solid transparent;
-    border-top: 25px solid orange;
-    border-bottom: 25px solid orange;
-    border-right: 0;
-    position: absolute;
-    left: -25px;
-  }
-  &::after {
-    content: '';
-    border-left: 25px solid orange;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-right: 0;
-    position: absolute;
-    right: -25px;
-  }
-  &:hover {
-    background: tomato;
-  }
-}
 
-li.active {
-  background: tomato;
-  &::before {
-    border-left: 25px solid transparent;
-    border-top: 25px solid tomato;
-    border-bottom: 25px solid tomato;
-  }
-}
+ .ribbon {
 
-.ribbon li:hover::before {
-  border-left: 25px solid transparent;
-  border-top: 25px solid tomato;
-  border-bottom: 25px solid tomato;
-}
+     li {
+         @each $color,
+         $value in $theme-colors {
+             &.breadcrumbs-#{$color} {
+                 @include breadcrumbs-color($value);
+             }
+         }
 
-li.active::after, .ribbon li:hover::after {
-  border-left: 25px solid tomato;
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-} */
-//
-.ribbon li {
-    height: 50px;
-    line-height: 50px;
-    width: 150px;
-    font-size: 18px;
-    position: relative;
-    cursor: pointer;
-    &:before {
-        content: '';
-        border-left: 25px solid transparent;
-        border-right: 0;
-        position: absolute;
-        left: -25px;
-    }
-    &:after {
-        content: '';
-        border-top: 25px solid transparent;
-        border-bottom: 25px solid transparent;
-        border-right: 0;
-        position: absolute;
-        right: -25px;
-    }
-    /* &:hover {
-        background: tomato;
-    } */
-}
-
-li.active {
-    //background: tomato;
-    &::before {
-        border-left: 25px solid transparent;
-    }
-}
-
-.ribbon li:hover::before {
-    border-left: 25px solid transparent;
-}
-
-li.active::after,
-.ribbon li:hover::after {
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-}
-
-@mixin breadcrumbs-color($active-background: $color) {
-    .ribbon li {
-        background: $active-background;
-        &:before {
-            border-top: 25px solid $active-background;
-            border-bottom: 25px solid $active-background;
-        }
-        &:after {
-            content: '';
-            border-left: 25px solid $active-background;
-        }
-        &:hover {
-            background: $active-background;
-        }
-    }
-
-    li.active {
-        background: darken($active-background, 10%);
-        &::before {
-            border-top: 25px solid darken($active-background, 10%);
-            border-bottom: 25px solid darken($active-background, 10%);
-        }
-    }
-
-    .ribbon li:hover::before {
-        border-top: 25px solid darken($active-background, 10%);
-        border-bottom: 25px solid darken($active-background, 10%);
-    }
-
-    li.active::after,
-    .ribbon li:hover::after {
-        border-left: 25px solid darken($active-background, 10%);
-    }
-}
-
-@each $color,
-$value in $theme-colors {
-    .bg-#{$color} {
-        @include breadcrumbs-color($value);
-    }
-}
+         height: 50px;
+         line-height: 50px;
+         width: 150px;
+         font-size: 18px;
+         position: relative;
+         cursor: pointer;
+         @include transition(all .3s linear);
+         &:before,&:after {
+             content: '';
+             border-right: 0;
+             position: absolute;
+            @include transition(all .3s linear);
+         }
+         &:before {
+             border-left: 25px solid transparent;
+             left: -25px;
+         }
+         &:after {
+             border-top: 25px solid transparent;
+             border-bottom: 25px solid transparent;
+             right: -25px;
+         }
+         &:hover,
+         &.active {
+             &:before {
+                 border-left: 25px solid transparent; 
+             }
+             &:after {
+                 // border-left: 25px solid tomato;
+                 border-top: 25px solid transparent;
+                 border-bottom: 25px solid transparent;
+             }
+         }
+     }
+ }
