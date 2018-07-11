@@ -4,7 +4,7 @@
 </head>
 <body>
 	<header class="line-height">
-		<!-- <div class="nav-utility w-100 d-inline-block px-4 py-2">
+		<div class="nav-utility w-100 d-inline-block px-4 py-2">
 			<div class="navigation float-left">
 				<i class="zmdi zmdi-gps-dot"></i>
 				<span>68 Cardamon Place, Melbourne Vic 3000</span>
@@ -17,18 +17,18 @@
 				<button class="btn btn-outline-success rounded-0 px-3 text-uppercase btn-sm">Try Builder</button>
 				<button class="btn btn-success rounded-0 px-3 text-uppercase btn-sm">Buy Now</button>
 			</div>
-		</div> -->
-		<div class="site-header header-transperent w-100">
+		</div>
+		<div class="site-header bg white w-100">
 			<div class="header-menu">
 				<p class="site-logo mb-0 px-4  py-1 line-height float-left">
 					<a href="#" class="text-uppercase">Logo</a>
 				</p>
-				<div class="site-link float-right">
+				<div class="site-link open float-right">
 					<div class="float-left">
-						<ul class="menu-bar top list-unstyled mb-0 px-5">
+						<ul class="menu-bar top togal-up list-unstyled mb-0 px-5 px-md-0">
 							<li class="p-3">
 								<a href="#" class="text-uppercase">Home</a>
-								<ul class="sub-menu list-unstyled px-3">
+								<ul class="sub-menu togal-up list-unstyled px-3 px-md-0">
 									<li>
 										<ul class="list-unstyled">
 											<li class="p-2">
@@ -184,7 +184,7 @@
 									</li>
 								</ul>
 							</li>
-							<li class="p-3">
+							<!-- <li class="p-3">
 								<a href="#" class="text-uppercase">Elements</a>
 								<ul class="sub-menu list-unstyled px-3">
 									<li>
@@ -344,7 +344,7 @@
 										</ul>
 									</li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 					<div class="float-left">
@@ -355,15 +355,31 @@
 						</div>
 					</div>
 					<div class="float-left">
-						<div class="search-icon p-3">
+						<div class="shopping-icon p-3">
 							<span class="search align-middle">
 								<i class="zmdi zmdi-shopping-cart"></i>
 							</span>
 						</div>
 					</div>
 					<div class="float-left">
-						<div class="search-icon p-3">
-							<a href="#" class="text-uppercase mb-0">Eng</a>
+						<div class="search-icon">
+							<ul class="menu-bar top list-unstyled mb-0">
+								<li class="p-3">
+								<a href="#" class="text-uppercase">Eng</a>
+								<ul class="sub-menu spacing list-unstyled px-3">
+									<li>
+										<ul class="list-unstyled">
+											<li class="p-2">
+												<a href="#" class="text-uppercase">French</a>
+											</li>
+											<li class="p-2">
+												<a href="#" class="text-uppercase">Deutsch</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -380,3 +396,213 @@
 	</main>
 </body>
 </html>
+
+<!-- //css add -->
+
+// body {
+//     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// }
+
+.line-height {
+    line-height: 1;
+}
+
+.nav-utility {
+    line-height: 43px;
+    overflow: hidden;
+    .navigation,
+    .mail {
+        font-size: .8rem;
+    }
+}
+
+.site-header {
+    height: 3rem;
+    position: relative;
+    z-index: 11;
+    border-top: 1px solid $gray-300;
+    .header-menu {
+        height: 3rem; //background-color: $gray-900;
+        border-bottom: 1px solid $gray-300;
+    }
+    &.header-transperent {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999;
+        background-color: transparent;
+        .menu-bar,
+        .site-logo {
+            line-height: 1;
+            a {
+                color: $white;
+            }
+        }
+    }
+    .site-logo {
+        a {
+            color: $gray-600;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+    }
+    .menu-bar {
+        li {
+            display: inline-block;
+            a {
+                color: $gray-500;
+                text-decoration: none;
+                font-size: .75rem;
+            }
+            &:hover {
+                .sub-menu {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translate3d(0, 0px, 0);
+                }
+            }
+        }
+        .sub-menu {
+            width: auto;
+            white-space: nowrap;
+            line-height: 24px;
+            background: $black;
+            position: absolute;
+            z-index: 99;
+            opacity: 0;
+            transition: all 0.3s ease;
+            transform: translate3d(0, 10px, 0);
+            visibility: hidden;
+            margin-top: 16px;
+            ul {
+                li {
+                    display: block;
+                    width: 150px;
+                    display: none;
+                }
+            }
+            &.spacing {
+                right: 0;
+            }
+        }
+    }
+    .bar-icon {
+        display: none;
+    }
+    .search-icon,
+    .shopping-icon {
+        border-left: 1px solid $gray-300;
+        height: 48px;
+        cursor: pointer;
+        .text {
+            font-size: .75px;
+        }
+        .text-div {
+            color: $gray-500;
+            text-decoration: none;
+        }
+        .search {
+            font-size: 20px;
+            opacity: .5;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+.banner-image {
+    @include img-inbg;
+    padding-bottom: 40%;
+    .transforam-text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        @include transform(translate(-50%, -50%));
+    }
+}
+
+
+@include media-breakpoint-down(md) {
+    .site-header {
+        &.header-transperent {
+            .bar-icon {
+                a {
+                    color: $white;
+                }
+            }
+        }
+        .header-menu {
+            z-index: 9;
+            background-color: $white;
+        }
+
+        .menu-bar {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .3s all linear;
+
+            &.top {
+                margin-top: 3rem;
+                left: 0;
+                right: 0;
+                @include transform(translateY(-200%));
+                z-index: -1;
+                background-color: $black;
+            }
+            &.togal-up {
+                ul {
+                    display: block;
+                }
+            }
+            li {
+                display: block;
+            }
+            .sub-menu {
+                ul {
+                    display: none;
+                    li {
+                        display: block;
+                    }
+                }
+                position: relative;
+                opacity: 1;
+                visibility: visible;
+                display: none;
+                @include transform(translate3d(0, 0px, 0));
+                li {
+                    line-height: 24px;
+                    float: none;
+                    display: block;
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+        .bar-icon {
+            display: inline-block;
+            float: right;
+            font-size: 2rem;
+            a {
+                color: $gray-600;
+                text-decoration: none;
+            }
+        }
+        .search-icon,
+        .shopping-icon {
+            display: none;
+        }
+    }
+    .nav-utility {
+        z-index: 9;
+        background-color: $white;
+        overflow: hidden;
+    }
+    .site-link {
+        &.open {
+            .menu-bar {
+                transform: none;
+            }
+        }
+    }
+}
