@@ -30,6 +30,9 @@
         <li>
           <a href="components/accordions/accordions-1.php" target="_blank">Accordions</a>
         </li>
+        <li>
+          <a href="components/pagination/pagination-1.php" target="_blank">Pagination</a>
+        </li>
       </ul>
     </div>
   </body>
