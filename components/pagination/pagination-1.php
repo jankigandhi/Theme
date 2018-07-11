@@ -4,6 +4,7 @@
 </head>
 <body>
 <div class="container my-4">
+    <h1 class="h2 text-center mt-3">Pagination</h1>
     <div class="mb-5">
         <h3 class="mb-3">Style-1</h3>
         <div class="row">
@@ -80,7 +81,6 @@
                 </nav>
             </div>
         </div>
-        
     </div>
     <div class="mb-5">
         <h3 class="mb-3">Style-2</h3>

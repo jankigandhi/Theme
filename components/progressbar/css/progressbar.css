@@ -1,80 +1,3 @@
-.progress-1 {
-  height: 32px; }
-
-.progress-bar-section .progress-status,
-.progress-bar-section .score-line {
-  border-radius: 1.25em; }
-.progress-bar-section .progress-status {
-  background-color: #adb5bd; }
-.progress-bar-section .score-line {
-  -moz-transition: 0.3s all linear;
-  -o-transition: 0.3s all linear;
-  -webkit-transition: 0.3s all linear;
-  transition: 0.3s all linear; }
-
-.progress-section .custom-progress {
-  overflow: visible;
-  height: 16px; }
-  .progress-section .custom-progress .progress-bar {
-    background-color: #0088cc;
-    position: relative;
-    border-radius: 4px;
-    -moz-transition: 0.3s all linear;
-    -o-transition: 0.3s all linear;
-    -webkit-transition: 0.3s all linear;
-    transition: 0.3s all linear;
-    animation: progressive-bar 4s; }
-    .progress-section .custom-progress .progress-bar span {
-      position: absolute;
-      bottom: -20px;
-      line-height: 10px;
-      padding: 2px 3px 2px 4px;
-      right: -1.4em;
-      border-radius: 2px;
-      animation: fade-in 4s forwards;
-      animation-delay: 4s;
-      opacity: 0; }
-      .progress-section .custom-progress .progress-bar span:after {
-        bottom: 100%;
-        left: 50%;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-        border-color: rgba(255, 255, 255, 0);
-        border-bottom-color: #0088cc;
-        border-width: 5px;
-        margin-left: -5px; }
-@keyframes progressive-bar {
-  0% {
-    width: 0; } }
-@keyframes fade-in {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-.demo-circle .progress-circle {
-  -moz-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg); }
-.demo-circle .progress-value {
-  stroke-dasharray: 339.292;
-  stroke-dashoffset: 339.292;
-  animation: progress-demo 2s forwards; }
-@-webkit-keyframes progress-demo {
-  from {
-    stroke-dashoffset: 339.292; }
-  to {
-    stroke-dashoffset: 226.292; } }
-@keyframes progress {
-  from {
-    stroke-dashoffset: 339.292; }
-  to {
-    stroke-dashoffset: 226.292; } }
 .bg-primary {
   stroke: #0088cc; }
 
@@ -98,5 +21,117 @@
 
 .bg-dark {
   stroke: #343a40; }
+
+.progress-rounded {
+  border-radius: 1.25rem; }
+
+.progress-horizontal-bar {
+  background-color: #e9ecef; }
+  .progress-horizontal-bar .bar {
+    position: relative;
+    -moz-transition: 0.2s linear all;
+    -o-transition: 0.2s linear all;
+    -webkit-transition: 0.2s linear all;
+    transition: 0.2s linear all;
+    -webkit-animation: skillbar 3s linear forwards;
+    -moz-animation: skillbar 3s linear forwards;
+    -o-animation: skillbar 3s linear forwards;
+    animation: skillbar 3s linear forwards; }
+    .progress-horizontal-bar .bar span {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-bottom: -1.875rem;
+      -webkit-animation: barvalue 1s linear forwards;
+      -moz-animation: barvalue 1s linear forwards;
+      -o-animation: barvalue 1s linear forwards;
+      animation: barvalue 1s linear forwards;
+      animation-delay: 3s;
+      opacity: 0; }
+
+.circular-progress-bar {
+  position: relative;
+  display: inline-block; }
+  .circular-progress-bar:after {
+    position: absolute;
+    font-weight: 600;
+    text-align: center;
+    color: #adb5bd;
+    font-size: 1.5rem;
+    width: 100%;
+    left: 0;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    content: attr(data-percent) "%";
+    top: 50%; }
+  .circular-progress-bar .circle {
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+    .circular-progress-bar .circle .progress-meter,
+    .circular-progress-bar .circle .progress-value {
+      fill: none; }
+    .circular-progress-bar .circle .progress-meter {
+      stroke: #e9ecef; }
+    .circular-progress-bar .circle .progress-value {
+      stroke-linecap: round;
+      -moz-transition: 0.3s all linear;
+      -o-transition: 0.3s all linear;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear;
+      -webkit-animation: lefttoright 3s linear forwards;
+      -moz-animation: lefttoright 3s linear forwards;
+      -o-animation: lefttoright 3s linear forwards;
+      animation: lefttoright 3s linear forwards; }
+
+@-webkit-keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@-moz-keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@-o-keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@-webkit-keyframes skillbar {
+  0% {
+    width: 0%; } }
+@-moz-keyframes skillbar {
+  0% {
+    width: 0%; } }
+@-o-keyframes skillbar {
+  0% {
+    width: 0%; } }
+@keyframes skillbar {
+  0% {
+    width: 0%; } }
+@-webkit-keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=progressbar.css.map */
