@@ -1,7 +1,6 @@
 .pagination-1 .page-link {
   color: #343a40;
-  width: 2.25rem;
-  height: 2.25rem;
+  padding: .5rem .839rem;
   text-align: center;
   -moz-transition: 0.3s all linear;
   -o-transition: 0.3s all linear;
@@ -13,27 +12,35 @@
   color: #fff; }
 
 .pagination-primary .page-item.active .page-link {
-  background-color: #0088cc; }
+  background-color: #0088cc;
+  border-color: #0088cc; }
 
 .pagination-secondary .page-item.active .page-link {
-  background-color: #6c757d; }
+  background-color: #6c757d;
+  border-color: #6c757d; }
 
 .pagination-success .page-item.active .page-link {
-  background-color: #4caf50; }
+  background-color: #4caf50;
+  border-color: #4caf50; }
 
 .pagination-info .page-item.active .page-link {
-  background-color: #17a2b8; }
+  background-color: #17a2b8;
+  border-color: #17a2b8; }
 
 .pagination-warning .page-item.active .page-link {
-  background-color: #ffc107; }
+  background-color: #ffc107;
+  border-color: #ffc107; }
 
 .pagination-danger .page-item.active .page-link {
-  background-color: #e36159; }
+  background-color: #e36159;
+  border-color: #e36159; }
 
 .pagination-light .page-item.active .page-link {
-  background-color: #f8f9fa; }
+  background-color: #f8f9fa;
+  border-color: #f8f9fa; }
 
 .pagination-dark .page-item.active .page-link {
-  background-color: #343a40; }
+  background-color: #343a40;
+  border-color: #343a40; }
 
 /*# sourceMappingURL=pagination.css.map */
