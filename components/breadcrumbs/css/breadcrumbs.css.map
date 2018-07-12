@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAKI,sDAAS;EACP,OAAO,EAAE,MAAM;;AAMjB,4DAAS;EACP,OAAO,EAAE,OAAO;;AAMlB,4DAAS;EACP,OAAO,EAAE,OAAO;;AAMlB,4DAAS;EACP,OAAO,EAAE,OAAO",
+"sources": ["breadcrumbs.scss"],
 "names": [],
 "file": "breadcrumbs.css"
 }

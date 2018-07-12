@@ -1,8 +1,32 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-
-
-
-
+.breadcrumb {
+  .breadcrumb-item + .breadcrumb-item {
+    &:before {
+      padding: 0 1rem;
+    }
+  }
+}
+.breadcrumb-type2 {
+  .breadcrumb-item + .breadcrumb-item  {
+    &:before {
+      content: "\2192";
+    }
+  }
+}
+.breadcrumb-type3 {
+  .breadcrumb-item + .breadcrumb-item  {
+    &:before {
+      content: "\203A";
+    }
+  }
+}
+.breadcrumb-type4 {
+  .breadcrumb-item + .breadcrumb-item  {
+    &:before {
+      content: "\00bb";
+    }
+  }
+}
 
