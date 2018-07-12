@@ -1,0 +1,87 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+@mixin process-color($active-background: $color) {
+    .rounded-box {
+        background-color: $active-background;
+        border-color: $active-background;
+    }
+
+    .step-label {
+        color: $active-background;
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    .process-#{$color} {
+        .active {
+            @include process-color($value);
+        }
+    }
+}
+
+$box-size: 3.25rem;
+.process-steps {
+    .rounded-box {
+        @include size($box-size);
+        background-color: $white;
+        border: 1px solid $gray-700;
+        color: $gray-700;
+        font-size: $box-size/2;
+        line-height: $box-size;
+    }
+    .steps {
+        float: left;
+        width: 100%;
+        position: relative;
+        &.active {
+            .rounded-box {
+                color: $white;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    @for $i from 2 through 5 {
+        $width: percentage(1 / $i);
+        .process-steps-#{$i} {
+            .steps {
+                width: $width;
+                &:before,
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    margin: -1rem 0 0 -#{$box-size/2};
+                    width: 50%;
+                    border-top: 1px dashed $gray-300;
+                }
+                &:after {
+                    left: auto;
+                    right: 0;
+                    margin: -1rem -#{$box-size/2} 0 0;
+                }
+                &:first-child {
+                    &:before {
+                        display: none;
+                    }
+                }
+                &:last-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .process-steps {
+        border-bottom: 1px dashed $gray-300;
+    }
+}
