@@ -27,7 +27,7 @@
 					<h4 class="text-white mt-2 px-3 text-uppercase">logo</h4>
 				</a>
 			</div>
-			<div class="module widget-handle mobile-toggle float-right active toggle-widget-handle">
+			<div class="module widget-handle mobile-toggle float-right active d-lg-none toggle-widget-handle">
 				<i class="zmdi zmdi-menu"></i>
 			</div>
 			<div class="module-group float-right">
