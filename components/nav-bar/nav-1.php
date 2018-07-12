@@ -6,7 +6,7 @@
 <body>
 <div class="nav-container mw-100 bg-dark">
 	<a id="top"></a>
-	<nav class="transparent absolute">
+	<nav class="bg-dark">
 		<div class="nav-utility">
 			<div class="module float-left">
 				<i class="zmdi zmdi-gps-dot"></i>
