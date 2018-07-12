@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-6">
                 <nav>
-                    <ul class="pagination pagination-info">
+                    <ul class="pagination pagination-info mb-4">
                         <li class="page-item disabled">
                             <a class="page-link" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -29,7 +29,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <ul class="pagination pagination-success">
+                    <ul class="pagination pagination-success mb-4">
                         <li class="page-item disabled">
                             <a class="page-link" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-md-6">
                 <nav>
-                    <ul class="pagination pagination-info">
+                    <ul class="pagination pagination-info mb-4">
                         <li class="page-item disabled">
                             <a class="page-link" href="#" tabindex="-1">Previous</a>
                         </li>
@@ -65,7 +65,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <ul class="pagination pagination-dark">
+                    <ul class="pagination pagination-dark mb-4">
                         <li class="page-item disabled">
                             <a class="page-link" href="#" tabindex="-1">Previous</a>
                         </li>
@@ -87,7 +87,7 @@
         <div class="row">
             <div class="col-md-6">
                 <nav>
-                    <ul class="pagination pagination-1 pagination-success">
+                    <ul class="pagination pagination-1 pagination-success mb-4">
                         <li class="page-item disabled px-2">
                             <a class="page-link border-0 rounded" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -106,7 +106,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <ul class="pagination pagination-1 pagination-danger">
+                    <ul class="pagination pagination-1 pagination-danger mb-4">
                         <li class="page-item disabled px-2">
                             <a class="page-link border-0 rounded" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -125,7 +125,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <ul class="pagination pagination-1 pagination-dark">
+                    <ul class="pagination pagination-1 pagination-dark mb-4">
                         <li class="page-item disabled px-2">
                             <a class="page-link border-0 rounded" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -146,7 +146,7 @@
             </div>
             <div class="col-md-6">
                 <nav>
-                    <ul class="pagination pagination-1 pagination-success">
+                    <ul class="pagination pagination-1 pagination-success mb-4">
                         <li class="page-item disabled px-2">
                             <a class="page-link border-0 rounded-circle" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -165,7 +165,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <ul class="pagination pagination-1 pagination-danger">
+                    <ul class="pagination pagination-1 pagination-danger mb-4">
                         <li class="page-item disabled px-2">
                             <a class="page-link border-0 rounded-circle" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -184,7 +184,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <ul class="pagination pagination-1 pagination-dark">
+                    <ul class="pagination pagination-1 pagination-dark mb-4">
                         <li class="page-item disabled px-2">
                             <a class="page-link border-0 rounded-circle" href="#">
                                 <span aria-hidden="true">&laquo;</span>
@@ -202,10 +202,8 @@
                         </li>
                     </ul>
                 </nav>
-                
             </div>
         </div>
-        
     </div>
 </div>
 </body>
