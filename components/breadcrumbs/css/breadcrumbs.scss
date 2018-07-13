@@ -1,73 +1,32 @@
- @import "../../../css/scss/functions";
- @import "../../../css/scss/variables";
- @import "../../../css/scss/mixins";
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.breadcrumb {
+  .breadcrumb-item + .breadcrumb-item {
+    &:before {
+      padding: 0 1rem;
+    }
+  }
+}
+.breadcrumb-type2 {
+  .breadcrumb-item + .breadcrumb-item  {
+    &:before {
+      content: "\2192";
+    }
+  }
+}
+.breadcrumb-type3 {
+  .breadcrumb-item + .breadcrumb-item  {
+    &:before {
+      content: "\203A";
+    }
+  }
+}
+.breadcrumb-type4 {
+  .breadcrumb-item + .breadcrumb-item  {
+    &:before {
+      content: "\00bb";
+    }
+  }
+}
 
- @mixin breadcrumbs-color($active-background: $color) {
-     background-color: $active-background;
-     &:before {
-         border-top: 25px solid $active-background;
-         border-bottom: 25px solid $active-background;
-     }
-     &:after {
-         border-left: 25px solid $active-background;
-     }
-     &:hover,
-     &.active {
-         background-color: darken($active-background, 10%);
-         &:before {
-             border-top: 25px solid darken($active-background, 10%);
-             border-bottom: 25px solid darken($active-background, 10%);
-         }
-         &:after {
-             border-left: 25px solid darken($active-background, 10%);
-         }
-     }
- }
-
-
-
- .ribbon {
-
-     li {
-         @each $color,
-         $value in $theme-colors {
-             &.breadcrumbs-#{$color} {
-                 @include breadcrumbs-color($value);
-             }
-         }
-
-         height: 50px;
-         line-height: 50px;
-         width: 150px;
-         font-size: 18px;
-         position: relative;
-         cursor: pointer;
-         @include transition(all .3s linear);
-         &:before,&:after {
-             content: '';
-             border-right: 0;
-             position: absolute;
-            @include transition(all .3s linear);
-         }
-         &:before {
-             border-left: 25px solid transparent;
-             left: -25px;
-         }
-         &:after {
-             border-top: 25px solid transparent;
-             border-bottom: 25px solid transparent;
-             right: -25px;
-         }
-         &:hover,
-         &.active {
-             &:before {
-                 border-left: 25px solid transparent; 
-             }
-             &:after {
-                 // border-left: 25px solid tomato;
-                 border-top: 25px solid transparent;
-                 border-bottom: 25px solid transparent;
-             }
-         }
-     }
- }
