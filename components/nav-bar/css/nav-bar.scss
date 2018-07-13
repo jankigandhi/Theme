@@ -2,6 +2,10 @@
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
 
+body {
+    overflow-x: hidden;
+}
+
 .nav-container {
     -webkit-backface-visibility: hidden;
     max-width: 100%;
@@ -128,7 +132,7 @@ nav.bg-dark {
     .menu {
         >li {
             >a {
-               color: rgba($white, .7);
+                color: rgba($white, .7);
             }
         }
     }
@@ -165,7 +169,8 @@ nav.bg-dark {
         text-transform: none;
     }
     &:hover {
-        >ul ,.mega-menu ul{
+        >ul,
+        .mega-menu ul {
             opacity: 1;
             @include transform (translate3d(0, 0px, 0));
             visibility: visible;
@@ -183,7 +188,7 @@ nav.bg-dark {
             text-transform: uppercase;
             font-weight: 600;
             letter-spacing: 1px;
-            color:  $gray-800;
+            color: $gray-800;
             opacity: 0.5;
             transition: all 0.3s ease;
             max-width: 100%;
@@ -262,8 +267,8 @@ nav.bg-dark {
         &:hover {
             >ul {
                 opacity: 1;
-               @include transform (translate3d(0, 0px, 0));
-               visibility: visible;
+                @include transform (translate3d(0, 0px, 0));
+                visibility: visible;
             }
         }
     }
@@ -291,7 +296,8 @@ nav.bg-dark {
         letter-spacing: 1px;
         color: $white;
         display: inline-block;
-        padding:.375rem 1.5rem;;
+        padding: .375rem 1.5rem;
+        ;
         text-transform: uppercase;
         font-size: .6875rem;
         font-weight: 600;
@@ -351,7 +357,7 @@ nav.bg-dark {
         box-shadow: 0px 0px .625rem 0px rgba(0, 0, 0, 0.2);
         cursor: default;
         width: 12.5rem;
-        background:  $gray-800;
+        background: $gray-800;
         position: absolute;
         z-index: 99;
         opacity: 0;
@@ -385,6 +391,8 @@ nav.bg-dark {
         input {
             margin: 0;
             font-size: 1rem;
+            background-color: $gray-200;
+            text-align: center;
         }
     }
 }
@@ -393,9 +401,9 @@ nav.bg-dark {
     .function {
         width: auto;
         background: $white;
-        // span {
-        //     color: #222 !important;
-        // }
+        span {
+            color: #222 !important;
+        }
     }
 }
 
@@ -460,24 +468,20 @@ nav.bg-dark {
 
 .main-container.reveal-nav {
     @include transform (translate3d(-50%, 0, 0));
-    
 }
 
 .offscreen-left {
     .offscreen-container {
         @include transform (translate3d(-50%, 0, 0));
-    
     }
     .offscreen-container.reveal-nav {
         @include transform (translate3d(0%, 0, 0));
-    
     }
     .main-container.reveal-nav {
         @include transform (translate3d(50%, 0, 0));
     }
     nav.reveal-nav {
         @include transform (translate3d(50%, 0, 0));
-    
     }
 }
 
@@ -491,13 +495,11 @@ nav.bg-dark {
 
 nav.outOfSight {
     @include transform (translate3d(0, -12.5rem, 0));
-    
 }
 
 nav.scrolled {
     @inclide transform (translate3d(0, 0px, 0));
     transition: all 0.3s ease;
-
 }
 
 nav.fixed {
@@ -588,9 +590,10 @@ nav.transparent.fixed {
     }
     .module.widget-handle {
         i {
-             color: rgba($gray-500, .5);
+            color: rgba($gray-500, .5);
         }
-        border-left: 1px solid $gray-100;
+        border-left: 1px solid rgba($white, .2);
+        ;
     }
 }
 
@@ -635,8 +638,7 @@ nav.nav-centered.outOfSight {
         width: 100vw;
     }
     .offscreen-container.reveal-nav {
-       @include transform (translate3d(0vw, 0, 0));
-       
+        @include transform (translate3d(0vw, 0, 0));
     }
     .main-container.reveal-nav {
         transform: none !important;
@@ -648,7 +650,6 @@ nav.nav-centered.outOfSight {
     }
     nav.outOfSight {
         @include transform (translate3d(0, 0px, 0));
-        
     }
     .nav-bar {
         height: auto;
@@ -708,11 +709,11 @@ nav.nav-centered.outOfSight {
                 visibility: visible;
                 display: none;
                 @include transform (translate3d(0, 0px, 0));
-                
+
                 >.has-dropdown {
-                    // &:after {
-                    //     content: "\e64b";
-                    // }
+                    &:after {
+                        content: "\e64b";
+                    }
                 }
                 >li {
                     >ul {
@@ -767,8 +768,9 @@ nav.nav-centered.outOfSight {
         }
     }
     .module.widget-handle {
-        // border-left: none;
-        border-top: 1px solid $gray-100;
+        border-left: none;
+        border-top: 1px solid rgba($white, .2);
+        ;
         line-height: 2.5rem;
         min-height: 2.5rem;
         .menu {
@@ -806,6 +808,7 @@ nav.nav-centered.outOfSight {
                 font-size: .75rem;
                 line-height: 1.375rem;
                 top: 1.125rem;
+                background-color: $green;
             }
         }
     }
@@ -815,8 +818,8 @@ nav.nav-centered.outOfSight {
         }
     }
     .mobile-toggle {
-        // border-left: 1px solid $gray-100;
-        // border-bottom: none !important;
+        border-left: 1px solid rgba($white, .2);
+        border-bottom: none !important;
         i {
             line-height: 3.3125rem !important;
         }
@@ -827,14 +830,14 @@ nav.nav-centered.outOfSight {
     }
     nav.bg-dark {
         .module.widget-handle {
-            // border-top: 1px solid $gray-100;
+            border-top: 1px solid rgba($white, .2);
         }
         .mobile-toggle {
-            // border-left: 1px solid $gray-100;
+            border-left: 1px solid rgba($white, .2);
         }
         .nav-open {
             .mobile-toggle {
-                // border-bottom: 1px solid $gray-100;
+                border-bottom: 1px solid rgba($white, .2);
             }
         }
     }
@@ -854,7 +857,7 @@ nav.nav-centered.outOfSight {
                 }
             }
             .nav-utility {
-                color:  $gray-800;
+                color: $gray-800;
             }
             .logo-dark {
                 display: inline;
