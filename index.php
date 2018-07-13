@@ -33,6 +33,15 @@
         <li>
           <a href="components/pagination/pagination-1.php" target="_blank">Pagination</a>
         </li>
+        <li>
+          <a href="components/progressbar/progressbar-1.php" target="_blank">Progressbar</a>
+        </li>
+        <li>
+          <a href="components/process-steps/process-steps.php" target="_blank">Process Steps</a>
+        </li>
+        <li>
+          <a href="components/breadcrumbs/breadcrumbs-1.php" target="_blank">Breadcrumbs</a>
+        </li>
       </ul>
     </div>
   </body>

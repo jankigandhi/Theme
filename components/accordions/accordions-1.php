@@ -5,7 +5,7 @@
 <body>
 
 <div class="container">
-    <h4 class="mt-4">Accordions</h4>
+    <h1 class="h2 text-center my-3">Accordions</h1>
     <div class="row mb-4">
         <div class="col-md-6">
             <h5>ONE AT A TIME</h5>
