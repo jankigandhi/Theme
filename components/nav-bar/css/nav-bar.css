@@ -223,6 +223,9 @@ nav.bg-dark .nav-bar {
     width: 12.5rem !important;
     overflow: hidden;
     display: inline-block; }
+    .mega-menu > li .label {
+      background-color: #4caf50;
+      font-size: .875rem; }
   .mega-menu .title {
     letter-spacing: 1px;
     color: #fff;
@@ -311,14 +314,11 @@ nav.bg-dark .nav-bar {
   .widget-handle .search-form input {
     margin: 0;
     font-size: 1rem;
-    background-color: #e9ecef;
-    text-align: center; }
+    background-color: #e9ecef; }
 
 .cart-widget-handle .function {
   width: auto;
   background: #fff; }
-  .cart-widget-handle .function span {
-    color: #222 !important; }
 
 .language .menu > li ul {
   max-width: 9.375rem; }

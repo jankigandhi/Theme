@@ -291,6 +291,10 @@ nav.bg-dark {
         width: 12.5rem !important;
         overflow: hidden;
         display: inline-block;
+        .label{
+            background-color: $green;
+            font-size: .875rem;
+        }
     }
     .title {
         letter-spacing: 1px;
@@ -392,7 +396,6 @@ nav.bg-dark {
             margin: 0;
             font-size: 1rem;
             background-color: $gray-200;
-            text-align: center;
         }
     }
 }
@@ -401,10 +404,10 @@ nav.bg-dark {
     .function {
         width: auto;
         background: $white;
-        span {
-            color: #222 !important;
-        }
-    }
+        // span {
+        //     color: #222 !important;
+        // }
+    }   
 }
 
 .language {
