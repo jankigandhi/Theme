@@ -44,7 +44,7 @@
     <div class="mb-5">
         <h3 class="mb-3">Style-2</h3>
         <div class="row mx-0">
-            <div class="col-md-4 py-2">
+           <!--  <div class="col-md-4 py-2">
                 <div class="custom-style py-3">
                     <div class="custom-input form-group">
                         <input type="name" class="input-effect input-effect-3 transparent-box transparent-box-3 bg-transparent pl-0 form-control rounded-0 border-primary" placeholder=" " />
@@ -63,8 +63,8 @@
                         </label>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 py-2">
+            </div> -->
+            <div class="col-md-6 py-2">
                 <div class="custom-style icon-effect py-3">
                     <div class="custom-input form-group mb-4">
                         <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 border-box bg-transparent pl-5 form-control rounded-0 border-primary" placeholder=" " />
@@ -76,7 +76,7 @@
                 </div>
                  <div class="custom-style icon-effect py-3">
                     <div class="custom-input form-group mb-4">
-                        <input type="name" class="input-effect border-box transparent-box input-effect-4 input-rounded bg-transparent pl-5 form-control border-dark" placeholder=" " />
+                        <input type="name" class="input-effect border-box transparent-box input-effect-4 input-rounded bg-transparent pl-5 form-control border-primary" placeholder=" " />
                         <label class="text-uppercase text-left w-100 pl-3">
                             <span class="text-name d-inline-block">Phone</span>
                             <span><i class="icon zmdi zmdi-phone"></i></span>
@@ -84,10 +84,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 py-2">
+            <div class="col-md-6 py-2">
                 <div class="custom-style icon-effect py-3">
                     <div class="custom-input form-group mb-4">
-                        <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 border-box bg-transparent pl-5 form-control rounded-0 border-primary" placeholder=" " />
+                        <input type="name" class="input-effect border-box transparent-box input-effect-4 transparent-box-4 border-box bg-transparent pl-5 form-control rounded-0 border-dark" placeholder=" " />
                         <label class="text-uppercase text-left w-100 pl-3">
                             <span class="text-name d-inline-block">Time</span>
                             <span><i class="icon zmdi zmdi-time"></i></span>
