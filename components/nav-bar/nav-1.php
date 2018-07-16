@@ -6,7 +6,7 @@
 <body>
 	<div class="nav-container mw-100 bg-dark">
 		<a id="top"></a>
-		<nav class="bg-dark">
+		<nav class="mw-100">
 			<div class="nav-utility">
 				<div class="module float-left">
 					<i class="zmdi zmdi-gps-dot"></i>
@@ -24,7 +24,7 @@
 			<div class="nav-bar">
 				<div class="float-left">
 					<a href="index.html">
-						<h4 class="text-white mt-2 px-3 text-uppercase">logo</h4>
+						<h4 class="mt-2 px-3 text-uppercase">logo</h4>
 					</a>
 				</div>
 				<div class="module widget-handle mobile-toggle float-right active d-lg-none toggle-widget-handle">
@@ -32,14 +32,14 @@
 				</div>
 				<div class="module-group float-right">
 					<div class="module float-left">
-						<ul class="menu list-unstyled">
+						<ul class="menu list-unstyled mb-0">
 							<li class="has-dropdown">
 								<a href="#">
 									Home
 								</a>
-								<ul class="mega-menu list-unstyled">
+								<ul class="mega-menu list-unstyled mb-0">
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<span class="title">Concepts</span>
 											</li>
@@ -51,7 +51,7 @@
 											</li>
 											<li>
 												<a href="home-agency-2.html">Agency 2</a>
-												<span class="label p-1">New!</span>
+												<span class="label p-1 text-white">New!</span>
 											</li>
 											<li>
 												<a href="home-app-landing.html">App Landing</a>
@@ -83,7 +83,7 @@
 										</ul>
 									</li>
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="home-photography.html">Photography</a>
 											</li>
@@ -128,9 +128,9 @@
 								<a href="#">
 									Pages
 								</a>
-								<ul class="mega-menu">
+								<ul class="mega-menu mb-0">
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<span class="title">Inner Pages</span>
 											</li>
@@ -164,7 +164,7 @@
 										</ul>
 									</li>
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<span class="title">Utility Pages</span>
 											</li>
@@ -200,9 +200,9 @@
 								<a href="#">
 									Elements
 								</a>
-								<ul class="mega-menu">
+								<ul class="mega-menu mb-0">
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<span class="title">Elements</span>
 											</li>
@@ -233,7 +233,7 @@
 										</ul>
 									</li>
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<span class="title">Elements</span>
 											</li>
@@ -264,7 +264,7 @@
 										</ul>
 									</li>
 									<li>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<span class="title">Elements</span>
 											</li>
@@ -298,7 +298,7 @@
 							</li>
 							<li class="has-dropdown">
 								<a href="#">Portfolio</a>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled mb-0">
 									<li class="has-dropdown">
 										<a href="#">Contained</a>
 										<ul class="list-unstyled">
@@ -321,7 +321,7 @@
 										<a href="#">
 											Wide
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="portfolio-wide-2col.html">
 													2 Columns
@@ -348,7 +348,7 @@
 										<a href="#">
 											Single
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="portfolio-single-1.html">
 													Case Study 1
@@ -382,12 +382,12 @@
 								<a href="#">
 									Shop
 								</a>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled mb-0">
 									<li class="has-dropdown">
 										<a href="#">
 											Shop Layout
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="shop-sidebar.html">
 													Sidebar Left
@@ -419,7 +419,7 @@
 										<a href="#">
 											Product Single
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="shop-product-sidebar-left.html">
 													Sidebar Left
@@ -453,12 +453,12 @@
 								<a href="#">
 									Blog
 								</a>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled mb-0">
 									<li class="has-dropdown">
 										<a href="#">
 											Listing
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="blog-sidebar.html">
 													Sidebar Left
@@ -480,7 +480,7 @@
 										<a href="#">
 											Masonry
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="blog-masonry-sidebar.html">
 													Sidebar Left
@@ -507,7 +507,7 @@
 										<a href="#">
 											Single
 										</a>
-										<ul class="list-unstyled">
+										<ul class="list-unstyled mb-0">
 											<li>
 												<a href="blog-single-sidebar.html">
 													Sidebar Left
@@ -547,7 +547,7 @@
 						</div>
 						<div class="function">
 							<form class="search-form">
-								<input type="text" placeholder="Type Here">
+								<input type="text" placeholder="Type Here" class="text-uppercase px-3">
 							</form>
 						</div>
 					</div>
@@ -593,8 +593,8 @@
 							<!--end of widget-->
 						</div>
 					</div>
-					<div class="module widget-handle language left">
-						<ul class="menu list-unstyled">
+					<div class="module widget-handle language float-left">
+						<ul class="menu list-unstyled mb-0">
 							<li class="has-dropdown">
 								<a href="#">ENG</a>
 								<ul class="list-unstyled">
@@ -613,8 +613,6 @@
 			</div>
 		</nav>
 	</div>
-	<!-- <div class="background-image-holder fadeIn" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;img/home6.jpg&quot;);">
-		<img alt="Background Image" class="background-image" src="img/home6.jpg" style="display: none;">
-	</div> -->
+	<div class="images" style="background-image: url('images/banner-img.jpg');"></div>
 </body>
 </html>

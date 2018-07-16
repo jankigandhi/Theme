@@ -8,16 +8,11 @@ body {
 
 .nav-container {
     -webkit-backface-visibility: hidden;
-    max-width: 100%;
 }
 
 nav {
     background-color: $white;
     -webkit-backface-visibility: hidden;
-    max-width: 100%;
-    ul {
-        margin-bottom: 0;
-    }
     .btn {
         margin: 0;
         height: auto;
@@ -27,28 +22,28 @@ nav {
         padding: 1.5rem;
         color: $white;
         .title {
-            display: none !important;
+            display: none;
         }
         a {
             &:not(.btn) {
                 color: $white;
             }
         }
-        hr {
-            border-color: $gray-100;
-            margin-bottom: 1rem;
-            &:first-of-type {
-                display: none;
-            }
-        }
+        // hr {
+        //     border-color: $gray-100;
+        //     margin-bottom: 1rem;
+        //     &:first-of-type {
+        //         display: none;
+        //     }
+        // }
     }
-    .cart-overview {
-        min-width: 18.75rem;
-        margin-bottom: 1rem;
-        a {
-            height: auto;
-        }
-    }
+    // .cart-overview {
+    //     min-width: 18.75rem;
+    //     margin-bottom: 1rem;
+    //     a {
+    //         height: auto;
+    //     }
+    // }
 }
 
 .module {
@@ -80,7 +75,7 @@ nav {
     height: 3.4375rem;
     max-height: 3.4375rem;
     line-height: 3.3125rem;
-    border-bottom: 1px solid $gray-100;
+    border-bottom: 1px solid $gray-500;
     .module {
         height: 3.4375rem;
     }
@@ -91,12 +86,23 @@ nav {
         display: inline-block;
         height: 3.4375rem;
     }
+    h4 {
+        color: $gray-500;
+    }
+    .has-dropdown {
+        color: $gray-500;
+    }
+    .nav-utility {
+        span {
+            color: $gray-500;
+        }
+    }
 }
 
 .nav-utility {
     height: 2.8125rem;
     line-height: 2.6875rem;
-    border-bottom: 1px solid $gray-100;
+    border-bottom: 1px solid $gray-500;
     overflow: hidden;
     i {
         position: relative;
@@ -112,15 +118,15 @@ nav {
     display: none;
 }
 
-nav.nav-centered {
-    .logo {
-        max-height: 4rem;
-        margin: 4rem 0 2.5rem 0;
-    }
-    .module.widget-handle {
-        border: none !important;
-    }
-}
+// nav.nav-centered {
+//     .logo {
+//         max-height: 4rem;
+//         margin: 4rem 0 2.5rem 0;
+//     }
+//     .module.widget-handle {
+//         border: none;
+//     }
+// }
 
 nav.bg-dark {
     .logo-light {
@@ -154,7 +160,6 @@ nav.bg-dark {
 .has-dropdown {
     padding-right: 1.125rem;
     color: $white;
-
     &:after {
         position: absolute;
         top: 0;
@@ -194,7 +199,7 @@ nav.bg-dark {
             max-width: 100%;
             white-space: normal;
             &:hover {
-                opacity: 1 !important;
+                opacity: 1;
             }
         }
     }
@@ -272,40 +277,38 @@ nav.bg-dark {
             }
         }
     }
+    .mega-menu {
+        width: auto;
+        white-space: nowrap;
+        line-height: 1.5rem;
+        ul {
+            position: relative;
+            left: auto;
+            padding: 0;
+        }
+        >li {
+            width: 12.5rem;
+            overflow: hidden;
+            display: inline-block;
+            .label {
+                background-color: $green;
+                font-size: .875rem;
+            }
+        }
+        .title {
+            letter-spacing: 1px;
+            color: $white;
+            display: inline-block;
+            padding: .375rem 1.5rem;
+            text-transform: uppercase;
+            font-size: .6875rem;
+            font-weight: 600;
+        }
+    }
 }
 
 .menu.inline-block {
     width: auto;
-}
-
-.mega-menu {
-    width: auto !important;
-    white-space: nowrap;
-    line-height: 1.5rem;
-    ul {
-        position: relative !important;
-        left: auto !important;
-        padding: 0 !important;
-    }
-    >li {
-        width: 12.5rem !important;
-        overflow: hidden;
-        display: inline-block;
-        .label{
-            background-color: $green;
-            font-size: .875rem;
-        }
-    }
-    .title {
-        letter-spacing: 1px;
-        color: $white;
-        display: inline-block;
-        padding: .375rem 1.5rem;
-        ;
-        text-transform: uppercase;
-        font-size: .6875rem;
-        font-weight: 600;
-    }
 }
 
 .make-right {
@@ -344,6 +347,7 @@ nav.bg-dark {
         display: none;
         opacity: .5;
         transition: all 0.3s ease;
+        color: $gray-500;
         &:hover {
             opacity: 1;
         }
@@ -394,7 +398,7 @@ nav.bg-dark {
         line-height: 3.125rem;
         input {
             margin: 0;
-            font-size: 1rem;
+            font-size: 13px;
             background-color: $gray-200;
         }
     }
@@ -404,10 +408,10 @@ nav.bg-dark {
     .function {
         width: auto;
         background: $white;
-        // span {
-        //     color: #222 !important;
+         // span {
+        //     color: #222;
         // }
-    }   
+    }
 }
 
 .language {
@@ -421,8 +425,8 @@ nav.bg-dark {
 }
 
 .nav-open {
-    max-height: 625rem !important;
-    height: auto !important;
+    max-height: 625rem;
+    height: auto;
     .mobile-toggle {
         border-bottom: 1px solid $gray-100;
     }
@@ -548,6 +552,9 @@ nav.transparent {
             opacity: 1;
         }
         border-left: 1px solid rgba($white, .2);
+        .title {
+            color: $gray-500;
+        }
     }
     .nav-utility {
         color: $white;
@@ -596,7 +603,6 @@ nav.transparent.fixed {
             color: rgba($gray-500, .5);
         }
         border-left: 1px solid rgba($white, .2);
-        ;
     }
 }
 
@@ -644,12 +650,12 @@ nav.nav-centered.outOfSight {
         @include transform (translate3d(0vw, 0, 0));
     }
     .main-container.reveal-nav {
-        transform: none !important;
+        transform: none;
     }
     nav.fixed {
-        position: absolute !important;
-        opacity: 1 !important;
-        visibility: visible !important;
+        position: absolute;
+        opacity: 1;
+        visibility: visible;
     }
     nav.outOfSight {
         @include transform (translate3d(0, 0px, 0));
@@ -747,9 +753,9 @@ nav.nav-centered.outOfSight {
         .title {
             padding: .25rem 1rem;
         }
-        margin-left: 0 !important;
+        margin-left: 0;
         li {
-            width: 100% !important;
+            width: 100%;
         }
     }
     .has-dropdown {
@@ -762,18 +768,17 @@ nav.nav-centered.outOfSight {
     }
     .toggle-sub {
         >ul {
-            display: block !important;
+            display: block;
         }
         .mega-menu {
             ul {
-                display: block !important;
+                display: block;
             }
         }
     }
     .module.widget-handle {
         border-left: none;
-        border-top: 1px solid rgba($white, .2);
-        ;
+        border-top: 1px solid $gray-500;
         line-height: 2.5rem;
         min-height: 2.5rem;
         .menu {
@@ -783,14 +788,14 @@ nav.nav-centered.outOfSight {
             }
         }
         i {
-            line-height: 2.5rem;
+            line-height: 3rem;
+            color: $gray-500;
         }
         .title {
             display: inline-block;
             position: relative;
             bottom: .1875rem;
             margin-left: .5rem;
-            color: rgba($white, .7);
         }
     }
     .widget-handle {
@@ -802,7 +807,7 @@ nav.nav-centered.outOfSight {
             visibility: visible;
             margin-top: 0;
             display: none;
-            box-shadow: none !important;
+            box-shadow: none;
         }
         .cart {
             .label {
@@ -814,17 +819,25 @@ nav.nav-centered.outOfSight {
                 background-color: $green;
             }
         }
+        .search-form {
+            input {
+                width: 100%;
+            }
+        }
+        .title {
+            color: $gray-500;
+        }
     }
     .toggle-widget-handle {
         .function {
-            display: block !important;
+            display: block;
         }
     }
     .mobile-toggle {
         border-left: 1px solid rgba($white, .2);
-        border-bottom: none !important;
+        border-bottom: none;
         i {
-            line-height: 3.3125rem !important;
+            line-height: 3.3125rem;
         }
     }
     .mobile-toggle.absolute-xs {
@@ -875,4 +888,9 @@ nav.nav-centered.outOfSight {
             }
         }
     }
+}
+
+.images{
+    @include img-inbg;
+    padding-bottom: 60%;
 }
