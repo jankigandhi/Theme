@@ -2,31 +2,125 @@
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
 .breadcrumb {
-  .breadcrumb-item + .breadcrumb-item {
-    &:before {
-      padding: 0 1rem;
+    .breadcrumb-item+.breadcrumb-item {
+        &:before {
+            padding: 0 1rem;
+        }
     }
-  }
-}
-.breadcrumb-type2 {
-  .breadcrumb-item + .breadcrumb-item  {
-    &:before {
-      content: "\2192";
-    }
-  }
-}
-.breadcrumb-type3 {
-  .breadcrumb-item + .breadcrumb-item  {
-    &:before {
-      content: "\203A";
-    }
-  }
-}
-.breadcrumb-type4 {
-  .breadcrumb-item + .breadcrumb-item  {
-    &:before {
-      content: "\00bb";
-    }
-  }
 }
 
+.breadcrumb-type2 {
+    .breadcrumb-item+.breadcrumb-item {
+        &:before {
+            content: "\2192";
+        }
+    }
+}
+
+.breadcrumb-type3 {
+    .breadcrumb-item+.breadcrumb-item {
+        &:before {
+            content: "\203A";
+        }
+    }
+}
+
+.breadcrumb-type4 {
+    .breadcrumb-item+.breadcrumb-item {
+        &:before {
+            content: "\00bb";
+        }
+    }
+}
+
+@mixin breadcrumb-color($active-background: $color) {
+    .items {
+        &:hover,
+        &.active {
+            background-color: $active-background;
+            &:after {
+                border-left-color: $active-background;
+            }
+        }
+    }
+}
+
+$height: 4rem;
+.breadcrumb-type5 {
+    li {
+        .items {
+            padding: 0 $height/4;
+            margin: 0 .625rem 0 0;
+            height: $height;
+            text-align: center;
+            position: relative;
+            color: $gray-600;
+            @include transition(.3s all linear);
+            font-size: 1.25rem;
+            line-height: $height;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    @each $color,
+    $value in $theme-colors {
+        .breadcrumb-#{$color} {
+            li {
+                @include breadcrumb-color($value);
+            }
+        }
+    }
+    .breadcrumb-type5 {
+        li {
+            .items {
+                padding: 0 $height/4 0 3rem;
+                background-color: $gray-200;
+                &:before,
+                &:after {
+                    content: '';
+                    border-top: $height/2 solid transparent;
+                    border-bottom: $height/2 solid transparent;
+                    position: absolute;
+                    top: 0;
+                    @include transition(.3s all linear);
+                }
+                &:before {
+                    border-left: $height/2 solid $white;
+                    left: 0;
+                }
+                &:after {
+                    right: -#{$height/2};
+                    z-index: 1;
+                    border-left: $height/2 solid $gray-200;
+                }
+                &:hover,
+                &.active {
+                    color: $white;
+                    &:after {
+                        color: $white;
+                    }
+                }
+            }
+            &:first-child {
+                .items {
+                    border-top-left-radius: .25rem;
+                    border-bottom-left-radius: .25rem;
+                    &:before {
+                        display: none;
+                    }
+                }
+            }
+            &:last-child {
+                .items {
+                    padding-right: $height/2;
+                    border-top-right-radius: .25rem;
+                    border-bottom-right-radius: .25rem;
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
