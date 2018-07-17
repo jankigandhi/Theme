@@ -1,0 +1,25 @@
+.border-thick {
+  border-width: 5px !important; }
+
+.call-to-action.with-border {
+  border: 1px solid #adb5bd;
+  box-shadow: 0 1px 1px 0 rgba(173, 181, 189, 0.4); }
+.call-to-action.border-content {
+  border-top: 3px solid #0088cc; }
+.call-to-action .call-to-action-content .call-to-action-text {
+  font-size: 1.8rem; }
+.call-to-action .call-to-action-content .call-to-action-desc {
+  color: #6c757d;
+  font-size: 1.2rem; }
+
+.banner-images {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block; }
+
+/*# sourceMappingURL=call-actions.css.map */
