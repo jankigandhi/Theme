@@ -67,15 +67,15 @@
     .process-steps-2 .steps:before, .process-steps-2 .steps:after {
       content: '';
       position: absolute;
-      top: 50%;
+      top: 30px;
       left: 0;
-      margin: -1rem 0 0 -1.625rem;
+      margin-left: -1.625rem;
       width: 50%;
       border-top: 1px dashed #dee2e6; }
     .process-steps-2 .steps:after {
       left: auto;
       right: 0;
-      margin: -1rem -1.625rem 0 0; }
+      margin: 0 -1.625rem 0 0; }
     .process-steps-2 .steps:first-child:before {
       display: none; }
     .process-steps-2 .steps:last-child:after {
@@ -86,15 +86,15 @@
     .process-steps-3 .steps:before, .process-steps-3 .steps:after {
       content: '';
       position: absolute;
-      top: 50%;
+      top: 30px;
       left: 0;
-      margin: -1rem 0 0 -1.625rem;
+      margin-left: -1.625rem;
       width: 50%;
       border-top: 1px dashed #dee2e6; }
     .process-steps-3 .steps:after {
       left: auto;
       right: 0;
-      margin: -1rem -1.625rem 0 0; }
+      margin: 0 -1.625rem 0 0; }
     .process-steps-3 .steps:first-child:before {
       display: none; }
     .process-steps-3 .steps:last-child:after {
@@ -105,15 +105,15 @@
     .process-steps-4 .steps:before, .process-steps-4 .steps:after {
       content: '';
       position: absolute;
-      top: 50%;
+      top: 30px;
       left: 0;
-      margin: -1rem 0 0 -1.625rem;
+      margin-left: -1.625rem;
       width: 50%;
       border-top: 1px dashed #dee2e6; }
     .process-steps-4 .steps:after {
       left: auto;
       right: 0;
-      margin: -1rem -1.625rem 0 0; }
+      margin: 0 -1.625rem 0 0; }
     .process-steps-4 .steps:first-child:before {
       display: none; }
     .process-steps-4 .steps:last-child:after {
@@ -124,15 +124,15 @@
     .process-steps-5 .steps:before, .process-steps-5 .steps:after {
       content: '';
       position: absolute;
-      top: 50%;
+      top: 30px;
       left: 0;
-      margin: -1rem 0 0 -1.625rem;
+      margin-left: -1.625rem;
       width: 50%;
       border-top: 1px dashed #dee2e6; }
     .process-steps-5 .steps:after {
       left: auto;
       right: 0;
-      margin: -1rem -1.625rem 0 0; }
+      margin: 0 -1.625rem 0 0; }
     .process-steps-5 .steps:first-child:before {
       display: none; }
     .process-steps-5 .steps:last-child:after {
