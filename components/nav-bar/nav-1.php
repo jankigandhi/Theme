@@ -6,7 +6,7 @@
 <body>
 	<div class="nav-container mw-100 bg-dark">
 		<a id="top"></a>
-		<nav class="mw-100">
+		<nav class="bg-dark mw-100">
 			<div class="nav-utility">
 				<div class="module float-left">
 					<i class="zmdi zmdi-gps-dot"></i>
@@ -24,7 +24,7 @@
 			<div class="nav-bar">
 				<div class="float-left">
 					<a href="index.html">
-						<h4 class="mt-2 px-3 text-uppercase">logo</h4>
+						<h4 class="text-white mt-2 px-3 text-uppercase">logo</h4>
 					</a>
 				</div>
 				<div class="module widget-handle mobile-toggle float-right active d-lg-none toggle-widget-handle">
@@ -51,7 +51,7 @@
 											</li>
 											<li>
 												<a href="home-agency-2.html">Agency 2</a>
-												<span class="label p-1 text-white">New!</span>
+												<span class="label p-1">New!</span>
 											</li>
 											<li>
 												<a href="home-app-landing.html">App Landing</a>
@@ -547,7 +547,7 @@
 						</div>
 						<div class="function">
 							<form class="search-form">
-								<input type="text" placeholder="Type Here" class="text-uppercase px-3">
+								<input type="text" placeholder="Type Here">
 							</form>
 						</div>
 					</div>
@@ -613,6 +613,8 @@
 			</div>
 		</nav>
 	</div>
-	<div class="images" style="background-image: url('images/banner-img.jpg');"></div>
+	<!-- <div class="background-image-holder fadeIn" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;img/home6.jpg&quot;);">
+		<img alt="Background Image" class="background-image" src="img/home6.jpg" style="display: none;">
+	</div> -->
 </body>
 </html>
