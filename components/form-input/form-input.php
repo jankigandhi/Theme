@@ -161,25 +161,25 @@
 	<div class="p-4">
 		<h4>Switch</h4>
 		<div class="row">
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-primary">
 					<input type="checkbox" name="checkbox8" id="checkbox8" />
 					<span class="slider"></span>
 				</label>
 			</div>
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-danger">
 					<input type="checkbox" name="checkbox9" id="checkbox9" />
 					<span class="slider"></span>
 				</label>
 			</div>
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-success">
 					<input type="checkbox" name="checkbox10" id="checkbox10" />
 					<span class="slider"></span>
 				</label>
 			</div>
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-dark">
 					<input type="checkbox" name="checkbox11" id="checkbox11" />
 					<span class="slider"></span>
@@ -190,25 +190,25 @@
 	<div class="p-4">
 		<h4>Switch toggle</h4>
 		<div class="row">
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-primary">
 					<input type="radio" name="radio" id="radio8" />
 					<span class="slider"></span>
 				</label>
 			</div>
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-danger">
 					<input type="radio" name="radio" id="radio9" />
 					<span class="slider"></span>
 				</label>
 			</div>
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-success">
 					<input type="radio" name="radio" id="radio10" />
 					<span class="slider"></span>
 				</label>
 			</div>
-			<div class="col-md-3 c-l-6">
+			<div class="col-md-3 col-6 mb-2">
 				<label class="toggle mb-0 align-middle toggle-dark">
 					<input type="radio" name="radio" id="radio11" />
 					<span class="slider"></span>
