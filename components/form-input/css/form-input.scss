@@ -1,0 +1,209 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+@mixin focus-color($active-color: $color) {
+    ~.focus-border {
+        background-color: $active-color;
+        &:before,
+        &:after {
+            background-color: $active-color;
+        }
+    }
+    &:focus,
+    &:not(:placeholder-shown) {
+        ~label {
+            color: $active-color !important;
+        }
+    }
+}
+//check-box 
+@mixin check-color($active-color: $color) {
+    label {
+        &:before {
+            border-color: $active-color !important;
+        }
+        &:after {
+            color: $active-color;
+        }
+    }
+}
+@each $color,
+$value in $theme-colors {
+    .border-#{$color} {
+        @include focus-color($value);
+    }
+    .check-#{$color} {
+        @include check-color($value);
+    }
+}
+
+.input-effect {
+    position: relative;
+    input,
+    textarea {
+        width: 100%;
+        &:focus {
+            outline: 0;
+        }
+    }
+    textarea {
+        resize: none;
+    }
+    label {
+        font-size: .875rem;
+    }
+    .effect {
+        border: 0;
+        padding: .25rem 0;
+        border-bottom: 1px solid $gray-300;
+        background-color: transparent;
+        ~.focus-border {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            @include transition(.4s);
+        }
+        ~label {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 9px;
+            color: $gray-400;
+            @include transition(.3s);
+            z-index: -1;
+            letter-spacing: .5px;
+        }
+        &:focus,
+        &:not(:placeholder-shown) {
+            ~.focus-border {
+                width: 100%;
+                @include transition(.4s);
+            }
+            ~label {
+                top: -1rem;
+                font-size: .8rem;
+                @include transition(.3s);
+                font-weight: bold;
+            }
+        }
+        &.effect-2 {
+            ~.focus-border {
+                left: 50%;
+            }
+            &:focus,
+            &:not(:placeholder-shown) {
+                ~.focus-border {
+                    left: 0;
+                }
+            }
+        }
+        &.effect-3 {
+            ~.focus-border {
+                width: 100%;
+                z-index: 99;
+                background-color: transparent;
+                &:before,
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    @include transition(.4s);
+                }
+                &:after {
+                    left: auto;
+                    right: 0;
+                }
+            }
+            &:focus,
+            &:not(:placeholder-shown) {
+                ~.focus-border {
+                    &:before,
+                    &:after {
+                        width: 50%;
+                        @include transition(.4s);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.input-area {
+    .effect {
+        height: 2.0625rem;
+        @include transition(.4s);
+        ~.focus-border {
+            margin-bottom: 5px;
+        }
+        &:focus,
+        &:not(:placeholder-shown) {
+            height: 4rem;
+        }
+    }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+
+$checkbox-size: 1.25rem;
+.pretty-checkbox {
+    input {
+        &:checked,
+        &:not(:checked) {
+            position: absolute;
+            left: -9999px;
+        }
+    }
+    label {
+        position: relative;
+        padding-left: 1.875rem;
+        font-size: .875rem;
+        cursor: pointer;
+        &:before,
+        &:after {
+            font-family: 'themify';
+            font-size: ($checkbox-size * 1.25);
+            position: absolute;
+            top: 50%;
+            left: 0;
+            line-height: .75;
+            margin-top: -$checkbox-size/2;
+        }
+        &:before {
+            content: '';
+            @include size($checkbox-size);
+            border: 2px solid;
+            display: block;
+            border-radius: .15rem;
+        }
+        &:after {
+            content: '\e64c';
+            max-width: 0;
+            overflow: hidden;
+            opacity: .5;
+            @include transition(.35s all linear);
+            margin-top: -#{$checkbox-size/1.65};
+            margin-left: .1rem;
+        }
+    }
+    input {
+        &:checked {
+            +label {
+                &:after {
+                    max-width: $checkbox-size * 2;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
