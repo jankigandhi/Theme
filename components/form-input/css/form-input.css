@@ -9,6 +9,8 @@
   border-color: #0088cc !important; }
 .check-primary label:after {
   color: #0088cc; }
+.check-primary input:checked + label.radio-fill:after {
+  background-color: #0088cc; }
 
 .border-secondary ~ .focus-border {
   background-color: #6c757d; }
@@ -21,6 +23,8 @@
   border-color: #6c757d !important; }
 .check-secondary label:after {
   color: #6c757d; }
+.check-secondary input:checked + label.radio-fill:after {
+  background-color: #6c757d; }
 
 .border-success ~ .focus-border {
   background-color: #4caf50; }
@@ -33,6 +37,8 @@
   border-color: #4caf50 !important; }
 .check-success label:after {
   color: #4caf50; }
+.check-success input:checked + label.radio-fill:after {
+  background-color: #4caf50; }
 
 .border-info ~ .focus-border {
   background-color: #17a2b8; }
@@ -45,6 +51,8 @@
   border-color: #17a2b8 !important; }
 .check-info label:after {
   color: #17a2b8; }
+.check-info input:checked + label.radio-fill:after {
+  background-color: #17a2b8; }
 
 .border-warning ~ .focus-border {
   background-color: #ffc107; }
@@ -57,6 +65,8 @@
   border-color: #ffc107 !important; }
 .check-warning label:after {
   color: #ffc107; }
+.check-warning input:checked + label.radio-fill:after {
+  background-color: #ffc107; }
 
 .border-danger ~ .focus-border {
   background-color: #e36159; }
@@ -69,6 +79,8 @@
   border-color: #e36159 !important; }
 .check-danger label:after {
   color: #e36159; }
+.check-danger input:checked + label.radio-fill:after {
+  background-color: #e36159; }
 
 .border-light ~ .focus-border {
   background-color: #f8f9fa; }
@@ -81,6 +93,8 @@
   border-color: #f8f9fa !important; }
 .check-light label:after {
   color: #f8f9fa; }
+.check-light input:checked + label.radio-fill:after {
+  background-color: #f8f9fa; }
 
 .border-dark ~ .focus-border {
   background-color: #343a40; }
@@ -93,6 +107,8 @@
   border-color: #343a40 !important; }
 .check-dark label:after {
   color: #343a40; }
+.check-dark input:checked + label.radio-fill:after {
+  background-color: #343a40; }
 
 .input-effect {
   position: relative; }
@@ -192,15 +208,17 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset !important; }
 
-.pretty-checkbox input:checked, .pretty-checkbox input:not(:checked) {
+.pretty-input input:checked, .pretty-input input:not(:checked) {
   position: absolute;
   left: -9999px; }
-.pretty-checkbox label {
+.pretty-input label {
   position: relative;
   padding-left: 1.875rem;
   font-size: .875rem;
   cursor: pointer; }
-  .pretty-checkbox label:before, .pretty-checkbox label:after {
+  .pretty-input label.circle-input:before, .pretty-input label.circle-input:after {
+    border-radius: 50%; }
+  .pretty-input label:before, .pretty-input label:after {
     font-family: 'themify';
     font-size: 1.5625rem;
     position: absolute;
@@ -208,14 +226,14 @@ select:-webkit-autofill {
     left: 0;
     line-height: .75;
     margin-top: -0.625rem; }
-  .pretty-checkbox label:before {
+  .pretty-input label:before {
     content: '';
     width: 1.25rem;
     height: 1.25rem;
     border: 2px solid;
     display: block;
-    border-radius: .15rem; }
-  .pretty-checkbox label:after {
+    border-radius: .2rem; }
+  .pretty-input label:after {
     content: '\e64c';
     max-width: 0;
     overflow: hidden;
@@ -226,8 +244,34 @@ select:-webkit-autofill {
     transition: 0.35s all linear;
     margin-top: -0.75758rem;
     margin-left: .1rem; }
-.pretty-checkbox input:checked + label:after {
+  .pretty-input label.radio-fill:after {
+    content: '';
+    width: 1.25rem;
+    height: 1.25rem;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: -0.625rem; }
+  .pretty-input label .radio-check i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 4px;
+    max-width: 0;
+    opacity: .5;
+    overflow: hidden;
+    -moz-transition: 0.6s all linear;
+    -o-transition: 0.6s all linear;
+    -webkit-transition: 0.6s all linear;
+    transition: 0.6s all linear;
+    color: #fff;
+    z-index: 1; }
+.pretty-input input:checked + label:after {
   max-width: 2.5rem;
   opacity: 1; }
+.pretty-input input:checked + label .radio-check i {
+  opacity: 1;
+  max-width: 1.25rem; }
 
 /*# sourceMappingURL=form-input.css.map */

@@ -17,6 +17,7 @@
         }
     }
 }
+
 //check-box 
 @mixin check-color($active-color: $color) {
     label {
@@ -27,7 +28,17 @@
             color: $active-color;
         }
     }
+    input:checked {
+        +label {
+            &.radio-fill {
+                &:after {
+                    background-color: $active-color;
+                }
+            }
+        }
+    }
 }
+
 @each $color,
 $value in $theme-colors {
     .border-#{$color} {
@@ -155,8 +166,8 @@ select:-webkit-autofill {
 }
 
 
-$checkbox-size: 1.25rem;
-.pretty-checkbox {
+$box-size: 1.25rem;
+.pretty-input {
     input {
         &:checked,
         &:not(:checked) {
@@ -169,22 +180,28 @@ $checkbox-size: 1.25rem;
         padding-left: 1.875rem;
         font-size: .875rem;
         cursor: pointer;
+        &.circle-input {
+            &:before,
+            &:after {
+                border-radius: 50%;
+            }
+        }
         &:before,
         &:after {
             font-family: 'themify';
-            font-size: ($checkbox-size * 1.25);
+            font-size: ($box-size * 1.25);
             position: absolute;
             top: 50%;
             left: 0;
             line-height: .75;
-            margin-top: -$checkbox-size/2;
+            margin-top: -$box-size/2;
         }
         &:before {
             content: '';
-            @include size($checkbox-size);
+            @include size($box-size);
             border: 2px solid;
             display: block;
-            border-radius: .15rem;
+            border-radius: .2rem;
         }
         &:after {
             content: '\e64c';
@@ -192,16 +209,43 @@ $checkbox-size: 1.25rem;
             overflow: hidden;
             opacity: .5;
             @include transition(.35s all linear);
-            margin-top: -#{$checkbox-size/1.65};
+            margin-top: -#{$box-size/1.65};
             margin-left: .1rem;
+        }
+        &.radio-fill {
+            &:after {
+                content: '';
+                @include size($box-size);
+                max-width: 100%;
+                margin-left: 0;
+                margin-top: -$box-size/2;
+            }
+        }
+        .radio-check i {
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            margin-left: 5px;
+            margin-top: 4px;
+            max-width: 0;
+            opacity: .5;
+            overflow: hidden;
+            @include transition(.6s all linear);
+            color: $white;
+            z-index: 1;
         }
     }
     input {
         &:checked {
             +label {
                 &:after {
-                    max-width: $checkbox-size * 2;
+                    max-width: $box-size * 2;
                     opacity: 1;
+                }
+                .radio-check i{
+                    opacity: 1;
+                    max-width: 1.25rem;
                 }
             }
         }
