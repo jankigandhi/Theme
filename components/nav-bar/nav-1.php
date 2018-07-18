@@ -613,8 +613,8 @@
 			</div>
 		</nav>
 	</div>
-	<div class="background-image-holder fadeIn" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;img/home6.jpg&quot;);">
+	<!-- <div class="background-image-holder fadeIn" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;img/home6.jpg&quot;);">
 		<img alt="Background Image" class="background-image" src="img/home6.jpg" style="display: none;">
-	</div>
+	</div> -->
 </body>
 </html>
