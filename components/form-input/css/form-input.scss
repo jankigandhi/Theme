@@ -39,6 +39,23 @@
     }
 }
 
+@mixin toggle-color($active-color: $color) {
+    .slider {
+        border-color: $active-color !important;  
+        &:before {
+            background-color: $active-color;
+        }
+    }
+    input {
+        &:checked {
+            +.slider {
+                background-color: $active-color;
+                border-color: $active-color;
+            }
+        }
+    }
+}
+
 @each $color,
 $value in $theme-colors {
     .border-#{$color} {
@@ -46,6 +63,9 @@ $value in $theme-colors {
     }
     .check-#{$color} {
         @include check-color($value);
+    }
+    .toggle-#{$color} {
+        @include toggle-color($value);
     }
 }
 
@@ -257,6 +277,60 @@ $box-size: 1.5rem;
                         max-width: $box-size * 2;
                         opacity: 1;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+
+@mixin toggle-btn($width, $height, $circle-w, $circle-h, $bg-color) {
+    width: $width;
+    height: $height;
+    .slider {
+        background-color: $bg-color;  
+        &:before {
+            width: $circle-w;
+            height: $circle-h;
+        }
+    }
+}
+.toggle {
+    @include toggle-btn(50px, 24px, 18px, 18px, $white);
+    position: relative;
+    display: inline-block;
+    .slider {
+        @include transition(all .4s linear);
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 30px;
+        border: 1px solid;
+        &:before {
+            @include transition(all .4s linear);
+            position: absolute;
+            content: "";
+            left: 2px;
+            bottom: 2px;
+            border-radius: 50%;
+        }
+    }
+    input {
+        position: absolute;
+        opacity: 0;
+        height: 1px;
+        width: 1px;
+        bottom: 0;
+        &:checked {
+            +.slider {
+                border: 1px solid;
+                &:before {
+                    @include transform(translateX(26px));
+                    background-color: $white;
                 }
             }
         }
