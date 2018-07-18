@@ -29,7 +29,46 @@
         </div>
     </div>
     <h4 class="my-4">Featured</h4>
-    <div class="border-top border-primary rounded border-thick">
+    <div class="border-top border-primary rounded border-thick my-3">
+        <div class="row call-to-action with-border border-top-0 mx-0 align-items-center p-3">
+            <div class="col-md-9">
+                <div class="call-to-action-content text-center">
+                    <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
+                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
+                <button class="btn btn-primary">Buy Now!</button>
+            </div>
+        </div>
+    </div>
+    <div class="border-top border-success rounded border-thick my-3">
+        <div class="row call-to-action with-border border-top-0 mx-0 align-items-center p-3">
+            <div class="col-md-9">
+                <div class="call-to-action-content text-center">
+                    <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
+                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
+                <button class="btn btn-primary">Buy Now!</button>
+            </div>
+        </div>
+    </div>
+    <div class="border-top border-info rounded border-thick my-3">
+        <div class="row call-to-action with-border border-top-0 mx-0 align-items-center p-3">
+            <div class="col-md-9">
+                <div class="call-to-action-content text-center">
+                    <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
+                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
+                <button class="btn btn-primary">Buy Now!</button>
+            </div>
+        </div>
+    </div>
+    <div class="border-top border-danger rounded border-thick my-3">
         <div class="row call-to-action with-border border-top-0 mx-0 align-items-center p-3">
             <div class="col-md-9">
                 <div class="call-to-action-content text-center">
