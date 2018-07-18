@@ -60,13 +60,13 @@
 	<div class="p-4">
 		<h4 class="mb-3">Default Checkbox</h4>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<div class="custom-control custom-checkbox">
 					<input type="checkbox" class="custom-control-input" id="customCheck1">
 					<label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<div class="custom-control custom-checkbox">
 					<input type="checkbox" class="custom-control-input" id="customCheck2">
 					<label class="custom-control-label" for="customCheck2">Check this custom checkbox</label>
@@ -77,37 +77,37 @@
 	<div class="p-4">
 		<h4 class="mb-3">Checkbox</h4>
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="pretty-input check-success">
 					<input type="checkbox" name="checkbox" id="test1" />
 					<label for="test1">Apple</label>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="pretty-input check-primary">
 					<input type="checkbox" name="checkbox" id="test2" />
 					<label for="test2">Apple</label>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="pretty-input check-danger">
 					<input type="checkbox" name="checkbox" id="test3" />
 					<label for="test3">Apple</label>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="pretty-input check-info">
 					<input type="checkbox" name="checkbox" id="test4" />
 					<label for="test4">Apple</label>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="pretty-input check-dark">
 					<input type="checkbox" name="checkbox" id="test5" />
 					<label for="test5">Apple</label>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="pretty-input check-warning">
 					<input type="checkbox" name="checkbox" id="test6" />
 					<label for="test6">Apple</label>
@@ -118,13 +118,13 @@
 	<div class="p-4">
 		<h4 class="mb-3">Default Radios</h4>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<div class="custom-control custom-radio">
 					<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
 					<label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<div class="custom-control custom-radio">
 					<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
 					<label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
@@ -135,17 +135,23 @@
 	<div class="p-4">
 		<h4 class="mb-3">Radios</h4>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<div class="pretty-input check-primary">
 					<input type="radio" id="radio1" name="radio" />
-					<label class="circle-input radio-fill" for="radio1">Apple</label>
+					<label class="circle-input" for="radio1">Apple</label>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<div class="pretty-input check-danger">
 					<input type="radio" id="radio2" name="radio" />
-					<label class="circle-input radio-fill" for="radio2">
-						<span class="radio-check"><i class="zmdi zmdi-check"></i></span>
+					<label class="circle-input radio-fill" for="radio2">Apple</label>
+				</div>
+			</div>
+			<div class="col-md-4 col-6">
+				<div class="pretty-input check-success">
+					<input type="radio" id="radio3" name="radio" />
+					<label class="circle-input radio-fill" for="radio3">
+						<span class="radio-check"></span>
 						Apple
 					</label>
 				</div>
