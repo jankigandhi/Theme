@@ -4,7 +4,8 @@
 <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
 </head>
 <body>
-  <?php include_once 'dark-nav.php';?>
+  <?php $HederClass="bg-dark";?>
+  <?php include_once 'nav-bar.php';?>
   <div class="banner-img"></div>
   <?php include_once '../../inc/footer.php';?>
 </body>

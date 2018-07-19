@@ -1,6 +1,6 @@
 <div class="nav-container mw-100 bg-dark">
 	<a id="top"></a>
-	<nav class="mw-100">
+	<nav class="mw-100 <?php echo $HederClass ?>">
 		<div class="nav-utility">
 			<div class="module float-left">
 				<i class="ti-location-arrow"></i>
