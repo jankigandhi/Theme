@@ -101,7 +101,7 @@ nav.bg-dark .nav-bar {
 
 .has-dropdown {
   padding-right: 1.125rem;
-  color: #dee2e6; }
+  color: #adb5bd; }
   .has-dropdown:after {
     position: absolute;
     top: 0;
@@ -303,7 +303,8 @@ nav.bg-dark .nav-bar {
     background: #4caf50;
     top: 10px;
     right: -10px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    color: #fff; }
 .widget-handle .search-form {
   padding: .5rem;
   display: inline-block;

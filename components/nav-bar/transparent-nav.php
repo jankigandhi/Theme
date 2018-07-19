@@ -17,8 +17,8 @@
 					<span class="small">hello@foundry.net</span>
 				</div>
 				<div class="module float-right">
-					<a class="btn btn-sm btn-thick btn-outline-success d-none d-lg-inline rounded-0 py-1" href="variant/builder.html">Try Builder</a>
-					<a class="btn btn-sm btn-success rounded-0 px-3 btn-filled" href="http://themeforest.net/item/foundry-multipurpose-html-variant-page-builder/11562108?ref=medium_rare">Buy Now</a>
+					<a class="btn btn-sm btn-thick btn-outline-success d-none d-lg-inline rounded-0 py-1 text-uppercase" href="variant/builder.html">Try Builder</a>
+					<a class="btn btn-sm btn-success rounded-0 px-3 btn-filled text-uppercase" href="http://themeforest.net/item/foundry-multipurpose-html-variant-page-builder/11562108?ref=medium_rare">Buy Now</a>
 				</div>
 			</div>
 			<div class="nav-bar">
@@ -28,7 +28,7 @@
 					</a>
 				</div>
 				<div class="module widget-handle mobile-toggle float-right active d-lg-none toggle-widget-handle">
-					<i class="zmdi zmdi-menu"></i>
+					<i class="ti-menu"></i>
 				</div>
 				<div class="module-group float-right">
 					<div class="module float-left">
@@ -542,18 +542,18 @@
 					<!--end of menu module-->
 					<div class="module widget-handle search-widget-handle left">
 						<div class="search">
-							<i class="zmdi zmdi-search"></i>
+							<i class="ti-search"></i>
 							<span class="title">Search Site</span>
 						</div>
 						<div class="function">
 							<form class="search-form">
-								<input type="text" placeholder="Type Here" class="text-uppercase px-3">
+								<input type="text" placeholder="Type Here" class="text-uppercase px-2 w-100">
 							</form>
 						</div>
 					</div>
 					<div class="module widget-handle cart-widget-handle left">
 						<div class="cart">
-							<i class="zmdi zmdi-shopping-cart"></i>
+							<i class="ti-bag"></i>
 							<span class="label number">2</span>
 							<span class="title">Shopping Cart</span>
 						</div>
@@ -584,6 +584,6 @@
 			</div>
 		</nav>
 	</div>
-	<div class="banner-img" style="background-image: url('images/banner-img.jpg');"></div>
+	<div class="banner-img" style="background-image: url('images/Img Confident.png');"></div>
 </body>
 </html>
