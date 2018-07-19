@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 <body>
-<div class="container my-4">
+<div class="my-4">
     <h1 class="h2 text-center mt-3">Isotop Gallery Section</h1>
     <div class="container-fluid">
         <div class="gallery-section">
@@ -120,7 +120,7 @@
     </div>
 </div>
 <script src="js/isotope.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.js"></script>
+<script src="js/isotope.pkgd.js"></script> 
 <script>
 $grid = $('.gallery-section');
 var $listing = $grid.isotope({
