@@ -1,5 +1,8 @@
 .testimonial-content {
   position: relative; }
+  .testimonial-content .image-circle {
+    height: 50px;
+    width: 50px; }
 
 .testi-content .banner-section {
   height: 100%;
@@ -20,5 +23,23 @@
     left: 0; }
 .testi-content .desc {
   font-size: 1.5rem; }
+
+.testimonial .monials {
+  position: relative;
+  border: 1px solid #6c757d; }
+.testimonial .image {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #adb5bd;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  margin-left: -28px; }
+.testimonial .title {
+  font-size: 1.2rem; }
+.testimonial .sub-title {
+  color: #6c757d;
+  font-size: 1rem; }
 
 /*# sourceMappingURL=testimonial.css.map */
