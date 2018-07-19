@@ -9,38 +9,98 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="bg-white">
+                        <div class="bg-primary">
                             <div class="p-3">
-                                <h4 class="monials-title text-center">Google</h4>
-                                <p class="monials-sub-title mb-2">Grammy award-winning artist</p>
-                                <p class="mb-0">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-success">
+                            <div class="p-3">
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-danger">
+                            <div class="p-3">
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-dark">
+                            <div class="p-3">
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-warning">
+                            <div class="p-3">
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-info">
+                            <div class="p-3">
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="bg-white">
                             <div class="p-3">
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
                                 <h4 class="monials-title text-center">Google</h4>
-                                <p class="monials-sub-title mb-2">Grammy award-winning artist</p>
+                                <p class="monials-sub-title mb-2 text-center">Grammy award-winning artist</p>
                                 <p class="mb-0">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="bg-white">
+                        <div class="bg-info">
                             <div class="p-3">
-                                <h4 class="monials-title text-center">Google</h4>
-                                <p class="monials-sub-title mb-2">Grammy award-winning artist</p>
-                                <p class="mb-0">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white">
-                            <div class="p-3">
-                                <h4 class="monials-title text-center">Google</h4>
-                                <p class="monials-sub-title mb-2">Grammy award-winning artist</p>
-                                <p class="mb-0">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
+                                <div class="text-center my-3">
+                                    <img class="rounded-circle" src="images/user.png" alt="User">
+                                </div>
+                                <h4 class="monials-title text-center text-white">Google</h4>
+                                <p class="monials-sub-title mb-2 text-center text-white">Grammy award-winning artist</p>
+                                <p class="mb-0 text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
                             </div>
                         </div>
                     </div>
@@ -50,27 +110,117 @@
             <div class="prev-btn swiper-button-prev swiper-button-white"></div>
         </div>
     </div>
+    <div class="testi-content my-5">
+        <div class="banner-section" style="background-image: url('images/testi-banner.jpg');">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="text-centent py-5">
+                                <div class="text-center">
+                                    <img class="rounded-circle" src="images/user.png">
+                                </div>
+                                <div class="text-center font-weight-bold text-white" >
+                                    <p class="desc my-3">Smart Slider 3 is the best slider that i’ve tried so far. There’s so many useful functions and easy to understand how to use it. Keep the good work guys.</p>
+                                    <p class="my-2">Nandish Ajani</p>
+                                    <p class="my-2">Project manager</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="text-centent py-5">
+                                <div class="text-center">
+                                    <img class="rounded-circle" src="images/user.png">
+                                </div>
+                                <div class="text-center font-weight-bold text-white" >
+                                    <p class="desc my-3">Smart Slider 3 is the best slider that i’ve tried so far. There’s so many useful functions and easy to understand how to use it. Keep the good work guys.</p>
+                                    <p class="my-2">Nandish Ajani</p>
+                                    <p class="my-2">Project manager</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="text-centent py-5">
+                                <div class="text-center">
+                                    <img class="rounded-circle" src="images/user.png">
+                                </div>
+                                <div class="text-center font-weight-bold text-white" >
+                                    <p class="desc my-3">Smart Slider 3 is the best slider that i’ve tried so far. There’s so many useful functions and easy to understand how to use it. Keep the good work guys.</p>
+                                    <p class="my-2">Nandish Ajani</p>
+                                    <p class="my-2">Project manager</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="text-centent py-5">
+                                <div class="text-center">
+                                    <img class="rounded-circle" src="images/user.png">
+                                </div>
+                                <div class="text-center font-weight-bold text-white" >
+                                    <p class="desc my-3">Smart Slider 3 is the best slider that i’ve tried so far. There’s so many useful functions and easy to understand how to use it. Keep the good work guys.</p>
+                                    <p class="my-2">Nandish Ajani</p>
+                                    <p class="my-2">Project manager</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="swiper-pagination"></div>
+            </div>
+            
+        </div>
+    </div>
 </main>
 <script src="../../js/swiper.min.js"></script>
 <script>
-var swiper = new Swiper('.swiper-container', {
-slidesPerView: 3,
-spaceBetween: 30,
-navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
-},
-breakpoints: {
-1000: {
-slidesPerView: 2,
-spaceBetween: 40
-},
-768: {
-slidesPerView: 1,
-spaceBetween: 40
-},
-}
-});
+    var swiper = new Swiper('.testimonial-content .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    speed: 750,
+    mode: 'horizontal',
+    grabCursor: true,
+    autoplay: {
+    delay: 3000,
+    },
+    loop:true,
+    breakpoints: {
+    1000: {
+    slidesPerView: 2,
+    spaceBetween: 40
+    },
+    768: {
+    slidesPerView: 1,
+    spaceBetween: 40
+    },
+    }
+    });
+    var swiper = new Swiper('.testi-content .swiper-container', {
+    slidesPerView: 1,
+    pagination: {
+    el: '.swiper-pagination',
+    },
+    speed: 750,
+    mode: 'horizontal',
+    grabCursor: true,
+    autoplay: {
+    delay: 3000,
+    },
+    loop:true,
+    });
 </script>
 </body>
 </html>

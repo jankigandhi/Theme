@@ -1,608 +1,580 @@
-<?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" type="text/css" href="css/nav-bar.css">
-</head>
-<body>
-	<header class="line-height">
-		<div class="nav-utility w-100 d-inline-block px-4 py-2">
-			<div class="navigation float-left">
-				<i class="zmdi zmdi-gps-dot"></i>
-				<span>68 Cardamon Place, Melbourne Vic 3000</span>
+<div class="nav-container mw-100 bg-dark">
+	<a id="top"></a>
+	<nav class="mw-100 <?php echo $HederClass ?>">
+		<div class="nav-utility">
+			<div class="module float-left">
+				<i class="ti-location-arrow"></i>
+				<span class="sub">68 Cardamon Place, Melbourne Vic 3000</span>
 			</div>
-			<div class="mail float-left pl-4">
-				<i class="zmdi zmdi-email"></i>
-				<span>hello@foundry.net</span>
+			<div class="module float-left">
+				<i class="ti-email"></i>
+				<span class="sub">hello@foundry.net</span>
 			</div>
-			<div class="float-right">
-				<button class="btn btn-outline-success rounded-0 px-3 text-uppercase btn-sm">Try Builder</button>
-				<button class="btn btn-success rounded-0 px-3 text-uppercase btn-sm">Buy Now</button>
+			<div class="module float-right">
+				<a class="btn btn-sm btn-thick btn-outline-success d-none d-lg-inline rounded-0 py-1 text-uppercase" href="variant/builder.html">Try Builder</a>
+				<a class="btn btn-sm btn-success rounded-0 px-3 btn-filled text-uppercase" href="http://themeforest.net/item/foundry-multipurpose-html-variant-page-builder/11562108?ref=medium_rare">Buy Now</a>
 			</div>
 		</div>
-		<div class="site-header bg white w-100">
-			<div class="header-menu">
-				<p class="site-logo mb-0 px-4  py-1 line-height float-left">
-					<a href="#" class="text-uppercase">Logo</a>
-				</p>
-				<div class="site-link open float-right">
-					<div class="float-left">
-						<ul class="menu-bar top togal-up list-unstyled mb-0 px-5 px-md-0">
-							<li class="p-3">
-								<a href="#" class="text-uppercase">Home</a>
-								<ul class="sub-menu togal-up list-unstyled px-3 px-md-0">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Concepts</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Adventure Travel</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Agency</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Agency 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">App Landing</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">App Landing 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Capital Firm</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Fashion</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Fitness</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Restaurant</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Music</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Event / Seminar</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Architecture</a>
-											</li>
-										</ul>
-									</li>
-									<li class="align-top">
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Photography</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Ken Burns</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Portfolio</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Property Listing</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Resumé</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Winery</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Home Pages</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Home Classic</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Home Layout 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Home Layout 3</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Home Layout 4</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Home Layout 5</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="p-3">
-								<a href="#" class="text-uppercase">Pages</a>
-								<ul class="sub-menu list-unstyled px-3">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Inner pages</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">About Us 1</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">About Us 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">About Us 3</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Services 1</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Services 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Services 3</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Contact 1</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Contact 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Planner</a>
-											</li>
-										</ul>
-									</li>
-									<li class="align-top">
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Utility Pages</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Login</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Register</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Comning Soon</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Faq</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Confirmation</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Countdown</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Countdown 2</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">404 - Error</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<!-- <li class="p-3">
-								<a href="#" class="text-uppercase">Elements</a>
-								<ul class="sub-menu list-unstyled px-3">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Elements</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Buttons</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Tabbed Content</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Progress Bars</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Accordions</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Alerts</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Form Inputs</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Countdowns</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Modals</a>
-											</li>
-										</ul>
-									</li>
-									<li class="align-top">
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Elements</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Pricing Tables</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Icon Boxes</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Widgets</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Typography</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Lists</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Grid Structure</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Text &amp; Image</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Intro Sections</a>
-											</li>
-										</ul>
-									</li>
-									<li class="align-top">
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Elements</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Titles Left</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Titles Center</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Video Inline</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Video BG</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Video Slider</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Image Galleries</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Parallax</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase"> Nav Styles</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="p-3">
-								<a href="#" class="text-uppercase">Portfolio</a>
-								<ul class="sub-menu list-unstyled px-3">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Contained</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Wide</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Parallax</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Single</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="p-3">
-								<a href="#" class="text-uppercase">Shop</a>
-								<ul class="sub-menu list-unstyled px-3">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Shop Layout</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Product Single</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Cart</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Checkout</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="p-3">
-								<a href="#" class="text-uppercase">Blog</a>
-								<ul class="sub-menu list-unstyled px-3">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Listing</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Masonry</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Single</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Simple Feed</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li> -->
-						</ul>
-					</div>
-					<div class="float-left">
-						<div class="search-icon p-3">
-							<span class="search align-middle">
-								<i class="zmdi zmdi-search"></i>
-							</span>
-						</div>
-					</div>
-					<div class="float-left">
-						<div class="shopping-icon p-3">
-							<span class="search align-middle">
-								<i class="zmdi zmdi-shopping-cart"></i>
-							</span>
-						</div>
-					</div>
-					<div class="float-left">
-						<div class="search-icon">
-							<ul class="menu-bar top list-unstyled mb-0">
-								<li class="p-3">
-								<a href="#" class="text-uppercase">Eng</a>
-								<ul class="sub-menu spacing list-unstyled px-3">
-									<li>
-										<ul class="list-unstyled">
-											<li class="p-2">
-												<a href="#" class="text-uppercase">French</a>
-											</li>
-											<li class="p-2">
-												<a href="#" class="text-uppercase">Deutsch</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
+		<div class="nav-bar">
+			<div class="float-left">
+				<a href="index.html">
+					<h4 class="mt-2 px-3 text-uppercase">logo</h4>
+				</a>
+			</div>
+			<div class="module widget-handle mobile-toggle float-right d-lg-none toggle-widget-handle">
+				<i class="ti-menu"></i>
+			</div>
+			<div class="module-group float-right">
+				<div class="module float-left">
+					<ul class="menu list-unstyled mb-0">
+						<li class="has-dropdown">
+							<a href="#">
+								Home
+							</a>
+							<ul class="mega-menu list-unstyled mb-0">
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Concepts</span>
+										</li>
+										<li>
+											<a href="home-adventure.html">Adventure Travel</a>
+										</li>
+										<li>
+											<a href="home-agency.html">Agency</a>
+										</li>
+										<li>
+											<a href="home-agency-2.html">Agency 2</a>
+											<span class="label p-1 text-uppercase text-white">New!</span>
+										</li>
+										<li>
+											<a href="home-app-landing.html">App Landing</a>
+										</li>
+										<li>
+											<a href="home-app-landing-2.html">App Landing 2</a>
+										</li>
+										<li>
+											<a href="home-capital-firm.html">Capital Firm</a>
+										</li>
+										<li>
+											<a href="home-fashion.html">Fashion</a>
+										</li>
+										<li>
+											<a href="home-fitness.html">Fitness</a>
+										</li>
+										<li>
+											<a href="home-restaurant.html">Restaurant</a>
+										</li>
+										<li>
+											<a href="home-music.html">Music</a>
+										</li>
+										<li>
+											<a href="home-event.html">Event / Seminar</a>
+										</li>
+										<li>
+											<a href="home-architecture.html">Architecture</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="home-photography.html">Photography</a>
+										</li>
+										<li>
+											<a href="home-photography-2.html">Ken Burns</a>
+										</li>
+										<li>
+											<a href="home-personal-portfolio.html">Portfolio</a>
+										</li>
+										<li>
+											<a href="home-property.html">Property Listing</a>
+										</li>
+										<li>
+											<a href="home-resume.html">Resumé</a>
+										</li>
+										<li>
+											<a href="home-winery.html">Winery</a>
+										</li>
+										<li>
+											<span class="title">Home Pages</span>
+										</li>
+										<li>
+											<a href="index.html">Home Classic</a>
+										</li>
+										<li>
+											<a href="home-default-2.html">Home Layout 2</a>
+										</li>
+										<li>
+											<a href="home-default-3.html">Home Layout 3</a>
+										</li>
+										<li>
+											<a href="home-default-4.html">Home Layout 4</a>
+										</li>
+										<li>
+											<a href="home-default-5.html">Home Layout 5</a>
+										</li>
+									</ul>
+								</li>
 							</ul>
-						</div>
+						</li>
+						<li class="has-dropdown">
+							<a href="#">
+								Pages
+							</a>
+							<ul class="mega-menu mb-0">
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Inner Pages</span>
+										</li>
+										<li>
+											<a href="page-about-us-1.html">About Us 1</a>
+										</li>
+										<li>
+											<a href="page-about-us-2.html">About Us 2</a>
+										</li>
+										<li>
+											<a href="page-about-us-3.html">About Us 3</a>
+										</li>
+										<li>
+											<a href="page-services-1.html">Services 1</a>
+										</li>
+										<li>
+											<a href="page-services-2.html">Services 2</a>
+										</li>
+										<li>
+											<a href="page-services-3.html">Services 3</a>
+										</li>
+										<li>
+											<a href="page-contact-1.html">Contact 1</a>
+										</li>
+										<li>
+											<a href="page-contact-2.html">Contact 2</a>
+										</li>
+										<li>
+											<a href="page-contact-3.html">Planner</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Utility Pages</span>
+										</li>
+										<li>
+											<a href="page-login.html">Login</a>
+										</li>
+										<li>
+											<a href="page-register.html">Register</a>
+										</li>
+										<li>
+											<a href="page-coming-soon.html">Coming Soon</a>
+										</li>
+										<li>
+											<a href="page-faq.html">FAQ</a>
+										</li>
+										<li>
+											<a href="page-confirmation.html">Confirmation</a>
+										</li>
+										<li>
+											<a href="page-countdown.html">Countdown</a>
+										</li>
+										<li>
+											<a href="page-countdown-2.html">Countdown 2</a>
+										</li>
+										<li>
+											<a href="page-404.html">404 - Error</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="has-dropdown">
+							<a href="#">
+								Elements
+							</a>
+							<ul class="mega-menu mb-0">
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Elements</span>
+										</li>
+										<li>
+											<a href="elements-buttons.html">Buttons</a>
+										</li>
+										<li>
+											<a href="elements-tabs.html">Tabbed Content</a>
+										</li>
+										<li>
+											<a href="elements-progress.html">Progress Bars</a>
+										</li>
+										<li>
+											<a href="elements-accordions.html">Accordions</a>
+										</li>
+										<li>
+											<a href="elements-alerts.html">Alerts</a>
+										</li>
+										<li>
+											<a href="elements-form-inputs.html">Form Inputs</a>
+										</li>
+										<li>
+											<a href="elements-countdown.html">Countdowns</a>
+										</li>
+										<li>
+											<a href="elements-modals.html">Modals</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Elements</span>
+										</li>
+										<li>
+											<a href="elements-pricing.html">Pricing Tables</a>
+										</li>
+										<li>
+											<a href="elements-icon-boxes.html">Icon Boxes</a>
+										</li>
+										<li>
+											<a href="elements-widgets.html">Widgets</a>
+										</li>
+										<li>
+											<a href="elements-typography.html">Typography</a>
+										</li>
+										<li>
+											<a href="elements-lists.html">Lists</a>
+										</li>
+										<li>
+											<a href="elements-grid.html">Grid Structure</a>
+										</li>
+										<li>
+											<a href="elements-textimage.html">Text &amp; Image</a>
+										</li>
+										<li>
+											<a href="elements-intros.html">Intro Sections</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Elements</span>
+										</li>
+										<li>
+											<a href="elements-titles.html">Titles Left</a>
+										</li>
+										<li>
+											<a href="elements-titles-center.html">Titles Center</a>
+										</li>
+										<li>
+											<a href="elements-video.html">Video Inline</a>
+										</li>
+										<li>
+											<a href="elements-video-bg.html">Video BG</a>
+										</li>
+										<li>
+											<a href="elements-video-slider.html">Video Slider</a>
+										</li>
+										<li>
+											<a href="elements-galleries.html">Image Galleries</a>
+										</li>
+										<li>
+											<a href="elements-parallax.html">Parallax</a>
+										</li>
+										<li>
+											<a href="elements-nav-light.html">Nav Styles</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="has-dropdown">
+							<a href="#">Portfolio</a>
+							<ul class="list-unstyled mb-0">
+								<li class="has-dropdown">
+									<a href="#">Contained</a>
+									<ul class="list-unstyled">
+										<li>
+											<a href="portfolio-grid-2col.html">2 Columns</a>
+										</li>
+										<li>
+											<a href="portfolio-grid.html">
+												3 Columns
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-grid-4col.html">
+												4 Columns
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="has-dropdown">
+									<a href="#">
+										Wide
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="portfolio-wide-2col.html">
+												2 Columns
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-wide.html">
+												3 Columns
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-wide-4col.html">
+												4 Columns
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="portfolio-parallax.html">
+										Parallax
+									</a>
+								</li>
+								<li class="has-dropdown">
+									<a href="#">
+										Single
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="portfolio-single-1.html">
+												Case Study 1
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-2.html">
+												Case Study 2
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-3.html">
+												Case Study 3
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-4.html">
+												Case Study 4
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-5.html">
+												Case Study 5
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="has-dropdown">
+							<a href="#">
+								Shop
+							</a>
+							<ul class="list-unstyled mb-0">
+								<li class="has-dropdown">
+									<a href="#">
+										Shop Layout
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="shop-sidebar.html">
+												Sidebar Left
+											</a>
+										</li>
+										<li>
+											<a href="shop-sidebar-right.html">
+												Sidebar Right
+											</a>
+										</li>
+										<li>
+											<a href="shop-fullwidth-4col.html">
+												4 Columns
+											</a>
+										</li>
+										<li>
+											<a href="shop-fullwidth.html">
+												3 Columns
+											</a>
+										</li>
+										<li>
+											<a href="shop-fullwidth-2col.html">
+												2 Columns
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="has-dropdown">
+									<a href="#">
+										Product Single
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="shop-product-sidebar-left.html">
+												Sidebar Left
+											</a>
+										</li>
+										<li>
+											<a href="shop-product-sidebar.html">
+												Sidebar Right
+											</a>
+										</li>
+										<li>
+											<a href="shop-product-fullwidth.html">
+												No Sidebar
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="shop-cart.html">
+										Cart
+									</a>
+								</li>
+								<li>
+									<a href="shop-checkout.html">
+										Checkout
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="has-dropdown">
+							<a href="#">
+								Blog
+							</a>
+							<ul class="list-unstyled mb-0">
+								<li class="has-dropdown">
+									<a href="#">
+										Listing
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="blog-sidebar.html">
+												Sidebar Left
+											</a>
+										</li>
+										<li>
+											<a href="blog-sidebar-right.html">
+												Sidebar Right
+											</a>
+										</li>
+										<li>
+											<a href="blog-no-sidebar.html">
+												No Sidebar
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="has-dropdown">
+									<a href="#">
+										Masonry
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="blog-masonry-sidebar.html">
+												Sidebar Left
+											</a>
+										</li>
+										<li>
+											<a href="blog-masonry-sidebar-right.html">
+												Sidebar Right
+											</a>
+										</li>
+										<li>
+											<a href="blog-masonry.html">
+												3 Columns
+											</a>
+										</li>
+										<li>
+											<a href="blog-masonry-2col.html">
+												2 Columns
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="has-dropdown">
+									<a href="#">
+										Single
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="blog-single-sidebar.html">
+												Sidebar Left
+											</a>
+										</li>
+										<li>
+											<a href="blog-single-sidebar-right.html">
+												Sidebar Right
+											</a>
+										</li>
+										<li>
+											<a href="blog-single-no-sidebar.html">
+												No Sidebar
+											</a>
+										</li>
+										<li>
+											<a href="blog-single-disqus.html">
+												Disqus Comments
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="blog-simple-feed.html">
+										Simple Feed
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!--end of menu module-->
+				<div class="module widget-handle search-widget-handle left">
+					<div class="search">
+						<i class="ti-search"></i>
+						<span class="title">Search Site</span>
+					</div>
+					<div class="function">
+						<form class="search-form">
+							<input type="text" placeholder="Type Here" class="text-uppercase px-2 w-100">
+						</form>
 					</div>
 				</div>
-				<div class="bar-icon mt-2">
-					<a href="#">☰</a>
+				<div class="module widget-handle cart-widget-handle left">
+					<div class="cart">
+						<i class="ti-bag"></i>
+						<span class="label number">2</span>
+						<span class="title">Shopping Cart</span>
+					</div>
+					<div class="function">
+						<div>
+							<h6 class="title">Shopping Cart</h6>
+						</div>
+						<!--end of widget-->
+					</div>
+				</div>
+				<div class="module widget-handle language float-left py-lg-0 py-2">
+					<ul class="menu list-unstyled mb-0">
+						<li class="has-dropdown">
+							<a href="#">ENG</a>
+							<ul class="list-unstyled">
+								<li>
+									<a href="#">French</a>
+								</li>
+								<li>
+									<a href="#">Deutsch</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 			</div>
+			<!--end of module group-->
 		</div>
-	</header>
-	<main>
-		<div class="banner-image" style="background-image: url('images/banner-img.jpg');">
-			<h1 class="transforam-text">Transform</h1>
-		</div>
-	</main>
-</body>
-</html>
-
-<!-- //css add -->
-
-// body {
-//     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-// }
-
-.line-height {
-    line-height: 1;
-}
-
-.nav-utility {
-    line-height: 43px;
-    overflow: hidden;
-    .navigation,
-    .mail {
-        font-size: .8rem;
-    }
-}
-
-.site-header {
-    height: 3rem;
-    position: relative;
-    z-index: 11;
-    border-top: 1px solid $gray-300;
-    .header-menu {
-        height: 3rem; //background-color: $gray-900;
-        border-bottom: 1px solid $gray-300;
-    }
-    &.header-transperent {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        z-index: 999;
-        background-color: transparent;
-        .menu-bar,
-        .site-logo {
-            line-height: 1;
-            a {
-                color: $white;
-            }
-        }
-    }
-    .site-logo {
-        a {
-            color: $gray-600;
-            text-decoration: none;
-            font-size: 2rem;
-        }
-    }
-    .menu-bar {
-        li {
-            display: inline-block;
-            a {
-                color: $gray-500;
-                text-decoration: none;
-                font-size: .75rem;
-            }
-            &:hover {
-                .sub-menu {
-                    opacity: 1;
-                    visibility: visible;
-                    transform: translate3d(0, 0px, 0);
-                }
-            }
-        }
-        .sub-menu {
-            width: auto;
-            white-space: nowrap;
-            line-height: 24px;
-            background: $black;
-            position: absolute;
-            z-index: 99;
-            opacity: 0;
-            transition: all 0.3s ease;
-            transform: translate3d(0, 10px, 0);
-            visibility: hidden;
-            margin-top: 16px;
-            ul {
-                li {
-                    display: block;
-                    width: 150px;
-                    display: none;
-                }
-            }
-            &.spacing {
-                right: 0;
-            }
-        }
-    }
-    .bar-icon {
-        display: none;
-    }
-    .search-icon,
-    .shopping-icon {
-        border-left: 1px solid $gray-300;
-        height: 48px;
-        cursor: pointer;
-        .text {
-            font-size: .75px;
-        }
-        .text-div {
-            color: $gray-500;
-            text-decoration: none;
-        }
-        .search {
-            font-size: 20px;
-            opacity: .5;
-            transition: all 0.3s ease;
-        }
-    }
-}
-
-.banner-image {
-    @include img-inbg;
-    padding-bottom: 40%;
-    .transforam-text {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        @include transform(translate(-50%, -50%));
-    }
-}
-
-
-@include media-breakpoint-down(md) {
-    .site-header {
-        &.header-transperent {
-            .bar-icon {
-                a {
-                    color: $white;
-                }
-            }
-        }
-        .header-menu {
-            z-index: 9;
-            background-color: $white;
-        }
-
-        .menu-bar {
-            position: absolute;
-            right: 0;
-            top: 0;
-            transition: .3s all linear;
-
-            &.top {
-                margin-top: 3rem;
-                left: 0;
-                right: 0;
-                @include transform(translateY(-200%));
-                z-index: -1;
-                background-color: $black;
-            }
-            &.togal-up {
-                ul {
-                    display: block;
-                }
-            }
-            li {
-                display: block;
-            }
-            .sub-menu {
-                ul {
-                    display: none;
-                    li {
-                        display: block;
-                    }
-                }
-                position: relative;
-                opacity: 1;
-                visibility: visible;
-                display: none;
-                @include transform(translate3d(0, 0px, 0));
-                li {
-                    line-height: 24px;
-                    float: none;
-                    display: block;
-                    width: 100%;
-                    max-width: 100%;
-                }
-            }
-        }
-        .bar-icon {
-            display: inline-block;
-            float: right;
-            font-size: 2rem;
-            a {
-                color: $gray-600;
-                text-decoration: none;
-            }
-        }
-        .search-icon,
-        .shopping-icon {
-            display: none;
-        }
-    }
-    .nav-utility {
-        z-index: 9;
-        background-color: $white;
-        overflow: hidden;
-    }
-    .site-link {
-        &.open {
-            .menu-bar {
-                transform: none;
-            }
-        }
-    }
-}
+	</nav>
+</div>

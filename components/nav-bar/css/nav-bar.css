@@ -9,6 +9,8 @@ nav {
   background: #fff;
   -webkit-backface-visibility: hidden;
   max-width: 100%; }
+  nav .sub {
+    font-size: 12px; }
   nav ul {
     margin-bottom: 0; }
   nav .btn {
@@ -86,13 +88,16 @@ nav.bg-dark .logo-light {
 nav.bg-dark .logo-dark {
   display: none; }
 nav.bg-dark .menu > li > a {
-  color: rgba(255, 255, 255, 0.7); }
+  color: #fff;
+  opacity: .7; }
 nav.bg-dark .module.widget-handle {
   border-left: 1px solid rgba(255, 255, 255, 0.2); }
   nav.bg-dark .module.widget-handle i {
-    color: rgba(255, 255, 255, 0.7); }
+    color: #fff;
+    opacity: .7; }
 nav.bg-dark .nav-utility {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
+  opacity: .7;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 nav.bg-dark .nav-bar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
@@ -101,12 +106,12 @@ nav.bg-dark .nav-bar {
 
 .has-dropdown {
   padding-right: 1.125rem;
-  color: #dee2e6; }
+  color: #adb5bd; }
   .has-dropdown:after {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: .6875rem;
+    font-size: 11px;
     content: "\e64b";
     font-family: 'themify';
     speak: none;
@@ -128,11 +133,11 @@ nav.bg-dark .nav-bar {
   height: 3.4375rem;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .menu li a {
-    font-size: .6875rem;
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #292929;
+    color: #212529;
     opacity: 0.5;
     transition: all 0.3s ease;
     max-width: 100%;
@@ -155,7 +160,7 @@ nav.bg-dark .nav-bar {
     .menu > li ul {
       width: 12.5rem;
       padding: .5rem 0;
-      background: #343a40;
+      background: #212529;
       position: absolute;
       z-index: 99;
       opacity: 0;
@@ -230,7 +235,7 @@ nav.bg-dark .nav-bar {
     display: inline-block;
     padding: .375rem 1.5rem;
     text-transform: uppercase;
-    font-size: .6875rem;
+    font-size: 11px;
     font-weight: 600; }
 
 .make-right {
@@ -262,9 +267,10 @@ nav.bg-dark .nav-bar {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: .6875rem;
+    font-size: 11px;
     font-weight: 600;
     display: none;
+    color: #fff;
     opacity: .5;
     transition: all 0.3s ease; }
     .module.widget-handle .title:hover {
@@ -277,7 +283,7 @@ nav.bg-dark .nav-bar {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   cursor: default;
   width: 12.5rem;
-  background: #292929;
+  background: #212529;
   position: absolute;
   z-index: 99;
   opacity: 0;
@@ -303,7 +309,8 @@ nav.bg-dark .nav-bar {
     background: #4caf50;
     top: 10px;
     right: -10px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    color: #fff; }
 .widget-handle .search-form {
   padding: .5rem;
   display: inline-block;
@@ -316,8 +323,6 @@ nav.bg-dark .nav-bar {
 .cart-widget-handle .function {
   width: auto;
   background: #fff; }
-  .cart-widget-handle .function span {
-    color: #222 !important; }
 
 .language .menu > li ul {
   max-width: 9.375rem; }
@@ -479,10 +484,10 @@ nav.transparent.fixed {
   nav.transparent.fixed .module.widget-handle {
     border-left: 1px solid #ced4da; }
     nav.transparent.fixed .module.widget-handle i {
-      color: rgba(52, 58, 64, 0.5); }
+      color: rgba(33, 37, 41, 0.5); }
 
 nav.transparent.fixed.bg-dark {
-  background: #343a40; }
+  background: #212529; }
   nav.transparent.fixed.bg-dark .menu > li > a {
     color: #fff; }
   nav.transparent.fixed.bg-dark .module.widget-handle i {
@@ -530,7 +535,7 @@ nav.nav-centered.outOfSight .logo {
       height: auto;
       overflow: hidden;
       width: 100%;
-      padding: 1rem 0; }
+      padding: 1rem 0 0 0; }
       .nav-bar .module-group .module {
         display: block;
         float: none;
@@ -550,7 +555,7 @@ nav.nav-centered.outOfSight .logo {
     height: auto; }
     .menu a {
       height: auto;
-      line-height: 1.5rem;
+      line-height: 2rem;
       padding: .25rem 0; }
     .menu li {
       line-height: 1.5rem;
@@ -613,7 +618,7 @@ nav.nav-centered.outOfSight .logo {
   .module.widget-handle {
     border-left: none;
     border-top: 1px solid #ced4da;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     min-height: 2.5rem; }
     .module.widget-handle .menu {
       line-height: 2.5rem; }
@@ -671,16 +676,28 @@ nav.nav-centered.outOfSight .logo {
   nav.transparent .nav-open {
     background: #fff; }
     nav.transparent .nav-open .menu > li > a {
-      color: #343a40; }
+      color: #212529; }
     nav.transparent .nav-open .module.widget-handle i {
-      color: #343a40; }
+      color: #212529; }
     nav.transparent .nav-open .nav-utility {
-      color: #343a40; }
+      color: #212529; }
     nav.transparent .nav-open .logo-dark {
       display: inline; }
     nav.transparent .nav-open .logo-light {
       display: none; }
     nav.transparent .nav-open .has-dropdown:after {
-      color: #343a40; } }
+      color: #212529; } }
+.banner-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20%;
+  min-height: 200px;
+  background-color: #e9ecef; }
 
 /*# sourceMappingURL=nav-bar.css.map */

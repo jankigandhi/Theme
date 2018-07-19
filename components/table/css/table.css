@@ -19,7 +19,7 @@
   .responsive-data-table {
     border: 0; }
     .responsive-data-table table caption {
-      font-size: 1.3em; }
+      font-size: 1.3rem; }
     .responsive-data-table tbody {
       display: block;
       width: 100%; }
@@ -35,11 +35,11 @@
     .responsive-data-table tr {
       border-bottom: 1px solid #dee2e6;
       display: block;
-      margin-bottom: .625em; }
+      margin-bottom: .625rem; }
     .responsive-data-table td {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #dee2e6;
       display: block;
-      font-size: .8em;
+      font-size: .8rem;
       text-align: right; }
       .responsive-data-table td:before {
         content: attr(data-label);
@@ -48,5 +48,18 @@
         text-transform: uppercase; }
       .responsive-data-table td:last-child {
         border: 0; } }
+.scroll ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #fff; }
+.scroll ::-webkit-scrollbar-thumb {
+  background-color: #dee2e6;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); }
+.scroll ::-webkit-scrollbar-track {
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); }
+.scroll body {
+  scrollbar-face-color: #dee2e6;
+  scrollbar-track-color: #fff; }
 
 /*# sourceMappingURL=table.css.map */
