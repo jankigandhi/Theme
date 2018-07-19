@@ -3,7 +3,6 @@
 <link rel="stylesheet" type="text/css" href="css/accordions.css">
 </head>
 <body>
-
 <div class="container">
     <h1 class="h2 text-center my-3">Accordions</h1>
     <div class="row mb-4">
