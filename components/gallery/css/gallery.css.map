@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,gBAAiB;EACb,UAAU,EAAE,MAAM;EA8ClB;;;;;;MAMI;EAnDJ,6BAAa;IACT,QAAQ,EAAE,QAAQ;IAClB,QAAQ,EAAE,MAAM;IAChB,KAAK,EAAE,IAAI;IACX,aAAa,EAAE,IAAI;IACnB,KAAK,EAAE,IAAI;IACZ;;;;;;;;;;;;;;SAcK;IACJ;;;;;;;;;;;;;;;;;;;;;;QAsBI;EASR,8BAAc;IACV,KAAK,EAAE,IAAI;;ACEf,yBAAyB;EDIrB,6BAAY;IACR,KAAK,EAAE,kBAAkB;AC6CjC,mDAA+C;EDtC3C,6BAAa;IACT,KAAK,EAAE,sBAAsB;ACqCrC,mDAA+C;ED9B3C,6BAAY;IACR,KAAK,EAAE,iBAAiB",
+"sources": ["gallery.scss","../../../css/scss/mixins/_breakpoints.scss"],
+"names": [],
+"file": "gallery.css"
+}

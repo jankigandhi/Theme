@@ -1,0 +1,67 @@
+.gallery-section {
+  overflow-y: hidden;
+  /* .content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+  } */ }
+  .gallery-section .gallery-box {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 1rem;
+    width: 100%;
+    /*  &:before {
+         background-color: rgba($white, .75);
+         content: '';
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         opacity: 0;
+         visibility: hidden;
+         @include transition(.3s all linear);
+         cursor: pointer;
+     } */
+    /* .title,
+    .name {
+        opacity: 0;
+    }
+    .title {
+        @include transform(translateY(50px));
+        @include transition(opacity .35s, transform .35s);
+    }
+    .name {
+        @include transform(translateY(60px));
+        @include transition(opacity .6s, transform .6s);
+    }
+    &:hover {
+        &:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        .title,
+        .name {
+            @include transform(translateY(0));
+            opacity: 1;
+        }
+    } */ }
+  .gallery-section .gutter-sizer {
+    width: 1rem; }
+
+@media (min-width: 992px) {
+  .gallery-section .gallery-box {
+    width: calc(25% - .75rem); } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .gallery-section .gallery-box {
+    width: calc(33.333% - .65rem); } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .gallery-section .gallery-box {
+    width: calc(50% - .5rem); } }
+
+/*# sourceMappingURL=gallery.css.map */
