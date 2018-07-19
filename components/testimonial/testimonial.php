@@ -1,5 +1,6 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
+<link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" type="text/css" href="css/testimonial.css">
 </head>
 <body>
@@ -222,7 +223,7 @@
                         <div>
                             <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
                         </div>
-                        <div class="pt-4 px-4">
+                        <div class="pt-4">
                             <h5 class="title text-uppercase pt-3">Johne Smith</h5>
                             <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
                             <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
