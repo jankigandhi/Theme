@@ -528,6 +528,9 @@ nav.nav-centered.outOfSight .logo {
     -webkit-transform: translate3d(0, 0px, 0);
     transform: translate3d(0, 0px, 0); }
 
+  nav.transparent .nav-bar {
+    border-bottom: 1px solid rgba(173, 181, 189, 0.5); }
+
   .nav-bar {
     height: auto;
     overflow: hidden; }
