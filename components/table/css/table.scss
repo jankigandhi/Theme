@@ -33,7 +33,7 @@
     .responsive-data-table {
         border: 0;
         table caption {
-            font-size: 1.3em;
+            font-size: 1.3rem;
         }
         tbody {
             display: block;
@@ -52,12 +52,12 @@
         tr {
             border-bottom: 1px solid $gray-300;
             display: block;
-            margin-bottom: .625em;
+            margin-bottom: .625rem;
         }
         td {
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid $gray-300;
             display: block;
-            font-size: .8em;
+            font-size: .8rem;
             text-align: right;
             &:before {
                 content: attr(data-label);
@@ -81,11 +81,11 @@
     }
      ::-webkit-scrollbar-thumb {
         background-color: $foreground-color;
-        -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.2);
+        -webkit-box-shadow: inset 0 0 3px rgba($black,.2);
     }
      ::-webkit-scrollbar-track {
         background-color: $background-color;
-        -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+        -webkit-box-shadow: inset 0 0 3px rgba($black,.2);
     } // For Internet Explorer
     body {
         scrollbar-face-color: $foreground-color;

@@ -19,7 +19,7 @@
   .responsive-data-table {
     border: 0; }
     .responsive-data-table table caption {
-      font-size: 1.3em; }
+      font-size: 1.3rem; }
     .responsive-data-table tbody {
       display: block;
       width: 100%; }
@@ -35,11 +35,11 @@
     .responsive-data-table tr {
       border-bottom: 1px solid #dee2e6;
       display: block;
-      margin-bottom: .625em; }
+      margin-bottom: .625rem; }
     .responsive-data-table td {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #dee2e6;
       display: block;
-      font-size: .8em;
+      font-size: .8rem;
       text-align: right; }
       .responsive-data-table td:before {
         content: attr(data-label);

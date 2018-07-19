@@ -10,11 +10,11 @@
 			<div class="nav-utility">
 				<div class="module float-left">
 					<i class="ti-location-arrow"></i>
-					<span class="small">68 Cardamon Place, Melbourne Vic 3000</span>
+					<span class="sub">68 Cardamon Place, Melbourne Vic 3000</span>
 				</div>
 				<div class="module float-left">
 					<i class="ti-email"></i>
-					<span class="small">hello@foundry.net</span>
+					<span class="sub">hello@foundry.net</span>
 				</div>
 				<div class="module float-right">
 					<a class="btn btn-sm btn-thick btn-outline-success d-none d-lg-inline rounded-0 py-1 text-uppercase" href="variant/builder.html">Try Builder</a>
@@ -27,7 +27,7 @@
 						<h4 class="mt-2 px-3 text-uppercase">logo</h4>
 					</a>
 				</div>
-				<div class="module widget-handle mobile-toggle float-right active d-lg-none toggle-widget-handle">
+				<div class="module widget-handle mobile-toggle float-right d-lg-none toggle-widget-handle">
 					<i class="ti-menu"></i>
 				</div>
 				<div class="module-group float-right">
@@ -51,7 +51,7 @@
 											</li>
 											<li>
 												<a href="home-agency-2.html">Agency 2</a>
-												<span class="label p-1 text-uppercase">New!</span>
+												<span class="label p-1 text-uppercase text-white">New!</span>
 											</li>
 											<li>
 												<a href="home-app-landing.html">App Landing</a>
@@ -564,7 +564,7 @@
 							<!--end of widget-->
 						</div>
 					</div>
-					<div class="module widget-handle language float-left">
+					<div class="module widget-handle language float-left py-lg-0 py-2">
 						<ul class="menu list-unstyled mb-0">
 							<li class="has-dropdown">
 								<a href="#">ENG</a>
@@ -584,6 +584,7 @@
 			</div>
 		</nav>
 	</div>
-	<div class="banner-img" style="background-image: url('images/Img Confident.png');"></div>
+	<div class="banner-img" style="background-image: url('images/banner.png');"></div>
+	<?php include_once '../../inc/footer.php';?>
 </body>
 </html>
