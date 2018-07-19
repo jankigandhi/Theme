@@ -881,3 +881,8 @@ nav.nav-centered.outOfSight {
         }
     }
 }
+
+.banner-img{
+    @include img-inbg;
+    padding-bottom: 30%;
+}

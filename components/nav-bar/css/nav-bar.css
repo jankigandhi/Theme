@@ -682,5 +682,15 @@ nav.nav-centered.outOfSight .logo {
       display: none; }
     nav.transparent .nav-open .has-dropdown:after {
       color: #343a40; } }
+.banner-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 30%; }
 
 /*# sourceMappingURL=nav-bar.css.map */

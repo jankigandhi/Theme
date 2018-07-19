@@ -6,7 +6,7 @@
 <body>
 	<div class="nav-container mw-100 bg-dark">
 		<a id="top"></a>
-		<nav class="mw-100">
+		<nav class="bg-dark mw-100">
 			<div class="nav-utility">
 				<div class="module float-left">
 					<i class="ti-location-arrow"></i>

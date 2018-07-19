@@ -6,7 +6,7 @@
 <body>
 	<div class="nav-container mw-100 bg-dark">
 		<a id="top"></a>
-		<nav class="bg-dark mw-100">
+		<nav class="transparent absolute mw-100">
 			<div class="nav-utility">
 				<div class="module float-left">
 					<i class="ti-location-arrow"></i>
@@ -560,35 +560,6 @@
 						<div class="function">
 							<div>
 								<h6 class="title">Shopping Cart</h6>
-								<!-- <hr>
-								<ul class="cart-overview">
-									<li>
-										<a href="#">
-											<img alt="Product" src="img/shop-widget-1.png">
-											<div class="description">
-												<span class="product-title">Canvas Backpack</span>
-												<span class="price number">$39.90</span>
-											</div>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img alt="Product" src="img/shop-widget-2.png">
-											<div class="description">
-												<span class="product-title">Vintage Camera</span>
-												<span class="price number">$249.50</span>
-											</div>
-										</a>
-									</li>
-								</ul>
-								<hr>
-								<div class="cart-controls">
-									<a class="btn btn-sm btn-filled" href="#">Checkout</a>
-									<div class="list-inline pull-right">
-										<span class="cart-total">Total: </span>
-										<span class="number">$289.40</span>
-									</div>
-								</div> -->
 							</div>
 							<!--end of widget-->
 						</div>
@@ -613,8 +584,6 @@
 			</div>
 		</nav>
 	</div>
-	<!-- <div class="background-image-holder fadeIn" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;img/home6.jpg&quot;);">
-		<img alt="Background Image" class="background-image" src="img/home6.jpg" style="display: none;">
-	</div> -->
+	<div class="banner-img" style="background-image: url('images/banner-img.jpg');"></div>
 </body>
 </html>
