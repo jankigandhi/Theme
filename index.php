@@ -49,13 +49,19 @@
           <a href="components/table/table-1.php" target="_blank">Table</a>
         </li>
         <li>
-          <a href="components/nav-bar/nav-bar.php" target="_blank">Navbar</a>
+          <a href="components/nav-bar/page-3.php" target="_blank">Navbar</a>
         </li>
         <li>
-          <a href="components/nav-bar/transparent-nav.php" target="_blank">Transparent Navbar</a>
+          <a href="components/nav-bar/page-2.php" target="_blank">Transparent Navbar</a>
         </li>
         <li>
-          <a href="components/nav-bar/dark-nav.php" target="_blank">Dark Navbar</a>
+          <a href="components/nav-bar/page-1.php" target="_blank">Dark Navbar</a>
+        </li>
+        <li>
+          <a href="components/banner-slider/banner-slider.php" target="_blank">Slider</a>
+        </li>
+        <li>
+          <a href="components/banner-slider/banner-slider-1.php" target="_blank">Slider1</a>
         </li>
       </ul>
     </div>
