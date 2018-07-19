@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/table.css">
 </head>
 <body>
-<div class="container my-4">
+<div class="container my-4 scroll">
     <h1 class="h2 text-center mt-3">Tables</h1>
     <div>
         <div class="mb-4">

@@ -45,6 +45,18 @@
         <li>
           <a href="components/form-input/form-input.php" target="_blank">Form-Input</a>
         </li>
+        <li>
+          <a href="components/table/table-1.php" target="_blank">Table</a>
+        </li>
+        <li>
+          <a href="components/nav-bar/nav-bar.php" target="_blank">Navbar</a>
+        </li>
+        <li>
+          <a href="components/nav-bar/transparent-nav.php" target="_blank">Transparent Navbar</a>
+        </li>
+        <li>
+          <a href="components/nav-bar/dark-nav.php" target="_blank">Dark Navbar</a>
+        </li>
       </ul>
     </div>
   </body>
