@@ -20,6 +20,7 @@
   background-position: center;
   width: 100%;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=call-actions.css.map */

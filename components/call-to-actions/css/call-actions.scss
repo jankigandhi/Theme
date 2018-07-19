@@ -24,4 +24,5 @@
 }
 .banner-images{
 	@include img-inbg;
+    background-attachment: fixed;
 }

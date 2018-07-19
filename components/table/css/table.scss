@@ -1,3 +1,73 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
+.table-fixed {
+    background-color: $gray-200;
+    tbody {
+        height: 200px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    thead,
+    tbody,
+    tr,
+    td,
+    th {
+        display: block;
+    }
+    tbody {
+        td {
+            float: left;
+        }
+    }
+    thead {
+        tr {
+            th {
+                float: left;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .responsive-data-table {
+        border: 0;
+        table caption {
+            font-size: 1.3em;
+        }
+        tbody {
+            display: block;
+            width: 100%;
+        }
+        thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+        tr {
+            border-bottom: 1px solid $gray-300;
+            display: block;
+            margin-bottom: .625em;
+        }
+        td {
+            border-bottom: 1px solid #ddd;
+            display: block;
+            font-size: .8em;
+            text-align: right;
+            &:before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            &:last-child {
+                border: 0;
+            }
+        }
+    }
+}
