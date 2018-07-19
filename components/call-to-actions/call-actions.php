@@ -4,6 +4,7 @@
 </head>
 <body>
 <div class="container">
+    <h1 class="h2 text-center mt-3">Call to Actions</h1>
     <h4 class="my-4">Default</h4>
     <div class="row call-to-action my-5 mx-0 align-items-center">
         <div class="col-md-9">

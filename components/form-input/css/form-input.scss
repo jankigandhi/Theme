@@ -17,6 +17,7 @@
         }
     }
 }
+
 //check-box 
 @mixin check-color($active-color: $color) {
     label {
@@ -27,7 +28,34 @@
             color: $active-color;
         }
     }
+    input:checked {
+        +label {
+            &.radio-fill {
+                &:after {
+                    background-color: $active-color;
+                }
+            }
+        }
+    }
 }
+
+@mixin toggle-color($active-color: $color) {
+    .slider {
+        border-color: $active-color !important;  
+        &:before {
+            background-color: $active-color;
+        }
+    }
+    input {
+        &:checked {
+            +.slider {
+                background-color: $active-color;
+                border-color: $active-color;
+            }
+        }
+    }
+}
+
 @each $color,
 $value in $theme-colors {
     .border-#{$color} {
@@ -35,6 +63,9 @@ $value in $theme-colors {
     }
     .check-#{$color} {
         @include check-color($value);
+    }
+    .toggle-#{$color} {
+        @include toggle-color($value);
     }
 }
 
@@ -139,7 +170,7 @@ $value in $theme-colors {
         height: 2.0625rem;
         @include transition(.4s);
         ~.focus-border {
-            margin-bottom: 5px;
+            margin-bottom: .3125rem;
         }
         &:focus,
         &:not(:placeholder-shown) {
@@ -155,8 +186,8 @@ select:-webkit-autofill {
 }
 
 
-$checkbox-size: 1.25rem;
-.pretty-checkbox {
+$box-size: 1.5rem;
+.pretty-input {
     input {
         &:checked,
         &:not(:checked) {
@@ -169,22 +200,28 @@ $checkbox-size: 1.25rem;
         padding-left: 1.875rem;
         font-size: .875rem;
         cursor: pointer;
+        &.circle-input {
+            &:before,
+            &:after {
+                border-radius: 50%;
+            }
+        }
         &:before,
         &:after {
             font-family: 'themify';
-            font-size: ($checkbox-size * 1.25);
+            font-size: ($box-size * 1.25);
             position: absolute;
             top: 50%;
             left: 0;
             line-height: .75;
-            margin-top: -$checkbox-size/2;
+            margin-top: -$box-size/2;
         }
         &:before {
             content: '';
-            @include size($checkbox-size);
+            @include size($box-size);
             border: 2px solid;
             display: block;
-            border-radius: .15rem;
+            border-radius: .2rem;
         }
         &:after {
             content: '\e64c';
@@ -192,16 +229,108 @@ $checkbox-size: 1.25rem;
             overflow: hidden;
             opacity: .5;
             @include transition(.35s all linear);
-            margin-top: -#{$checkbox-size/1.65};
+            margin-top: -#{$box-size/1.65};
             margin-left: .1rem;
+        }
+        &.radio-fill {
+            &:after {
+                content: '';
+                @include size($box-size);
+                max-width: 100%;
+                margin-left: 0;
+                margin-top: -$box-size/2;
+            }
+        }
+        .radio-check {
+            position: absolute;
+            @include size($box-size);
+            border-radius: 50%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 2;
+            &:before {
+                content: '\f26b';
+                font-family: 'Material-Design-Iconic-Font';
+                max-width: 0;
+                opacity: .5;
+                overflow: hidden;
+                color: $white;
+                @include transition(.5s all linear);
+                display: inline-block;
+                transition-delay: .15s;
+                font-size: 1.1rem;
+                vertical-align: middle;
+                line-height: 1.3;
+            }
         }
     }
     input {
         &:checked {
             +label {
                 &:after {
-                    max-width: $checkbox-size * 2;
+                    max-width: $box-size * 2;
                     opacity: 1;
+                }
+                .radio-check {
+                    &:before {
+                        max-width: $box-size * 2;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@mixin toggle-btn($width, $height, $circle-w, $circle-h, $bg-color) {
+    width: $width;
+    height: $height;
+    .slider {
+        background-color: $bg-color;  
+        &:before {
+            width: $circle-w;
+            height: $circle-h;
+        }
+    }
+}
+.toggle {
+    @include toggle-btn(50px, 24px, 18px, 18px, $white);
+    position: relative;
+    display: inline-block;
+    .slider {
+        @include transition(all .4s linear);
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 30px;
+        border: 1px solid;
+        &:before {
+            @include transition(all .4s linear);
+            position: absolute;
+            content: "";
+            left: 2px;
+            bottom: 2px;
+            border-radius: 50%;
+        }
+    }
+    input {
+        position: absolute;
+        opacity: 0;
+        height: 1px;
+        width: 1px;
+        bottom: 0;
+        &:checked {
+            +.slider {
+                border: 1px solid;
+                &:before {
+                    @include transform(translateX(26px));
+                    background-color: $white;
                 }
             }
         }
