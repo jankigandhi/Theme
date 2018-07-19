@@ -9,11 +9,11 @@
 		<nav class="bg-dark mw-100">
 			<div class="nav-utility">
 				<div class="module float-left">
-					<i class="zmdi zmdi-gps-dot"></i>
+					<i class="ti-location-arrow"></i>
 					<span class="small">68 Cardamon Place, Melbourne Vic 3000</span>
 				</div>
 				<div class="module float-left">
-					<i class="zmdi zmdi-email"></i>
+					<i class="ti-email"></i>
 					<span class="small">hello@foundry.net</span>
 				</div>
 				<div class="module float-right">
@@ -24,7 +24,7 @@
 			<div class="nav-bar">
 				<div class="float-left">
 					<a href="index.html">
-						<h4 class="text-white mt-2 px-3 text-uppercase">logo</h4>
+						<h4 class="mt-2 px-3 text-uppercase">logo</h4>
 					</a>
 				</div>
 				<div class="module widget-handle mobile-toggle float-right active d-lg-none toggle-widget-handle">
@@ -51,7 +51,7 @@
 											</li>
 											<li>
 												<a href="home-agency-2.html">Agency 2</a>
-												<span class="label p-1">New!</span>
+												<span class="label p-1 text-uppercase">New!</span>
 											</li>
 											<li>
 												<a href="home-app-landing.html">App Landing</a>
@@ -547,7 +547,7 @@
 						</div>
 						<div class="function">
 							<form class="search-form">
-								<input type="text" placeholder="Type Here">
+								<input type="text" placeholder="Type Here" class="text-uppercase px-3">
 							</form>
 						</div>
 					</div>
