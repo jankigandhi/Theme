@@ -5,30 +5,16 @@
     border-width: 5px !important;
 }
 
-.btn-outline-white {
-    color: $white;
-    background-color: transparent;
-    background-image: none;
-    border-color: $white;
-    &:hover {
-        background-color: $white;
-        color: $black;
-    }
-}
 .call-to-action {
     &.with-border {
         border: 1px solid $gray-500;
         box-shadow: 0 1px 1px 0 rgba($gray-500, .4);
-    }
-    &.border-content {
-        border-top: 3px solid $blue;
     }
     .call-to-action-content {
         .call-to-action-text {
             font-size: 1.2rem;
         }
         .call-to-action-desc {
-            color: $gray-600;
             font-size: 1.2rem;
         }
     }

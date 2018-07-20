@@ -11,6 +11,15 @@
 .btn-min-w {
   min-width: 12rem; }
 
+.btn-outline-white {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff; }
+  .btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active {
+    background-color: #fff;
+    color: #000; }
+
 .btn-effect {
   overflow: hidden; }
   .btn-effect.btn-outline-primary:after {
@@ -18,7 +27,7 @@
   .btn-effect.btn-outline-secondary:after {
     background-color: #6c757d; }
   .btn-effect.btn-outline-success:after {
-    background-color: #4caf50; }
+    background-color: #47b475; }
   .btn-effect.btn-outline-info:after {
     background-color: #17a2b8; }
   .btn-effect.btn-outline-warning:after {
@@ -28,7 +37,7 @@
   .btn-effect.btn-outline-light:after {
     background-color: #f8f9fa; }
   .btn-effect.btn-outline-dark:after {
-    background-color: #343a40; }
+    background-color: #212529; }
   .btn-effect:after {
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -98,7 +107,7 @@
   .btn-effect-2.btn-secondary:before, .btn-effect-2.btn-secondary:hover {
     background-color: #545b62; }
   .btn-effect-2.btn-success:before, .btn-effect-2.btn-success:hover {
-    background-color: #3d8b40; }
+    background-color: #398f5d; }
   .btn-effect-2.btn-info:before, .btn-effect-2.btn-info:hover {
     background-color: #117a8b; }
   .btn-effect-2.btn-warning:before, .btn-effect-2.btn-warning:hover {
@@ -108,7 +117,7 @@
   .btn-effect-2.btn-light:before, .btn-effect-2.btn-light:hover {
     background-color: #dae0e5; }
   .btn-effect-2.btn-dark:before, .btn-effect-2.btn-dark:hover {
-    background-color: #1d2124; }
+    background-color: #0a0c0d; }
   .btn-effect-2:before {
     content: " ";
     position: absolute;
@@ -198,7 +207,7 @@
     color: #6c757d;
     background-color: transparent; }
   .btn-effect-3.effect-1.btn-success:hover {
-    color: #4caf50;
+    color: #47b475;
     background-color: transparent; }
   .btn-effect-3.effect-1.btn-info:hover {
     color: #17a2b8;
@@ -213,7 +222,7 @@
     color: #f8f9fa;
     background-color: transparent; }
   .btn-effect-3.effect-1.btn-dark:hover {
-    color: #343a40;
+    color: #212529;
     background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-primary:hover {
     color: #0088cc;
@@ -222,7 +231,7 @@
     color: #6c757d;
     background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-success:hover {
-    color: #4caf50;
+    color: #47b475;
     background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-info:hover {
     color: #17a2b8;
@@ -237,7 +246,7 @@
     color: #f8f9fa;
     background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-dark:hover {
-    color: #343a40;
+    color: #212529;
     background-color: transparent; }
   .btn-effect-3 .btn-text {
     display: inline-block;

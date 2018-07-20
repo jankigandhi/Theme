@@ -11,7 +11,7 @@
         <div class="col-md-9">
             <div class="call-to-action-content text-center">
                 <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
             </div>
         </div>
         <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -23,7 +23,7 @@
         <div class="col-md-9">
             <div class="call-to-action-content text-center">
                 <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
             </div>
         </div>
         <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -36,7 +36,7 @@
             <div class="col-md-9">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -49,7 +49,7 @@
             <div class="col-md-9">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -62,7 +62,7 @@
             <div class="col-md-9">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -75,7 +75,7 @@
             <div class="col-md-9">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -91,7 +91,7 @@
             <div class="col-md-9">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text text-white">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc text-white">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray text-white">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
@@ -107,7 +107,7 @@
             <div class="call-to-action with-border rounded p-5">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
                 <div class="text-center">
                     <button class="btn-thick rounded-0 btn btn-secondary">Buy Now!</button>
@@ -118,7 +118,7 @@
             <div class="call-to-action bg-primary rounded p-5">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text text-white">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc text-white">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray text-white">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
                 <div class="text-center">
                     <button class="btn-thick rounded-0 btn btn-outline-white">Buy Now!</button>
@@ -129,7 +129,7 @@
             <div class="call-to-action bg-dark rounded p-5">
                 <div class="call-to-action-content text-center">
                     <h3 class="call-to-action-text text-white">Porto is <strong>everything</strong> you need to create a <strong>website!</strong></h3>
-                    <p class="call-to-action-desc text-white">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+                    <p class="call-to-action-desc light-gray text-white">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
                 </div>
                 <div class="text-center">
                     <button class="btn-thick rounded-0 btn btn-outline-white">Buy Now!</button>
