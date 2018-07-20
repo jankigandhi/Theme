@@ -1,5 +1,8 @@
 .testimonial-content {
   position: relative; }
+  .testimonial-content .image-circle {
+    height: 3.125rem;
+    width: 3.125rem; }
 
 .testi-content .banner-section {
   height: 100%;
@@ -20,5 +23,27 @@
     left: 0; }
 .testi-content .desc {
   font-size: 1.5rem; }
+
+.testimonial .monials {
+  position: relative;
+  border: 1px solid #6c757d; }
+.testimonial .image {
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 1px solid #adb5bd;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -moz-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  margin-left: -1.75rem; }
+.testimonial .title {
+  font-size: 1.2rem; }
+.testimonial .sub-title {
+  color: #6c757d;
+  font-size: 1rem; }
 
 /*# sourceMappingURL=testimonial.css.map */

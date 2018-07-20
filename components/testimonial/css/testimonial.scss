@@ -6,15 +6,13 @@
 
 .testimonial-content {
     position: relative;
+    .image-circle {
+        height: 3.125rem;
+        width: 3.125rem;
+    }
 }
 
 .testi-content {
-    // .text-centent {
-    //     position: absolute;
-    //     left: 50%;
-    //     top: 50%;
-    //     @include transform (translate(-50%, -50%));
-    // }
     .banner-section {
         &:after {
             content: '';
@@ -29,5 +27,29 @@
     }
     .desc {
         font-size: 1.5rem;
+    }
+}
+
+.testimonial {
+    .monials {
+        position: relative;
+        border: 1px solid $gray-600;
+    }
+    .image {
+        width: 3.75rem;
+        height: 3.75rem;
+        border: 1px solid $gray-500;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        @include transform (translate(0%, -50%));
+        margin-left: -1.75rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .sub-title {
+        color: $gray-600;
+        font-size: 1rem;
     }
 }
