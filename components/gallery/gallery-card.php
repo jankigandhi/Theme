@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <div class="gallery-section">
                 <div class="gutter-sizer"></div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(63).jpg');"></div>
@@ -55,7 +55,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(62).jpg');"></div>
@@ -91,7 +91,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(60).jpg');"></div>
@@ -127,7 +127,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg');"></div>
@@ -163,7 +163,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(25).jpg');"></div>
@@ -199,7 +199,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(85).jpg');"></div>
@@ -234,7 +234,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="gallery-box">
+                <div class="gallery-box p-3 mb-0">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(80).jpg');"></div>
