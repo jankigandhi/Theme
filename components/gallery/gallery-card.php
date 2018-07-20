@@ -22,7 +22,7 @@
                 <div class="gallery-box">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(63).jpg');"></div>
                             <div class="card-body">
                                 <h5 class="img-name card-title">Telenium</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -58,7 +58,7 @@
                 <div class="gallery-box">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(62).jpg');"></div>
                             <div class="card-body">
                                 <h5 class="img-name card-title">Telenium</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,7 +94,7 @@
                 <div class="gallery-box">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(60).jpg');"></div>
                             <div class="card-body">
                                 <h5 class="img-name card-title">potenium</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,7 +130,43 @@
                 <div class="gallery-box">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg');"></div>
+                            <div class="card-body">
+                                <h5 class="img-name card-title">Telecom</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark">Go somewhere</a>
+                                <a href="#" class="btn-float btn btn-dark rounded-circle">
+                                    <i class="zmdi zmdi-share"></i>
+                                </a>
+                            </div>
+                            <div class="card-footer bg-dark text-white text-center">
+                                <ul class="list-unstyled mb-0 d-flex justify-content-between">
+                                    <li class="d-inline-block p-1">
+                                       <span class="d-inline-block"><i class="zmdi zmdi-time"></i></span>
+                                        <p class="num d-inline-block">6</p>
+                                    </li>
+                                    <li class="d-inline-block p-1">
+                                        <span class="d-inline-block"><i class="zmdi zmdi-comments"></i></span>
+                                        <p class="number d-inline-block">22</p>
+                                    </li>
+                                    <li class="d-inline-block p-1">
+                                        <span class="d-inline-block"><i class="zmdi zmdi-facebook"></i></span>
+                                        <p class="number d-inline-block">21</p>
+                                    </li>
+                                    <li class="d-inline-block p-1">
+                                        <span class="d-inline-block"><i class="zmdi zmdi-twitter"></i></span>
+                                        <p class="number d-inline-block">35</p>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-box">
+                    <a href="#" class="element-item transition metal d-block " data-category="transition"">
+                        <div class="custom-card card">
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(25).jpg');"></div>
                             <div class="card-body">
                                 <h5 class="img-name card-title">Telenium</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -166,43 +202,7 @@
                 <div class="gallery-box">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
-                            <div class="card-body">
-                                <h5 class="img-name card-title">Telenium</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-dark">Go somewhere</a>
-                                <a href="#" class="btn-float btn btn-dark rounded-circle">
-                                    <i class="zmdi zmdi-share"></i>
-                                </a>
-                            </div>
-                            <div class="card-footer bg-dark text-white text-center">
-                                <ul class="list-unstyled mb-0 d-flex justify-content-between">
-                                    <li class="d-inline-block p-1">
-                                       <span class="d-inline-block"><i class="zmdi zmdi-time"></i></span>
-                                        <p class="num d-inline-block">1</p>
-                                    </li>
-                                    <li class="d-inline-block p-1">
-                                        <span class="d-inline-block"><i class="zmdi zmdi-comments"></i></span>
-                                        <p class="number d-inline-block">72</p>
-                                    </li>
-                                    <li class="d-inline-block p-1">
-                                        <span class="d-inline-block"><i class="zmdi zmdi-facebook"></i></span>
-                                        <p class="number d-inline-block">21</p>
-                                    </li>
-                                    <li class="d-inline-block p-1">
-                                        <span class="d-inline-block"><i class="zmdi zmdi-twitter"></i></span>
-                                        <p class="number d-inline-block">85</p>
-                                        
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="gallery-box">
-                    <a href="#" class="element-item transition metal d-block " data-category="transition"">
-                        <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(85).jpg');"></div>
                             <div class="card-body">
                                 <h5 class="img-name card-title">Trellow</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -237,7 +237,7 @@
                 <div class="gallery-box">
                     <a href="#" class="element-item transition metal d-block " data-category="transition"">
                         <div class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(80).jpg');"></div>
                             <div class="card-body">
                                 <h5 class="img-name card-title">Telenium</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
