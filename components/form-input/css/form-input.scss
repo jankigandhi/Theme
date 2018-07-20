@@ -41,7 +41,7 @@
 
 @mixin toggle-color($active-color: $color) {
     .slider {
-        border-color: $active-color !important;  
+        border-color: $active-color !important;
         &:before {
             background-color: $active-color;
         }
@@ -103,8 +103,8 @@ $value in $theme-colors {
             width: 100%;
             top: 9px;
             color: $gray-400;
-            @include transition(.3s);
-            z-index: -1;
+            @include transition(.3s); //z-index: -1;
+            pointer-events: none;
             letter-spacing: .5px;
         }
         &:focus,
@@ -184,7 +184,13 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px white inset !important;
 }
-
+.square-box {
+    padding: .907rem 1rem;
+    border-radius: 0;
+    font-size: .75rem;
+    background-color: $gray-200;
+    font-weight: $font-weight-medium;
+}
 
 $box-size: 1.5rem;
 .pretty-input {
@@ -289,13 +295,14 @@ $box-size: 1.5rem;
     width: $width;
     height: $height;
     .slider {
-        background-color: $bg-color;  
+        background-color: $bg-color;
         &:before {
             width: $circle-w;
             height: $circle-h;
         }
     }
 }
+
 .toggle {
     @include toggle-btn(50px, 24px, 18px, 18px, $white);
     position: relative;
