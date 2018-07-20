@@ -669,6 +669,9 @@ nav.nav-centered.outOfSight {
     nav.outOfSight {
         @include transform (translate3d(0, 0px, 0));
     }
+    nav.transparent .nav-bar{
+        border-bottom: 1px solid rgba($gray-500, .5);
+    }
     .nav-bar {
         height: auto;
         overflow: hidden;
@@ -683,6 +686,7 @@ nav.nav-centered.outOfSight {
                 width: 100%;
             }
         }
+
         .module {
             height: auto;
             overflow: hidden;
