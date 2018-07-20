@@ -6,143 +6,100 @@
 <body>
 <main>
     <div class="testimonial-content bg-dark py-5">
+        <h3 class="text-white text-center my-5">Slider With Testimonals</h3>
         <div class="container">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+            <div class="testimonial-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded">
+                                <div class="p-3">
+                                    <p class="desc mb-0 text-center light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="text-center my-5">
+                                        <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
+                                    </div>
+                                    <h4 class="monials-title text-center">Nandish Ajani</h4>
+                                    <p class="monials-sub-title text-center">Project Manager</p>
                                 </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
-                                </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
-                                </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="">
-                            <div class="p-3">
-                                <p class="mb-0 text-center text-white">Where does the pure energy and drive of Grammy Award-winning artist, Pitbull come from? Learn how Pitbull's early-life introduction to Tony Robbins helped transform him into the internationally-renown man he is today.</p>
-                                <div class="text-center my-3">
-                                    <img class="image-circle rounded-circle" src="images/image-1.png" alt="User">
-                                </div>
-                                <h4 class="monials-title text-center text-white">Nandish Ajani</h4>
-                                <p class="monials-sub-title mb-2 text-center text-white">Project Manager</p>
-                                
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="next-btn swiper-button-next swiper-button-white"></div>
+                <div class="prev-btn swiper-button-prev swiper-button-white"></div>
             </div>
-            <div class="next-btn swiper-button-next swiper-button-white"></div>
-            <div class="prev-btn swiper-button-prev swiper-button-white"></div>
         </div>
     </div>
     <div class="testi-content my-5">
@@ -219,128 +176,61 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 my-3">
-                    <div class="monials text-center">
+                    <div class="monials text-center p-3">
                         <div>
                             <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
                         </div>
                         <div class="pt-4">
                             <h5 class="title text-uppercase pt-3">Johne Smith</h5>
                             <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
-                            <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
+                            <p class="desc text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
                         </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="monials text-center">
-                        <div>
-                            <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
-                        </div>
-                        <div class="pt-4">
-                            <h5 class="title text-uppercase pt-3">Johne Smith</h5>
-                            <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
-                            <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="monials text-center">
-                        <div>
-                            <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
-                        </div>
-                        <div class="pt-4">
-                            <h5 class="title text-uppercase pt-3">Johne Smith</h5>
-                            <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
-                            <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="monials text-center">
-                        <div>
-                            <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
-                        </div>
-                        <div class="pt-4">
-                            <h5 class="title text-uppercase pt-3">Johne Smith</h5>
-                            <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
-                            <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="monials text-center">
-                        <div>
-                            <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
-                        </div>
-                        <div class="pt-4">
-                            <h5 class="title text-uppercase pt-3">Johne Smith</h5>
-                            <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
-                            <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="monials text-center">
-                        <div>
-                            <img class="image rounded-circle" src="images/image-1.png" alt="image-1">
-                        </div>
-                        <div class="pt-4">
-                            <h5 class="title text-uppercase pt-3">Johne Smith</h5>
-                            <h6 class="sub-title text-uppercase py-2">Ceo / Google Inc.</h6>
-                            <p class="text-center">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, others may experience gambling as an addictive.</p>
-                        </div>
-                        
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
 </main>
 <script src="../../js/swiper.min.js"></script>
 <script>
-var swiper = new Swiper('.testimonial-content .swiper-container', {
-slidesPerView: 3,
-spaceBetween: 30,
-navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
-},
-speed: 750,
-
-grabCursor: true,
-autoplay: {
-delay: 3000,
-},
-loop:true,
-breakpoints: {
-1000: {
-slidesPerView: 2,
-spaceBetween: 40
-},
-768: {
-slidesPerView: 1,
-spaceBetween: 40
-},
-}
-});
-var swiper = new Swiper('.testi-content .swiper-container', {
-slidesPerView: 1,
-pagination: {
-el: '.swiper-pagination',
-},
-speed: 750,
-mode: 'horizontal',
-grabCursor: true,
-autoplay: {
-delay: 3000,
-},
-loop:true,
-});
+    var swiper = new Swiper('.testimonial-content .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    speed: 750,
+    grabCursor: true,
+    autoplay: {
+    delay: 3000,
+    },
+    loop:true,
+    breakpoints: {
+    1000: {
+    slidesPerView: 2,
+    spaceBetween: 40
+    },
+    768: {
+    slidesPerView: 1,
+    spaceBetween: 40
+    },
+    }
+    });
+    var swiper = new Swiper('.testi-content .swiper-container', {
+    slidesPerView: 1,
+    pagination: {
+    el: '.swiper-pagination',
+     clickable: true,
+    },
+    speed: 750,
+    mode: 'horizontal',
+    grabCursor: true,
+    autoplay: {
+    delay: 3000,
+    },
+    loop:true,
+    });
 </script>
 </body>
 </html>
