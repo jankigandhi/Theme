@@ -42,6 +42,14 @@
 .testi-content .swiper-pagination-bullet {
   width: 13px;
   height: 13px; }
+.testi-content .swiper-pagination-bullet-active:first-child {
+  background-color: #e36159; }
+.testi-content .swiper-pagination-bullet-active:nth-child(2) {
+  background-color: #17a2b8; }
+.testi-content .swiper-pagination-bullet-active:nth-child(3) {
+  background-color: #6c757d; }
+.testi-content .swiper-pagination-bullet-active:nth-child(4) {
+  background-color: #ffc107; }
 
 .testimonial .monials {
   position: relative;
