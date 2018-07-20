@@ -2,15 +2,15 @@
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
 .gallery-section {
-    overflow-y: hidden;
+    overflow: hidden;
     .gallery-box {
         position: relative;
         overflow: hidden;
         float: left;
         margin-bottom: 1rem;
         width: 100%;
-        /* &:before {
-            background-color: rgba($white, .75);
+       /*  &:before {
+            background-color: rgba($black, .3);
             content: '';
             position: absolute;
             width: 100%;
@@ -35,11 +35,14 @@
         .name {
             @include transform(translateY(60px));
             @include transition(opacity .6s, transform .6s);
-        }
-        &:hover {
+        } */
+        /* &:hover {
             &:before {
                 opacity: 1;
                 visibility: visible;
+                transform: rotate(15deg) scale(1.5);
+                transition-timing-function: ease-out;
+                transition-duration: 250ms;
             }
             .title,
             .name {
@@ -120,6 +123,7 @@
 
 
 
+
 /* ---- button-group ---- */
 
 .button-group {
@@ -152,6 +156,7 @@
 
 
 
+
 /* ---- isotope ---- */
 
 
@@ -167,6 +172,7 @@
 .grid-overflow {
     overflow: hidden;
 }
+
 
 
 /* ---- .element-item ---- */
