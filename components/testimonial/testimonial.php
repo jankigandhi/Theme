@@ -311,7 +311,7 @@ nextEl: '.swiper-button-next',
 prevEl: '.swiper-button-prev',
 },
 speed: 750,
-mode: 'horizontal',
+
 grabCursor: true,
 autoplay: {
 delay: 3000,
