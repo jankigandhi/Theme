@@ -86,3 +86,12 @@
     -o-animation: #{$str};
     animation: #{$str};
 }
+
+@mixin circle($width, $color) {
+    width: $width;
+    height: $width;
+    background-color: $color;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}

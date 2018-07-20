@@ -63,6 +63,12 @@
         <li>
           <a href="components/banner-slider/banner-slider-1.php" target="_blank">Slider1</a>
         </li>
+        <li>
+          <a href="components/modal/modal-1.php" target="_blank">Modals</a>
+        </li>
+        <li>
+          <a href="components/call-to-actions/call-actions.php" target="_blank">Call to actions</a>
+        </li>
       </ul>
     </div>
   </body>

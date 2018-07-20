@@ -4,12 +4,9 @@
 .call-to-action.with-border {
   border: 1px solid #adb5bd;
   box-shadow: 0 1px 1px 0 rgba(173, 181, 189, 0.4); }
-.call-to-action.border-content {
-  border-top: 3px solid #0088cc; }
 .call-to-action .call-to-action-content .call-to-action-text {
-  font-size: 1.8rem; }
+  font-size: 1.2rem; }
 .call-to-action .call-to-action-content .call-to-action-desc {
-  color: #6c757d;
   font-size: 1.2rem; }
 
 .banner-images {
