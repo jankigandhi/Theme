@@ -104,92 +104,34 @@
   .button-group .button:last-child {
     border-radius: 0 0.5em 0.5em 0; }
 
-/* ---- isotope ---- */
-.grid {
-  border: 1px solid #333; }
-  .grid:after {
-    content: '';
-    display: block;
-    clear: both; }
+.custom-btn.active {
+  background-color: #28F;
+  color: white;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.8); }
 
-/* clear fix */
+/* ---- isotope ---- */
+/* .grid {
+    border: 1px solid #333;
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+} */
+.grid-overflow {
+  overflow: hidden; }
+
 /* ---- .element-item ---- */
 .element-item {
   position: relative;
   float: left;
   /*  width: 100px;
-   height: 100px; */
+height: 100px; */
   /*  margin: 5px;
-   padding: 10px; */
-  color: #262524;
-  /* .img-name {
-    position: absolute;
-    left: 10px;
-    top: 45px;
-    text-transform: none;
-    letter-spacing: 0;
-    font-size: 12px;
-    font-weight: normal;
-  } */
-  /* .number {
-    position: absolute;
-    right: 8px;
-    top: 5px;
-  } */
-  /* &.alkali {
-    background: #F00;
-    background: hsl(0, 100%, 50%);
-  }
-  &.alkaline-earth {
-    background: #F80;
-    background: hsl(36, 100%, 50%);
-  }
-  &.lanthanoid {
-    background: #FF0;
-    background: hsl(72, 100%, 50%);
-  }
-  &.actinoid {
-    background: #0F0;
-    background: hsl(108, 100%, 50%);
-  }
-  &.transition {
-    background: #0F8;
-    background: hsl(144, 100%, 50%);
-  }
-  &.post-transition {
-    background: #0FF;
-    background: hsl(180, 100%, 50%);
-  }
-  &.metalloid {
-    background: #08F;
-    background: hsl(216, 100%, 50%);
-  }
-  &.diatomic {
-    background: #00F;
-    background: hsl(252, 100%, 50%);
-  }
-  &.halogen {
-    background: #F0F;
-    background: hsl(288, 100%, 50%);
-  }
-  &.noble-gas {
-    background: #F08;
-    background: hsl(324, 100%, 50%);
-  } */ }
+padding: 10px; */
+  color: #262524; }
   .element-item > * {
     margin: 0;
     padding: 0; }
-  .element-item .symbol {
-    position: absolute;
-    left: 10px;
-    top: 0px;
-    font-size: 42px;
-    font-weight: bold;
-    color: white; }
-  .element-item .weight {
-    position: absolute;
-    left: 10px;
-    top: 76px;
-    font-size: 12px; }
 
 /*# sourceMappingURL=gallery.css.map */
