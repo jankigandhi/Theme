@@ -1,10 +1,14 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
-<link rel="stylesheet" type="text/css" href="css/banner-slider.css">
+<link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../nav-bar/css/nav-bar.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
+<link rel="stylesheet" href="css/banner-slider.css">
 </head>
 <body>
 <main>
-    <?php include_once 'nav-bar/transparent-nav.php';?>
+    <?php $HederClass="transparent absolute";?>
+    <?php include_once '../nav-bar/nav-bar.php';?>
     <div class="banner-section w-100 d-inline-block">
         <div class="swiper-container">
             <div class=" swiper-wrapper">
@@ -30,11 +34,9 @@ navigation: {
 nextEl: '.swiper-button-next',
 prevEl: '.swiper-button-prev',
 },
+speed: 1000,
+loop: true,
 slidesPerView: 1,
-effect: 'coverflow',
-grabCursor: true,
-centeredSlides: true,
-slidesPerView: 'auto',
 autoplay: {
 delay: 3000,
 },

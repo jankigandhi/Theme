@@ -8,6 +8,7 @@
 .banner {
     &.img {
         padding-bottom: 40%;
+        min-height: 300px;
     }
     @include img-inbg;
     &:before {
