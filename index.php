@@ -61,6 +61,9 @@
           <a href="components/banner-slider/banner-slider.php" target="_blank">Slider</a>
         </li>
         <li>
+          <a href="components/banner-slider/banner-slider-1.php" target="_blank">Slider1</a>
+        </li>
+        <li>
           <a href="components/modal/modal-1.php" target="_blank">Modals</a>
         </li>
       </ul>
