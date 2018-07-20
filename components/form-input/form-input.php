@@ -1,5 +1,6 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="css/form-input.css">
 </head>
 <body>
@@ -29,6 +30,24 @@
 					<span class="focus-border"></span>
 				</div>
 			</div>
+			<div class="col-md-4 col-sm-6 mb-3">
+				<div class="form-group mb-0">
+					<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS">
+				</div>
+			</div>
+		</div>
+		<div class="mb-4">
+			<h4>Inline</h4>
+			<div class="row mb-3 mx-0">
+				<div class="col-sm-6">
+					<div class="form-group mb-0">
+						<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<button class="btn-thick btn-block rounded-0 btn btn-primary">Sign up</button>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="p-4">
@@ -36,23 +55,28 @@
 		<div class="row my-4 mx-0">
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-area input-effect mb-3">
-					<textarea class="effect border-primary" type="text" placeholder=" "></textarea>
+					<textarea class="effect border-primary" placeholder=" "></textarea>
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-area input-effect mb-3">
-					<textarea class="effect effect-2 border-danger" type="text" placeholder=" "></textarea>
+					<textarea class="effect effect-2 border-danger" placeholder=" "></textarea>
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-area input-effect mb-3">
-					<textarea class="effect effect-3 border-success" type="text" placeholder=" "></textarea>
+					<textarea class="effect effect-3 border-success" placeholder=" "></textarea>
 					<label>First Name</label>
 					<span class="focus-border"></span>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-6 mb-3">
+				<div class="input-area input-effect mb-3">
+					<textarea class="square-box form-control" placeholder="WRITE HERE..."></textarea>
 				</div>
 			</div>
 		</div>

@@ -65,6 +65,7 @@
 // }
 .modal {
     display: none;
+    z-index: 1072;
     &.open {
         display: block;
     }
@@ -73,5 +74,27 @@
             max-height: 100vh;
             overflow-y: auto;
         }
+    }
+    .close-btn {
+        &:focus {
+            outline: 0;
+        }
+    }
+    &.fade {
+        .modal-dialog {
+            @include transform(translate(0,-100%));
+        }
+    }
+    &.show {
+        .modal-dialog {
+            @include transform(translate(0,0));
+        }
+    }
+}
+
+.modal-backdrop {
+    z-index: -1;
+    &.show {
+        z-index: 1071;
     }
 }
