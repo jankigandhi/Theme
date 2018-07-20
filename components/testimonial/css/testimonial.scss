@@ -5,10 +5,32 @@
 
 
 .testimonial-content {
-    position: relative;
-    .image-circle {
-        height: 3.125rem;
-        width: 3.125rem;
+    .testimonial-slider {
+        position: relative;
+        .desc {
+            font-size: .875rem;
+        }
+        .monials-title {
+            font-size: 1rem;
+        }
+        .image-circle {
+            @include size(5rem);
+            border: 1px solid $gray-400;
+        }
+        .next-btn {
+            right: 0;
+            margin-right: -1.875rem;
+        }
+        .prev-btn {
+            left: 0;
+            margin-left: -1.875rem;
+        }
+        .next-btn,
+        .prev-btn {
+            width: .9375rem;
+            height: 1.875rem;
+            background-size: .9375rem 1.875rem;
+        }
     }
 }
 
@@ -16,7 +38,7 @@
     .banner-section {
         &:after {
             content: '';
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba($black, 0.5);
             position: absolute;
             top: 0;
             bottom: 0;
@@ -28,6 +50,10 @@
     .desc {
         font-size: 1.5rem;
     }
+    .swiper-pagination-bullet {
+        width: 13px;
+        height: 13px;
+    }
 }
 
 .testimonial {
@@ -36,8 +62,7 @@
         border: 1px solid $gray-600;
     }
     .image {
-        width: 3.75rem;
-        height: 3.75rem;
+        @include size(3.75rem);
         border: 1px solid $gray-500;
         position: absolute;
         top: 0%;
@@ -51,5 +76,9 @@
     .sub-title {
         color: $gray-600;
         font-size: 1rem;
+    }
+    .desc {
+        font-size: .875rem;
+        color: $gray-600;
     }
 }

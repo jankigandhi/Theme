@@ -1,8 +1,24 @@
-.testimonial-content {
+.testimonial-content .testimonial-slider {
   position: relative; }
-  .testimonial-content .image-circle {
-    height: 3.125rem;
-    width: 3.125rem; }
+  .testimonial-content .testimonial-slider .desc {
+    font-size: .875rem; }
+  .testimonial-content .testimonial-slider .monials-title {
+    font-size: 1rem; }
+  .testimonial-content .testimonial-slider .image-circle {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #ced4da; }
+  .testimonial-content .testimonial-slider .next-btn {
+    right: 0;
+    margin-right: -1.875rem; }
+  .testimonial-content .testimonial-slider .prev-btn {
+    left: 0;
+    margin-left: -1.875rem; }
+  .testimonial-content .testimonial-slider .next-btn,
+  .testimonial-content .testimonial-slider .prev-btn {
+    width: .9375rem;
+    height: 1.875rem;
+    background-size: .9375rem 1.875rem; }
 
 .testi-content .banner-section {
   height: 100%;
@@ -23,6 +39,9 @@
     left: 0; }
 .testi-content .desc {
   font-size: 1.5rem; }
+.testi-content .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px; }
 
 .testimonial .monials {
   position: relative;
@@ -45,5 +64,8 @@
 .testimonial .sub-title {
   color: #6c757d;
   font-size: 1rem; }
+.testimonial .desc {
+  font-size: .875rem;
+  color: #6c757d; }
 
 /*# sourceMappingURL=testimonial.css.map */
