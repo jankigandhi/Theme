@@ -7,7 +7,8 @@
 </head>
 <body>
 <main>
-    <?php include_once '../nav-bar/transparent-nav.php';?>
+    <?php $HederClass="transparent absolute";?>
+    <?php include_once '../nav-bar/nav-bar.php';?>
     <div class="banner-section w-100 d-inline-block">
         <div class="swiper-container h-100vh">
             <div class=" swiper-wrapper">
@@ -29,6 +30,8 @@
 var swiper = new Swiper('.banner-section .swiper-container', {
 slidesPerView: 1,
 effect: 'fade',
+speed: 1000,
+loop: true,
 autoplay: {
 delay: 3000,
 },
