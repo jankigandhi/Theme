@@ -66,6 +66,9 @@
         <li>
           <a href="components/modal/modal-1.php" target="_blank">Modals</a>
         </li>
+        <li>
+          <a href="components/call-to-actions/call-actions.php" target="_blank">Call to actions</a>
+        </li>
       </ul>
     </div>
   </body>
