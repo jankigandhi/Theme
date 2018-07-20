@@ -5,10 +5,7 @@
 <body>
 <div class="py-5">
 	<h1 class="h2 text-center my-3">Maps</h1>
-	<div class="py-4">
-		<h4 class="mb-4 px-3">Fullwidth</h4>
-		<div id="map"></div>
-	</div>
+	
 	<div class="container py-4">
 		<h4 class="mb-4">Full Width (Inside Container)</h4>
 		<div id="map2"></div>
@@ -33,9 +30,11 @@
 			</div>
 		</div>
 	</div>
-
-
-
+	<div class="py-4">
+		<h4 class="mb-4 px-3">Fullwidth</h4>
+		<div id="map"></div>
+	</div>
+	
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX-gnjI10taggMKTIc8jNd6VAobfU3leY" type="text/javascript"></script>
 	<script type="text/javascript">
 		var map;
