@@ -24,7 +24,7 @@
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(63).jpg');"></div>
                             <div class="card-body">
-                                <h5 class="img-name card-title">Telenium</h5>
+                                <h5 class="img-name card-title">Telephone</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-dark">Go somewhere</a>
                                 <a href="#" class="btn-float btn btn-dark rounded-circle">
@@ -35,11 +35,11 @@
                                 <ul class="list-unstyled mb-0 d-flex justify-content-between">
                                     <li class="d-inline-block p-1">
                                        <span class="d-inline-block"><i class="zmdi zmdi-time"></i></span>
-                                        <p class="num d-inline-block">1</p>
+                                        <p class="num d-inline-block">60</p>
                                     </li>
                                     <li class="d-inline-block p-1">
                                         <span class="d-inline-block"><i class="zmdi zmdi-comments"></i></span>
-                                        <p class="number d-inline-block">72</p>
+                                        <p class="number d-inline-block">12</p>
                                     </li>
                                     <li class="d-inline-block p-1">
                                         <span class="d-inline-block"><i class="zmdi zmdi-facebook"></i></span>
@@ -47,7 +47,7 @@
                                     </li>
                                     <li class="d-inline-block p-1">
                                         <span class="d-inline-block"><i class="zmdi zmdi-twitter"></i></span>
-                                        <p class="number d-inline-block">85</p>
+                                        <p class="number d-inline-block">35</p>
                                         
                                     </li>
                                 </ul>
@@ -60,7 +60,7 @@
                         <div class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(62).jpg');"></div>
                             <div class="card-body">
-                                <h5 class="img-name card-title">Telenium</h5>
+                                <h5 class="img-name card-title">Telescope</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-dark">Go somewhere</a>
                                 <a href="#" class="btn-float btn btn-dark rounded-circle">
