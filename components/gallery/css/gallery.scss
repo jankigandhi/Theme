@@ -158,15 +158,15 @@
   float: left;
  /*  width: 100px;
   height: 100px; */
-  margin: 5px;
-  padding: 10px;
+ /*  margin: 5px;
+  padding: 10px; */
   //background: #888;
   color: #262524;
   > * {
     margin: 0;
     padding: 0;
   }
-  .img-name {
+  /* .img-name {
     position: absolute;
     left: 10px;
     top: 45px;
@@ -174,7 +174,7 @@
     letter-spacing: 0;
     font-size: 12px;
     font-weight: normal;
-  }
+  } */
   .symbol {
     position: absolute;
     left: 10px;
@@ -183,18 +183,18 @@
     font-weight: bold;
     color: white;
   }
-  .number {
+  /* .number {
     position: absolute;
     right: 8px;
     top: 5px;
-  }
+  } */
   .weight {
     position: absolute;
     left: 10px;
     top: 76px;
     font-size: 12px;
   }
-  &.alkali {
+  /* &.alkali {
     background: #F00;
     background: hsl(0, 100%, 50%);
   }
@@ -233,7 +233,7 @@
   &.noble-gas {
     background: #F08;
     background: hsl(324, 100%, 50%);
-  }
+  } */
 }
 //isotope-filtering css
 
