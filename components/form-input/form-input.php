@@ -11,28 +11,28 @@
 		<div class="row my-4 mx-0">
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-effect mb-3">
-					<input class="effect border-primary" type="text" placeholder=" ">
+					<input class="effect border-primary" type="text" required />
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-effect mb-3">
-					<input class="effect effect-2 border-danger" type="text" placeholder=" ">
+					<input class="effect effect-2 border-danger" type="text" required />
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-effect mb-3">
-					<input class="effect effect-3 border-success" type="text" placeholder=" ">
+					<input class="effect effect-3 border-success" type="text" required />
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="form-group mb-0">
-					<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS">
+					<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS" />
 				</div>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 			<div class="row mb-3 mx-0">
 				<div class="col-sm-6">
 					<div class="form-group mb-0">
-						<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS">
+						<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS" />
 					</div>
 				</div>
 				<div class="col-sm-6">
@@ -55,21 +55,21 @@
 		<div class="row my-4 mx-0">
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-area input-effect mb-3">
-					<textarea class="effect border-primary" placeholder=" "></textarea>
+					<textarea class="effect border-primary" required /></textarea>
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-area input-effect mb-3">
-					<textarea class="effect effect-2 border-danger" placeholder=" "></textarea>
+					<textarea class="effect effect-2 border-danger" required /></textarea>
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 mb-3">
 				<div class="input-area input-effect mb-3">
-					<textarea class="effect effect-3 border-success" placeholder=" "></textarea>
+					<textarea class="effect effect-3 border-success" required /></textarea>
 					<label>First Name</label>
 					<span class="focus-border"></span>
 				</div>
