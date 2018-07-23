@@ -1,6 +1,6 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" type="text/css" href="css/light-box.css">
+<link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 <body>
 <div class="container">
@@ -61,9 +61,7 @@
             </div>
         </div>
     </div>
-</div>
-<?php include_once '../../inc/footer.php';?>
-<script>
+    <script>
     function openModal() {
     document.getElementById('myModal').style.display = "block";
     }
@@ -96,5 +94,6 @@
     captionText.innerHTML = dots[slideIndex-1].alt;
     }
     </script>
+</div>
 </body>
 </html>

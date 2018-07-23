@@ -66,6 +66,17 @@
   .gallery-section .gutter-sizer {
     width: 1rem; }
 
+.image-modal .bg-image {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 100%; }
+
 .bg-black {
   background-color: #000; }
 
@@ -159,14 +170,22 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+.custom-btn.active {
+  background-color: #28F;
+  color: white;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.8); }
+
+.grid-overflow {
+  overflow: hidden; }
+
 @media (min-width: 992px) {
-  .gallery-section .gallery-box {
+  .gallery-section .gallery-box, .gallery-section .isotop-box, .isotop-section .gallery-box, .isotop-section .isotop-box {
     width: calc(25% - .75rem); } }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .gallery-section .gallery-box {
+  .gallery-section .gallery-box, .gallery-section .isotop-box, .isotop-section .gallery-box, .isotop-section .isotop-box {
     width: calc(33.333% - .65rem); } }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .gallery-section .gallery-box {
+  .gallery-section .gallery-box, .gallery-section .isotop-box, .isotop-section .gallery-box, .isotop-section .isotop-box {
     width: calc(50% - .5rem); } }
 
-/*# sourceMappingURL=gallery.css.map */
+/*# sourceMappingURL=isotop.css.map */

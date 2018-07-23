@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" type="text/css" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="../card/css/card.css">
-<link rel="stylesheet" type="text/css" href="css/gallery.css">
+<link rel="stylesheet" type="text/css" href="css/isotop.css">
 </head>
 <body>
 <div class="my-4 text-center">
@@ -290,6 +290,7 @@
         </div>
     </div>
 </div>
+<?php include_once '../../inc/footer.php';?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <script>

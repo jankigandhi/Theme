@@ -59,6 +59,12 @@
         width: 1rem;
     }
 }
+.image-modal{
+    .bg-image{
+        @include img-inbg;
+        padding-bottom: 100%;
+    }
+}
 .bg-black {
     background-color: $black;
 }
@@ -161,25 +167,38 @@ img.hover-shadow {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
+//filtering css
+.custom-btn {
+    &.active {
+        background-color: #28F;
+        color: white;
+        text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+    }
+}
+
+.grid-overflow {
+    overflow: hidden;
+}
+
 @include media-breakpoint-up(lg) {
-    .gallery-section {
-        .gallery-box{
+    .gallery-section,.isotop-section {
+        .gallery-box,.isotop-box{
             width: calc(25% - .75rem);
         }
     }
 }
 
 @include media-breakpoint-only(md) {
-    .gallery-section {
-        .gallery-box {
+    .gallery-section,.isotop-section {
+        .gallery-box,.isotop-box {
             width: calc(33.333% - .65rem);
         }
     }
 }
 
 @include media-breakpoint-only(sm) {
-.gallery-section {
-        .gallery-box{
+.gallery-section,.isotop-section {
+        .gallery-box,.isotop-box{
             width: calc(50% - .5rem);
         }
     }
