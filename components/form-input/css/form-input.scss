@@ -16,6 +16,9 @@
             color: $active-color !important;
         }
     }
+    +.select-icon {
+        color: $active-color !important;
+    }
 }
 
 //check-box 
@@ -169,8 +172,7 @@ $value in $theme-colors {
     display: flex;
     .effect {
         height: 2.0625rem;
-        @include transition(.4s);
-        // ~.focus-border {
+        @include transition(.4s); // ~.focus-border {
         //     margin-bottom: .3125rem;
         // }
         &:focus,
@@ -185,6 +187,7 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
 }
+
 .square-box {
     padding: .907rem 1rem;
     border-radius: 0;
@@ -193,6 +196,28 @@ select:-webkit-autofill {
     font-weight: $font-weight-medium;
     height: auto !important;
 }
+
+.selectbox {
+    position: relative;
+    overflow: hidden;
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .select-icon {
+        position: absolute;
+        top: 50%;
+        right: .75rem;
+        font-size: 1rem;
+        margin-top: -.5rem;
+        pointer-events: none;
+    }
+}
+
 .select-box-with-bottom-border {
     background-color: transparent;
     border-width: 0 0 2px 0;

@@ -4,6 +4,8 @@
     background-color: #0088cc; }
 .border-primary:focus ~ label, .border-primary:valid ~ label {
   color: #0088cc !important; }
+.border-primary + .select-icon {
+  color: #0088cc !important; }
 
 .check-primary label:before {
   border-color: #0088cc !important; }
@@ -25,6 +27,8 @@
   .border-secondary ~ .focus-border:before, .border-secondary ~ .focus-border:after {
     background-color: #6c757d; }
 .border-secondary:focus ~ label, .border-secondary:valid ~ label {
+  color: #6c757d !important; }
+.border-secondary + .select-icon {
   color: #6c757d !important; }
 
 .check-secondary label:before {
@@ -48,6 +52,8 @@
     background-color: #47b475; }
 .border-success:focus ~ label, .border-success:valid ~ label {
   color: #47b475 !important; }
+.border-success + .select-icon {
+  color: #47b475 !important; }
 
 .check-success label:before {
   border-color: #47b475 !important; }
@@ -69,6 +75,8 @@
   .border-info ~ .focus-border:before, .border-info ~ .focus-border:after {
     background-color: #17a2b8; }
 .border-info:focus ~ label, .border-info:valid ~ label {
+  color: #17a2b8 !important; }
+.border-info + .select-icon {
   color: #17a2b8 !important; }
 
 .check-info label:before {
@@ -92,6 +100,8 @@
     background-color: #ffc107; }
 .border-warning:focus ~ label, .border-warning:valid ~ label {
   color: #ffc107 !important; }
+.border-warning + .select-icon {
+  color: #ffc107 !important; }
 
 .check-warning label:before {
   border-color: #ffc107 !important; }
@@ -113,6 +123,8 @@
   .border-danger ~ .focus-border:before, .border-danger ~ .focus-border:after {
     background-color: #e36159; }
 .border-danger:focus ~ label, .border-danger:valid ~ label {
+  color: #e36159 !important; }
+.border-danger + .select-icon {
   color: #e36159 !important; }
 
 .check-danger label:before {
@@ -136,6 +148,8 @@
     background-color: #f8f9fa; }
 .border-light:focus ~ label, .border-light:valid ~ label {
   color: #f8f9fa !important; }
+.border-light + .select-icon {
+  color: #f8f9fa !important; }
 
 .check-light label:before {
   border-color: #f8f9fa !important; }
@@ -157,6 +171,8 @@
   .border-dark ~ .focus-border:before, .border-dark ~ .focus-border:after {
     background-color: #212529; }
 .border-dark:focus ~ label, .border-dark:valid ~ label {
+  color: #212529 !important; }
+.border-dark + .select-icon {
   color: #212529 !important; }
 
 .check-dark label:before {
@@ -279,6 +295,23 @@ select:-webkit-autofill {
   background-color: #e9ecef;
   font-weight: 600;
   height: auto !important; }
+
+.selectbox {
+  position: relative;
+  overflow: hidden; }
+  .selectbox select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+  .selectbox select::-ms-expand {
+    display: none; }
+  .selectbox .select-icon {
+    position: absolute;
+    top: 50%;
+    right: .75rem;
+    font-size: 1rem;
+    margin-top: -.5rem;
+    pointer-events: none; }
 
 .select-box-with-bottom-border {
   background-color: transparent;

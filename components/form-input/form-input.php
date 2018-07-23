@@ -100,8 +100,7 @@
 				</div>
 				<div class="col-12">
 					<h4>Square Selectbox</h4>
-					<div class="form-group">
-						<label>Select option</label>
+					<div class="selectbox">
 						<select class="square-box form-control">
 							<option>1</option>
 							<option>2</option>
@@ -109,19 +108,39 @@
 							<option>4</option>
 							<option>5</option>
 						</select>
+						<span class="select-icon ti-angle-down"></span>
 					</div>
 				</div>
 				<div class="col-12">
 					<h4>Square Selectbox</h4>
 					<div class="form-group">
 						<label>Select option</label>
-						<select class="square-box border-primary bg-transparent form-control">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
+						<div class="selectbox">
+							<select class="square-box border-primary bg-transparent form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<span class="select-icon ti-angle-down"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<h4>Square Selectbox</h4>
+					<div class="form-group">
+						<label>Select option</label>
+						<div class="selectbox">
+							<select class="square-box border-success bg-transparent form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<span class="select-icon ti-angle-down"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -130,33 +149,42 @@
 					<h4>Selectbox</h4>
 					<div class="form-group">
 						<label>Select option</label>
-						<select class="px-0 select-box-with-bottom-border square-box border-primary form-control">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
+						<div class="selectbox">
+							<select class="select-box-with-bottom-border square-box border-primary form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<span class="select-icon ti-angle-down"></span>
+						</div>
 					</div>
 					<div class="form-group">
 						<label>Select option</label>
-						<select class="px-0 select-box-with-bottom-border square-box border-danger form-control">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
+						<div class="selectbox">
+							<select class="select-box-with-bottom-border square-box border-danger form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<span class="select-icon ti-angle-down"></span>
+						</div>
 					</div>
 					<div class="form-group">
 						<label>Select option</label>
-						<select class="px-0 select-box-with-bottom-border square-box border-success form-control">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
+						<div class="selectbox">
+							<select class="select-box-with-bottom-border square-box border-success form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<span class="select-icon ti-angle-down"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -337,6 +365,5 @@
 </div>
 </body>
 </html>
-
 <!-- for drodown menu
 https://tympanus.net/Tutorials/CustomDropDownListStyling/index.html -->
