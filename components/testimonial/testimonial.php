@@ -19,7 +19,7 @@
                                     <p class="text-white mb-0">Web Developer</p>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="desc-section my-4">
+                                    <div class="desc-section my-md-4 my-3">
                                         <p class="desc text-white mb-0 p-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor tellus, efficitur ut tortor id, molestie egestas nibh. In blandit ex at erat vehicula molestie. Mauris vel volutpat nulla. Suspendisse lorem ex, congue at elit id, tincidunt tempor orci. Nullam nec augue ac tellus rhoncus tincidunt nec ut ligula. Praesent.
                                         </p>
@@ -35,7 +35,7 @@
                                     <p class="text-white mb-0">Web Developer</p>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="desc-section my-4">
+                                    <div class="desc-section my-md-4 my-3">
                                         <p class="desc text-white mb-0 p-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor tellus, efficitur ut tortor id, molestie egestas nibh. In blandit ex at erat vehicula molestie. Mauris vel volutpat nulla. Suspendisse lorem ex, congue at elit id, tincidunt tempor orci. Nullam nec augue ac tellus rhoncus tincidunt nec ut ligula. Praesent.
                                         </p>
@@ -51,7 +51,7 @@
                                     <p class="text-white mb-0">Web Developer</p>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="desc-section my-4">
+                                    <div class="desc-section my-md-4 my-3">
                                         <p class="desc text-white mb-0 p-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor tellus, efficitur ut tortor id, molestie egestas nibh. In blandit ex at erat vehicula molestie. Mauris vel volutpat nulla. Suspendisse lorem ex, congue at elit id, tincidunt tempor orci. Nullam nec augue ac tellus rhoncus tincidunt nec ut ligula. Praesent.
                                         </p>
@@ -67,7 +67,7 @@
                                     <p class="text-white mb-0">Web Developer</p>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="desc-section my-4">
+                                    <div class="desc-section my-md-4 my-3">
                                         <p class="desc text-white mb-0 p-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor tellus, efficitur ut tortor id, molestie egestas nibh. In blandit ex at erat vehicula molestie. Mauris vel volutpat nulla. Suspendisse lorem ex, congue at elit id, tincidunt tempor orci. Nullam nec augue ac tellus rhoncus tincidunt nec ut ligula. Praesent.
                                         </p>
@@ -83,7 +83,7 @@
                                     <p class="text-white mb-0">Web Developer</p>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="desc-section my-4">
+                                    <div class="desc-section my-md-4 my-3">
                                         <p class="desc text-white mb-0 p-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor tellus, efficitur ut tortor id, molestie egestas nibh. In blandit ex at erat vehicula molestie. Mauris vel volutpat nulla. Suspendisse lorem ex, congue at elit id, tincidunt tempor orci. Nullam nec augue ac tellus rhoncus tincidunt nec ut ligula. Praesent.
                                         </p>

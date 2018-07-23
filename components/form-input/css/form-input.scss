@@ -11,9 +11,23 @@
         }
     }
     &:focus,
-    &:not(:placeholder-shown) {
+    &:valid {
         ~label {
             color: $active-color !important;
+        }
+    }
+    +.select-icon {
+        color: $active-color !important;
+    }
+    .toggle-icon {
+        color: $active-color;
+    }
+    .toggle-btn {
+        border-color: $active-color !important;
+    }
+    &.open {
+        .toggle-btn {
+            background-color: $active-color !important;
         }
     }
 }
@@ -55,6 +69,7 @@
         }
     }
 }
+
 
 @each $color,
 $value in $theme-colors {
@@ -108,7 +123,7 @@ $value in $theme-colors {
             letter-spacing: .5px;
         }
         &:focus,
-        &:not(:placeholder-shown) {
+        &:valid {
             ~.focus-border {
                 width: 100%;
                 @include transition(.4s);
@@ -125,7 +140,7 @@ $value in $theme-colors {
                 left: 50%;
             }
             &:focus,
-            &:not(:placeholder-shown) {
+            &:valid {
                 ~.focus-border {
                     left: 0;
                 }
@@ -152,7 +167,7 @@ $value in $theme-colors {
                 }
             }
             &:focus,
-            &:not(:placeholder-shown) {
+            &:valid {
                 ~.focus-border {
                     &:before,
                     &:after {
@@ -166,14 +181,12 @@ $value in $theme-colors {
 }
 
 .input-area {
+    display: flex;
     .effect {
         height: 2.0625rem;
         @include transition(.4s);
-        ~.focus-border {
-            margin-bottom: .3125rem;
-        }
         &:focus,
-        &:not(:placeholder-shown) {
+        &:valid {
             height: 4rem;
         }
     }
@@ -182,8 +195,9 @@ $value in $theme-colors {
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
 }
+
 .square-box {
     padding: .907rem 1rem;
     border-radius: 0;
@@ -192,11 +206,101 @@ select:-webkit-autofill {
     font-weight: $font-weight-medium;
     height: auto !important;
 }
+
+.selectbox {
+    position: relative;
+    overflow: hidden;
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .select-icon {
+        position: absolute;
+        top: 50%;
+        right: .75rem;
+        font-size: 1rem;
+        margin-top: -.5rem;
+        pointer-events: none;
+    }
+}
+
 .select-box-with-bottom-border {
     background-color: transparent;
     border-width: 0 0 2px 0;
     &:focus {
         box-shadow: none;
+    }
+}
+
+.drodown-menu {
+    position: relative;
+    .toggle-btn {
+        position: relative;
+        border-color: $gray-200;
+        .toggle-icon {
+            position: absolute;
+            right: .5rem;
+            top: 50%;
+            margin-top: -.4375rem;
+            &.zmdi {
+                font-size: 1.5em;
+                line-height: inherit;
+                top: 0;
+                margin-top: 0;
+            }
+        }
+        @include hover-focus-active {
+            box-shadow: none !important;
+        }
+    }
+    .drodown-option {
+        background-color: $white;
+        border-radius: 0 0 5px 5px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-top: none;
+        border-bottom: none;
+        list-style: none;
+        @include transition(all .3s linear);
+        max-height: 0;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 11;
+        li {
+            a {
+                display: block;
+                padding: .625rem;
+                @include transition(all .3s linear);
+                border-bottom: 1px solid $gray-200;
+                color: $gray-600;
+                span {
+                    padding-right: .25rem;
+                }
+            }
+            &:last-child {
+                a {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+    &.open {
+        .toggle-btn {
+            color: $white;
+            background-color: $gray-600;
+            .toggle-icon {
+                color: $white;
+            }
+        }
+        .drodown-option {
+            max-height: 400px;
+            border-bottom: 1px solid $gray-200;
+        }
     }
 }
 

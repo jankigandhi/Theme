@@ -84,3 +84,24 @@
         line-height: 1.25rem;
     }
 }
+
+
+@include media-breakpoint-down(sm) {
+    .testimonial-content {
+        .testimonial-slider {
+            position: relative;
+            .desc-section {
+                &:before {
+                    content: '';
+                    border: 10px solid transparent;
+                    border-bottom: 10px solid rgba($white, 0.15);
+                    position: absolute;
+                    top: 0;
+                    margin-top: .3125rem;
+                    left: 50%;
+                    @include transform (translate(0%, -50%));
+                }
+            }
+        }
+    }
+}
