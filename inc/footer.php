@@ -94,6 +94,11 @@ $(document).ready(function() {
   $(".modal-backdrop").on("click", function() {
     $(".modal-backdrop,.basic-modal,.scroll-modal,.signup-modal,.iframe-modal").removeClass("show open");
   });
+  //dropdown 
+  $(".drodown-menu .toggle-btn").on("click", function() {
+    var $this = $(this);
+    $this.closest(".drodown-menu").toggleClass("open");
+  });
 });
 </script>
 
