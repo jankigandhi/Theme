@@ -11,7 +11,7 @@
         }
     }
     &:focus,
-    &:not(:placeholder-shown) {
+    &:valid {
         ~label {
             color: $active-color !important;
         }
@@ -108,7 +108,7 @@ $value in $theme-colors {
             letter-spacing: .5px;
         }
         &:focus,
-        &:not(:placeholder-shown) {
+        &:valid {
             ~.focus-border {
                 width: 100%;
                 @include transition(.4s);
@@ -125,7 +125,7 @@ $value in $theme-colors {
                 left: 50%;
             }
             &:focus,
-            &:not(:placeholder-shown) {
+            &:valid {
                 ~.focus-border {
                     left: 0;
                 }
@@ -152,7 +152,7 @@ $value in $theme-colors {
                 }
             }
             &:focus,
-            &:not(:placeholder-shown) {
+            &:valid {
                 ~.focus-border {
                     &:before,
                     &:after {
@@ -166,14 +166,15 @@ $value in $theme-colors {
 }
 
 .input-area {
+    display: flex;
     .effect {
         height: 2.0625rem;
         @include transition(.4s);
-        ~.focus-border {
-            margin-bottom: .3125rem;
-        }
+        // ~.focus-border {
+        //     margin-bottom: .3125rem;
+        // }
         &:focus,
-        &:not(:placeholder-shown) {
+        &:valid {
             height: 4rem;
         }
     }
@@ -182,7 +183,7 @@ $value in $theme-colors {
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
 }
 .square-box {
     padding: .907rem 1rem;
