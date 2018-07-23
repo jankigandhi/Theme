@@ -14,20 +14,20 @@
     margin-bottom: 1rem;
     width: 100%;
     /*  &:before {
-         background-color: rgba($black, .3);
-         content: '';
-         position: absolute;
-         width: 100%;
-         height: 100%;
-         top: 0;
-         right: 0;
-         bottom: 0;
-         left: 0;
-         opacity: 0;
-         visibility: hidden;
-         @include transition(.3s all linear);
-         cursor: pointer;
-     } */
+        background-color: rgba($black, .3);
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(.3s all linear);
+        cursor: pointer;
+    } */
     /* .title,
     .name {
         opacity: 0;
@@ -95,7 +95,13 @@
     cursor: pointer; }
 
 .mySlides {
-  display: none; }
+  display: none;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  line-height: 0;
+  box-sizing: border-box;
+  margin: 0px auto; }
 
 .cursor {
   cursor: pointer; }
