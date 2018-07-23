@@ -102,7 +102,7 @@
             </div>
         </div>
     </div>
-    <div class="testi-content my-5">
+    <!-- <div class="testi-content my-5">
         <div class="banner-section" style="background-image: url('images/testi-banner.jpg');">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -250,7 +250,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </main>
 <script src="../../js/swiper.min.js"></script>
 <script>
