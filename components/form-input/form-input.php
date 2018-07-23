@@ -82,6 +82,100 @@
 		</div>
 	</div>
 	<div class="p-4">
+		<h4>Select box</h4>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="col-12">
+					<h4>Default Selectbox</h4>
+					<div class="form-group">
+						<label>Select option</label>
+						<select class="form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-12">
+					<h4>Square Selectbox</h4>
+					<div class="form-group">
+						<label>Select option</label>
+						<select class="square-box form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-12">
+					<h4>Square Selectbox</h4>
+					<div class="form-group">
+						<label>Select option</label>
+						<select class="square-box border-primary bg-transparent form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="col-12">
+					<h4>Selectbox</h4>
+					<div class="form-group">
+						<label>Select option</label>
+						<select class="px-0 select-box-with-bottom-border square-box border-primary form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Select option</label>
+						<select class="px-0 select-box-with-bottom-border square-box border-danger form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Select option</label>
+						<select class="px-0 select-box-with-bottom-border square-box border-success form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="p-4">
+		<h4>Dropdown menu</h4>
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle">
+			Dropdown button
+			</button>
+			<div class="dropdown-menu show">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</div>
+	</div>
+	<div class="p-4">
 		<h4 class="mb-3">Default Checkbox</h4>
 		<div class="row">
 			<div class="col-md-4 col-6">
@@ -243,3 +337,6 @@
 </div>
 </body>
 </html>
+
+<!-- for drodown menu
+https://tympanus.net/Tutorials/CustomDropDownListStyling/index.html -->

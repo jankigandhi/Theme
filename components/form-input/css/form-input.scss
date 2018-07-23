@@ -190,6 +190,14 @@ select:-webkit-autofill {
     font-size: .75rem;
     background-color: $gray-200;
     font-weight: $font-weight-medium;
+    height: auto !important;
+}
+.select-box-with-bottom-border {
+    background-color: transparent;
+    border-width: 0 0 2px 0;
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 $box-size: 1.5rem;

@@ -277,7 +277,14 @@ select:-webkit-autofill {
   border-radius: 0;
   font-size: .75rem;
   background-color: #e9ecef;
-  font-weight: 600; }
+  font-weight: 600;
+  height: auto !important; }
+
+.select-box-with-bottom-border {
+  background-color: transparent;
+  border-width: 0 0 2px 0; }
+  .select-box-with-bottom-border:focus {
+    box-shadow: none; }
 
 .pretty-input input:checked, .pretty-input input:not(:checked) {
   position: absolute;
