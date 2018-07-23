@@ -33,9 +33,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Web design</h4>
+							<h5 class="font-weight-medium">Web design</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -46,9 +46,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Web design</h4>
+							<h5 class="font-weight-medium">Web design</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -59,9 +59,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Website-templates</h4>
+							<h5 class="font-weight-medium">Website-templates</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -72,9 +72,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Graphic-design</h4>
+							<h5 class="font-weight-medium">Graphic-design</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -85,9 +85,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Web design</h4>
+							<h5 class="font-weight-medium">Web design</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -98,9 +98,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Website-templates</h4>
+							<h5 class="font-weight-medium">Website-templates</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -111,9 +111,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Website-templates</h4>
+							<h5 class="font-weight-medium">Website-templates</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
@@ -124,9 +124,9 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h4 class="font-weight-medium">Graphic-design</h4>
+							<h5 class="font-weight-medium">Graphic-design</h5>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
 						</div>
 					</div>
 				</div>
