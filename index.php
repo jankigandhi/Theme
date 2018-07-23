@@ -69,6 +69,9 @@
         <li>
           <a href="components/call-to-actions/call-actions.php" target="_blank">Call to actions</a>
         </li>
+        <li>
+          <a href="components/map/map.php" target="_blank">Maps</a>
+        </li>
       </ul>
     </div>
   </body>
