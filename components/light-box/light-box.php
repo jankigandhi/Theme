@@ -5,8 +5,8 @@
 </head>
 <body>
 <div class="container">
-    <h2 class="text-center">Lightbox</h2>
-    <div class="row mx-0">
+    <h2 class="text-center mt-5">Lightbox</h2>
+    <div class="row mx-0 my-5">
         <div class="col-md-3">
             <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(62).jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor w-100"/>
         </div>
