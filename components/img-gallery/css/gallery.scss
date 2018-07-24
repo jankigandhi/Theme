@@ -1,17 +1,25 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-
-.gallery-img,.thumbs-img {
+.gallery-img,
+.thumbs-img {
     @include img-inbg;
     padding-bottom: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: rotate(-15deg) scale(1);
+		transition-timing-function: ease-out;
+    	transition-duration: 250ms;
+   
+    }
 }
+
 .gallery-big-img {
-	padding-bottom: 45%;
+    padding-bottom: 45%;
 }
+
 .thumbs-img {
-	width: 25%;
-	padding-bottom: 15%;
+    width: 25%;
+    padding-bottom: 15%;
 }
-
-
