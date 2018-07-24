@@ -146,18 +146,18 @@
 										<li>
 											<a href="../progressbar/progressbar.php">Progressbar</a>
 										</li>
+										<li>
+											<a href="../process-steps/process-steps.php">Process steps</a>
+										</li>
+										<li>
+											<a href="../breadcrumbs/breadcrumbs.php">Breadcrumbs</a>
+										</li>
 									</ul>
 								</li>
 								<li>
 									<ul class="list-unstyled mb-0">
 										<li>
 											<span class="title">Elements</span>
-										</li>
-										<li>
-											<a href="../process-steps/process-steps.php">Process steps</a>
-										</li>
-										<li>
-											<a href="../breadcrumbs/breadcrumbs.php">Breadcrumbs</a>
 										</li>
 										<li>
 											<a href="../form-input/form-input.php">Form Input</a>
@@ -177,6 +177,18 @@
 										<li>
 											<a href="../nav-bar/transparent-navbar.php">Transparent navbar</a>
 										</li>
+										<li>
+											<a href="../img-gallery/gallery.php">Gallery</a>
+										</li>
+										<li>
+											<a href="../testimonial/testimonial.php">Testimonial</a>
+										</li>
+										<li>
+											<a href="../modal/modal.php">Modals</a>
+										</li>
+										<li>
+											<a href="../call-to-actions/call-actions.php">Call To Actions</a>
+										</li>
 									</ul>
 								</li>
 								<li>
@@ -194,19 +206,16 @@
 											<a href="../banner-slider/banner-slider-1.php">Banner Slider1</a>
 										</li>
 										<li>
-											<a href="../modal/modal.php">Modals</a>
-										</li>
-										<li>
-											<a href="../call-to-actions/call-actions.php">Call To Actions</a>
+											<span class="title">Maps</span>
 										</li>
 										<li>
 											<a href="../map/map.php">Maps</a>
 										</li>
 										<li>
-											<a href="../img-gallery/gallery.php">Gallery</a>
+											<a href="../map/full-height-map.php">Full height Map</a>
 										</li>
 										<li>
-											<a href="../testimonial/testimonial.php">Testimonial</a>
+											<a href="../map/map-with-form.php">Map with form</a>
 										</li>
 									</ul>
 								</li>
