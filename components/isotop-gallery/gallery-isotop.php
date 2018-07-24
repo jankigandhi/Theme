@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../typography/css/typography.css">
 <!-- <link rel="stylesheet" href="../modal/css/modal.css">
  -->
-<link rel="stylesheet" type="text/css" href="css/gallery.css">
+<link rel="stylesheet" type="text/css" href="css/isotop.css">
 </head>
 <body>
 <div class="my-4">
@@ -175,7 +175,7 @@
                 <div class="caption-container text-center text-white">
                     <p id="caption"></p>
                 </div>
-                <div class="bg-black row pb-5">
+                <!-- <div class="bg-black row pb-5">
                     <div class="col-3">
                         <img class="demo cursor w-100" src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/joe-cooke-40727-1.jpg" onclick="currentSlide(1)" alt="Nature and sunrise"/>
                     </div>
@@ -212,7 +212,7 @@
                     <div class="col-3">
                         <img class="demo cursor w-100" src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/scott-webb-367607.jpg" onclick="currentSlide(12)" alt="Northern Lights"/>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
