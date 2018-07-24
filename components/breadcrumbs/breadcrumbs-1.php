@@ -8,33 +8,73 @@
   <div class="mb-3">
     <h4>Type-1</h4>
     <ul class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active">Data</li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-home"></i>
+          Home
+        </a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-shopping-basket"></i>
+          Pages
+        </a>
+      </li>
+      <li class="breadcrumb-item active">About</li>
     </ul>
   </div>
   <div class="mb-3">
     <h4>Type-2</h4>
     <ul class="breadcrumb breadcrumb-type2">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active">Data</li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-home"></i>
+          Home
+        </a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-shopping-basket"></i>
+          Pages
+        </a>
+      </li>
+      <li class="breadcrumb-item active">Gallery</li>
     </ul>
   </div>
   <div class="mb-3">
     <h4>Type-3</h4>
     <ul class="breadcrumb breadcrumb-type3">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active">Data</li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-home"></i>
+          Home
+        </a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-shopping-basket"></i>
+          Pages
+        </a>
+      </li>
+      <li class="breadcrumb-item active">Contact</li>
     </ul>
   </div>
   <div class="mb-3">
     <h4>Type-4</h4>
     <ul class="breadcrumb breadcrumb-type4">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active">Data</li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-home"></i>
+          Home
+        </a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">
+          <i class="zmdi zmdi-shopping-basket"></i>
+          Pages
+        </a>
+      </li>
+      <li class="breadcrumb-item active">Blog</li>
     </ul>
   </div>
   <div class="d-inline-block w-100 mb-3">
