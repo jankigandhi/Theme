@@ -1,7 +1,7 @@
 .border-thick {
   border-width: 5px !important; }
 
-.max-width {
+.max-width-1000 {
   max-width: 62.5rem; }
 
 .call-to-action .ti-icon {
@@ -9,9 +9,8 @@
 .call-to-action.with-border {
   border: 1px solid #adb5bd;
   box-shadow: 0 1px 1px 0 rgba(173, 181, 189, 0.4); }
-.call-to-action .call-to-action-content .call-to-action-text {
-  font-size: 1.2rem; }
-.call-to-action .call-to-action-content .call-to-action-desc {
+.call-to-action .call-to-action-text,
+.call-to-action .call-to-action-desc {
   font-size: 1.2rem; }
 
 .banner-images {
