@@ -1,6 +1,7 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" type="text/css" href="css/table.css">
+<link rel="stylesheet" type="text/css" href="../pagination/css/pagination.css">
 </head>
 <body>
 <div class="container my-4 scroll">
@@ -293,6 +294,121 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <h4 class="text-center my-2">Table With Pagination</h4>
+        <div class="mb-4">
+            <h4>Striped Header</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav>
+                <ul class="pagination pagination-1 pagination-success mb-4 justify-content-center">
+                    <li class="page-item disabled px-2">
+                        <a class="page-link border-0 rounded-circle" href="#">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item px-2 active"><a class="page-link border-0 rounded-circle" href="#">1</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded-circle" href="#">2</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded-circle" href="#">3</a></li>
+                    <li class="page-item px-2">
+                        <a class="page-link border-0 rounded-circle" href="#">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mb-4">
+            <h4>Responsive-table</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <nav>
+                    <ul class="pagination pagination-1 pagination-danger mb-4 justify-content-end">
+                        <li class="page-item disabled px-2">
+                            <a class="page-link border-0 rounded" href="#">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item px-2 active"><a class="page-link border-0 rounded" href="#">1</a></li>
+                        <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">2</a></li>
+                        <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">3</a></li>
+                        <li class="page-item px-2">
+                            <a class="page-link border-0 rounded" href="#">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
