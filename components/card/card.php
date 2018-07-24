@@ -4,6 +4,8 @@
 <link rel="stylesheet" type="text/css" href="css/card.css">
 </head>
 <body>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container my-4">
     <h1 class="h2 text-center mt-3">Cards</h1>
     <!-- card-with differnt style -->
@@ -149,5 +151,6 @@
         </div>
     </div>
 </div>
+<?php include_once '../../inc/footer.php';?>
 </body>
 </html>
