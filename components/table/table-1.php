@@ -329,8 +329,8 @@
                     </tr>
                 </tbody>
             </table>
-            <nav>
-                <ul class="pagination pagination-1 pagination-success mb-4 justify-content-center">
+            <nav class="mt-3">
+                <ul class="pagination pagination-1 pagination-primary mb-4 justify-content-center">
                     <li class="page-item disabled px-2">
                         <a class="page-link border-0 rounded-circle" href="#">
                             <span aria-hidden="true">&laquo;</span>
@@ -390,26 +390,26 @@
                         </tr>
                     </tbody>
                 </table>
-                <nav>
-                    <ul class="pagination pagination-1 pagination-danger mb-4 justify-content-end">
-                        <li class="page-item disabled px-2">
-                            <a class="page-link border-0 rounded" href="#">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                        </li>
-                        <li class="page-item px-2 active"><a class="page-link border-0 rounded" href="#">1</a></li>
-                        <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">2</a></li>
-                        <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">3</a></li>
-                        <li class="page-item px-2">
-                            <a class="page-link border-0 rounded" href="#">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
+            <nav class="mt-3">
+                <ul class="pagination pagination-1 pagination-danger mb-4 justify-content-end">
+                    <li class="page-item disabled px-2">
+                        <a class="page-link border-0 rounded" href="#">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item px-2 active"><a class="page-link border-0 rounded" href="#">1</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">2</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">3</a></li>
+                    <li class="page-item px-2">
+                        <a class="page-link border-0 rounded" href="#">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>
