@@ -136,7 +136,8 @@
 </div>
 <?php include_once '../../inc/footer.php';?>
 <!-- isotop -->
-<script src="//npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<!-- <script src="//npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+<script type="text/javascript" src="js/isotope.pkgd.js"></script>
 <script>
 	// init Isotope
 	var iso = new Isotope( '.grid', {
