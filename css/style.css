@@ -4274,6 +4274,9 @@ button.close {
 .align-text-top {
   vertical-align: text-top !important; }
 
+.align-super {
+  vertical-align: super !important; }
+
 .bg-primary {
   background-color: #0088cc !important; }
 

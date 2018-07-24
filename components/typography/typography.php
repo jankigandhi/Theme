@@ -32,13 +32,14 @@
         <p class="light-gray">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
         <p class="light-gray small">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
         <p class="light-gray">
-        <span class="ti-icon"><i class="ti-quote-left align-baseline"></i></span>
+        <i class="quote-icon fas fa-quote-left align-super"></i>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
         <blockquote class="border-left border-primary blockquote light-gray font-italic p-4 rounded">
+            <i class="quote-icon text-primary fas fa-quote-left align-super"></i>
             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
         </blockquote>
         <blockquote class="border-left border-success blockquote light-gray font-italic p-4 rounded">
-            <span class="ti-icon text-success"><i class="ti-quote-left align-baseline"></i></span>
+            <i class="quote-icon text-success fas fa-quote-left align-super"></i>
             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
         </blockquote>
         <blockquote class="border-left border-dark blockquote light-gray font-italic p-4 rounded">
