@@ -11,6 +11,7 @@
   <div class="map-with-form map-vh">
     <div id="map" class="h-100">
     </div>
+    <button class="btn btn-thick btn-min-w btn-outline-primary d-sm-none mb-0">Connect</button>
     <div class="contact-form p-4">
       <h4 class="text-uppercase font-weight-bold mb-4">Connect</h4>
       <ul class="social-section list-unstyled mb-0 pb-3">
