@@ -1,35 +1,5 @@
-.testimonial-content .testimonial-slider {
-  position: relative; }
-  .testimonial-content .testimonial-slider .desc-section:before {
-    content: '';
-    border: 10px solid transparent;
-    border-right: 10px solid rgba(255, 255, 255, 0.15);
-    position: absolute;
-    top: 0;
-    margin-top: 2.25rem;
-    left: 0;
-    margin-left: -.3125rem; }
-  .testimonial-content .testimonial-slider .desc-section .desc {
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    font-size: .875rem;
-    max-width: 36rem; }
-  .testimonial-content .testimonial-slider .swiper-pagination {
-    width: 100%; }
-  .testimonial-content .testimonial-slider .swiper-pagination-bullet {
-    width: 0.8125rem;
-    height: 0.8125rem;
-    margin: .3125rem;
-    border: 1px solid #fff;
-    background: transparent;
-    opacity: 1; }
-  .testimonial-content .testimonial-slider .swiper-pagination-bullet-active {
-    background-color: #fff; }
-  .testimonial-content .testimonial-slider .image-circle {
-    width: 6.25rem;
-    height: 6.25rem;
-    border: 8px solid rgba(255, 255, 255, 0.15); }
-
-.fade-effect .banner-image {
+.testimonial .banner,
+.testimonial .round-img {
   height: 100%;
   overflow: hidden;
   background-size: cover;
@@ -37,55 +7,46 @@
   background-position: center;
   width: 100%;
   position: relative;
-  display: inline-block;
-  background-attachment: fixed; }
-  .fade-effect .banner-image:after {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0; }
-.fade-effect .description {
-  border-top: 4px solid #ced4da;
-  border-bottom: 1px solid #dee2e6;
+  display: inline-block; }
+.testimonial .banner {
+  background-attachment: fixed;
+  min-height: 200px;
   position: relative; }
-  .fade-effect .description:after {
+  .testimonial .banner:before {
     content: '';
-    width: 0.625rem;
-    height: 0.625rem;
-    border-radius: 50%;
-    background-color: #ced4da;
-    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
-    bottom: -.3125rem;
+    right: 0;
     left: 0;
-    right: 0; }
-.fade-effect .circle-round {
-  height: 9.375rem; }
-
-.testimonial .round-image {
-  width: 6.25rem;
-  height: 6.25rem; }
-.testimonial .content {
-  line-height: 1.25rem; }
-
-@media (max-width: 767.98px) {
-  .testimonial-content .testimonial-slider {
-    position: relative; }
-    .testimonial-content .testimonial-slider .desc-section:before {
-      content: '';
-      border: 10px solid transparent;
-      border-bottom: 10px solid rgba(255, 255, 255, 0.15);
-      position: absolute;
-      top: 0;
-      margin-top: .3125rem;
-      left: 50%;
-      -moz-transform: translate(0%, -50%);
-      -o-transform: translate(0%, -50%);
-      -ms-transform: translate(0%, -50%);
-      -webkit-transform: translate(0%, -50%);
-      transform: translate(0%, -50%); } }
+    height: 100%;
+    top: 0;
+    bottom: 0; }
+.testimonial .round-img {
+  background-color: #e9ecef; }
+.testimonial .circle-img {
+  width: 6.875rem; }
+.testimonial .round-img {
+  width: 6.875rem;
+  height: 6.875rem;
+  border: 3px solid #fff; }
+.testimonial .swiper-pagination {
+  bottom: 0; }
+.testimonial .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px; }
+.testimonial .swiper-pagination-bullet:nth-child(1).swiper-pagination-bullet-active {
+  background-color: #0088cc; }
+.testimonial .swiper-pagination-bullet:nth-child(2).swiper-pagination-bullet-active {
+  background-color: #47b475; }
+.testimonial .swiper-pagination-bullet:nth-child(3).swiper-pagination-bullet-active {
+  background-color: #e36159; }
+.testimonial .swiper-pagination-bullet:nth-child(4).swiper-pagination-bullet-active {
+  background-color: #212529; }
+.testimonial .swiper-pagination-bullet:nth-child(5).swiper-pagination-bullet-active {
+  background-color: #17a2b8; }
+.testimonial .swiper-pagination-bullet:nth-child(6).swiper-pagination-bullet-active {
+  background-color: #ffc107; }
+.testimonial .swiper-pagination-bullet:nth-child(7).swiper-pagination-bullet-active {
+  background-color: #6c757d; }
 
 /*# sourceMappingURL=testimonial.css.map */

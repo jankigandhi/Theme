@@ -1,105 +1,49 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-.testimonial-content {
-    .testimonial-slider {
-        position: relative;
-        .desc-section {
-            &:before {
-                content: '';
-                border: 10px solid transparent;
-                border-right: 10px solid rgba($white, 0.15);
-                position: absolute;
-                top: 0;
-                margin-top: 2.25rem;
-                left: 0;
-                margin-left: -.3125rem;
-            }
-            .desc {
-                border: 1px solid rgba($white, 0.15);
-                font-size: .875rem;
-                max-width: 36rem;
-            }
-        }
-        .swiper-pagination {
-            width: 100%;
-        }
-        .swiper-pagination-bullet {
-            @include size(.8125rem);
-            margin: .3125rem;
-            border: 1px solid $white;
-            background: transparent;
-            opacity: 1;
-        }
-        .swiper-pagination-bullet-active {
-            background-color: $white;
-        }
-        .image-circle {
-            @include size(6.25rem);
-            border: 8px solid rgba($white, 0.15);
-        }
-    }
-}
-
-.fade-effect {
-    .banner-image {
+.testimonial {
+    .banner,
+    .round-img {
         @include img-inbg;
+    }
+    .banner {
         background-attachment: fixed;
-        &:after {
+        min-height: 200px;
+        position: relative;
+        &:before {
             content: '';
-            background-color: rgba($black, 0.5);
+            background-color: rgba($black,.6);
             position: absolute;
+            right: 0;
+            left: 0;
+            height: 100%;
             top: 0;
             bottom: 0;
-            right: 0;
-            left: 0;
         }
     }
-    .description {
-        border-top: 4px solid $gray-400;
-        border-bottom: 1px solid $gray-300;
-        position: relative;
-        &:after {
-            content: '';
-            @include size(.625rem);
-            border-radius: 50%;
-            background-color: $gray-400;
-            margin: 0 auto;
-            position: absolute;
-            bottom: -.3125rem;
-            left: 0;
-            right: 0;
-        }
+    .round-img {
+        background-color: $gray-200;
     }
-    .circle-round {
-        height: 9.375rem;
+    .circle-img {
+        width: 6.875rem;
     }
-}
 
-.testimonial {
-    .round-image {
-        @include size(6.25rem);
+    .round-img {
+        @include size(6.875rem);
+        border: 3px solid $white;
     }
-    .content {
-        line-height: 1.25rem;
+    .swiper-pagination {
+        bottom: 0;
     }
-}
-
-
-@include media-breakpoint-down(sm) {
-    .testimonial-content {
-        .testimonial-slider {
-            position: relative;
-            .desc-section {
-                &:before {
-                    content: '';
-                    border: 10px solid transparent;
-                    border-bottom: 10px solid rgba($white, 0.15);
-                    position: absolute;
-                    top: 0;
-                    margin-top: .3125rem;
-                    left: 50%;
-                    @include transform (translate(0%, -50%));
+    .swiper-pagination-bullet {
+        @include size(13px);
+    }
+    .swiper-pagination-bullet {
+        $colors: $primary, $success, $danger, $dark, $info, $warning, $secondary, ;
+        @for $i from 1 through length($colors) {
+            &:nth-child(#{$i}) {
+                &.swiper-pagination-bullet-active {
+                    background-color: nth($colors, $i);
                 }
             }
         }

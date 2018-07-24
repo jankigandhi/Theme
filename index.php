@@ -73,8 +73,11 @@
         <li>
           <a href="components/map/map.php" target="_blank">Maps</a>
         </li>
-         <li>
+        <li>
           <a href="components/img-gallery/gallery-2.php" target="_blank">Gallery</a>
+        </li>
+        <li>
+          <a href="components/testimonial/testimonial-1.php" target="_blank">Testimonial</a>
         </li>
       </ul>
     </div>
