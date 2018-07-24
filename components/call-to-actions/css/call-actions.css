@@ -1,6 +1,11 @@
 .border-thick {
   border-width: 5px !important; }
 
+.max-width {
+  max-width: 62.5rem; }
+
+.call-to-action .ti-icon {
+  font-size: 3rem; }
 .call-to-action.with-border {
   border: 1px solid #adb5bd;
   box-shadow: 0 1px 1px 0 rgba(173, 181, 189, 0.4); }
