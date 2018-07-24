@@ -1,7 +1,5 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
-<!-- <link rel="stylesheet" href="../modal/css/modal.css">
- -->
 <link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 <body>
@@ -14,109 +12,61 @@
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/joe-cooke-40727-1.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(1)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/ruslan-bardash-351288.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(2)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/09/alexandre-tsuchiya-333897.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(3)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/marina-vitale-206980.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(4)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/catherine-zaidova-6620.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(5)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/scott-webb-367607.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(6)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/joe-cooke-40727-1.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(7)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/ruslan-bardash-351288.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(8)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/09/alexandre-tsuchiya-333897.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(9)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/marina-vitale-206980.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(10)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/catherine-zaidova-6620.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(11)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
             <div class="gallery-box">
                 <a href="#" class="d-block">
                     <img src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/scott-webb-367607.jpg"  alt="" class="hover-shadow cursor mw-100" onclick="openModal();currentSlide(12)" />
                 </a>
-                <div class="content">
-                    <h5 class="title mb-0">Art is freedom</h5>
-                    <p class="h6 name mb-0">design photo</p>
-                </div>
             </div>
         </div>
         <div id="myModal" class="modal">
@@ -175,7 +125,7 @@
                 <div class="caption-container text-center text-white">
                     <p id="caption"></p>
                 </div>
-                <div class="bg-black row pb-5">
+                <!-- <div class="bg-black row pb-5">
                     <div class="col-3">
                         <img class="demo cursor w-100" src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/joe-cooke-40727-1.jpg" onclick="currentSlide(1)" alt="Nature and sunrise"/>
                     </div>
@@ -212,15 +162,46 @@
                     <div class="col-3">
                         <img class="demo cursor w-100" src="http://onero.ellethemes.com/gallery/wp-content/uploads/2017/08/scott-webb-367607.jpg" onclick="currentSlide(12)" alt="Northern Lights"/>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 </div>
-
-<?php include_once '../../inc/footer.php';?>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script>
+function openModal() {
+document.getElementById('myModal').style.display = "block";
+}
+function closeModal() {
+document.getElementById('myModal').style.display = "none";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 <script>
 $grid = $('.gallery-section');
 var $listing = $grid.isotope({
@@ -233,42 +214,9 @@ gutter: '.gutter-sizer',
 //isFitWidth: true,
 }
 });
-$grid.imagesLoaded().progress( function() {
+/*$grid.imagesLoaded().progress( function() {
 $grid.isotope('layout');
-});
+});*/
 </script>
-<script>
-    function openModal() {
-    document.getElementById('myModal').style.display = "block";
-    }
-    function closeModal() {
-    document.getElementById('myModal').style.display = "none";
-    }
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    function plusSlides(n) {
-    showSlides(slideIndex += n);
-    }
-    function currentSlide(n) {
-    showSlides(slideIndex = n);
-    }
-    function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-    </script>
 </body>
 </html>

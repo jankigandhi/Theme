@@ -1,0 +1,17 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+.gallery-img,.thumbs-img {
+    @include img-inbg;
+    padding-bottom: 100%;
+}
+.gallery-big-img {
+	padding-bottom: 45%;
+}
+.thumbs-img {
+	width: 25%;
+	padding-bottom: 15%;
+}
+
+
