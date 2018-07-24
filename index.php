@@ -73,6 +73,9 @@
         <li>
           <a href="components/map/map.php" target="_blank">Maps</a>
         </li>
+         <li>
+          <a href="components/img-gallery/gallery-2.php" target="_blank">Gallery</a>
+        </li>
       </ul>
     </div>
   </body>
