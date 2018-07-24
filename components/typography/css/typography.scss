@@ -114,6 +114,9 @@ h6.text-uppercase {
     background-color: $gray-100;
     border-width: 5px !important;
 }
+.ti-icon{
+    font-size: 1.6rem;
+}
 
 @include media-breakpoint-down(xs) {
     html {

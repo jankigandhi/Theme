@@ -73,6 +73,9 @@ h6.text-uppercase {
   background-color: #f8f9fa;
   border-width: 5px !important; }
 
+.ti-icon {
+  font-size: 1.6rem; }
+
 @media (max-width: 575.98px) {
   html {
     font-size: .8rem; } }
