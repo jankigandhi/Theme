@@ -1,10 +1,13 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
 <link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" href="../card/css/card.css">
 <link rel="stylesheet" type="text/css" href="css/testimonial.css">
 </head>
 <body>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
 <main>
     <div class="container my-4">
         <h1 class="h2 text-center my-3">Testimonial</h1>
@@ -133,7 +136,7 @@
                         <div class="col-md-4 col-sm-6 py-3">
                             <div class="h5 text-white">
                                 <i class="quote-icon fas fa-quote-left align-super"></i>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.
                             </div>
                             <h6 class="text-white mb-0 text-right text-uppercase font-weight-bold">
                             Janki
@@ -153,7 +156,7 @@
                         <div class="col-md-4 col-sm-6 py-3">
                             <div class="h5 text-white">
                                 <i class="quote-icon fas fa-quote-left align-super"></i>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.
                             </div>
                             <h6 class="text-white mb-0 text-right text-uppercase font-weight-bold">
                             Janki
@@ -308,7 +311,7 @@
         </div>
     </div>
 </main>
-<!-- <?php include_once '../../inc/footer.php';?> -->
+<?php include_once '../../inc/footer.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script type="text/javascript">
 var swiper = new Swiper('.swiper-container', {

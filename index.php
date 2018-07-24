@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <ul class="py-5">
+      <ol class="py-5">
         <li>
           <a href="components/typography/typography.php" target="_blank">Typography</a>
         </li>
@@ -26,22 +26,22 @@
           <a href="components/grid/grid.php" target="_blank">Grid</a>
         </li>
         <li>
-          <a href="components/card/card-1.php" target="_blank">Cards</a>
+          <a href="components/card/card.php" target="_blank">Cards</a>
         </li>
         <li>
-          <a href="components/accordions/accordions-1.php" target="_blank">Accordions</a>
+          <a href="components/accordions/accordions.php" target="_blank">Accordions</a>
         </li>
         <li>
-          <a href="components/pagination/pagination-1.php" target="_blank">Pagination</a>
+          <a href="components/pagination/pagination.php" target="_blank">Pagination</a>
         </li>
         <li>
-          <a href="components/progressbar/progressbar-1.php" target="_blank">Progressbar</a>
+          <a href="components/progressbar/progressbar.php" target="_blank">Progressbar</a>
         </li>
         <li>
           <a href="components/process-steps/process-steps.php" target="_blank">Process Steps</a>
         </li>
         <li>
-          <a href="components/breadcrumbs/breadcrumbs-1.php" target="_blank">Breadcrumbs</a>
+          <a href="components/breadcrumbs/breadcrumbs.php" target="_blank">Breadcrumbs</a>
         </li>
         <li>
           <a href="components/form-input/form-input.php" target="_blank">Form-Input</a>
@@ -50,13 +50,13 @@
           <a href="components/table/table-1.php" target="_blank">Table</a>
         </li>
         <li>
-          <a href="components/nav-bar/page-3.php" target="_blank">Navbar</a>
+          <a href="components/nav-bar/default-navbar.php" target="_blank">Navbar</a>
         </li>
         <li>
-          <a href="components/nav-bar/page-2.php" target="_blank">Transparent Navbar</a>
+          <a href="components/nav-bar/transparent-navbar.php" target="_blank">Transparent Navbar</a>
         </li>
         <li>
-          <a href="components/nav-bar/page-1.php" target="_blank">Dark Navbar</a>
+          <a href="components/nav-bar/dark-nav.php" target="_blank">Dark Navbar</a>
         </li>
         <li>
           <a href="components/banner-slider/banner-slider.php" target="_blank">Slider</a>
@@ -65,7 +65,7 @@
           <a href="components/banner-slider/banner-slider-1.php" target="_blank">Slider1</a>
         </li>
         <li>
-          <a href="components/modal/modal-1.php" target="_blank">Modals</a>
+          <a href="components/modal/modal.php" target="_blank">Modals</a>
         </li>
         <li>
           <a href="components/call-to-actions/call-actions.php" target="_blank">Call to actions</a>
@@ -77,9 +77,9 @@
           <a href="components/img-gallery/gallery-2.php" target="_blank">Gallery</a>
         </li>
         <li>
-          <a href="components/testimonial/testimonial-1.php" target="_blank">Testimonial</a>
+          <a href="components/testimonial/testimonial.php" target="_blank">Testimonial</a>
         </li>
-      </ul>
+      </ol>
     </div>
   </body>
 </html>

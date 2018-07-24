@@ -4,6 +4,8 @@
 <link rel="stylesheet" type="text/css" href="css/form-input.css">
 </head>
 <body>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container my-4">
 	<h1 class="h2 text-center mt-3">Form Inputs</h1>
 	<div class="p-4">

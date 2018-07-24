@@ -1,10 +1,13 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="css/process-steps.css">
 </head>
 <body>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container">
-	<h3 class="text-center my-4">Process Steps Variations</h3>
+	<h1 class="h2 text-center mt-3">Process Steps</h1>
 	<ul class="list-unstyled process-primary process-steps process-steps-2 w-100 d-inline-block pb-3">
 		<li class="active steps text-center">
 			<a href="#" class="rounded-box rounded-circle d-inline-block">
@@ -108,5 +111,6 @@
 		</li>
 	</ul>
 </div>
+<?php include_once '../../inc/footer.php';?>
 </body>
 </html>

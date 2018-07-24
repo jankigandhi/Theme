@@ -10,4 +10,5 @@
     <link rel="stylesheet" href="../../css/libs/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="../../css/libs/fontawesome.min.css">
     <link rel="stylesheet" href="../../css/libs/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="../nav-bar/css/nav-bar.css">
     <link rel="stylesheet" href="../../css/style.css">
