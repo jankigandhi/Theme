@@ -2,6 +2,7 @@
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
 .breadcrumb {
+    background-color: transparent;
     .breadcrumb-item+.breadcrumb-item {
         &:before {
             padding: 0 1rem;
