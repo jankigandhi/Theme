@@ -33,9 +33,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Web design</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Web design</h5>
 						</div>
 					</div>
 				</div>
@@ -46,9 +44,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Web design</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Web design</h5>
 						</div>
 					</div>
 				</div>
@@ -59,9 +55,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Website-templates</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Website-templates</h5>
 						</div>
 					</div>
 				</div>
@@ -72,9 +66,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Graphic-design</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Graphic-design</h5>
 						</div>
 					</div>
 				</div>
@@ -85,9 +77,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Web design</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Web design</h5>
 						</div>
 					</div>
 				</div>
@@ -98,9 +88,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Website-templates</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Website-templates</h5>
 						</div>
 					</div>
 				</div>
@@ -111,9 +99,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Website-templates</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Website-templates</h5>
 						</div>
 					</div>
 				</div>
@@ -124,9 +110,7 @@
 							<div class="circle-img d-inline-block">
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
-							<h5 class="font-weight-medium">Graphic-design</h5>
-							<hr>
-							<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+							<h5 class="font-weight-medium mb-0">Graphic-design</h5>
 						</div>
 					</div>
 				</div>

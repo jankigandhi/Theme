@@ -9,43 +9,43 @@
     <div class="p-4">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('images/gallery-1.png');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('images/gallery-1.png');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('images/gallery-2.png');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('images/gallery-2.png');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('images/gallery-1.png');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('images/gallery-1.png');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('images/gallery-2.png');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('images/gallery-2.png');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('images/gallery-3.jpg');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('images/gallery-3.jpg');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('images/gallery-2.png');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('images/gallery-2.png');"></div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 p-2">
-                <a href="#" class="d-block">
-                    <div class="gallery-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
+                <a href="#" class="img-block d-block">
+                    <div class="gallery-img hover-effect" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
                 </a>
             </div>
         </div>
