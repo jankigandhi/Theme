@@ -1,7 +1,7 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" href="../Buttons/css/button.css">
-<link rel="stylesheet" href="libs/glightbox.min.css">
+<link rel="stylesheet" href="../../css/libs/glightbox.min.css">
 <link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 <body>
@@ -74,12 +74,12 @@
 </div>
 <?php include_once '../../inc/footer.php';?>
 <!-- light-box -->
-<script src="libs/glightbox.min.js"></script>
+<script src="../../js/glightbox.min.js"></script>
 <script>
   var lightbox = GLightbox();
 </script>
 <!-- isotop -->
-<script type="text/javascript" src="js/isotope.pkgd.js"></script>
+<script src="../../js/isotope.pkgd.js"></script>
 <script>
   // init Isotope
   var iso = new Isotope( '.grid', {
