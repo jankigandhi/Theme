@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="../card/css/card.css">
 </head>
 <body>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container my-4">
 	<h1 class="h2 text-center mt-3">Filter</h1>
 	<div class="p-4">
@@ -22,11 +24,10 @@
 				</button>
 				<button class="button btn btn-link px-0" data-filter=".website-templates">
 				Website Templates
-				<span class="px-2">/</span>
 				</button>
 			</div>
 			<div class="grid row my-4 mx-0">
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item web-design">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -34,10 +35,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Web design</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item web-design">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -45,10 +47,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Web design</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item website-templates">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -56,10 +59,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Website-templates</h5>
+							<p class="small light-gray text-left">Some quick example</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item graphic-design">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item graphic-design">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -67,10 +71,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Graphic-design</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item web-design">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -78,10 +83,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Web design</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item website-templates">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -89,10 +95,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Website-templates</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item website-templates">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -100,10 +107,11 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Website-templates</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card title.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item graphic-design">
+				<div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item graphic-design">
 					<div class="custom-card card">
 						<div class="bg-img" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg');"></div>
 						<div class="card-body text-center">
@@ -111,6 +119,7 @@
 								<div class="round-img rounded-circle" style="background-image: url('https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg');"></div>
 							</div>
 							<h5 class="font-weight-medium mb-0">Graphic-design</h5>
+							<p class="small light-gray text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
 				</div>
@@ -120,8 +129,8 @@
 </div>
 <?php include_once '../../inc/footer.php';?>
 <!-- isotop -->
-<!-- <script src="//npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
 <script type="text/javascript" src="js/isotope.pkgd.js"></script>
+<script type="text/javascript" src="//npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 <script>
 	// init Isotope
 	var iso = new Isotope( '.grid', {
@@ -169,6 +178,17 @@
 	event.target.classList.add('is-checked');
 	});
 	}
+</script>
+<script type="text/javascript">
+var grid = document.querySelector('.grid');
+var iso = new Isotope( grid, {
+itemSelector: '.element-item',
+percentPosition: true,
+});
+imagesLoaded( grid ).on( 'progress', function() {
+// layout Isotope after each image loads
+iso.layout();
+});
 </script>
 </body>
 </html>

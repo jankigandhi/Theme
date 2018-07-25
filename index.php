@@ -74,7 +74,16 @@
           <a href="components/map/map.php" target="_blank">Maps</a>
         </li>
         <li>
-          <a href="components/img-gallery/gallery-2.php" target="_blank">Gallery</a>
+          <a href="components/img-gallery/gallery-1.php" target="_blank">Gallery1</a>
+        </li>
+        <li>
+          <a href="components/img-gallery/gallery-2.php" target="_blank">Gallery2</a>
+        </li>
+        <li>
+          <a href="components/img-gallery/gallery-3.php" target="_blank">Gallery3</a>
+        </li>
+        <li>
+          <a href="components/img-gallery/gallery-4.php" target="_blank">Gallery4</a>
         </li>
         <li>
           <a href="components/testimonial/testimonial.php" target="_blank">Testimonial</a>
