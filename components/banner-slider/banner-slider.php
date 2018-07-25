@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="css/banner-slider.css">
 </head>
 <body>
+<?php $HederClass="transparent absolute";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
 <main>
-    <?php $HederClass="transparent absolute";?>
-    <?php include_once '../nav-bar/nav-bar.php';?>
     <div class="banner-section w-100 d-inline-block">
         <div class="swiper-container h-100vh">
             <div class=" swiper-wrapper">
@@ -25,6 +25,7 @@
         </div>
     </div>
 </main>
+<?php include_once '../../inc/footer.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
 var swiper = new Swiper('.banner-section .swiper-container', {

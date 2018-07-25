@@ -8,5 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600" />
     <link rel="stylesheet" href="../../css/libs/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="../../css/libs/fontawesome.min.css">
     <link rel="stylesheet" href="../../css/libs/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="../nav-bar/css/nav-bar.css">
     <link rel="stylesheet" href="../../css/style.css">

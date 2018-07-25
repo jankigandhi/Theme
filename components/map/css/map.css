@@ -1,8 +1,49 @@
-#map, #map2, #map3, #map4 {
+.map-with-form {
+  position: relative; }
+
+.map-vh {
+  height: calc(100vh - 6.25rem) !important; }
+
+#map,
+#map2,
+#map3,
+#map4 {
   height: 400px;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 #map4 {
   height: 280px; }
+
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  width: 30rem;
+  top: 0;
+  height: 100%;
+  bottom: 0; }
+
+.social-section .social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  .social-section .social-icon:hover, .social-section .social-icon:focus, .social-section .social-icon:active {
+    background-color: #6c757d;
+    color: #fff; }
+
+.form-section {
+  border: 1px solid #dee2e6;
+  border-left: 0;
+  border-right: 0; }
 
 /*# sourceMappingURL=map.css.map */

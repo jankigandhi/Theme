@@ -114,7 +114,9 @@ h6.text-uppercase {
     background-color: $gray-100;
     border-width: 5px !important;
 }
-
+.quote-icon {
+    font-size: 1.5rem;
+}
 @include media-breakpoint-down(xs) {
     html {
         font-size: .8rem;

@@ -36,20 +36,8 @@ nav {
             &:not(.btn) {
                 color: $white;
             }
-        } // hr {
-        //     border-color: #777;
-        //     margin-bottom: 1rem;
-        //     &:first-of-type {
-        //         display: none;
-        //     }
-        // }
-    } // .cart-overview {
-    //     min-width: 18.75rem;
-    //     margin-bottom: 1rem;
-    //     a {
-    //         height: auto;
-    //     }
-    // }
+        } 
+    }
 }
 
 .module {
@@ -224,7 +212,7 @@ nav.bg-dark {
                 right: 0;
                 ul {
                     left: auto;
-                    right: 100%;
+                    //right: 100%;
                 }
             }
         }

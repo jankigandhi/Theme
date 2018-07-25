@@ -1,325 +1,421 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="css/table.css">
+<link rel="stylesheet" type="text/css" href="../pagination/css/pagination.css">
 </head>
 <body>
-<div class="container my-5">
-    <div class="tbl-header table-responsive">
-        <table class="table-fixed table border-0">
-            <thead class="thead-dark">
-                <tr>
-                    <th class="text-left text-uppercase font-weight-medium p-3">Code</th>
-                    <th class="text-left text-uppercase font-weight-medium p-3">Company</th>
-                    <th class="text-left text-uppercase font-weight-medium p-3">Price</th>
-                    <th class="text-left text-uppercase font-weight-medium p-3">Change</th>
-                    <th class="text-left text-uppercase font-weight-medium p-3">Change %</th>
-                </tr>
-            </thead>
-        </table>
-    </div>
-    <div class="tbl-content mt-0">
-        <table class="table border-0">
-            <tbody>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAC</td>
-                    <td class="text-left align-middle p-3 border-0">AUSTRALIAN COMPANY </td>
-                    <td class="text-left align-middle p-3 border-0">$1.38</td>
-                    <td class="text-left align-middle p-3 border-0">+2.01</td>
-                    <td class="text-left align-middle p-3 border-0">-0.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAD</td>
-                    <td class="text-left align-middle p-3 border-0">AUSENCO</td>
-                    <td class="text-left align-middle p-3 border-0">$2.38</td>
-                    <td class="text-left align-middle p-3 border-0">-0.01</td>
-                    <td class="text-left align-middle p-3 border-0">-1.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAX</td>
-                    <td class="text-left align-middle p-3 border-0">ADELAIDE</td>
-                    <td class="text-left align-middle p-3 border-0">$3.22</td>
-                    <td class="text-left align-middle p-3 border-0">+0.01</td>
-                    <td class="text-left align-middle p-3 border-0">+1.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">XXD</td>
-                    <td class="text-left align-middle p-3 border-0">ADITYA BIRLA</td>
-                    <td class="text-left align-middle p-3 border-0">$1.02</td>
-                    <td class="text-left align-middle p-3 border-0">-1.01</td>
-                    <td class="text-left align-middle p-3 border-0">+2.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAC</td>
-                    <td class="text-left align-middle p-3 border-0">AUSTRALIAN COMPANY </td>
-                    <td class="text-left align-middle p-3 border-0">$1.38</td>
-                    <td class="text-left align-middle p-3 border-0">+2.01</td>
-                    <td class="text-left align-middle p-3 border-0">-0.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAD</td>
-                    <td class="text-left align-middle p-3 border-0">AUSENCO</td>
-                    <td class="text-left align-middle p-3 border-0">$2.38</td>
-                    <td class="text-left align-middle p-3 border-0">-0.01</td>
-                    <td class="text-left align-middle p-3 border-0">-1.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAX</td>
-                    <td class="text-left align-middle p-3 border-0">ADELAIDE</td>
-                    <td class="text-left align-middle p-3 border-0">$3.22</td>
-                    <td class="text-left align-middle p-3 border-0">+0.01</td>
-                    <td class="text-left align-middle p-3 border-0">+1.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">XXD</td>
-                    <td class="text-left align-middle p-3 border-0">ADITYA BIRLA</td>
-                    <td class="text-left align-middle p-3 border-0">$1.02</td>
-                    <td class="text-left align-middle p-3 border-0">-1.01</td>
-                    <td class="text-left align-middle p-3 border-0">+2.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAC</td>
-                    <td class="text-left align-middle p-3 border-0">AUSTRALIAN COMPANY </td>
-                    <td class="text-left align-middle p-3 border-0">$1.38</td>
-                    <td class="text-left align-middle p-3 border-0">+2.01</td>
-                    <td class="text-left align-middle p-3 border-0">-0.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAD</td>
-                    <td class="text-left align-middle p-3 border-0">AUSENCO</td>
-                    <td class="text-left align-middle p-3 border-0">$2.38</td>
-                    <td class="text-left align-middle p-3 border-0">-0.01</td>
-                    <td class="text-left align-middle p-3 border-0">-1.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAX</td>
-                    <td class="text-left align-middle p-3 border-0">ADELAIDE</td>
-                    <td class="text-left align-middle p-3 border-0">$3.22</td>
-                    <td class="text-left align-middle p-3 border-0">+0.01</td>
-                    <td class="text-left align-middle p-3 border-0">+1.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">XXD</td>
-                    <td class="text-left align-middle p-3 border-0">ADITYA BIRLA</td>
-                    <td class="text-left align-middle p-3 border-0">$1.02</td>
-                    <td class="text-left align-middle p-3 border-0">-1.01</td>
-                    <td class="text-left align-middle p-3 border-0">+2.36%</td>
-                </tr>
-                <tr>
-                    <td class="text-left align-middle p-3 border-0">AAC</td>
-                    <td class="text-left align-middle p-3 border-0">AUSTRALIAN COMPANY </td>
-                    <td class="text-left align-middle p-3 border-0">$1.38</td>
-                    <td class="text-left align-middle p-3 border-0">+2.01</td>
-                    <td class="text-left align-middle p-3 border-0">-0.36%</td>
-                </tr>
-            </tbody>
-        </table>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
+<div class="container my-4 scroll">
+    <h1 class="h2 text-center mt-3">Tables</h1>
+    <div>
+        <div class="mb-4">
+            <h4>Dark Header</h4>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mb-4">
+            <h4>Light Header</h4>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mb-4">
+            <h4>Striped Header</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mb-4">
+            <h4>Table-hover</h4>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mb-4">
+            <h4>Responsive-table</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="mb-4">
+            <h4>Responsive-data-table</h4>
+            <div class="table-responsive responsive-data-table">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Account</th>
+                            <th>Due Date</th>
+                            <th>Amount</th>
+                            <th>Period</th>
+                            <th>Account</th>
+                            <th>Due Date</th>
+                            <th>Amount</th>
+                            <th>Period</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                            <td data-label="Account">Visa - 3412</td>
+                            <td data-label="Due Date">04/01/2016</td>
+                            <td data-label="Amount">$1,190</td>
+                            <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="mb-4">
+            <h4>Header fixed</h4>
+            <div class="table-responsive">
+                <table class="table table-fixed">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th class="col-3">#</th>
+                            <th class="col-3">First</th>
+                            <th class="col-3">Last</th>
+                            <th class="col-3">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-3">1</td>
+                            <td class="col-3">Mark</td>
+                            <td class="col-3">Otto</td>
+                            <td class="col-3">@mdo</td>
+                        </tr>
+                        <tr>
+                            <td class="col-3">2</td>
+                            <td class="col-3">Jacob</td>
+                            <td class="col-3">Thornton</td>
+                            <td class="col-3">@fat</td>
+                        </tr>
+                        <tr>
+                            <td class="col-3">3</td>
+                            <td class="col-3">Larry</td>
+                            <td class="col-3">the Bird</td>
+                            <td class="col-3">@twitter</td>
+                        </tr>
+                        <tr>
+                            <td class="col-3">1</td>
+                            <td class="col-3">Mark</td>
+                            <td class="col-3">Otto</td>
+                            <td class="col-3">@mdo</td>
+                        </tr>
+                        <tr>
+                            <td class="col-3">2</td>
+                            <td class="col-3">Jacob</td>
+                            <td class="col-3">Thornton</td>
+                            <td class="col-3">@fat</td>
+                        </tr>
+                        <tr>
+                            <td class="col-3">3</td>
+                            <td class="col-3">Larry</td>
+                            <td class="col-3">the Bird</td>
+                            <td class="col-3">@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h4 class="text-center my-2">Table With Pagination</h4>
+        <div class="mb-4">
+            <h4>Striped Header</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav class="mt-3">
+                <ul class="pagination pagination-1 pagination-primary mb-4 justify-content-center">
+                    <li class="page-item disabled px-2">
+                        <a class="page-link border-0 rounded-circle" href="#">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item px-2 active"><a class="page-link border-0 rounded-circle" href="#">1</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded-circle" href="#">2</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded-circle" href="#">3</a></li>
+                    <li class="page-item px-2">
+                        <a class="page-link border-0 rounded-circle" href="#">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mb-4">
+            <h4>Responsive-table</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                            <th>Heading</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <nav class="mt-3">
+                <ul class="pagination pagination-1 pagination-danger mb-4 justify-content-end">
+                    <li class="page-item disabled px-2">
+                        <a class="page-link border-0 rounded" href="#">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item px-2 active"><a class="page-link border-0 rounded" href="#">1</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">2</a></li>
+                    <li class="page-item px-2"><a class="page-link border-0 rounded" href="#">3</a></li>
+                    <li class="page-item px-2">
+                        <a class="page-link border-0 rounded" href="#">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </div>
-<div class="container">
-    <div class="table-responsive py-5">
-        <table class="table border-0 table-striped">
-            <thead class="thead-dark">
-                <tr>
-                    <th class="border-0">#</th>
-                    <th class="border-0">First</th>
-                    <th class="border-0">Last</th>
-                    <th class="border-0">Handle</th>
-                    <th class="border-0">Last</th>
-                    <th class="border-0">Handle</th>
-                    <th class="border-0">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th class="border-0">1</th>
-                    <td class="border-0">Mark</td>
-                    <td class="border-0">Otto</td>
-                    <td class="border-0">@mdo</td>
-                    <td class="border-0">Mark</td>
-                    <td class="border-0">Otto</td>
-                    <td class="border-0">@mdo</td>
-                </tr>
-                <tr>
-                    <th class="border-0">2</th>
-                    <td class="border-0">Jacob</td>
-                    <td class="border-0">Thornton</td>
-                    <td class="border-0">@fat</td>
-                    <td class="border-0">Mark</td>
-                    <td class="border-0">Otto</td>
-                    <td class="border-0">@mdo</td>
-                </tr>
-                <tr>
-                    <th class="border-0">3</th>
-                    <td class="border-0">Larry</td>
-                    <td class="border-0">the Bird</td>
-                    <td class="border-0">@twitter</td>
-                    <td class="border-0">Mark</td>
-                    <td class="border-0">Otto</td>
-                    <td class="border-0">@mdo</td>
-                </tr>
-                <tr>
-                    <th class="border-0">3</th>
-                    <td class="border-0">Larry</td>
-                    <td class="border-0">the Bird</td>
-                    <td class="border-0">@twitter</td>
-                    <td class="border-0">Mark</td>
-                    <td class="border-0">Otto</td>
-                    <td class="border-0">@mdo</td>
-                </tr>
-                <tr>
-                    <th class="border-0">3</th>
-                    <td class="border-0">Larry</td>
-                    <td class="border-0">the Bird</td>
-                    <td class="border-0">@twitter</td>
-                    <td class="border-0">Mark</td>
-                    <td class="border-0">Otto</td>
-                    <td class="border-0">@mdo</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="container">
-    <div class="no-more-tables">
-        <table class="table table-bordered table-striped table-condensed cf">
-            <thead class="cf">
-                <tr>
-                    <th>Code</th>
-                    <th>Company</th>
-                    <th class="numeric">Price</th>
-                    <th class="numeric">Change</th>
-                    <th class="numeric">Change %</th>
-                    <th class="numeric">Open</th>
-                    <th class="numeric">High</th>
-                    <th class="numeric">Low</th>
-                    <th class="numeric">Volume</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td data-title="Code">AAC</td>
-                    <td data-title="Company">AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
-                    <td data-title="Price" class="numeric">$1.38</td>
-                    <td data-title="Change" class="numeric">-0.01</td>
-                    <td data-title="Change %" class="numeric">-0.36%</td>
-                    <td data-title="Open" class="numeric">$1.39</td>
-                    <td data-title="High" class="numeric">$1.39</td>
-                    <td data-title="Low" class="numeric">$1.38</td>
-                    <td data-title="Volume" class="numeric">9,395</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">AAD</td>
-                    <td data-title="Company">ARDENT LEISURE GROUP</td>
-                    <td data-title="Price" class="numeric">$1.15</td>
-                    <td data-title="Change" class="numeric">+0.02</td>
-                    <td data-title="Change %" class="numeric">1.32%</td>
-                    <td data-title="Open" class="numeric">$1.14</td>
-                    <td data-title="High" class="numeric">$1.15</td>
-                    <td data-title="Low" class="numeric">$1.13</td>
-                    <td data-title="Volume" class="numeric">56,431</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">AAX</td>
-                    <td data-title="Company">AUSENCO LIMITED</td>
-                    <td data-title="Price" class="numeric">$4.00</td>
-                    <td data-title="Change" class="numeric">-0.04</td>
-                    <td data-title="Change %" class="numeric">-0.99%</td>
-                    <td data-title="Open" class="numeric">$4.01</td>
-                    <td data-title="High" class="numeric">$4.05</td>
-                    <td data-title="Low" class="numeric">$4.00</td>
-                    <td data-title="Volume" class="numeric">90,641</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">ABC</td>
-                    <td data-title="Company">ADELAIDE BRIGHTON LIMITED</td>
-                    <td data-title="Price" class="numeric">$3.00</td>
-                    <td data-title="Change" class="numeric">+0.06</td>
-                    <td data-title="Change %" class="numeric">2.04%</td>
-                    <td data-title="Open" class="numeric">$2.98</td>
-                    <td data-title="High" class="numeric">$3.00</td>
-                    <td data-title="Low" class="numeric">$2.96</td>
-                    <td data-title="Volume" class="numeric">862,518</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">ABP</td>
-                    <td data-title="Company">ABACUS PROPERTY GROUP</td>
-                    <td data-title="Price" class="numeric">$1.91</td>
-                    <td data-title="Change" class="numeric">0.00</td>
-                    <td data-title="Change %" class="numeric">0.00%</td>
-                    <td data-title="Open" class="numeric">$1.92</td>
-                    <td data-title="High" class="numeric">$1.93</td>
-                    <td data-title="Low" class="numeric">$1.90</td>
-                    <td data-title="Volume" class="numeric">595,701</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">ABY</td>
-                    <td data-title="Company">ADITYA BIRLA MINERALS LIMITED</td>
-                    <td data-title="Price" class="numeric">$0.77</td>
-                    <td data-title="Change" class="numeric">+0.02</td>
-                    <td data-title="Change %" class="numeric">2.00%</td>
-                    <td data-title="Open" class="numeric">$0.76</td>
-                    <td data-title="High" class="numeric">$0.77</td>
-                    <td data-title="Low" class="numeric">$0.76</td>
-                    <td data-title="Volume" class="numeric">54,567</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">ACR</td>
-                    <td data-title="Company">ACRUX LIMITED</td>
-                    <td data-title="Price" class="numeric">$3.71</td>
-                    <td data-title="Change" class="numeric">+0.01</td>
-                    <td data-title="Change %" class="numeric">0.14%</td>
-                    <td data-title="Open" class="numeric">$3.70</td>
-                    <td data-title="High" class="numeric">$3.72</td>
-                    <td data-title="Low" class="numeric">$3.68</td>
-                    <td data-title="Volume" class="numeric">191,373</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">ADU</td>
-                    <td data-title="Company">ADAMUS RESOURCES LIMITED</td>
-                    <td data-title="Price" class="numeric">$0.72</td>
-                    <td data-title="Change" class="numeric">0.00</td>
-                    <td data-title="Change %" class="numeric">0.00%</td>
-                    <td data-title="Open" class="numeric">$0.73</td>
-                    <td data-title="High" class="numeric">$0.74</td>
-                    <td data-title="Low" class="numeric">$0.72</td>
-                    <td data-title="Volume" class="numeric">8,602,291</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">AGG</td>
-                    <td data-title="Company">ANGLOGOLD ASHANTI LIMITED</td>
-                    <td data-title="Price" class="numeric">$7.81</td>
-                    <td data-title="Change" class="numeric">-0.22</td>
-                    <td data-title="Change %" class="numeric">-2.74%</td>
-                    <td data-title="Open" class="numeric">$7.82</td>
-                    <td data-title="High" class="numeric">$7.82</td>
-                    <td data-title="Low" class="numeric">$7.81</td>
-                    <td data-title="Volume" class="numeric">148</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">AGK</td>
-                    <td data-title="Company">AGL ENERGY LIMITED</td>
-                    <td data-title="Price" class="numeric">$13.82</td>
-                    <td data-title="Change" class="numeric">+0.02</td>
-                    <td data-title="Change %" class="numeric">0.14%</td>
-                    <td data-title="Open" class="numeric">$13.83</td>
-                    <td data-title="High" class="numeric">$13.83</td>
-                    <td data-title="Low" class="numeric">$13.67</td>
-                    <td data-title="Volume" class="numeric">846,403</td>
-                </tr>
-                <tr>
-                    <td data-title="Code">AGO</td>
-                    <td data-title="Company">ATLAS IRON LIMITED</td>
-                    <td data-title="Price" class="numeric">$3.17</td>
-                    <td data-title="Change" class="numeric">-0.02</td>
-                    <td data-title="Change %" class="numeric">-0.47%</td>
-                    <td data-title="Open" class="numeric">$3.11</td>
-                    <td data-title="High" class="numeric">$3.22</td>
-                    <td data-title="Low" class="numeric">$3.10</td>
-                    <td data-title="Volume" class="numeric">5,416,303</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
+<?php include_once '../../inc/footer.php';?>
 </body>
 </html>

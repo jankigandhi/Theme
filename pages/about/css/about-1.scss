@@ -1,0 +1,58 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+.banner-section {
+    .banner {
+        @include img-inbg;
+        &:before {
+            content: '';
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        .min-height {
+            min-height: 320px;
+        }
+    }
+
+    .breadcrumb {
+        background-color: transparent;
+        li {
+            font-size: .875rem;
+        }
+    }
+}
+
+.main-title {
+    font-size: 1.5rem;
+}
+
+.items {
+    &:after {
+        border: 0;
+    }
+}
+
+.images {
+    @include img-inbg;
+    padding-bottom: 60%;
+    &:hover {
+        .title {
+            position: absolute;
+            bottom: 24px;
+            z-index: 5;
+            opacity: 1;
+        }
+    }
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+}

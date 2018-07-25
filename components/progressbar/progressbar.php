@@ -1,8 +1,11 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
+<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="css/progressbar.css">
 </head>
 <body>
+<?php $HederClass="bg-dark";?>
+<?php include_once '../nav-bar/nav-bar.php';?>
   <div class="container my-4">
     <h1 class="h2 text-center mt-3">Progress Bar</h1>
     <div class="mb-4">
@@ -100,6 +103,7 @@
       </div>
     </div>
   </div>
+<?php include_once '../../inc/footer.php';?>
   <!-- Circular Progress Bar -->
   <script>
     var progressValue = document.querySelectorAll('.progress-value');
