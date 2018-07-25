@@ -6,27 +6,43 @@
   background-position: center;
   width: 100%;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  background-attachment: fixed; }
   .banner.img {
     padding-bottom: 20%;
     min-height: 250px; }
-  .banner:before {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0; }
+    .banner.img:before {
+      content: '';
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; }
+  .banner.service-img {
+    padding-bottom: 40%;
+    min-height: 300px; }
+
+.service-box {
+  background: rgba(34, 34, 34, 0.4); }
 
 .banner-content {
   position: absolute;
   top: 50%;
-  left: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  width: 100%; }
+
+.items {
+  background-color: transparent;
+  /* color:$white; */ }
+  .items .slash-icon:before {
+    color: #fff; }
+
+.icon {
+  font-size: 4rem; }
 
 /*# sourceMappingURL=services.css.map */
