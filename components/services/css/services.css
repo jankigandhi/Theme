@@ -45,4 +45,58 @@
 .icon {
   font-size: 4rem; }
 
+.box {
+  background-color: rgba(0, 136, 204, 0.7);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; }
+  .box .box-icon {
+    font-size: 2rem; }
+
+.box-desc {
+  font-size: .875rem; }
+
+.img-video {
+  line-height: 0; }
+  .img-video .bg-line-height {
+    line-height: 1.5; }
+
+.pricing-box {
+  background-color: #fff;
+  text-align: left;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+  .pricing-box .pricing-title {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+
+.pricing-action-area {
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 0 3px 3px 0;
+  text-align: center;
+  height: 100%; }
+  .pricing-action-area .pricing-meta {
+    color: #999;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px; }
+  .pricing-action-area .pricing-price {
+    padding: 25px 0;
+    color: #333;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 1; }
+    .pricing-action-area .pricing-price span {
+      vertical-align: top;
+      margin: 7px 3px 0 0;
+      font-size: 28px;
+      font-weight: 400; }
+
 /*# sourceMappingURL=services.css.map */
