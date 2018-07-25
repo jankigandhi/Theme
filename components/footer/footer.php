@@ -37,7 +37,7 @@
             <!-- Footer links -->
             <div class="row text-center text-md-left mt-3 pb-3">
                 <!-- Grid column -->
-                <div class="col-md-3 col-sm-6 mt-3 text-left">
+                <div class="col-lg-3 col-md-6 mt-3 text-left">
                     <h6 class="text-uppercase mb-4 font-weight-bold text-white">World luxuray</h6>
                     <p>
                         <a href="#!" class="text-white">About the awards</a>
@@ -55,7 +55,7 @@
                         <a href="#!" class="text-white">Media</a>
                     </p>
                 </div>
-                <div class="col-md-3 col-sm-6 mt-3 text-left">
+                <div class="col-lg-3 col-md-6 mt-3 text-left">
                     <h6 class="text-uppercase mb-4 font-weight-bold text-white">Useful links</h6>
                     <p>
                         <a href="#!" class="text-white">Your Account</a>
@@ -73,7 +73,7 @@
                 <!-- Grid column -->
                 <hr class="w-100 clearfix d-md-none">
                 <!-- Grid column -->
-                <div class="col-md-3 col-sm-6 mt-3 text-left">
+                <div class="col-lg-3 col-md-6 mt-3 text-left">
                     <h6 class="text-uppercase mb-4 font-weight-bold text-white">Contact</h6>
                     <p>
                     <i class="zmdi zmdi-home mr-3"></i> New York, NY 10012, US</p>
@@ -84,7 +84,7 @@
                     <p>
                     <i class="zmdi zmdi-print mr-3"></i> + 01 234 567 89</p>
                 </div>
-                <div class="col-md-3 col-sm-6 mt-3 text-left">
+                <div class="col-lg-3 col-md-6 mt-3 text-left">
                     <h6 class="text-uppercase mb-4 font-weight-bold text-white">Social</h6>
                     <div class="social-section">
                         <ul class="row mx-auto list-unstyled py-4">
