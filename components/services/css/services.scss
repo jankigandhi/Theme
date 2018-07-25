@@ -1,0 +1,38 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+@mixin item-in-center {
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    @include transform(translate(-50%, -50%));
+}
+@mixin flex-space-between {
+    @include flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner {
+    &.img {
+        padding-bottom: 20%;
+        min-height: 250px;
+    }
+    @include img-inbg;
+    &:before {
+        content: '';
+        background-color: rgba(0, 0, 0, .5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    @include transform(translate(-50%, -50%));
+}
+
