@@ -11,9 +11,14 @@
   <div class="map-with-form map-vh">
     <div id="map" class="h-100">
     </div>
-    <button class="btn btn-thick btn-min-w btn-outline-primary d-sm-none mb-0">Connect</button>
+    <button class="btn-connect btn btn-primary d-sm-none">
+      <i class="fas fa-comments"></i>
+    </button>
     <div class="contact-form p-4">
-      <h4 class="text-uppercase font-weight-bold mb-4">Connect</h4>
+      <button class="btn-close btn btn-link d-sm-none float-right font-weight-bold">
+        <span class="ti-close"></span>
+      </button>
+      <h4 class="title text-uppercase font-weight-bold mb-4">Connect</h4>
       <ul class="social-section list-unstyled mb-0 pb-3">
         <li class="d-inline-block align-top mr-3">
           <a href="#" class="social-icon"><i class="zmdi zmdi-facebook"></i></a>
@@ -29,7 +34,7 @@
         </li>
       </ul>
       <div class="form-section py-4">
-        <h5 class="text-uppercase font-weight-bold mb-4">Send a message</h5>
+        <h5 class="title text-uppercase font-weight-bold mb-4">Send a message</h5>
         <form>
           <div class="form-group">
             <input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS" />
@@ -49,18 +54,18 @@
       </div>
       <div class="py-2">
         <p>
-          <i class="light-gray zmdi zmdi-email pr-2"></i>
-          <a href="mailto:contact@atyantik.com" class="light-gray">contact@atyantik.com </a>
+          <i class="email-icon zmdi zmdi-email pr-2"></i>
+          <a href="mailto:contact@atyantik.com" class="email">contact@atyantik.com </a>
         </p>
         <p>
-          <i class="light-gray zmdi zmdi-phone pr-2"></i>
-          <a href="tel:+91-7600540105" class="light-gray">+91-7600540105</a>
+          <i class="ph-icon zmdi zmdi-phone pr-2"></i>
+          <a href="tel:+91-7600540105" class="phone">+91-7600540105</a>
         </p>
       </div>
     </div>
   </div>
 </main>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX-gnjI10taggMKTIc8jNd6VAobfU3leY" type="text/javascript"></script>
 <script type="text/javascript">
 var map;
