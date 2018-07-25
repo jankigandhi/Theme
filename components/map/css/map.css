@@ -16,13 +16,14 @@
   height: 280px; }
 
 .contact-form {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   left: 0;
   width: 30rem;
   top: 0;
   height: 100%;
-  bottom: 0; }
+  bottom: 0;
+  overflow-y: auto; }
 
 .social-section .social-icon {
   display: inline-flex;
@@ -42,8 +43,59 @@
     color: #fff; }
 
 .form-section {
-  border: 1px solid #dee2e6;
+  border: 1px solid #ced4da;
   border-left: 0;
   border-right: 0; }
+
+.email-icon,
+.email,
+.phone,
+.ph-icon,
+.title,
+.btn-close {
+  color: #6c757d; }
+
+.black-overlay .contact-form {
+  background-color: rgba(0, 0, 0, 0.8); }
+.black-overlay .email-icon,
+.black-overlay .email,
+.black-overlay .phone,
+.black-overlay .ph-icon,
+.black-overlay .title,
+.black-overlay .btn-close {
+  color: rgba(255, 255, 255, 0.8); }
+.black-overlay .social-icon {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8); }
+  .black-overlay .social-icon:hover, .black-overlay .social-icon:focus, .black-overlay .social-icon:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #343a40; }
+.black-overlay .form-section {
+  border-color: rgba(255, 255, 255, 0.8); }
+
+@media (max-width: 575.98px) {
+  .contact-form {
+    width: 100%;
+    margin-left: -100%;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
+    .contact-form.open {
+      margin-left: 0; }
+    .contact-form .btn-close {
+      font-size: 1.5rem; }
+
+  .btn-connect {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 3.5rem 2rem 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+    width: 4rem;
+    height: 4rem;
+    color: #0088cc;
+    font-size: 1.5rem; } }
 
 /*# sourceMappingURL=map.css.map */

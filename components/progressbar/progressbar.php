@@ -103,7 +103,7 @@
       </div>
     </div>
   </div>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
   <!-- Circular Progress Bar -->
   <script>
     var progressValue = document.querySelectorAll('.progress-value');

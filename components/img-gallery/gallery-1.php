@@ -54,7 +54,7 @@
         </div>
     </div>
 </div>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
 <!-- light-box -->
 <script src="../../js/glightbox.min.js"></script>
 <script>
