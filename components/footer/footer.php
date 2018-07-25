@@ -88,22 +88,22 @@
                     <h6 class="text-uppercase mb-4 font-weight-bold text-white">Social</h6>
                     <div class="social-section">
                         <ul class="row mx-auto list-unstyled py-4">
-                            <li class="col-3 pb-4">
+                            <li class="col-3 pb-4 pl-0">
                                 <a href="@" target="_blank" class="social-icon">
                                     <i class="icon zmdi zmdi-facebook"></i>
                                 </a>
                             </li>
-                            <li class="col-3 pb-4">
+                            <li class="col-3 pb-4 pl-0">
                                 <a href="@" target="_blank" class="social-icon">
                                     <i class="icon zmdi zmdi-google-plus"></i>
                                 </a>
                             </li>
-                            <li class="col-3 pb-4">
+                            <li class="col-3 pb-4 pl-0">
                                 <a href="https://twitter.com/EventerpriseAG" target="_blank" class="social-icon">
                                     <i class="icon zmdi zmdi-twitter"></i>
                                 </a>
                             </li>
-                            <li class="col-3 pb-4">
+                            <li class="col-3 pb-4 pl-0">
                                 <a href="https://www.linkedin.com/company/eventerprise-com" target="_blank" class="social-icon">
                                     <i class="icon zmdi zmdi-linkedin"></i>
                                 </a>
@@ -114,13 +114,10 @@
                 <!-- Grid column -->
             </div>
             <!-- Footer links -->
-            <div class="">
+            <div>
                 <!--Copyright-->
-                <p class="text-center">© 2018 Copyright:
-                    <a href="https://mdbootstrap.com/bootstrap-tutorial/">
-                        <strong class="text-white"> Theme.com</strong>
-                    </a>
-                </p>
+                <h6 class="text-center text-white">© 2018 Copyright: Theme.com
+                </h6>
             </div>
             <!-- Grid row -->
         </div>
