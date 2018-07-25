@@ -140,6 +140,6 @@
   </div>
   <div class="modal-backdrop fade"></div>
 </div>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
 </body>
 </html>

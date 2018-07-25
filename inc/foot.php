@@ -1,11 +1,10 @@
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   $(".one-open .toggle").on("click", function() {
     var $this = $(this);
     $this.parent().find(".toggle").removeClass("active");
     $this.addClass("active");
-       
   });
   $(".multiple-open .toggle").on("click", function() {
     var $this = $(this);
@@ -98,6 +97,20 @@ $(document).ready(function() {
   $(".drodown-menu .toggle-btn").on("click", function() {
     var $this = $(this);
     $this.closest(".drodown-menu").toggleClass("open");
+  });
+
+  //googlemap form
+  $(".btn-connect").on("click", function(e) {
+    if(e && e.preventDefault) {
+    e.preventDefault();
+    }
+    $(".contact-form").addClass("open");
+    });
+    $(".btn-close").on("click", function(e) {
+    if(e && e.preventDefault) {
+    e.preventDefault();
+    }
+    $(".contact-form").removeClass("open");
   });
 });
 </script>

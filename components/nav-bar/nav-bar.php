@@ -11,8 +11,8 @@
 				<span class="sub">hello@foundry.net</span>
 			</div>
 			<div class="module float-right">
-				<a class="btn btn-sm btn-thick btn-outline-success d-none d-lg-inline rounded-0 py-1 text-uppercase" href="variant/builder.html">Try Builder</a>
-				<a class="btn btn-sm btn-success rounded-0 px-3 btn-filled text-uppercase" href="http://themeforest.net/item/foundry-multipurpose-html-variant-page-builder/11562108?ref=medium_rare">Buy Now</a>
+				<a class="btn btn-sm btn-thick btn-outline-primary d-none d-lg-inline rounded-0 py-1 text-uppercase" href="variant/builder.html">Try Builder</a>
+				<a class="btn btn-sm btn-primary rounded-0 px-3 btn-filled text-uppercase" href="http://themeforest.net/item/foundry-multipurpose-html-variant-page-builder/11562108?ref=medium_rare">Buy Now</a>
 			</div>
 		</div>
 		<div class="nav-bar">
@@ -178,7 +178,26 @@
 											<a href="../nav-bar/transparent-navbar.php">Transparent navbar</a>
 										</li>
 										<li>
-											<a href="../img-gallery/gallery.php">Gallery</a>
+											<span class="title">Image Gallery</span>
+										</li>
+										<li>
+											<a href="../img-gallery/gallery-1.php">Gallery1</a>
+										</li>
+										<li>
+											<a href="../img-gallery/gallery-2.php">Gallery2</a>
+										</li>
+										<li>
+											<a href="../img-gallery/gallery-3.php">Gallery3</a>
+										</li>
+										<li>
+											<a href="../img-gallery/gallery-4.php">Gallery4</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<span class="title">Elements</span>
 										</li>
 										<li>
 											<a href="../testimonial/testimonial.php">Testimonial</a>
@@ -188,13 +207,6 @@
 										</li>
 										<li>
 											<a href="../call-to-actions/call-actions.php">Call To Actions</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<ul class="list-unstyled mb-0">
-										<li>
-											<span class="title">Elements</span>
 										</li>
 										<li>
 											<span class="title">Slider</span>
@@ -206,7 +218,7 @@
 											<a href="../banner-slider/banner-slider-1.php">Banner Slider1</a>
 										</li>
 										<li>
-											<span class="title">Maps</span>
+											<span class="title">Google Maps</span>
 										</li>
 										<li>
 											<a href="../map/map.php">Maps</a>
