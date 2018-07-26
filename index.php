@@ -47,7 +47,7 @@
           <a href="components/form-input/form-input.php" target="_blank">Form-Input</a>
         </li>
         <li>
-          <a href="components/table/table-1.php" target="_blank">Table</a>
+          <a href="components/table/table.php" target="_blank">Table</a>
         </li>
         <li>
           <a href="components/nav-bar/default-navbar.php" target="_blank">Navbar</a>
