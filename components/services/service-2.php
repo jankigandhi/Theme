@@ -171,7 +171,7 @@
                 <h4 class="mb-0 text-white">Subscribe to learn more about the theme's features.</h4>
             </div>
             <div class="col-md-4 text-center py-2">
-                <button class="btn-subscribe btn btn-outline-info px-4">Subscribe Now</button>
+                <button class="btn-thick rounded-0 btn btn-outline-white">Buy Now!</button>
             </div>
         </div>
     </div>

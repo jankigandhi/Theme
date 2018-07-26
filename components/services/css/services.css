@@ -105,16 +105,6 @@
 .subscribe-section {
   background: linear-gradient(45deg, #5198ff 0%, #7d6cc9 100%); }
 
-.btn-subscribe {
-  border-radius: 1.5rem;
-  border-color: #fff;
-  background-color: #fff;
-  color: #0088cc; }
-  .btn-subscribe:hover, .btn-subscribe:focus, .btn-subscribe:active {
-    background-color: transparent;
-    border-color: #fff;
-    color: #fff; }
-
 @media (max-width: 1199.98px) {
   .pricing-action-area {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
