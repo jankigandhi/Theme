@@ -1,10 +1,3 @@
-<?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" href="../Buttons/css/button.css">
-<link rel="stylesheet" href="../form-input/css/form-input.css">
-<link rel="stylesheet" type="text/css" href="css/footer.css">
-</head>
-<body>
 <div class="bg-dark">
     <div class="container p-3">
         <h6 class="text-uppercase text-center text-white">Subscribe to our newsletter</h6>
@@ -122,5 +115,4 @@
             <!-- Grid row -->
         </div>
     </div>
-</body>
-</html>
+</div>
