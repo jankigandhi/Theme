@@ -38,79 +38,79 @@
 </div>
 <div class="container my-3">
     <div class="row mx-0 py-5">
-        <div class="col-md-4 pb-4">
-            <div class="row mx-0 justify-content-start">
-                <div class="col-3">
-                    <div class="box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-4 pb-4">
+            <div class="row mx-0 justify-content-start text-sm-left text-center">
+                <div class="col-sm-3 pb-2">
+                    <div class="box d-flex justify-content-center align-items-center mx-auto">
                         <span class="box-icon"><i class="ti-image text-white"></i></span>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 pb-2">
                     <h5 class="font-weight-bold mb-0">Responsive Layout</h5>
                     <p class="box-desc mb-0">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pb-4">
-            <div class="row mx-0 justify-content-start">
-                <div class="col-3">
-                    <div class="box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-4 pb-4">
+            <div class="row mx-0 justify-content-start text-sm-left text-center">
+                <div class="col-sm-3 pb-2">
+                    <div class="box d-flex justify-content-center align-items-center mx-auto">
                         <span class="box-icon"><i class="ti-dropbox text-white"></i></span>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 pb-2">
                     <h5 class="font-weight-bold mb-0">Responsive Layout</h5>
                     <p class="box-desc mb-0">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pb-4">
-            <div class="row mx-0 justify-content-start">
-                <div class="col-3">
-                    <div class="box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-4 pb-4">
+            <div class="row mx-0 justify-content-start text-sm-left text-center">
+                <div class="col-sm-3 pb-2">
+                    <div class="box d-flex justify-content-center align-items-center mx-auto">
                         <span class="box-icon"><i class="ti-widget text-white"></i></span>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 pb-2">
                     <h5 class="font-weight-bold mb-0">Responsive Layout</h5>
                     <p class="box-desc mb-0">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pb-4">
-            <div class="row mx-0 justify-content-start">
-                <div class="col-3">
-                    <div class="box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-4 pb-4">
+            <div class="row mx-0 justify-content-start text-sm-left text-center">
+                <div class="col-sm-3 pb-2">
+                    <div class="box d-flex justify-content-center align-items-center mx-auto">
                         <span class="box-icon"><i class="ti-infinite text-white"></i></span>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 pb-2">
                     <h5 class="font-weight-bold mb-0">Responsive Layout</h5>
                     <p class="box-desc mb-0">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pb-4">
-            <div class="row mx-0 justify-content-start">
-                <div class="col-3">
-                    <div class="box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-4 pb-4">
+            <div class="row mx-0 justify-content-start text-sm-left text-center">
+                <div class="col-sm-3 pb-2">
+                    <div class="box d-flex justify-content-center align-items-center mx-auto">
                         <span class="box-icon"><i class="ti-world text-white"></i></span>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 pb-2">
                     <h5 class="font-weight-bold mb-0">Responsive Layout</h5>
                     <p class="box-desc mb-0">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pb-4">
-            <div class="row mx-0 justify-content-start">
-                <div class="col-3">
-                    <div class="box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-4 pb-4">
+            <div class="row mx-0 justify-content-start text-sm-left text-center">
+                <div class="col-sm-3 pb-2">
+                    <div class="box d-flex justify-content-center align-items-center mx-auto">
                         <span class="box-icon"><i class="ti-shine text-white"></i></span>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 pb-2">
                     <h5 class="font-weight-bold mb-0">Responsive Layout</h5>
                     <p class="box-desc mb-0">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                 </div>
@@ -129,32 +129,9 @@
         </div>
     </div>
 </div>
-<div class="row mx-0">
-    <div class="col-md-4 pb-4 bg-success text-white p-3">
-        <h3 class="text-uppercase text-white my-4 text-center font-weight-bold">Why choose Us</h3>
-        <p class="box-desc mb-0">Transform, agency working families thinkers who make change happen communities. Developing nations legal aid public sector our ambitions future aid The Elders economic security Rosa.</p>
-        <div class="text-left mt-5">
-            <button class="btn-thick rounded-0 btn btn-outline-white">Buy Now!</button>
-        </div>
-    </div>
-    <div class="col-md-4 pb-4 bg-dark text-white p-3">
-        <h3 class="text-uppercase text-white my-4 text-center font-weight-bold">Why choose Us</h3>
-        <p class="box-desc mb-0">Transform, agency working families thinkers who make change happen communities. Developing nations legal aid public sector our ambitions future aid The Elders economic security Rosa.</p>
-        <div class="text-left mt-5">
-            <button class="btn-thick rounded-0 btn btn-outline-white">Buy Now!</button>
-        </div>
-    </div>
-    <div class="col-md-4 pb-4 bg-danger text-white p-3">
-        <h3 class="text-uppercase text-white my-4 text-center font-weight-bold">Why choose Us</h3>
-        <p class="box-desc mb-0">Transform, agency working families thinkers who make change happen communities. Developing nations legal aid public sector our ambitions future aid The Elders economic security Rosa.</p>
-        <div class="text-left mt-5">
-            <button class="btn-thick rounded-0 btn btn-outline-white">Buy Now!</button>
-        </div>
-    </div>
-</div>
 <div class="container my-5">
     <div class="pricing-box row">
-        <div class="col-md-9">
+        <div class="col-lg-9">
             <div class="pricing-title">
                 <h3 class="font-weight-bold py-2">How many Themes can you Download today?</h3>
             </div>
@@ -171,7 +148,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-3 px-0">
+        <div class="col-lg-3 px-0">
             <div class="pricing-action-area">
                 <div class="pricing-meta">
                     As Low as 
