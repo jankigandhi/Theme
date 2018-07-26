@@ -2,9 +2,10 @@
 <link rel="stylesheet" href="../../components/typography/css/typography.css">
 <link rel="stylesheet" href="../../components/Buttons/css/button.css">
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
-<link rel="stylesheet" href="../../pages/contact/css/contact.css">
+<link rel="stylesheet" href="../../pages/contact-1/css/contact-1.css">
 <link rel="stylesheet" href="../../pages/about-1/css/about-1.css">
 <link rel="stylesheet" type="text/css" href="../../components/form-input/css/form-input.css">
+<link rel="stylesheet" type="text/css" href="../../components/modal/css/modal.css">
 <link rel="stylesheet" type="text/css" href="../../components/map/css/map.css">
 <link rel="stylesheet" type="text/css" href="../../components/nav-bar/css/nav-bar.css">
 <link rel="stylesheet" type="text/css" href="../../components/breadcrumbs/css/breadcrumbs.css">
@@ -15,8 +16,9 @@
 <div class="breadcrumbs-section">
 	<div class="container">
 		<div class="row justify-content-md-between justify-content-center align-items-center mx-0">
-			<div>
+			<div class="line-height">
 				<h1 class="breadcrumbs-title mb-0 text-uppercase text-dark font-weight-medium">Contact Us</h1>
+				<p class="breadcrumbs-desc">Get in Touch with Us</p>
 			</div>
 			<div class="breadcrumbs-menu">
 				<ul class="breadcrumb mb-0 justify-content-center">
@@ -32,43 +34,63 @@
 		</div>
 	</div>
 </div>
-<div class="map-section">
-	<div>
-		<div id="map"></div>
-	</div>
-</div>
-<div class="form-componet my-5">
-	<div class="container">
-		<div class="row mx-0">
-			<div class="col-md-6">
-				<div class="border-bottom border-secondary py-4">
-					<h4 class="text-uppercase mb-0">GeT In Touch</h4>
-					<p class="addrese-desc mb-0 pt-3 light-gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,</p>
+<div>
+	<div id="map" class="map-vh"></div>
+	<div class="basic-modal modal fade scroll show open">
+		<div class="modal-dialog modal-dialog-centered scroll-dialog my-0 mx-auto p-3">
+			<div class="modal-content border-0 rounded-0">
+				<div class="modal-header d-inline-block w-100 p-md-4">
+					<button type="button" class="close-btn close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title mt-4 font-weight-medium text-center">Send us an Email</h4>
 				</div>
-				<div class="border-bottom border-secondary py-4">
-					<address class="light-gray addrese-desc">438 Marine Parade <span class="d-block">Elwood,Victoria</span><span class="d-block">P.O Box 3184</span></address>
+				<div class="modal-body p-md-4">
+					<div class="row mx-0">
+						<div class="col-md-6">
+							<div class="form-group my-4 mb-0">
+								<input type="email" class="square-box form-control" placeholder="NAME">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group my-4 mb-0">
+								<input type="email" class="square-box form-control" placeholder="EMAIL">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group my-4">
+								<input type="email" class="square-box form-control" placeholder="PHONE">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group py-4">
+								<div class="selectbox">
+									<select class="square-box form-control">
+										<option>-- Select One --</option>
+										<option>Wordpress</option>
+										<option class="text-uppercase">Php/MySQl</option>
+										<option class="text-uppercase">Html5/Css3</option>
+										<option class="text-uppercase">Graphic Design</option>
+									</select>
+									<span class="select-icon ti-angle-down"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group p-3">
+						<input type="email" class="square-box form-control" placeholder="SUBJECT">
+					</div>
+					<div class="input-area input-effect p-3">
+						<textarea class="square-box form-control" placeholder="WRITE HERE..."></textarea>
+					</div>
 				</div>
-				<div class="phone-contact py-4">
-					<p class="light-gray mb-1"><strong>Email:</strong> hello@foundry.net</p>
-					<p class="light-gray"><strong>Phone:</strong> +614 3948 2726 </p>
-				</div>
-			</div>
-			<div class="col-md-5 ml-md-5">
-				<div class="form-group mb-0 my-4">
-					<input type="email" class="square-box form-control" placeholder="YOUR NAME">
-				</div>
-				<div class="form-group py-2">
- 					<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS">
-				</div>
-				<div class="input-area input-effect py-2">
-					<textarea class="square-box form-control" placeholder="WRITE HERE..."></textarea>
-				</div>
-				<div class="py-3">
-					<button type="button" class="btn-thick btn-min-w rounded-0 btn btn-primary text-uppercase w-100">Send message</button>
+				<div class="modal-footer d-inline-block w-100 text-right p-md-4">
+					<button type="button" class="btn-thick rounded-0 btn btn-primary py-2">Send Message</button>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="modal-backdrop fade show"></div>
 </div>
 <?php include_once '../../inc/foot.php';?>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX-gnjI10taggMKTIc8jNd6VAobfU3leY" type="text/javascript"></script>

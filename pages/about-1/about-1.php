@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="row justify-content-md-between justify-content-center align-items-center mx-0">
 				<div>
-					<h1 class="about-title mb-0 text-uppercase text-dark font-weight-medium">About Us</h1>
+					<h1 class="breadcrumbs-title mb-0 text-uppercase text-dark font-weight-medium">About Us</h1>
 				</div>
 				<div class="breadcrumbs-menu">
 					<ul class="breadcrumb mb-0 justify-content-center">
