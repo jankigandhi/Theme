@@ -112,7 +112,7 @@
 		</div>
 	</div>
 </main>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
 var swiper = new Swiper('.swiper-container', {

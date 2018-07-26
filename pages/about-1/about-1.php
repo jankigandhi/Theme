@@ -100,11 +100,11 @@
 		<div class="call-to-action-section">
 			<div class="row call-to-action with-border rounded my-3 mx-0 align-items-center p-3 justify-content-md-between justify-content-center">
 				<div>
-                    <h3 class="call-to-action-text font-weight-medium">Call us today at <span class="text-success">+91.22.57412541</span> or Email us at <span class="text-success">support@canvas.com</span></h3>
+                    <h3 class="call-to-action-text font-weight-medium">Call us today at <span class="text-primary">+91.22.57412541</span> or Email us at <span class="text-primary">support@canvas.com</span></h3>
 					<p class="light-gray">We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</p>
                 </div>
                	<div class="btn-start">
-                    <button class="btn-thick rounded-0 btn btn-success">Start Browsing</button>
+                    <button class="btn-thick rounded-0 btn btn-primary">Start Browsing</button>
                 </div>
 			</div>
 		</div>
@@ -372,7 +372,7 @@
 		</div>
 	</div>
 </main>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
 	var swiper = new Swiper('.slider .swiper-container', {
