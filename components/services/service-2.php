@@ -151,7 +151,7 @@
         <div class="col-lg-3 px-0">
             <div class="pricing-action-area">
                 <div class="pricing-meta">
-                    As Low as 
+                    As Low as
                 </div>
                 <div class="pricing-price">
                     <span class="price-unit">€</span>39
@@ -160,6 +160,18 @@
                 <div class="text-center">
                     <a href="@" class="btn btn-primary font-weight-bold text-uppercase px-5">Get Started</a>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="subscribe-section py-5">
+    <div class="container">
+        <div class="row mx-0 align-items-center">
+            <div class="col-md-8 text-md-left text-center py-2">
+                <h4 class="mb-0 text-white">Subscribe to learn more about the theme's features.</h4>
+            </div>
+            <div class="col-md-4 text-center py-2">
+                <button class="btn-subscribe btn btn-outline-info px-4">Subscribe Now</button>
             </div>
         </div>
     </div>
