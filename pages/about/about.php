@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../components/typography/css/typography.css">
 <link rel="stylesheet" href="../../components/Buttons/css/button.css">
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
-<link rel="stylesheet" href="../../pages/about/css/about-1.css">
+<link rel="stylesheet" href="../../pages/about/css/about.css">
 <link rel="stylesheet" type="text/css" href="../../components/nav-bar/css/nav-bar.css">
 <link rel="stylesheet" type="text/css" href="../../components/breadcrumbs/css/breadcrumbs.css">
 </head>
@@ -112,7 +112,7 @@
 		</div>
 	</div>
 </main>
-<?php include_once '../../inc/footer.php';?>
+<?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
 var swiper = new Swiper('.swiper-container', {
