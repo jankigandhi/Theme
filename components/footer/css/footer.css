@@ -1,3 +1,36 @@
+.social-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.8); }
+  .social-section .social-icon {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    background-color: transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19-  */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #fff; }
+    .social-section .social-icon .icon {
+      font-size: 1.5rem; }
+    .social-section .social-icon:hover, .social-section .social-icon:focus {
+      background: white;
+      color: #495057; }
 
+.mw-900 {
+  max-width: 900px; }
 
 /*# sourceMappingURL=footer.css.map */
