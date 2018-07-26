@@ -51,13 +51,12 @@
     </div>
 </div>
 <div>
-    <div class="banner service-img" style="background-image: url('images/product-banner.png');">
-        <div class="banner-content">
-            <div class="container">
+    <div class="banner" style="background-image: url('images/product-banner.png');">
+            <div class="container py-4">
                 <h3 class="text-center text-white">There's so much to love</h3>
                 <p class="text-center text-white">A remarkably versatile template packed with features.</p>
                 <div class="row mx-0 mb-5">
-                    <div class="col-sm-4 pb-3">
+                    <div class="col-md-4 pb-3">
                         <div class="service-box p-3">
                             <div class="text-center">
                                 <span class="icon"><i class="ti-gallery text-white"></i></span>
@@ -68,7 +67,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-4 pb-3">
+                    <div class="col-md-4 pb-3">
                         <div class="service-box p-3">
                             <div class="text-center">
                                 <span class="icon"><i class="ti-server text-white"></i></span>
@@ -79,7 +78,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-4 pb-3">
+                    <div class="col-md-4 pb-3">
                         <div class="service-box p-3">
                             <div class="text-center">
                                 <span class="icon"><i class="ti-package text-white"></i></span>
@@ -92,7 +91,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 <?php include_once '../../inc/foot.php';?>

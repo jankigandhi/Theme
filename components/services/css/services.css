@@ -99,6 +99,9 @@
       font-size: 28px;
       font-weight: 400; }
 
+.banner-box {
+  position: absolute; }
+
 .subscribe-section {
   background: linear-gradient(45deg, #5198ff 0%, #7d6cc9 100%); }
 
