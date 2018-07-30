@@ -7,6 +7,7 @@
   <?php $HederClass="bg-dark";?>
   <?php include_once 'nav-bar.php';?>
   <div class="banner-img"></div>
+  <?php include_once '../footer/footer.php';?>
   <?php include_once '../../inc/foot.php';?>
 </body>
 </html>
