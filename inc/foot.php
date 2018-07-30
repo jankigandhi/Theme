@@ -1,14 +1,14 @@
 <script src="../../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-  $(".one-open .toggle").on("click", function() {
+  $(".one-open .accordion-toggle").on("click", function() {
     var $this = $(this);
-    $this.parent().find(".toggle").removeClass("active");
+    $this.parent().find(".accordion-toggle").removeClass("active");
     $this.addClass("active");
   });
-  $(".multiple-open .toggle").on("click", function() {
+  $(".multiple-open .accordion-toggle").on("click", function() {
     var $this = $(this);
-    $this.closest(".multiple-open .toggle").toggleClass("active");
+    $this.closest(".multiple-open .accordion-toggle").toggleClass("active");
   });
   $(".mobile-toggle").on("click", function(e) {
     if(e && e.preventDefault)  {
@@ -114,5 +114,6 @@ $(document).ready(function() {
   });
 });
 </script>
+
 
 

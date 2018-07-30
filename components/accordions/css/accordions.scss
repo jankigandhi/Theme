@@ -71,7 +71,7 @@
 }
 
 .alternate-color {
-    .toggle {
+    .accordion-toggle {
         &:nth-child(even) {
             .accordion-header {
                 background-color: $white;

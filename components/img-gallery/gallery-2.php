@@ -127,6 +127,7 @@
 		</div>
 	</div>
 </div>
+<?php include_once '../footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <!-- isotop -->
 <script src="../../js/isotope.pkgd.js"></script>

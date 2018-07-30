@@ -1,118 +1,116 @@
-<div class="bg-dark">
-    <div class="container p-3">
-        <h6 class="text-uppercase text-center text-white">Subscribe to our newsletter</h6>
-        <h3 class="h4 text-white text-center">The latest industry awards news straight to your inbox</h3>
-        <div class="mw-900 row mx-auto mt-4">
-            <div class="col-md-4 mb-4">
-                <div class="form-group mb-0">
-                    <input type="name" class="square-box form-control" placeholder="NAME">
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <form class="from-group">
-                    <div class="form-group mb-0">
-                        <input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS">
+<div class="bg-dark py-4">
+    <div class="footer-top">
+        <div class="container p-3">
+            <div class="text-center">
+                <small class="text-white text-uppercase font-weight-medium">Subscribe to our newsletter</small>
+                <h4 class="text-white my-3">The Latest industry &amp; awards news straight to your inbox</h4>
+                <form class="subscribe-form my-4 mx-auto">
+                    <div class="row mb-3 mx-0">
+                        <div class="col-sm-8">
+                            <div class="form-group mb-0">
+                                <input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS" />
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-primary">
+                            <span class="btn-text text-3e">Subscribe</span>
+                            <span class="btn-icon icon-3e rightin">
+                                <i class="zmdi zmdi-long-arrow-right"></i>
+                            </span>
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="input-group-append">
-                    <button type="button" class="btn-effect-3 btn-thick btn btn-primary text-white btn-block mb-0">
-                    <span class="btn-text text-3e">Subscribe</span>
-                    <span class="btn-icon icon-3e rightin">
-                        <i class="zmdi zmdi-long-arrow-right"></i>
-                    </span>
-                    </button>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 py-2">
+                    <h5 class="text-white font-weight-medium text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="footer-links" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="#">About us</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="#">Services</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="#">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-        <div class="container text-center text-md-left text-white">
-            <!-- Footer links -->
-            <div class="row text-center text-md-left mt-3 pb-3">
-                <!-- Grid column -->
-                <div class="col-lg-3 col-md-6 mt-3 text-left">
-                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">World luxuray</h6>
-                    <p>
-                        <a href="#!" class="text-white">About the awards</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Previous winners</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Registrations</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Hotel finder</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Media</a>
-                    </p>
+                <div class="col-lg-3 col-sm-6 py-2">
+                    <h5 class="text-white font-weight-medium text-uppercase">Latest News</h5>
+                    <ul class="list-unstyled">
+                        <li class="d-table mb-2">
+                            <div class="img-box d-table-cell align-top">
+                               <img src="../footer/images/gallery-1.png" class="news-thumb-img mw-100 rounded" />
+                            </div>
+                            <div class="d-table-cell align-top pl-2">
+                                <p class="mb-0 small">
+                                    <a href="#" class="footer-links">Postformat Gallery: Multiple images</a>
+                                </p>
+                                <p class="mb-0 small">
+                                   <a href="#">October 21,2013</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-table mb-2">
+                            <div class="img-box d-table-cell align-top">
+                               <img src="../footer/images/gallery-2.png" class="news-thumb-img mw-100 rounded" />
+                            </div>
+                            <div class="d-table-cell align-top pl-2">
+                                <p class="mb-0 small">
+                                    <a href="#" class="footer-links">Postformat Gallery: Multiple images</a>
+                                </p>
+                                <p class="mb-0 small">
+                                   <a href="#">October 21,2013</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-3 text-left">
-                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Useful links</h6>
-                    <p>
-                        <a href="#!" class="text-white">Your Account</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Help</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-                <hr class="w-100 clearfix d-md-none">
-                <!-- Grid column -->
-                <div class="col-lg-3 col-md-6 mt-3 text-left">
-                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Contact</h6>
-                    <p>
-                    <i class="zmdi zmdi-home mr-3"></i> New York, NY 10012, US</p>
-                    <p>
-                    <i class="zmdi zmdi-email-open mr-3"></i> info@gmail.com</p>
-                    <p>
-                    <i class="zmdi zmdi-phone mr-3"></i> + 01 234 567 88</p>
-                    <p>
-                    <i class="zmdi zmdi-print mr-3"></i> + 01 234 567 89</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-3 text-left">
-                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Social</h6>
-                    <div class="social-section">
-                        <ul class="row mx-auto list-unstyled py-4">
-                            <li class="col-3 pb-4 pl-0">
-                                <a href="@" target="_blank" class="social-icon">
-                                    <i class="icon zmdi zmdi-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="col-3 pb-4 pl-0">
-                                <a href="@" target="_blank" class="social-icon">
-                                    <i class="icon zmdi zmdi-google-plus"></i>
-                                </a>
-                            </li>
-                            <li class="col-3 pb-4 pl-0">
-                                <a href="https://twitter.com/EventerpriseAG" target="_blank" class="social-icon">
-                                    <i class="icon zmdi zmdi-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="col-3 pb-4 pl-0">
-                                <a href="https://www.linkedin.com/company/eventerprise-com" target="_blank" class="social-icon">
-                                    <i class="icon zmdi zmdi-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
+                <div class="col-lg-3 col-sm-6 py-2">
+                    <h5 class="text-white font-weight-medium text-uppercase">Tags</h5>
+                    <div class="tags">
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Agent Login</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Customer Login</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Not a Member?</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Contact</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">New Horizons</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Landscape</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Tags</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Nice</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Some</a>
+                        <a href="#" class="tag-btn btn btn-outline-white py-1 btn-sm mb-1">Portrait</a>
                     </div>
                 </div>
-                <!-- Grid column -->
+                <div class="col-lg-3 col-sm-6 py-2">
+                    <h5 class="text-white font-weight-medium text-uppercase">Address</h5>
+                    <p class="text-white small">
+                        <span>304, Privilege Avenue,</span>
+                        <span class="d-block">Dr. Vikram Sarabhai Road</span>
+                        <span class="d-block">Vadodara - 390022</span>
+                    </p>
+                    <p>
+                        <span class="text-primary small">Email:</span>
+                        <a href="mailto:contact@atyantik.com" class="footer-links">contact@atyantik.com</a>
+                    </p>
+                    <div class="social-section">
+                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-facebook"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-twitter"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-tumblr"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-pinterest"></i></a>
+                    </div>
+                </div>
             </div>
-            <!-- Footer links -->
-            <div>
-                <!--Copyright-->
-                <h6 class="text-center text-white">© 2018 Copyright: Theme.com
-                </h6>
-            </div>
-            <!-- Grid row -->
         </div>
+    </div>
+    <div class="footer-bottom text-center pt-4">
+        <p class="copy-right mb-0">© 2018 Theme | Terms & conditions | Website executed by Atyantik Technology</p>
     </div>
 </div>

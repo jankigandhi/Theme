@@ -25,6 +25,7 @@
         </div>
     </div>
 </main>
+<?php include_once '../footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>

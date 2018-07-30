@@ -1,46 +1,44 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-@mixin flex {
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;
-    /* OLD - Firefox 19-  */
-    display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Chrome */
-    display: flex;
+.subscribe-form {
+    max-width: 600px;
 }
 
-@mixin flex-space-between {
-    @include flex;
-    justify-content: space-between;
-    align-items: center;
-}
-@mixin flex-center {
-    @include flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-section {
-    border-top: 1px solid rgba($white, .8);
-    .social-icon {
-        @include circle(2.8125rem, transparent);
-        @include flex-center;
-        @include transition(all .3s ease-in-out);
-        border: 1px solid rgba($white, .8);
-        color: $white;
-        .icon {
-            font-size: 1.5rem;
-        }
-        @include hover-focus {
-            background: lighten($white, 10%);
-            color: $gray-700;
-        }
+.footer-links {
+    color: $white;
+    font-size: .875rem;
+    @include transition(.3s all linear);
+    @include hover-focus-active {
+        color: theme-color("priamry");
     }
 }
-.mw-900{
-	max-width: 900px;
+
+.img-box {
+    width: 4rem;
+}
+
+.news-thumb-img {
+    @include size(4rem);
+}
+
+.tags {
+    .tag-btn {
+        font-size: .8rem;
+        text-transform: capitalize;
+    }
+}
+.social-section {
+    .social-icon {
+        font-size: 1.5rem;
+    }
+}
+.copy-right {
+    color: rgba($white,.6);
+    font-size: .875rem;
+    font-weight: 200;
+}
+.footer-bottom {
+    border-top: 1px solid rgba($white,.2)
 }
 

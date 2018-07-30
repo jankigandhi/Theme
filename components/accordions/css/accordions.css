@@ -52,7 +52,7 @@
   .with-border .content {
     border: 0; }
 
-.alternate-color .toggle:nth-child(even) .accordion-header {
+.alternate-color .accordion-toggle:nth-child(even) .accordion-header {
   background-color: #fff; }
 .alternate-color .content {
   border: 0; }

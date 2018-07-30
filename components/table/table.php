@@ -416,6 +416,7 @@
         </div>
     </div>
 </div>
+<?php include_once '../footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 </body>
 </html>
