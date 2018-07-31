@@ -35,7 +35,7 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #0088cc !default;
+$blue:    #26ade4 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -187,7 +187,7 @@ $grid-breakpoints: (
 
 $container-max-widths: (
   sm: 767px,
-  md: 992px,
+  md: 800px,
   lg: 992px,
   xl: 1200px
 ) !default;

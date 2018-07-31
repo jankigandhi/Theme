@@ -10,6 +10,11 @@ $(document).ready(function() {
     var $this = $(this);
     $this.closest(".multiple-open .accordion-toggle").toggleClass("active");
   });
+  $(".header-links").on("click", function() {
+    var $this = $(this);
+    $this.parent().find(".header-links").removeClass("active");
+    $this.addClass("active");
+  });
   $(".mobile-toggle").on("click", function(e) {
     if(e && e.preventDefault)  {
     e.preventDefault();

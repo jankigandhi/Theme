@@ -23,7 +23,7 @@
 .btn-effect {
   overflow: hidden; }
   .btn-effect.btn-outline-primary:after {
-    background-color: #0088cc; }
+    background-color: #26ade4; }
   .btn-effect.btn-outline-secondary:after {
     background-color: #6c757d; }
   .btn-effect.btn-outline-success:after {
@@ -38,6 +38,8 @@
     background-color: #f8f9fa; }
   .btn-effect.btn-outline-dark:after {
     background-color: #212529; }
+  .btn-effect.btn-outline-bluish-gray:after {
+    background-color: #2c3e50; }
   .btn-effect:after {
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -103,7 +105,7 @@
   padding-left: 4.8125rem;
   border-width: 0; }
   .btn-effect-2.btn-primary:before, .btn-effect-2.btn-primary:hover {
-    background-color: #006699; }
+    background-color: #188fbf; }
   .btn-effect-2.btn-secondary:before, .btn-effect-2.btn-secondary:hover {
     background-color: #545b62; }
   .btn-effect-2.btn-success:before, .btn-effect-2.btn-success:hover {
@@ -118,6 +120,8 @@
     background-color: #dae0e5; }
   .btn-effect-2.btn-dark:before, .btn-effect-2.btn-dark:hover {
     background-color: #0a0c0d; }
+  .btn-effect-2.btn-bluish-gray:before, .btn-effect-2.btn-bluish-gray:hover {
+    background-color: #1a252f; }
   .btn-effect-2:before {
     content: " ";
     position: absolute;
@@ -201,7 +205,7 @@
         -webkit-transform: translate(0%, -50%);
         transform: translate(0%, -50%); }
   .btn-effect-3.effect-1.btn-primary:hover {
-    color: #0088cc;
+    color: #26ade4;
     background-color: transparent; }
   .btn-effect-3.effect-1.btn-secondary:hover {
     color: #6c757d;
@@ -224,8 +228,11 @@
   .btn-effect-3.effect-1.btn-dark:hover {
     color: #212529;
     background-color: transparent; }
+  .btn-effect-3.effect-1.btn-bluish-gray:hover {
+    color: #2c3e50;
+    background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-primary:hover {
-    color: #0088cc;
+    color: #26ade4;
     background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-secondary:hover {
     color: #6c757d;
@@ -247,6 +254,9 @@
     background-color: transparent; }
   .btn-effect-3.effect-2.btn-outline-dark:hover {
     color: #212529;
+    background-color: transparent; }
+  .btn-effect-3.effect-2.btn-outline-bluish-gray:hover {
+    color: #2c3e50;
     background-color: transparent; }
   .btn-effect-3 .btn-text {
     display: inline-block;

@@ -1,43 +1,45 @@
 <div class="site-header">
   <div class="top-bar bg-dark">
-    <div class="container px-0 px-lg-3">
+    <div class="header-container container px-0 px-lg-3">
       <div class="d-inline-block w-100 text-center text-lg-left">
         <div class="top-bar-bottom-line float-lg-left">
-          <button class="top-bar-link hover-links btn btn-link rounded-0">
+          <button class="top-bar-link hover-links btn btn-link rounded-0 float-lg-left">
           <i class="pr-1 fa fa-user"></i>
           Agent Login
           </button>
-          <button class="top-bar-link hover-links btn btn-link rounded-0">
+          <button class="top-bar-link hover-links btn btn-link rounded-0 float-lg-left">
           <i class="pr-1 fa fa-user"></i>
           Customer Login
           </button>
-          <button class="top-bar-link hover-links btn btn-link rounded-0">
+          <button class="top-bar-link hover-links btn btn-link rounded-0 float-lg-left">
           <i class="pr-1 fa fa-user"></i>
-          Not a Member? <span class="text-primary">Register</span>
+          <span class="d-sm-inline d-none">Not a Member?</span> <span class="text-primary">Register</span>
           </button>
-          <button class="top-bar-link hover-links btn btn-link rounded-0">
+        </div>
+        <div class="float-left">
+          <button class="top-bar-link hover-links btn btn-link rounded-0 border-left-0">
           Call US Now:815-123-4567
           </button>
         </div>
-        <div class="float-lg-right">
-          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0"><i class="fab fa-tumblr"></i></a>
-          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0"><i class="fab fa-pinterest"></i></a>
+        <div class="float-right">
+          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0 float-left"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0 float-left"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0 float-left"><i class="fab fa-tumblr"></i></a>
+          <a href="#" class="top-bar-link hover-links btn btn-link rounded-0 float-left"><i class="fab fa-pinterest"></i></a>
         </div>
       </div>
     </div>
   </div>
   <div class="nav-header d-inline-block w-100">
-    <div class="container">
+    <div class="header-container container">
       <div class="float-left">
         <h1 class="h2 font-weight-bold text-uppercase mb-0">
         <a href="#">Logo</a>
         </h1>
       </div>
       <nav class="float-right">
-        <ul class="list-unstyled mb-0 py-1 d-inline-block">
-          <li class="header-links link-arrow d-inline-block">
+        <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block">
+          <li class="header-links link-arrow d-lg-inline-block">
             <a href="#" class="links hover-links text-uppercase font-weight-bold">Home</a>
             <ul class="sub-menu list-unstyled">
               <li class="sub-menu-link">
@@ -48,7 +50,7 @@
               </li>
             </ul>
           </li>
-          <li class="header-links link-arrow d-inline-block">
+          <li class="header-links link-arrow d-lg-inline-block">
             <a href="#" class="links hover-links text-uppercase font-weight-bold">Pages</a>
             <ul class="sub-menu list-unstyled">
               <li class="menu-col">
@@ -97,7 +99,7 @@
               </li>
             </ul>
           </li>
-          <li class="header-links link-arrow d-inline-block">
+          <li class="header-links link-arrow d-lg-inline-block">
             <a href="#" class="links hover-links text-uppercase font-weight-bold">Elements</a>
             <ul class="sub-menu list-unstyled">
               <li class="menu-col">
@@ -216,7 +218,7 @@
               </li>
             </ul>
           </li>
-          <li class="header-links link-arrow d-inline-block">
+          <li class="header-links link-arrow d-lg-inline-block">
             <a href="#" class="links hover-links text-uppercase font-weight-bold">Contact Us</a>
             <ul class="sub-menu list-unstyled">
               <li class="sub-menu-link">
@@ -231,6 +233,11 @@
         <div class="d-inline-block px-3">
           <button class="btn-search btn btn-outline-secondary rounded-circle d-flex btn-thick p-0 justify-content-center align-items-center">
           <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="d-inline-block d-lg-none">
+          <button class="menu-toggle btn btn-link">
+            <span class="ti-menu"></span>
           </button>
         </div>
       </nav>
