@@ -1,21 +1,69 @@
 .site-header {
-  font-family: "Raleway"; }
-  .site-header .top-bar-link {
-    color: #fff;
-    text-transform: capitalize;
+  font-family: "Raleway";
+  height: 7rem; }
+  .site-header .hover-links {
     font-size: .8rem;
-    border-right: 1px solid #383f45; }
-    .site-header .top-bar-link:hover, .site-header .top-bar-link:focus, .site-header .top-bar-link:active {
-      color: #18b093; }
-  .site-header .header-links {
-    font-size: .8rem;
-    display: inline-block;
-    color: #6c757d;
     -moz-transition: 0.3s all linear;
     -o-transition: 0.3s all linear;
     -webkit-transition: 0.3s all linear;
     transition: 0.3s all linear; }
-    .site-header .header-links:hover, .site-header .header-links:focus, .site-header .header-links:active {
-      color: #18b093; }
+    .site-header .hover-links:hover, .site-header .hover-links:focus, .site-header .hover-links:active {
+      color: #0088cc; }
+  .site-header .top-bar {
+    height: 2.0625rem; }
+  .site-header .nav-header {
+    padding: .969rem 0; }
+  .site-header .top-bar-link {
+    color: #fff;
+    text-transform: capitalize;
+    border-right: 1px solid #383f45; }
+    .site-header .top-bar-link:first-child {
+      border-left: 1px solid #383f45; }
+  .site-header .header-links {
+    position: relative; }
+    .site-header .header-links.link-arrow .links {
+      position: relative; }
+      .site-header .header-links.link-arrow .links:after {
+        content: "\f0d7";
+        font-family: 'FontAwesome';
+        color: #6c757d;
+        position: absolute;
+        right: 0; }
+  .site-header .links {
+    display: inline-block;
+    color: #6c757d;
+    padding: .657rem 1rem; }
+  .site-header .btn-search {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-weight: bold; }
+  .site-header .sub-menu {
+    position: absolute;
+    right: 0;
+    background-color: #212529;
+    min-width: 10rem;
+    padding: .5rem 0;
+    transform: translate(0, 10px);
+    opacity: 0;
+    visibility: hidden;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    z-index: 99;
+    white-space: nowrap; }
+    .site-header .sub-menu .menu-col {
+      width: 10rem;
+      display: inline-block;
+      vertical-align: top; }
+  .site-header .sub-menu-link a, .site-header .sub-menu-link .title {
+    color: rgba(255, 255, 255, 0.8);
+    padding: .5rem 1rem;
+    display: block;
+    font-weight: 600; }
+  .site-header .header-links:hover .sub-menu {
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible; }
 
 /*# sourceMappingURL=nav-bar.css.map */

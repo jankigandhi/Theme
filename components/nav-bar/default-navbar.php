@@ -1,7 +1,7 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../typography/css/typography.css">
 <link rel="stylesheet" href="../Buttons/css/button.css">
-<link rel="stylesheet" type="text/css" href="css/nav-bar.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/nav-bar.css"> -->
 </head>
 <body>
   <?php $HederClass="";?>

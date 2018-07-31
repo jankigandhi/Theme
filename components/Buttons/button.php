@@ -104,7 +104,7 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-1 btn-min-w btn-thick rounded-0 btn btn-success">
-          <span class="btn-text">Warning</span>
+          <span class="btn-text">Success</span>
           <span class="btn-icon">
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
@@ -116,7 +116,7 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-warning">
-          <span class="btn-text">Success</span>
+          <span class="btn-text">Warning</span>
           <span class="btn-icon">
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
@@ -158,7 +158,7 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-1 btn-min-w btn-thick btn-rounded btn btn-success">
-          <span class="btn-text">Warning</span>
+          <span class="btn-text">Success</span>
           <span class="btn-icon">
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
@@ -170,7 +170,7 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick btn-rounded btn btn-outline-warning">
-          <span class="btn-text">Success</span>
+          <span class="btn-text">Warning</span>
           <span class="btn-icon">
             <i class="zmdi zmdi-shopping-cart"></i>
           </span>
@@ -211,13 +211,13 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-success">
-          <span class="btn-text text-3e">Primary</span>
+          <span class="btn-text text-3e">Success</span>
           <span class="btn-icon icon-3e rightin">
             <i class="zmdi zmdi-long-arrow-right"></i>
           </span>
           </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-danger">
-          <span class="btn-text text-3e">Secondary</span>
+          <span class="btn-text text-3e">Danger</span>
           <span class="btn-icon icon-3e leftin">
             <i class="zmdi zmdi-long-arrow-left"></i>
           </span>
@@ -239,13 +239,13 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-success">
-          <span class="btn-text text-3e">Primary</span>
+          <span class="btn-text text-3e">Success</span>
           <span class="btn-icon icon-3e rightin">
             <i class="zmdi zmdi-long-arrow-right"></i>
           </span>
           </button>
           <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-danger">
-          <span class="btn-text text-3e">Secondary</span>
+          <span class="btn-text text-3e">Danger</span>
           <span class="btn-icon icon-3e leftin">
             <i class="zmdi zmdi-long-arrow-left"></i>
           </span>
@@ -267,13 +267,13 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-success">
-          <span class="btn-text text-3e">Primary</span>
+          <span class="btn-text text-3e">Success</span>
           <span class="btn-icon icon-3e rightin">
             <i class="zmdi zmdi-long-arrow-right"></i>
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick rounded-0 btn btn-outline-danger">
-          <span class="btn-text text-3e">Secondary</span>
+          <span class="btn-text text-3e">Danger</span>
           <span class="btn-icon icon-3e leftin">
             <i class="zmdi zmdi-long-arrow-left"></i>
           </span>
@@ -295,13 +295,13 @@
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick btn-rounded btn btn-outline-success">
-          <span class="btn-text text-3e">Primary</span>
+          <span class="btn-text text-3e">Success</span>
           <span class="btn-icon icon-3e rightin">
             <i class="zmdi zmdi-long-arrow-right"></i>
           </span>
           </button>
           <button type="button" class="btn-effect-3 effect-2 btn-min-w btn-thick btn-rounded btn btn-outline-danger">
-          <span class="btn-text text-3e">Secondary</span>
+          <span class="btn-text text-3e">Danger</span>
           <span class="btn-icon icon-3e leftin">
             <i class="zmdi zmdi-long-arrow-left"></i>
           </span>

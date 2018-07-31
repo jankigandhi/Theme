@@ -101,10 +101,10 @@
                         <a href="mailto:contact@atyantik.com" class="footer-links">contact@atyantik.com</a>
                     </p>
                     <div class="social-section">
-                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-facebook"></i></a>
-                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-twitter"></i></a>
-                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-tumblr"></i></a>
-                        <a href="#" class="footer-links social-icon p-2"><i class="zmdi zmdi-pinterest"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-tumblr"></i></a>
+                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-pinterest"></i></a>
                     </div>
                 </div>
             </div>
