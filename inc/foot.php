@@ -15,11 +15,16 @@ $(document).ready(function() {
     $this.parent().find(".header-links").removeClass("active");
     $this.addClass("active");
   });
-  $(".mobile-toggle").on("click", function(e) {
+  $(".menu-toggle").on("click", function(e) {
     if(e && e.preventDefault)  {
     e.preventDefault();
     }
-    $(".nav-bar").toggleClass("nav-open")
+    $(".mobile-menu,.mobile-menu-overlay").addClass("open");
+    $("body").addClass("overflow-hidden");
+  });
+  $(".mobile-menu-overlay").on("click", function() {
+    $(".mobile-menu,.mobile-menu-overlay").removeClass("open");
+    $("body").removeClass("overflow-hidden");
   });
   $(".has-dropdown").on("click", function() {
     var $this = $(this);

@@ -241,6 +241,7 @@
           </button>
         </div>
       </nav>
+      <div class="mobile-menu-overlay"></div>
     </div>
   </div>
 </div>

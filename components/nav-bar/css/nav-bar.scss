@@ -968,6 +968,11 @@ $mobile-sidebar-width: 14rem;
             width: $mobile-sidebar-width;
             z-index: 99;
             overflow-y: auto;
+            margin-right: -$mobile-sidebar-width; 
+            @include transition(.3s all linear);
+            &.open {
+            	margin-right: 0;
+            }
         }
         .links {
             color: $white;
@@ -990,11 +995,31 @@ $mobile-sidebar-width: 14rem;
             }
             &.active {
                 .sub-menu {
-                    max-height: 500px;
+                    max-height: 385px;
                     opacity: 1;
-                    //overflow-y: auto;
+                    overflow-y: auto;
                 }
             }
         }
+        .mobile-menu-overlay {
+        	position: absolute;
+        	left: 0;
+        	right: 0;
+        	background-color: rgba($gray-600,.5);
+        	top:0;
+        	bottom:0;
+        	height: 100%;
+        	margin-top: $mobile-topbar-height;
+        	opacity: 0;
+        	visibility: hidden;
+        	@include transition(.3s all linear);
+        	&.open {
+        		opacity: 1;
+        		visibility: visible;
+        	}
+        }
     }
+}
+.overflow-hidden {
+	overflow: hidden;
 }

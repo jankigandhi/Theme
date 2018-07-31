@@ -101,7 +101,14 @@
       height: calc(100vh - 4.1875rem);
       width: 14rem;
       z-index: 99;
-      overflow-y: auto; }
+      overflow-y: auto;
+      margin-right: -14rem;
+      -moz-transition: 0.3s all linear;
+      -o-transition: 0.3s all linear;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear; }
+      .site-header .mobile-menu.open {
+        margin-right: 0; }
     .site-header .links {
       color: #fff; }
     .site-header .sub-menu {
@@ -118,7 +125,28 @@
         color: #fff;
         margin-right: 1rem; }
     .site-header .header-links.active .sub-menu {
-      max-height: 500px;
-      opacity: 1; } }
+      max-height: 385px;
+      opacity: 1;
+      overflow-y: auto; }
+    .site-header .mobile-menu-overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-color: rgba(108, 117, 125, 0.5);
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      margin-top: 4.1875rem;
+      opacity: 0;
+      visibility: hidden;
+      -moz-transition: 0.3s all linear;
+      -o-transition: 0.3s all linear;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear; }
+      .site-header .mobile-menu-overlay.open {
+        opacity: 1;
+        visibility: visible; } }
+.overflow-hidden {
+  overflow: hidden; }
 
 /*# sourceMappingURL=nav-bar.css.map */

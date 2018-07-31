@@ -6,13 +6,13 @@
                 <h4 class="text-white my-3">The Latest industry &amp; awards news straight to your inbox</h4>
                 <form class="subscribe-form my-4 mx-auto">
                     <div class="row mb-3 mx-0">
-                        <div class="col-sm-8">
+                        <div class="col-md-8 col-sm-7 px-0">
                             <div class="form-group mb-0">
                                 <input type="email" class="square-box form-control mb-2" placeholder="EMAIL ADDRESS" />
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-primary">
+                        <div class="col-md-4 col-sm-5 px-sm-3 px-0">
+                            <button type="button" class="btn-effect-3 btn-min-w btn-thick rounded-0 btn btn-primary btn-block">
                             <span class="btn-text text-3e">Subscribe</span>
                             <span class="btn-icon icon-3e rightin">
                                 <i class="zmdi zmdi-long-arrow-right"></i>
@@ -22,7 +22,7 @@
                     </div>
                 </form>
             </div>
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-lg-3 col-sm-6 py-2">
                     <h5 class="text-white font-weight-medium text-uppercase">Links</h5>
                     <ul class="list-unstyled">
