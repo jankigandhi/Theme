@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="../Buttons/css/button.css">
 </head>
 <body>
-<?php $HederClass="bg-dark";?>
+<?php $HederClass="bg-bluish-gray";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container">
     <h1 class="h2 text-center mt-3">Typography</h1>

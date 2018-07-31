@@ -8,7 +8,7 @@
                     <div class="row mb-3 mx-0">
                         <div class="col-sm-8">
                             <div class="form-group mb-0">
-                                <input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS" />
+                                <input type="email" class="square-box form-control mb-2" placeholder="EMAIL ADDRESS" />
                             </div>
                         </div>
                         <div class="col-sm-4">
