@@ -858,9 +858,11 @@ $mobile-sidebar-width: 14rem;
     }
     .top-bar {
         height: $top-bar-height;
+        background-color: $gray-900;
     }
     .nav-header {
         padding: .86rem 0;
+        line-height: 1.5;
     }
     .top-bar-link {
         color: $white;
@@ -905,6 +907,35 @@ $mobile-sidebar-width: 14rem;
         }
         .title {
             color: $white;
+        }
+    }
+    &.header-transparent {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 11;
+        .top-bar {
+            background-color: transparent;
+            border-bottom: 1px solid rgba($white, .5);
+        }
+        .links {
+            color: $white;
+        }
+        .header-links {
+			&.link-arrow {
+                .links {
+					&:after {
+						color: $white;
+                    }
+                }
+            }
+        }
+        .btn-search {
+        	border-color: $white;
+        	color: $white; 
+        }
+        .menu-toggle {
+        	color: $white;
         }
     }
 }
@@ -968,10 +999,10 @@ $mobile-sidebar-width: 14rem;
             width: $mobile-sidebar-width;
             z-index: 99;
             overflow-y: auto;
-            margin-right: -$mobile-sidebar-width; 
+            margin-right: -$mobile-sidebar-width;
             @include transition(.3s all linear);
             &.open {
-            	margin-right: 0;
+                margin-right: 0;
             }
         }
         .links {
@@ -1002,24 +1033,32 @@ $mobile-sidebar-width: 14rem;
             }
         }
         .mobile-menu-overlay {
-        	position: absolute;
-        	left: 0;
-        	right: 0;
-        	background-color: rgba($gray-600,.5);
-        	top:0;
-        	bottom:0;
-        	height: 100%;
-        	margin-top: $mobile-topbar-height;
-        	opacity: 0;
-        	visibility: hidden;
-        	@include transition(.3s all linear);
-        	&.open {
-        		opacity: 1;
-        		visibility: visible;
-        	}
+            position: absolute;
+            left: 0;
+            right: 0;
+            background-color: rgba($gray-600, .5);
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            margin-top: $mobile-topbar-height;
+            opacity: 0;
+            visibility: hidden;
+            @include transition(.3s all linear);
+            &.open {
+                opacity: 1;
+                visibility: visible;
+            }
         }
     }
 }
+
 .overflow-hidden {
-	overflow: hidden;
+    overflow: hidden;
+}
+
+.banner-img {
+    @include img-inbg;
+    padding-bottom: 20%;
+    min-height: 200px;
+    background-color: $gray-200;
 }

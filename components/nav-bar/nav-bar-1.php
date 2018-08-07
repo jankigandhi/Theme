@@ -1,5 +1,5 @@
-<div class="site-header">
-  <div class="top-bar bg-dark">
+<div class="site-header <?php echo $HederClass ?>">
+  <div class="top-bar">
     <div class="header-container container px-0 px-lg-3">
       <div class="d-inline-block w-100 text-center text-lg-left">
         <div class="top-bar-bottom-line float-lg-left">
