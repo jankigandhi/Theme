@@ -58,13 +58,14 @@
 .btn-next {
     right: 0;
 }
+
 .offer-slider {
-	.card-bg {
-		background-color: $gray-200;
-	}
-	.card {
-		border: 3px solid $gray-200;
-	}
+    .card-bg {
+        background-color: $gray-200;
+    }
+    .card {
+        border: 3px solid $gray-200;
+    }
     .swiper-slide {
         width: 18.75rem;
     }
@@ -73,16 +74,50 @@
             border-color: theme-color("primary");
         }
         .card-bg {
-           background-color: $gray-900; 
+            background-color: $gray-900;
         }
         .card-title {
             color: $white;
         }
         .card-text {
-            color:rgba($white,.7);
+            color: rgba($white, .7);
         }
     }
 }
+
+.parallax-banner {
+    .banner-img {
+        height: 500px;
+        background-attachment: fixed;
+    }
+    .name {
+        color: rgba($white, .5);
+        @include transition(.3s all linear);
+    }
+    .circle-icon {
+        @include size(100px);
+        border: 2px solid $white;
+        @include transition(.3s all linear);
+        cursor: pointer;
+        .icon {
+            font-size: 2rem;
+            color: $white;
+            @include transition(.3s all linear);
+        }
+    }
+    .type {
+        &:hover {
+            .circle-icon {
+                border-color: theme-color("primary");
+            }
+            .icon,
+            .name {
+                color: theme-color("primary");
+            }
+        }
+    }
+}
+
 @include media-breakpoint-up(md) {
     .find-section {
         .border-line {

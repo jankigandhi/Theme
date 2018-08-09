@@ -162,39 +162,87 @@
       </div>
     </div>
   </div>
+  <!-- parallax banner -->
+  <div class="banner parallax-banner">
+    <div class="banner-img" style="background-image: url('../../images/banner-2.png');"></div>
+    <div class="banner-content">
+      <div class="center-content mx-5 mt-sm-0 mt-5">
+        <h4 class="text-white text-uppercase">Holidays type</h4>
+        <p class="off-white">get explore your dream to travel the world!</p>
+        <div class="w-100 d-inline-block mt-4">
+          <div class="type d-inline-block align-top p-2">
+            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+              <span class="icon"><i class="fas fa-hotel"></i></span>
+            </div>
+            <p class="name">Cruise</p>
+          </div>
+          <div class="type d-inline-block align-top p-2">
+            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+              <span class="icon"><i class="fas fa-hotel"></i></span>
+            </div>
+            <p class="name">Cruise</p>
+          </div>
+          <div class="type d-inline-block align-top p-2">
+            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+              <span class="icon"><i class="fas fa-hotel"></i></span>
+            </div>
+            <p class="name">Cruise</p>
+          </div>
+          <div class="type d-inline-block align-top p-2">
+            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+              <span class="icon"><i class="fas fa-hotel"></i></span>
+            </div>
+            <p class="name">Cruise</p>
+          </div>
+          <div class="type d-inline-block align-top p-2">
+            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+              <span class="icon"><i class="fas fa-hotel"></i></span>
+            </div>
+            <p class="name">Cruise</p>
+          </div>
+          <div class="type d-inline-block align-top p-2">
+            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+              <span class="icon"><i class="fas fa-hotel"></i></span>
+            </div>
+            <p class="name">Cruise</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 <?php include_once '../../components/footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
-  var swiper = new Swiper('.banner .swiper-container', {
-    navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-    },
-    speed: 1000,
-    slidesPerView: 1,
-    autoplay: {
-    delay: 3000,
-    },
-  });
-  var swiper = new Swiper('.offer-slider .swiper-container', {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
-    simulateTouch : true,
-    loop: true,
-    centeredSlides: true,
-    grabCursor: true,
-    speed: 1000,
-    autoplay: {
-    delay: 3000,
-    },
-    breakpoints: {
-      992: {
-        spaceBetween: 10,
-      },
-    }
-  });
+var swiper = new Swiper('.banner .swiper-container', {
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+speed: 1000,
+slidesPerView: 1,
+autoplay: {
+delay: 3000,
+},
+});
+var swiper = new Swiper('.offer-slider .swiper-container', {
+slidesPerView: 'auto',
+spaceBetween: 20,
+simulateTouch : true,
+loop: true,
+centeredSlides: true,
+grabCursor: true,
+speed: 1000,
+autoplay: {
+delay: 3000,
+},
+breakpoints: {
+992: {
+spaceBetween: 10,
+},
+}
+});
 </script>
 </body>
 </html>
