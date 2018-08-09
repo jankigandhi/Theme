@@ -2,6 +2,7 @@
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
 .banner {
+    position: relative;
     .banner-img {
         height: 100vh;
     }
@@ -24,6 +25,7 @@
         }
         .inst {
             font-size: 1.5rem;
+            font-weight: 300;
         }
     }
 }
@@ -35,6 +37,7 @@
 .find-section {
     background-color: $gray-900;
 }
+
 
 .btn-next,
 .btn-prev {
@@ -56,6 +59,35 @@
     right: 0;
 }
 
+@include media-breakpoint-up(md) {
+    .find-section {
+        .border-line {
+            position: relative;
+            border-right: 1px solid rgba($white, .5);
+            &:before,
+            &:after {
+                content: '';
+                width: 0;
+                height: 0;
+                border-top: .5rem solid transparent;
+                border-bottom: .5rem solid transparent;
+                border-left: .5rem solid $gray-900;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                margin-top: -.5rem;
+            }
+            &:after {
+                margin-right: -.4375rem;
+            }
+            &:before {
+                border-left-color: rgba($white, .5);
+                margin-right: -.5rem;
+            }
+        }
+    }
+}
+
 @include media-breakpoint-down(sm) {
     .banner {
         .banner-content {
@@ -63,5 +95,8 @@
                 font-size: 1.2rem;
             }
         }
+    }
+    .border-line {
+        border-bottom: 1px solid rgba($white, .5);
     }
 }
