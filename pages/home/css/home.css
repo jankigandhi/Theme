@@ -1,27 +1,30 @@
-.banner .banner-img {
-  height: 100vh; }
-.banner .banner-content {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  line-height: 1.5; }
-  .banner .banner-content .center-content {
+.banner {
+  position: relative; }
+  .banner .banner-img {
+    height: 100vh; }
+  .banner .banner-content {
     position: absolute;
-    top: 50%;
-    -moz-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
     left: 0;
     right: 0;
-    text-align: center;
-    z-index: 1; }
-  .banner .banner-content .inst {
-    font-size: 1.5rem; }
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    line-height: 1.5; }
+    .banner .banner-content .center-content {
+      position: absolute;
+      top: 50%;
+      -moz-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 1; }
+    .banner .banner-content .inst {
+      font-size: 1.5rem;
+      font-weight: 300; }
 
 .off-white {
   color: rgba(255, 255, 255, 0.5); }
@@ -46,8 +49,80 @@
 .btn-next {
   right: 0; }
 
+.offer-slider .card-bg {
+  background-color: #e9ecef; }
+.offer-slider .card {
+  border: 3px solid #e9ecef; }
+.offer-slider .swiper-slide {
+  width: 18.75rem; }
+.offer-slider .swiper-slide-active .card {
+  border-color: #26ade4; }
+.offer-slider .swiper-slide-active .card-bg {
+  background-color: #212529; }
+.offer-slider .swiper-slide-active .card-title {
+  color: #fff; }
+.offer-slider .swiper-slide-active .card-text {
+  color: rgba(255, 255, 255, 0.7); }
+
+.parallax-banner .banner-img {
+  height: 500px;
+  background-attachment: fixed; }
+.parallax-banner .name {
+  color: rgba(255, 255, 255, 0.5);
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+.parallax-banner .circle-icon {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+  cursor: pointer; }
+  .parallax-banner .circle-icon .icon {
+    font-size: 2rem;
+    color: #fff;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
+.parallax-banner .type:hover .circle-icon {
+  border-color: #26ade4; }
+.parallax-banner .type:hover .icon,
+.parallax-banner .type:hover .name {
+  color: #26ade4; }
+
+@media (min-width: 768px) {
+  .find-section .border-line {
+    position: relative;
+    border-right: 1px solid rgba(255, 255, 255, 0.5); }
+    .find-section .border-line:before, .find-section .border-line:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: .5rem solid transparent;
+      border-bottom: .5rem solid transparent;
+      border-left: 0.5rem solid #212529;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -.5rem; }
+    .find-section .border-line:after {
+      margin-right: -.4375rem; }
+    .find-section .border-line:before {
+      border-left-color: rgba(255, 255, 255, 0.5);
+      margin-right: -.5rem; } }
 @media (max-width: 767.98px) {
   .banner .banner-content .inst {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+
+  .border-line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+  .offer-slider .swiper-slide {
+    width: 14rem; } }
 
 /*# sourceMappingURL=home.css.map */
