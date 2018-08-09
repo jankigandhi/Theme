@@ -19,7 +19,8 @@
 }
 
 .news-thumb-img {
-    @include size(4rem);
+    width: 4rem;
+    height: 3rem;
 }
 
 .tags {

@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="../../css/libs/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="../../css/libs/fontawesome.min.css">
     <link rel="stylesheet" href="../../css/libs/themify-icons.css">
-    <link rel="stylesheet" type="text/css" href="../nav-bar/css/nav-bar.css">
-    <link rel="stylesheet" type="text/css" href="../footer/css/footer.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../form-input/css/form-input.css">
+     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../components/nav-bar/css/nav-bar.css">
+    <link rel="stylesheet" type="text/css" href="../../components/footer/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../components/form-input/css/form-input.css">
+    <link rel="stylesheet" href="../../components/typography/css/typography.css">
+    <link rel="stylesheet" href="../../components/Buttons/css/button.css">
+    
