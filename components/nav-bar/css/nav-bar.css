@@ -11,9 +11,10 @@
       color: #26ade4; }
   .site-header .top-bar {
     height: 2.0625rem;
-    background-color: #212529; }
+    background-color: #212529;
+    border-bottom: 1px solid #383f45; }
   .site-header .nav-header {
-    padding: .86rem 0;
+    padding: .735rem 0;
     line-height: 1.5; }
   .site-header .top-bar-link {
     color: #fff;
@@ -55,7 +56,7 @@
     z-index: 11; }
     .site-header.header-transparent .top-bar {
       background-color: transparent;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+      border-bottom-color: rgba(255, 255, 255, 0.5); }
     .site-header.header-transparent .links {
       color: #fff; }
     .site-header.header-transparent .header-links.link-arrow .links:after {
@@ -65,6 +66,10 @@
       color: #fff; }
     .site-header.header-transparent .menu-toggle {
       color: #fff; }
+    .site-header.header-transparent .top-bar-link {
+      border-right-color: rgba(255, 255, 255, 0.5); }
+      .site-header.header-transparent .top-bar-link:first-child {
+        border-left-color: rgba(255, 255, 255, 0.5); }
 
 @media (min-width: 992px) {
   .site-header .sub-menu {
@@ -100,7 +105,7 @@
     visibility: visible; } }
 @media (max-width: 991.98px) {
   .site-header {
-    height: 9.125rem; }
+    height: 9.5rem; }
     .site-header .top-bar {
       height: 4.1875rem; }
     .site-header .top-bar-bottom-line {
@@ -116,8 +121,7 @@
       background-color: #212529;
       top: 0;
       bottom: 0;
-      margin-top: 4.1875rem;
-      height: calc(100vh - 4.1875rem);
+      height: 100%;
       width: 14rem;
       z-index: 99;
       overflow-y: auto;
@@ -148,25 +152,30 @@
       opacity: 1;
       overflow-y: auto; }
     .site-header .mobile-menu-overlay {
-      position: absolute;
+      position: fixed;
       left: 0;
       right: 0;
       background-color: rgba(108, 117, 125, 0.5);
       top: 0;
       bottom: 0;
       height: 100%;
-      margin-top: 4.1875rem;
       opacity: 0;
       visibility: hidden;
+      z-index: 11;
       -moz-transition: 0.3s all linear;
       -o-transition: 0.3s all linear;
       -webkit-transition: 0.3s all linear;
       transition: 0.3s all linear; }
       .site-header .mobile-menu-overlay.open {
         opacity: 1;
-        visibility: visible; } }
+        visibility: visible; }
+    .site-header.header-transparent .top-bar-bottom-line {
+      border-bottom-color: rgba(255, 255, 255, 0.5); } }
 .overflow-hidden {
   overflow: hidden; }
+
+.banner {
+  line-height: 0; }
 
 .banner-img {
   height: 100%;
@@ -179,6 +188,7 @@
   display: inline-block;
   padding-bottom: 20%;
   min-height: 200px;
-  background-color: #e9ecef; }
+  background-color: #e9ecef;
+  line-height: 1.5; }
 
 /*# sourceMappingURL=nav-bar.css.map */

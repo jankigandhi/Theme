@@ -32,13 +32,13 @@
   </div>
   <div class="nav-header d-inline-block w-100">
     <div class="header-container container">
-      <div class="float-left">
+      <div class="float-left pt-lg-1 pt-2">
         <h1 class="h2 font-weight-bold text-uppercase mb-0">
         <a href="#">Logo</a>
         </h1>
       </div>
       <nav class="float-right">
-        <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block">
+        <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block mt-lg-1">
           <li class="header-links link-arrow d-lg-inline-block">
             <a href="#" class="links hover-links text-uppercase font-weight-bold">Home</a>
             <ul class="sub-menu list-unstyled">

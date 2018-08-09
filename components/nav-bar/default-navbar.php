@@ -6,7 +6,9 @@
 <body>
   <?php $HederClass="";?>
   <?php include_once 'nav-bar-1.php';?>
-  <div class="banner-img"></div>
+  <div class="banner">
+    <div class="banner-img"></div>
+  </div>
   <?php include_once '../footer/footer.php';?>
   <?php include_once '../../inc/foot.php';?>
 </body>
