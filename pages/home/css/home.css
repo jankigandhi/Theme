@@ -1,4 +1,53 @@
 .banner .banner-img {
   height: 100vh; }
+.banner .banner-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  line-height: 1.5; }
+  .banner .banner-content .center-content {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1; }
+  .banner .banner-content .inst {
+    font-size: 1.5rem; }
+
+.off-white {
+  color: rgba(255, 255, 255, 0.5); }
+
+.find-section {
+  background-color: #212529; }
+
+.btn-next,
+.btn-prev {
+  width: 20px;
+  height: 24px;
+  background-size: 20px 24px;
+  background-color: #26ade4;
+  padding: 1.5rem 1.5rem; }
+  .btn-next.swiper-button-disabled,
+  .btn-prev.swiper-button-disabled {
+    background-color: rgba(255, 255, 255, 0.2); }
+
+.btn-prev {
+  left: 0; }
+
+.btn-next {
+  right: 0; }
+
+@media (max-width: 767.98px) {
+  .banner .banner-content .inst {
+    font-size: 1.2rem; } }
 
 /*# sourceMappingURL=home.css.map */

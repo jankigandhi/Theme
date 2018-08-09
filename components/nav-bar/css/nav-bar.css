@@ -190,7 +190,7 @@
   min-height: 200px;
   background-color: #e9ecef;
   line-height: 1.5; }
-  .banner-img:after {
+  .banner-img:before {
     content: '';
     position: absolute;
     left: 0;

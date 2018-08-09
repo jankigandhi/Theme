@@ -37,6 +37,14 @@
 					<input type="email" class="square-box form-control" placeholder="EMAIL ADDRESS" />
 				</div>
 			</div>
+			<div class="col-md-4 col-sm-6 mb-3">
+				<div class="form-group">
+					<div class="input-with-icon">
+						<input type="text" class="square-box form-control" name="destination" placeholder="destination" />
+						<span class="icon"><i class="fas fa-globe-asia"></i></span>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="mb-4">
 			<h4>Inline</h4>

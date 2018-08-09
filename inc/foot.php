@@ -104,7 +104,10 @@ $(document).ready(function() {
     $(".modal-backdrop,.basic-modal,.scroll-modal,.signup-modal,.iframe-modal").removeClass("show open");
   });
   //dropdown 
-  $(".drodown-menu .toggle-btn").on("click", function() {
+  $(".drodown-menu .toggle-btn").on("click", function(e) {
+    if(e && e.preventDefault) {
+    e.preventDefault();
+    }
     var $this = $(this);
     $this.closest(".drodown-menu").toggleClass("open");
   });

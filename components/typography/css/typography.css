@@ -47,22 +47,22 @@ h6,
   font-size: 0.75rem;
   line-height: 1.5rem; }
 
-h1.text-uppercase {
+h1.letter-spacing {
   letter-spacing: 1.0625rem; }
 
-h2.text-uppercase {
+h2.letter-spacing {
   letter-spacing: 0.625rem; }
 
-h3.text-uppercase {
+h3.letter-spacing {
   letter-spacing: 0.375rem; }
 
-h4.text-uppercase {
+h4.letter-spacing {
   letter-spacing: 0.1875rem; }
 
-h5.text-uppercase {
+h5.letter-spacing {
   letter-spacing: 0.125rem; }
 
-h6.text-uppercase {
+h6.letter-spacing {
   letter-spacing: 0.125rem; }
 
 .light-gray {
