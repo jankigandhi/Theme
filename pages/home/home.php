@@ -122,6 +122,42 @@
               </div>
             </div>
           </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -143,34 +179,16 @@
     },
   });
   var swiper = new Swiper('.offer-slider .swiper-container', {
-    slidesPerView: 6,
+    slidesPerView: 'auto',
     spaceBetween: 20,
+    simulateTouch : true,
+    loop: true,
     centeredSlides: true,
+    grabCursor: true,
     speed: 1000,
     autoplay: {
-    delay: 1000,
+    delay: 3000,
     },
-    loop: true,
-    breakpoints: {
-      1336: {
-        slidesPerView: 5,
-      },
-      1200: {
-        slidesPerView: 4,
-      },
-      900: {
-        slidesPerView: 4,
-        spaceBetween: 10,
-      },
-      767: {
-        slidesPerView: 3,
-        spaceBetween: 10,
-      },
-      600: {
-        slidesPerView: 2,
-        spaceBetween: 10,
-      },
-    }
   });
 </script>
 </body>

@@ -65,6 +65,9 @@
 	.card {
 		border: 3px solid $gray-200;
 	}
+    .swiper-slide {
+        width: 18.75rem;
+    }
     .swiper-slide-active {
         .card {
             border-color: theme-color("primary");
@@ -119,5 +122,10 @@
     }
     .border-line {
         border-bottom: 1px solid rgba($white, .5);
+    }
+    .offer-slider {
+        .swiper-slide {
+            width: 12.5rem;
+        }
     }
 }
