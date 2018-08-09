@@ -189,6 +189,11 @@
     autoplay: {
     delay: 3000,
     },
+    breakpoints: {
+      992: {
+        spaceBetween: 10,
+      },
+    }
   });
 </script>
 </body>
