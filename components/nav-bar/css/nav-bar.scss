@@ -237,7 +237,7 @@ $mobile-sidebar-width: 14rem;
     min-height: 200px;
     background-color: $gray-200;
     line-height: 1.5;
-    &:after {
+    &:before {
         content: '';
         position: absolute;
         left: 0;

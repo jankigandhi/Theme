@@ -455,3 +455,19 @@ $box-size: 1.5rem;
         }
     }
 }
+
+.input-with-icon {
+    position: relative;
+    .form-control {
+        padding-right: 3rem;
+    }
+    .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        line-height: 3.0625rem;
+        color: $gray-600;
+        width: 3rem;
+        text-align: center;
+    }
+}
