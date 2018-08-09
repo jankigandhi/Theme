@@ -49,6 +49,19 @@
 .btn-next {
   right: 0; }
 
+.offer-slider .card-bg {
+  background-color: #e9ecef; }
+.offer-slider .card {
+  border: 3px solid #e9ecef; }
+.offer-slider .swiper-slide-active .card {
+  border-color: #26ade4; }
+.offer-slider .swiper-slide-active .card-bg {
+  background-color: #212529; }
+.offer-slider .swiper-slide-active .card-title {
+  color: #fff; }
+.offer-slider .swiper-slide-active .card-text {
+  color: rgba(255, 255, 255, 0.7); }
+
 @media (min-width: 768px) {
   .find-section .border-line {
     position: relative;

@@ -1,5 +1,6 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
+<link rel="stylesheet" href="../../components/card/css/card.css">
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
@@ -78,25 +79,99 @@
       </div>
     </div>
   </div>
-  <div class="offer-section">
-    <h3>Special Offers</h3>
+  <!-- offer-section -->
+  <div class="offer-section text-center py-5">
+    <h3 class="text-uppercase">Special Offers</h3>
+    <p class="light-gray">Best 2014 packages where people love to stay!</p>
+    <div class="offer-slider my-4">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="custom-card card">
+              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+              <div class="card-bg card-body text-left p-2">
+                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
+                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 <?php include_once '../../components/footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
-var swiper = new Swiper('.swiper-container', {
-navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
-},
-speed: 1000,
-slidesPerView: 1,
-autoplay: {
-delay: 3000,
-},
-});
+  var swiper = new Swiper('.banner .swiper-container', {
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    speed: 1000,
+    slidesPerView: 1,
+    autoplay: {
+    delay: 3000,
+    },
+  });
+  var swiper = new Swiper('.offer-slider .swiper-container', {
+    slidesPerView: 6,
+    spaceBetween: 20,
+    centeredSlides: true,
+    speed: 1000,
+    autoplay: {
+    delay: 1000,
+    },
+    loop: true,
+    breakpoints: {
+      1336: {
+        slidesPerView: 5,
+      },
+      1200: {
+        slidesPerView: 4,
+      },
+      900: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      767: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      600: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+    }
+  });
 </script>
 </body>
 </html>

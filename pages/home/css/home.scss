@@ -58,7 +58,28 @@
 .btn-next {
     right: 0;
 }
-
+.offer-slider {
+	.card-bg {
+		background-color: $gray-200;
+	}
+	.card {
+		border: 3px solid $gray-200;
+	}
+    .swiper-slide-active {
+        .card {
+            border-color: theme-color("primary");
+        }
+        .card-bg {
+           background-color: $gray-900; 
+        }
+        .card-title {
+            color: $white;
+        }
+        .card-text {
+            color:rgba($white,.7);
+        }
+    }
+}
 @include media-breakpoint-up(md) {
     .find-section {
         .border-line {
