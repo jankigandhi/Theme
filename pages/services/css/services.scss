@@ -1,0 +1,33 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+.banner {
+    .banner-img {
+        @include img-inbg;
+        height: 100vh;
+        .services-banner {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            .services-desc{
+            	max-width: 600px;
+            	font-size: 1.2rem;
+            }
+        }
+    }
+}
+.icon-with-box{
+	.services-title{
+		font-size: 2rem;
+	}
+	.services-icon{
+		font-size: 2rem;
+	}
+	.box-desc{
+		font-size: 1.2rem;
+		line-height: 1.3;
+		color: $gray-600;
+	}
+}
