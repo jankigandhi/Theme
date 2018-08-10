@@ -7,12 +7,12 @@
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
 	<div class="banner">
-		<div class="banner-img" style="background-image: url('images/services-banner.jpg');">
+		<div class="banner-img" style="background-image: url('images/services-banner-1.jpg');">
 			<div class="container">
 				<div class="services-banner">
-					<h2 class="banner-text text-white mb-0 text-center my-4 font-weight-bold text-uppercase">Services</h2>
+					<h2 class="banner-text text-white mb-0 text-center my-4 font-weight-bold text-uppercase">Service for your stars</h2>
 					<P class="mw-600 mx-auto mb-0 text-white text-center">
-						Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+						Behind every reward there is a story of success. Our award-winning Member Experience team makes sure the story continues. We provide unmatched customer service so that every employee loves their reward experience, every time. Support in 120 languages extends the experience around the world.
 					</P>
 					<div class="my-4">
 						<button type="button" class="btn-thick btn-min-w btn btn-outline-primary mx-1">Primary</button>
@@ -85,99 +85,139 @@
 			</div>
 		</div>
 	</div>
-	<div class="slider-section py-5" style="background-image: url('images/banner.jpg');">
+	<div class="slider-section py-5">
 		<div class="container">
 			<p class="text-center font-weight-bold text-primary text-uppercase">Our Clients</p>
-			<h3 class="mw-600 mx-auto text-center font-weight-bold text-white">Glint has been honored to partner up with these clients</h3>
+			<h3 class="mw-600 mx-auto text-center font-weight-bold">Glint has been honored to partner up with these clients</h3>
 			<div class="swiper-container py-4">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide text-center">
 						<a href="#">
-							<span class="slide-icon">
-								<i class="fas fa-tachometer-alt"></i>
-							</span>
-					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<span class="slide-icon">
-								<i class="fab fa-apple"></i>
-							</span>
+							<img class="slide-icon mw-100" src="images/slide-1.png" alt="Slide-1" />
 						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-users"></i>
-						</span>
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-2.png" alt="slide-2" />
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-home"></i>
-						</span>
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-3.png" alt="slide-3" />
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-smile"></i>
-						</span>
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-4.png" alt="slide-4" />
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-toolbox"></i>
-						</span>
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-5.png" alt="slide-5" />
+						</a>
+					</div>
+					<div class="swiper-slide text-center">
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-6.png" alt="slide-6" />
+						</a>
+					</div>
+					<div class="swiper-slide text-center">
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-7.png" alt="slide-7" />
+						</a>
+					</div>
+					<div class="swiper-slide text-center">
+						<a href="#">
+							<img class="slide-icon mw-100" src="images/slide-8.png" alt="slide-8" />
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="our-services-section my-5">
+	<div class="features-section my-5">
 		<div class="container">
-			<h3 class="text-center py-5 text-uppercase font-weight-bold mb-0">Our Services</h3>
+			<div class="text-center py-4">
+				<h3 class="font-weight-bold">Some Features that Made us Unique</h3>
+				<p class="font-weight-medium">Who are in extremely love with eco friendly system.</p>
+			</div>
 			<div class="row mx-0">
-				<div class="col-lg-3 col-md-6">
-					<div class="our-services-components text-center p-4">
-						<span class="text-primary">
-							<i class="media-icon fas fa-file-alt"></i>
-						</span>
-						<div class="my-3">
-							<h5 class="our-title"><span class="text-uppercase">Ftp</span> Services</h5>
-							<p class="services-sub">Sunt suscipit voluptas ipsa in tempora esse soluta sint..</p>
-							<a href="#" class="link-more font-weight-medium">Read more</a>
+				<div class="col-lg-4 col-md-6">
+					<div class="features-box p-4">
+						<div class="d-inline-block py-3">
+							<span class="features-icon">
+								<i class="fas fa-user"></i>
+							</span>
+							<span class="pl-3 font-weight-medium">Expert Technicians</span>
 						</div>
+						<p>
+							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+						</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="our-services-components text-center p-4">
-						<span class="text-primary">
-							<i class="media-icon fas fa-download"></i>
-						</span>
-						<div class="my-3">
-							<h5 class="our-title">Reseller Hosting</h5>
-							<p class="services-sub">Sunt suscipit voluptas ipsa in tempora esse soluta sint..</p>
-							<a href="#" class="link-more font-weight-medium">Read more</a>
+				<div class="col-lg-4 col-md-6">
+					<div class="features-box p-4">
+						<div class="d-inline-block py-3">
+							<span class="features-icon">
+								<i class="fas fa-address-card"></i>
+							</span>
+							<span class="pl-3 font-weight-medium">Professional Service</span>
 						</div>
+						<p>
+							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+						</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="our-services-components text-center p-4">
-						<span class="text-primary">
-							<i class="media-icon fas fa-server"></i>
-						</span>
-						<div class="my-3">
-							<h5 class="our-title">High speed</h5>
-							<p class="services-sub">Sunt suscipit voluptas ipsa in tempora esse soluta sint..</p>
-							<a href="#" class="link-more font-weight-medium">Read more</a>
+				<div class="col-lg-4 col-md-6">
+					<div class="features-box p-4">
+						<div class="d-inline-block py-3">
+							<span class="features-icon">
+								<i class="fas fa-mobile"></i>
+							</span>
+							<span class="pl-3 font-weight-medium">Great Support</span>
 						</div>
+						<p>
+							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+						</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="our-services-components text-center p-4">
-						<span class="text-primary">
-							<i class="media-icon fas fa-folder-open"></i>
-						</span>
-						<div class="my-3">
-							<h5 class="our-title">Responsive Layout</h5>
-							<p class="services-sub">Sunt suscipit voluptas ipsa in tempora esse soluta sint..</p>
-							<a href="#" class="link-more font-weight-medium">Read more</a>
+				<div class="col-lg-4 col-md-6">
+					<div class="features-box p-4">
+						<div class="d-inline-block py-3">
+							<span class="features-icon">
+								<i class="fas fa-rocket"></i>
+							</span>
+							<span class="pl-3 font-weight-medium">Technical Skills</span>
 						</div>
+						<p>
+							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="features-box p-4">
+						<div class="d-inline-block py-3">
+							<span class="features-icon">
+								<i class="fas fa-gem"></i>
+							</span>
+							<span class="pl-3 font-weight-medium">Highly Recomended</span>
+						</div>
+						<p>
+							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="features-box p-4">
+						<div class="d-inline-block py-3">
+							<span class="features-icon">
+								<i class="fas fa-comment"></i>
+							</span>
+							<span class="pl-3 font-weight-medium">Positive Reviews</span>
+						</div>
+						<p>
+							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+						</p>
 					</div>
 				</div>
 			</div>

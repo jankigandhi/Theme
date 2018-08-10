@@ -3,13 +3,15 @@
 @import "../../../css/scss/mixins";
 
 .mw-600 {
-    max-width: 600px;
+    max-width: 37.5rem;
     line-height: 1.5;
 }
+
 .banner {
     .banner-img {
         @include img-inbg;
-        height: 100vh;
+        padding-bottom: 35%;
+        min-height: 40rem;
         .services-banner {
             position: absolute;
             top: 50%;
@@ -17,6 +19,15 @@
             left: 0;
             right: 0;
             text-align: center;
+            .banner-text {
+                &:after {
+                    content: '';
+                    border-bottom: 2px solid $white;
+                    display: block;
+                    width: 20%;
+                    margin: .9375rem auto;
+                }
+            }
             .services-desc {
                 font-size: 1.2rem;
             }
@@ -25,10 +36,6 @@
 }
 
 .icon-with-box {
-    .service-title {
-        max-width: 600px;
-        line-height: 1.5;
-    }
     .services-icon {
         font-size: 2rem;
     }
@@ -36,29 +43,68 @@
         line-height: 1.7;
         color: $gray-600;
     }
+    .services-text{
+        max-width: 335px;
+        line-height: 1.5;
+        color: $gray-600;
+    }
 }
 
 .slider-section {
-    background-color: lighten($gray-400, 10%);
+    @include img-inbg;
     .slide-icon {
-        width: 100px;
-        opacity: .5;
-        transition: all .5s ease-in-out;
+        font-size: 5rem;
+        color: $white;
+        @include transition (.5s all ease-in-out);
         &:hover {
-            opacity: 1;
+            color: $primary;
         }
     }
 }
 
-.features-section {
-    .features-box {
-        transition: all 0.3s ease 0s;
-        .features-icon {
-            font-size: 1.5rem;
+.our-services-section {
+    .our-services-components {
+        @include transition (all 0.3s ease 0s);
+        .media-icon {
+            font-size: 2rem;
+        }
+        .services-sub {
+            color: $gray-600;
+        }
+        a {
+            color: $primary;
         }
         &:hover {
             background-color: $primary;
-            box-shadow: -14.142px 14.142px 20px 0px rgba($primary, 0.5);
+            box-shadow: -.875rem .875rem 1.25rem 0px rgba($primary, .5);
+            cursor: pointer;
+            .media-icon,
+            .services-sub,
+            .our-title,
+            .link-more {
+                color: $white;
+            }
+        }
+    }
+}
+
+
+
+//new-services-page
+.features-section {
+    .features-box {
+        @include transition (all 0.3s ease 0s);
+        .features-icon {
+            font-size: 1.5rem;
+            color: $gray-500;
+        }
+        p,
+        span {
+            color: $gray-600;
+        }
+        &:hover {
+            background-color: $primary;
+            box-shadow: -.875rem .875rem 1.25rem 0px rgba($primary, .5);
             cursor: pointer;
             p,
             span {
