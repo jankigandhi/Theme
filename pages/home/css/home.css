@@ -1,7 +1,7 @@
 .banner {
   position: relative; }
   .banner .banner-img {
-    height: 100vh; }
+    min-height: 100vh; }
   .banner .banner-content {
     position: absolute;
     left: 0;
@@ -65,7 +65,7 @@
   color: rgba(255, 255, 255, 0.7); }
 
 .parallax-banner .banner-img {
-  height: 500px;
+  min-height: 500px;
   background-attachment: fixed; }
 .parallax-banner .name {
   color: rgba(255, 255, 255, 0.5);
@@ -95,6 +95,12 @@
 .parallax-banner .type:hover .name {
   color: #26ade4; }
 
+.testimonial-slider .swiper-slide {
+  width: 25rem;
+  opacity: .5; }
+.testimonial-slider .swiper-slide-active {
+  opacity: 1; }
+
 @media (min-width: 768px) {
   .find-section .border-line {
     position: relative;
@@ -123,6 +129,12 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
   .offer-slider .swiper-slide {
-    width: 14rem; } }
+    width: 14rem; }
+
+  .testimonial-slider .swiper-slide {
+    width: 20rem; }
+
+  .parallax-banner .banner-img {
+    min-height: 700px; } }
 
 /*# sourceMappingURL=home.css.map */

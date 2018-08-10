@@ -4,7 +4,7 @@
 .banner {
     position: relative;
     .banner-img {
-        height: 100vh;
+        min-height: 100vh;
     }
     .banner-content {
         position: absolute;
@@ -87,7 +87,7 @@
 
 .parallax-banner {
     .banner-img {
-        height: 500px;
+        min-height: 500px;
         background-attachment: fixed;
     }
     .name {
@@ -115,6 +115,16 @@
                 color: theme-color("primary");
             }
         }
+    }
+}
+
+.testimonial-slider {
+    .swiper-slide {
+        width: 25rem;
+        opacity: .5;
+    }
+    .swiper-slide-active {
+        opacity: 1;
     }
 }
 
@@ -161,6 +171,16 @@
     .offer-slider {
         .swiper-slide {
             width: 14rem;
+        }
+    }
+    .testimonial-slider {
+        .swiper-slide {
+            width: 20rem;
+        }
+    }
+    .parallax-banner {
+        .banner-img {
+            min-height: 700px;
         }
     }
 }
