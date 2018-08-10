@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-<?php $HederClass="header-transparent";?>
+<?php $HederClass="";?>
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
   <!-- banner-section -->
@@ -12,27 +12,27 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="banner-img h-100vh swiper-lazy" data-background="https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg">
+          <div class="banner-img swiper-lazy" data-background="https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg">
             <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="banner-img h-100vh swiper-lazy" data-background="https://images.alphacoders.com/498/498263.jpg">
+          <div class="banner-img swiper-lazy" data-background="https://images.alphacoders.com/498/498263.jpg">
             <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="banner-img h-100vh swiper-lazy" data-background="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg">
+          <div class="banner-img swiper-lazy" data-background="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg">
             <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="banner-img h-100vh swiper-lazy" data-background="https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg">
+          <div class="banner-img swiper-lazy" data-background="https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg">
             <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="banner-img h-100vh swiper-lazy" data-background="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg">
+          <div class="banner-img swiper-lazy" data-background="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg">
             <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
           </div>
         </div>

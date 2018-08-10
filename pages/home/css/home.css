@@ -1,7 +1,9 @@
 .banner {
   position: relative; }
   .banner .banner-img {
-    min-height: 100vh; }
+    min-height: 600px; }
+    .banner .banner-img.h-100vh {
+      min-height: 100vh; }
   .banner .banner-content {
     position: absolute;
     left: 0;
