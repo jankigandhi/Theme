@@ -196,31 +196,31 @@
             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
               <span class="icon"><i class="fas fa-university"></i></span>
             </div>
-            <p class="name mt-2">Cruise</p>
+            <p class="name mt-2">City Breaks</p>
           </div>
           <div class="type d-inline-block align-top p-2">
             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
               <span class="icon"><i class="fas fa-camera-retro"></i></span>
             </div>
-            <p class="name mt-2">Cruise</p>
+            <p class="name mt-2">Honeymoon</p>
           </div>
           <div class="type d-inline-block align-top p-2">
             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
               <span class="icon"><i class="fas fa-grin-hearts"></i></span>
             </div>
-            <p class="name mt-2">Cruise</p>
+            <p class="name mt-2">Adventure</p>
           </div>
           <div class="type d-inline-block align-top p-2">
             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
               <span class="icon"><i class="fas fa-building"></i></span>
             </div>
-            <p class="name mt-2">Cruise</p>
+            <p class="name mt-2">Safari</p>
           </div>
           <div class="type d-inline-block align-top p-2">
             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
               <span class="icon"><i class="fas fa-home"></i></span>
             </div>
-            <p class="name mt-2">Cruise</p>
+            <p class="name mt-2">Beach</p>
           </div>
         </div>
       </div>

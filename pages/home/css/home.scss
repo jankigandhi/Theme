@@ -95,7 +95,7 @@
         background-attachment: fixed;
     }
     .name {
-        color: rgba($white, .5);
+        color: $white;
         @include transition(.3s all linear);
     }
     .circle-icon {
