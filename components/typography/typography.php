@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="../Buttons/css/button.css">
 </head>
 <body>
-<?php $HederClass="bg-bluish-gray";?>
+<?php $HederClass="";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container">
     <h1 class="h2 text-center mt-3">Typography</h1>
@@ -23,12 +23,12 @@
         <h4 class="text-uppercase">Uppercase</h4>
         <p>Make any heading uppercase by adding the class '.text-uppercase'</p>
         <div>
-            <h1 class="mb-4 font-weight-light text-uppercase">Heading One</h1>
-            <h2 class="mb-4 font-weight-light text-uppercase">Heading Two</h2>
-            <h3 class="mb-4 font-weight-light text-uppercase">Heading Three</h3>
-            <h4 class="mb-4 font-weight-light text-uppercase">Heading Four</h4>
-            <h5 class="mb-4 text-uppercase">Heading Five</h5>
-            <h6 class="mb-4 font-weight-bold text-uppercase">Heading Six</h6>
+            <h1 class="mb-4 font-weight-light text-uppercase letter-spacing">Heading One</h1>
+            <h2 class="mb-4 font-weight-light text-uppercase letter-spacing">Heading Two</h2>
+            <h3 class="mb-4 font-weight-light text-uppercase letter-spacing">Heading Three</h3>
+            <h4 class="mb-4 font-weight-light text-uppercase letter-spacing">Heading Four</h4>
+            <h5 class="mb-4 text-uppercase letter-spacing">Heading Five</h5>
+            <h6 class="mb-4 font-weight-bold text-uppercase letter-spacing">Heading Six</h6>
         </div>
     </div>
     <div class="py-4">

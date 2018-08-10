@@ -54,7 +54,8 @@
 .offer-slider .card-bg {
   background-color: #e9ecef; }
 .offer-slider .card {
-  border: 3px solid #e9ecef; }
+  border: 3px solid #e9ecef;
+  cursor: inherit; }
 .offer-slider .swiper-slide {
   width: 18.75rem; }
 .offer-slider .swiper-slide-active .card {
@@ -76,9 +77,9 @@
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear; }
 .parallax-banner .circle-icon {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #fff;
+  width: 7rem;
+  height: 7rem;
+  border: 3px solid #fff;
   -moz-transition: 0.3s all linear;
   -o-transition: 0.3s all linear;
   -webkit-transition: 0.3s all linear;

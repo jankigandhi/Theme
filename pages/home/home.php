@@ -103,76 +103,76 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <a href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
                 <h5 class="card-title font-weight-bold mb-2">Card title</h5>
                 <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -183,7 +183,7 @@
     <div class="banner-img" style="background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/160831133045-dubai-rosemont-hotel-sphereofgold-copyrightplompmozes-full-169.jpg');"></div>
     <div class="banner-content">
       <div class="center-content">
-        <h4 class="text-white text-uppercase">Holidays type</h4>
+        <h3 class="text-white text-uppercase">Holidays type</h3>
         <p class="off-white">get explore your dream to travel the world!</p>
         <div class="w-100 d-inline-block mt-4">
           <div class="type d-inline-block align-top p-2">
@@ -228,8 +228,8 @@
   </div>
   <!-- testimonial-section -->
   <div class="testimonial-section text-center py-5">
-    <h3 class="text-uppercase">Special Offers</h3>
-    <p class="light-gray">Best 2014 packages where people love to stay!</p>
+    <h3 class="text-uppercase">Happy Clients</h3>
+    <p class="light-gray">what customer say about us and why love our services!</p>
     <div class="testimonial-slider my-4">
       <div class="swiper-container">
         <div class="swiper-wrapper">

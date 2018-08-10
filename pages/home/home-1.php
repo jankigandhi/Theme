@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-<?php $HederClass="";?>
+<?php $HederClass="fixed-header";?>
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
   <!-- banner-section -->

@@ -95,3 +95,8 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
+@mixin shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}

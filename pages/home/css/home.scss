@@ -68,6 +68,7 @@
     }
     .card {
         border: 3px solid $gray-200;
+        cursor: inherit;
     }
     .swiper-slide {
         width: 18.75rem;
@@ -98,8 +99,8 @@
         @include transition(.3s all linear);
     }
     .circle-icon {
-        @include size(100px);
-        border: 2px solid $white;
+        @include size(7rem);
+        border: 3px solid $white;
         @include transition(.3s all linear);
         cursor: pointer;
         .icon {
