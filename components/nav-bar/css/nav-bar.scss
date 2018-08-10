@@ -24,6 +24,7 @@ $mobile-sidebar-width: 14rem;
     .nav-header {
         padding: .735rem 0;
         line-height: 1.5;
+        @include shadow(0 .125rem .25rem rgba(0, 0, 0, .075));
     }
     .top-bar-link {
         color: $white;
@@ -75,6 +76,9 @@ $mobile-sidebar-width: 14rem;
         left: 0;
         right: 0;
         z-index: 11;
+        .nav-header {
+            box-shadow: none;
+        }
         .top-bar {
             background-color: transparent;
             border-bottom-color: rgba($white, .5);
@@ -103,6 +107,17 @@ $mobile-sidebar-width: 14rem;
             &:first-child {
                 border-left-color: rgba($white, .5);
             }
+        }
+    }
+    &.fixed-header {
+        .header-bar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 99;
+            background-color: $white;
+            height: $header-height;
         }
     }
 }
@@ -142,6 +157,11 @@ $mobile-sidebar-width: 14rem;
 @include media-breakpoint-down(md) {
     .site-header {
         height: $mobile-header-height;
+        &.fixed-header {
+            .header-bar {
+                height: $mobile-header-height;
+            }
+        }
         .top-bar {
             height: $mobile-topbar-height;
         }
@@ -245,6 +265,6 @@ $mobile-sidebar-width: 14rem;
         top: 0;
         bottom: 0;
         height: 100%;
-        background-color: rgba($black,.5);
+        background-color: rgba($black, .5);
     }
 }

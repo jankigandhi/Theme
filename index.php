@@ -56,6 +56,9 @@
           <a href="components/nav-bar/transparent-navbar.php" target="_blank">Transparent Navbar</a>
         </li>
         <li>
+          <a href="components/nav-bar/fixed-navbar.php" target="_blank">Fixed Navbar</a>
+        </li>
+        <li>
           <a href="components/banner-slider/banner-slider.php" target="_blank">Slider</a>
         </li>
         <li>
