@@ -56,7 +56,7 @@
     </div>
   </div>
   <!-- find-section -->
-  <div class="find-section">
+  <div class="find-section in-container">
     <div class="container">
       <div class="row mx-0 align-items-lg-center">
         <div class="border-line col-lg-2 col-md-3 py-3 px-md-3 px-0">
@@ -76,7 +76,7 @@
                   </div>
                 </div>
               </div>
-              <div class="px-0 col-xl-5 col-lg-4 col-sm-6">
+              <div class="px-0 col-xl-4 col-lg-4 col-sm-6">
                 <div class="form-group mb-0">
                   <div class="input-with-icon">
                     <input type="text" class="square-box form-control" name="date" placeholder="select date" />
@@ -84,13 +84,33 @@
                   </div>
                 </div>
               </div>
-              <div class="px-0 col-xl-2 col-lg-4">
+              <div class="px-0 col-xl-3 col-lg-4">
                 <button type="button" class="rounded-0 btn-block btn-thick btn-min-w btn btn-primary mb-0">
                 Search
                 </button>
               </div>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  about section -->
+  <div class="about-section py-5">
+    <div class="container">
+      <div class="row flex-row-reverse">
+        <div class="col-md-6 py-3">
+          <div class="about-bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div>
+            <h5 class="text-uppercase">Welcome to the</h5>
+            <h2>Best Indianapolis Hotel!</h2>
+            <p class="light-gray">The Woods hotel, located at the very heart of Indianapolis is a welcoming retreat both for people traveling across the country and for businessmen, visiting our Rustbelt state for some commercial affairs. Here, we always make sure that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might want...</p>
+            <a href="#" class="btn-thick btn-min-w btn btn-outline-primary">
+              Readmore
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -103,74 +123,98 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="custom-card card">
+            <div href="#" class="custom-card card">
               <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
               <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2">Card title</h5>
-                <p class="card-text small mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                <div class="card-text d-inline-block w-100 light-gray">
+                  <p class="float-left small mb-0">Location</p>
+                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+                </div>
               </div>
             </div>
           </div>
@@ -234,7 +278,7 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -250,7 +294,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -266,7 +310,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -282,7 +326,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -298,7 +342,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -314,7 +358,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -330,7 +374,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
@@ -346,7 +390,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded">
+            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
               <div>
                 <div>
                   <div class="small font-italic text-left">
