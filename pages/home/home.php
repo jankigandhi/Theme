@@ -98,11 +98,11 @@
   <!--  about section -->
   <div class="about-section py-5">
     <div class="container">
-      <div class="row flex-row-reverse">
-        <div class="col-md-6 py-3">
+      <div class="row flex-row-reverse align-items-center">
+        <div class="col-lg-6 col-md-4 py-3">
           <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
         </div>
-        <div class="col-md-6 py-3">
+        <div class="col-lg-6 col-md-8 py-3">
           <div>
             <h5 class="text-uppercase">Welcome to the</h5>
             <h3 class="text-uppercase">Lorem Ipsum is simply</h3>
@@ -227,44 +227,46 @@
     <div class="banner-img" style="background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/160831133045-dubai-rosemont-hotel-sphereofgold-copyrightplompmozes-full-169.jpg');"></div>
     <div class="banner-content">
       <div class="center-content">
-        <h3 class="text-white text-uppercase">Holidays type</h3>
-        <p class="off-white">Get explore your dream to travel the world!</p>
-        <div class="w-100 d-inline-block mt-4">
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-hotel"></i></span>
+        <div class="container">
+          <h3 class="text-white text-uppercase">Holidays type</h3>
+          <p class="off-white">Get explore your dream to travel the world!</p>
+          <div class="w-100 d-inline-block mt-4">
+            <div class="type d-inline-block align-top p-2">
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+                <span class="icon"><i class="fas fa-hotel"></i></span>
+              </div>
+              <p class="name mt-2">Cruise</p>
             </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-university"></i></span>
+            <div class="type d-inline-block align-top p-2">
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+                <span class="icon"><i class="fas fa-university"></i></span>
+              </div>
+              <p class="name mt-2">City Breaks</p>
             </div>
-            <p class="name mt-2">City Breaks</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-camera-retro"></i></span>
+            <div class="type d-inline-block align-top p-2">
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+                <span class="icon"><i class="fas fa-camera-retro"></i></span>
+              </div>
+              <p class="name mt-2">Honeymoon</p>
             </div>
-            <p class="name mt-2">Honeymoon</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-grin-hearts"></i></span>
+            <div class="type d-inline-block align-top p-2">
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+                <span class="icon"><i class="fas fa-grin-hearts"></i></span>
+              </div>
+              <p class="name mt-2">Adventure</p>
             </div>
-            <p class="name mt-2">Adventure</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-building"></i></span>
+            <div class="type d-inline-block align-top p-2">
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+                <span class="icon"><i class="fas fa-building"></i></span>
+              </div>
+              <p class="name mt-2">Safari</p>
             </div>
-            <p class="name mt-2">Safari</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-home"></i></span>
+            <div class="type d-inline-block align-top p-2">
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
+                <span class="icon"><i class="fas fa-home"></i></span>
+              </div>
+              <p class="name mt-2">Beach</p>
             </div>
-            <p class="name mt-2">Beach</p>
           </div>
         </div>
       </div>

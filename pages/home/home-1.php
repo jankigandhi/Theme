@@ -99,11 +99,11 @@
   <!--  about section -->
   <div class="about-section py-5">
     <div class="container">
-      <div class="row flex-row-reverse">
-        <div class="col-md-6 py-3">
+      <div class="row flex-row-reverse align-items-center">
+        <div class="col-lg-6 col-md-4 py-3">
           <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
         </div>
-        <div class="col-md-6 py-3">
+        <div class="col-lg-6 col-md-8 py-3">
           <div>
             <h5 class="text-uppercase">Welcome to the</h5>
             <h3 class="text-uppercase">Lorem Ipsum is simply</h3>
@@ -233,8 +233,8 @@
     <div class="container">
       <h3 class="text-uppercase">Holidays type</h3>
       <p class="light-gray">Get explore your dream to travel the world!</p>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-sm-6 py-3">
           <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
             <span class="icon"><i class="fas fa-hotel"></i></span>
           </div>
@@ -242,7 +242,7 @@
           <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <a href="#" class="font-weight-bold">Read more</a>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+        <div class="col-lg-3 col-sm-6 py-3">
           <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
             <span class="icon"><i class="fas fa-home"></i></span>
           </div>
@@ -250,7 +250,7 @@
           <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <a href="#" class="font-weight-bold">Read more</a>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+        <div class="col-lg-3 col-sm-6 py-3">
           <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
             <span class="icon"><i class="fas fa-grin-hearts"></i></span>
           </div>
@@ -258,7 +258,7 @@
           <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <a href="#" class="font-weight-bold">Read more</a>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+        <div class="col-lg-3 col-sm-6 py-3">
           <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
             <span class="icon"><i class="fas fa-camera-retro"></i></span>
           </div>
