@@ -1,6 +1,12 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
+.about-bg-img {
+    @include img-inbg;
+    padding-bottom: 60%;
+    height: auto;
+}
+
 .banner {
     position: relative;
     .banner-img {
@@ -40,6 +46,7 @@
 .find-section {
     background-color: $gray-900;
 }
+
 .btn-next,
 .btn-prev {
     width: 20px;
@@ -60,12 +67,17 @@
     right: 0;
 }
 
+.offer-section,
+.testimonial-section {
+    background-color: $gray-200;
+}
+
 .offer-slider {
     .card-bg {
-        background-color: $gray-200;
+        background-color: $white;
     }
     .card {
-        border: 3px solid $gray-200;
+        border: 3px solid $white;
         cursor: inherit;
     }
     .swiper-slide {
@@ -78,7 +90,7 @@
         .card-bg {
             background-color: $gray-900;
         }
-        .card-title {
+        .card-title,.price {
             color: $white;
         }
         .card-text {
