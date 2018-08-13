@@ -6,7 +6,7 @@
     .banner-img {
         min-height: 600px;
         &.h-100vh {
-           min-height: 100vh; 
+            min-height: 100vh;
         }
     }
     .banner-content {
@@ -40,8 +40,6 @@
 .find-section {
     background-color: $gray-900;
 }
-
-
 .btn-next,
 .btn-prev {
     width: 20px;
@@ -129,6 +127,18 @@
     }
     .swiper-slide-active {
         opacity: 1;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .find-section {
+        margin-top: -5.5rem;
+        position: relative;
+        z-index: 11;
+        &.in-container {
+            max-width: 1280px;
+            margin: -2.75rem auto 0 auto;
+        }
     }
 }
 

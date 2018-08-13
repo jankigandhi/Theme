@@ -76,7 +76,7 @@
                   </div>
                 </div>
               </div>
-              <div class="px-0 col-xl-5 col-lg-4 col-sm-6">
+              <div class="px-0 col-xl-4 col-lg-4 col-sm-6">
                 <div class="form-group mb-0">
                   <div class="input-with-icon">
                     <input type="text" class="square-box form-control" name="date" placeholder="select date" />
@@ -84,7 +84,7 @@
                   </div>
                 </div>
               </div>
-              <div class="px-0 col-xl-2 col-lg-4">
+              <div class="px-0 col-xl-3 col-lg-4">
                 <button type="button" class="rounded-0 btn-block btn-thick btn-min-w btn btn-primary mb-0">
                 Search
                 </button>

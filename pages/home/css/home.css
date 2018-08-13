@@ -104,6 +104,14 @@
 .testimonial-slider .swiper-slide-active {
   opacity: 1; }
 
+@media (min-width: 992px) {
+  .find-section {
+    margin-top: -5.5rem;
+    position: relative;
+    z-index: 11; }
+    .find-section.in-container {
+      max-width: 1280px;
+      margin: -2.75rem auto 0 auto; } }
 @media (min-width: 768px) {
   .find-section .border-line {
     position: relative;
