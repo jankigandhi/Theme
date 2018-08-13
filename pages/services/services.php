@@ -37,7 +37,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Brand Identity</h3>
+								<h4 class="font-weight-medium mb-3">Brand Identity</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -50,7 +50,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Illustration</h3>
+								<h4 class="font-weight-medium mb-3">Illustration</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -63,7 +63,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Marketing</h3>
+								<h4 class="font-weight-medium mb-3">Marketing</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -76,7 +76,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Web Development</h3>
+								<h4 class="font-weight-medium mb-3">Web Development</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -96,6 +96,7 @@
 							<span class="slide-icon">
 								<i class="fas fa-tachometer-alt"></i>
 							</span>
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
 						<a href="#">
@@ -105,24 +106,32 @@
 						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-users"></i>
-						</span>
+						<a href="#">
+							<span class="slide-icon">
+								<i class="fas fa-users"></i>
+							</span>
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-home"></i>
-						</span>
+						<a href="#">
+							<span class="slide-icon">
+								<i class="fas fa-home"></i>
+							</span>
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-smile"></i>
-						</span>
+						<a href="#">
+							<span class="slide-icon">
+								<i class="fas fa-smile"></i>
+							</span>
+						</a>
 					</div>
 					<div class="swiper-slide text-center">
-						<span class="slide-icon">
-							<i class="fas fa-toolbox"></i>
-						</span>
+						<a href="#">
+							<span class="slide-icon">
+								<i class="fas fa-toolbox"></i>
+							</span>
+						</a>
 					</div>
 				</div>
 			</div>

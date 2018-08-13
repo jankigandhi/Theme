@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
 </head>
 <body>
-<?php $HederClass="header-transparent";?>
+<?php $HederClass="";?>
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
 	<div class="banner">
@@ -37,7 +37,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Brand Identity</h3>
+								<h4 class="font-weight-medium mb-3">Brand Identity</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -50,7 +50,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Illustration</h3>
+								<h4 class="font-weight-medium mb-3">Illustration</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -63,7 +63,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Marketing</h3>
+								<h4 class="font-weight-medium mb-3">Marketing</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -76,7 +76,7 @@
 								</span>
 							</div>
 							<div class="col-md-10 text-center text-md-left">
-								<h3 class="font-weight-medium mb-3">Web Development</h3>
+								<h4 class="font-weight-medium mb-3">Web Development</h4>
 								<p class="box-desc">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
 							</div>
 						</div>
@@ -85,51 +85,38 @@
 			</div>
 		</div>
 	</div>
-	<div class="slider-section py-5">
+	<div class="our-offered-services-section">
 		<div class="container">
-			<p class="text-center font-weight-bold text-primary text-uppercase">Our Clients</p>
-			<h3 class="mw-600 mx-auto text-center font-weight-bold">Glint has been honored to partner up with these clients</h3>
-			<div class="swiper-container py-4">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-1.png" alt="Slide-1" />
-						</a>
+			<div class="text-center py-4">
+				<h3 class="our-services-title text-uppercase">Our Offered Services</h3>
+				<p class="mb-0 font-weight-medium">Who are in extremely love with eco friendly system.</p>
+			</div>
+			<div class="row mx-0 py-3">
+				<div class="col-md-4">
+					<div>
+						<div class="services-image" style="background-image: url('images/our-services.jpg');"></div>
+						<div class="text-md-left text-center py-4">
+							<h4 class="py-3 font-weight-bold">Basic & Common Repairs</h4>
+							<p class="our-services-desc">Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.</p>
+						</div>
 					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-2.png" alt="slide-2" />
-						</a>
+				</div>
+				<div class="col-md-4">
+					<div>
+						<div class="services-image" style="background-image: url('images/our-services-1.jpg');"></div>
+						<div class="text-md-left text-center py-4">
+							<h4 class="py-3 font-weight-bold">Brake Repairs & Services</h4>
+							<p class="our-services-desc">Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.</p>
+						</div>
 					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-3.png" alt="slide-3" />
-						</a>
-					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-4.png" alt="slide-4" />
-						</a>
-					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-5.png" alt="slide-5" />
-						</a>
-					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-6.png" alt="slide-6" />
-						</a>
-					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-7.png" alt="slide-7" />
-						</a>
-					</div>
-					<div class="swiper-slide text-center">
-						<a href="#">
-							<img class="slide-icon mw-100" src="images/slide-8.png" alt="slide-8" />
-						</a>
+				</div>
+				<div class="col-md-4">
+					<div>
+						<div class="services-image" style="background-image: url('images/our-services-2.jpg');"></div>
+						<div  class="text-md-left text-center py-4">
+							<h4 class="py-3 font-weight-bold">Preventive Maintenance</h4>
+							<p class="our-services-desc">Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -250,4 +237,3 @@
 	});
 </script>
 </body>
-</html>

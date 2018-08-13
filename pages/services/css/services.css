@@ -104,4 +104,30 @@
     .features-section .features-box:hover .features-icon {
       color: #fff; }
 
+.our-offered-services-section {
+  background-color: #e9ecef; }
+  .our-offered-services-section .our-services-title {
+    font-size: 1.7rem; }
+  .our-offered-services-section .services-image {
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 60%; }
+  .our-offered-services-section .our-services-desc {
+    max-width: 310px;
+    font-size: .875rem;
+    color: #adb5bd; }
+
+@media (max-width: 991.98px) {
+  .our-offered-services-section .our-services-desc {
+    color: #adb5bd;
+    margin: 0 auto;
+    max-width: 583px;
+    font-size: 1.2rem; } }
+
 /*# sourceMappingURL=services.css.map */
