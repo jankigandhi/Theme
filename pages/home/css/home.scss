@@ -10,7 +10,7 @@
 .banner {
     position: relative;
     .banner-img {
-        min-height: 600px;
+        min-height: 400px;
         &.h-100vh {
             min-height: 100vh;
         }
@@ -40,7 +40,7 @@
 }
 
 .off-white {
-    color: rgba($white, .5);
+    color: rgba($white, .7);
 }
 
 .find-section {
@@ -53,7 +53,7 @@
     height: 24px;
     background-size: 20px 24px;
     background-color: theme-color("primary");
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem;
     &.swiper-button-disabled {
         background-color: rgba($white, .2);
     }
@@ -83,6 +83,23 @@
     .swiper-slide {
         width: 18.75rem;
     }
+    &.offer-slider-2 {
+        .swiper-slide-active {
+            .card {
+                border-color: $white;
+            }
+        }
+        .btn-next,
+        .btn-prev {
+            width: 12px;
+            height: 18px;
+            background-size: 12px 18px;
+            padding: 1rem;
+        }
+    }
+}
+
+.offer-slider:not(.offer-slider-2) {
     .swiper-slide-active {
         .card {
             border-color: theme-color("primary");
@@ -90,12 +107,25 @@
         .card-bg {
             background-color: $gray-900;
         }
-        .card-title,.price {
+        .card-title,
+        .price {
             color: $white;
         }
         .card-text {
             color: rgba($white, .7);
         }
+    }
+}
+
+.circle-icon {
+    @include size(7rem);
+    border: 3px solid $white;
+    @include transition(.3s all linear);
+    cursor: pointer;
+    .icon {
+        font-size: 2rem;
+        color: $white;
+        @include transition(.3s all linear);
     }
 }
 
@@ -108,17 +138,6 @@
         color: $white;
         @include transition(.3s all linear);
     }
-    .circle-icon {
-        @include size(7rem);
-        border: 3px solid $white;
-        @include transition(.3s all linear);
-        cursor: pointer;
-        .icon {
-            font-size: 2rem;
-            color: $white;
-            @include transition(.3s all linear);
-        }
-    }
     .type {
         &:hover {
             .circle-icon {
@@ -130,6 +149,14 @@
             }
         }
     }
+    &.parallax-banner-sh {
+        .banner-img {
+            min-height: 300px;
+        }
+        .desc {
+            max-width: 800px;
+        }
+    }
 }
 
 .testimonial-slider {
@@ -139,6 +166,15 @@
     }
     .swiper-slide-active {
         opacity: 1;
+    }
+}
+
+.service-section {
+    .circle-icon {
+        border: 2px solid $gray-600;
+        .icon {
+            color: $gray-600;
+        }
     }
 }
 

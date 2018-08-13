@@ -58,14 +58,14 @@
   <!-- find-section -->
   <div class="find-section">
     <div class="container">
-      <div class="row mx-0 align-items-lg-center">
-        <div class="border-line col-lg-2 col-md-3 py-3 px-md-3 px-0">
+      <div class="row align-items-lg-center">
+        <div class="border-line col-lg-2 col-md-3 py-3 px-3">
           <div class="mt-md-4 mt-lg-0">
             <span class="text-uppercase off-white">Find your</span>
             <h4 class="font-weight-bold text-uppercase mb-0 text-white">Holidays</h4>
           </div>
         </div>
-        <div class="col-lg-10 col-md-9 py-3 px-md-3 px-0">
+        <div class="col-lg-10 col-md-9 py-3 px-3">
           <form>
             <div class="row mx-0">
               <div class="px-0 col-xl-5 col-lg-4 col-sm-6">
@@ -100,13 +100,13 @@
     <div class="container">
       <div class="row flex-row-reverse">
         <div class="col-md-6 py-3">
-          <div class="about-bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+          <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
         </div>
         <div class="col-md-6 py-3">
           <div>
             <h5 class="text-uppercase">Welcome to the</h5>
-            <h2>Best Indianapolis Hotel!</h2>
-            <p class="light-gray">The Woods hotel, located at the very heart of Indianapolis is a welcoming retreat both for people traveling across the country and for businessmen, visiting our Rustbelt state for some commercial affairs. Here, we always make sure that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might want...</p>
+            <h3 class="text-uppercase">Lorem Ipsum is simply</h3>
+            <p class="light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <a href="#" class="btn-thick btn-min-w btn btn-outline-primary">
               Readmore
             </a>
@@ -228,7 +228,7 @@
     <div class="banner-content">
       <div class="center-content">
         <h3 class="text-white text-uppercase">Holidays type</h3>
-        <p class="off-white">get explore your dream to travel the world!</p>
+        <p class="off-white">Get explore your dream to travel the world!</p>
         <div class="w-100 d-inline-block mt-4">
           <div class="type d-inline-block align-top p-2">
             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
@@ -273,7 +273,7 @@
   <!-- testimonial-section -->
   <div class="testimonial-section text-center py-5">
     <h3 class="text-uppercase">Happy Clients</h3>
-    <p class="light-gray">what customer say about us and why love our services!</p>
+    <p class="light-gray">What customer say about us and why love our services!</p>
     <div class="testimonial-slider my-4">
       <div class="swiper-container">
         <div class="swiper-wrapper">
