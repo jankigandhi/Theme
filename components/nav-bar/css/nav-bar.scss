@@ -1,8 +1,8 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-$header-height: 7rem;
-$mobile-header-height: 9.5rem;
+$header-height: 4.9375rem;
+$mobile-header-height: 4.9375rem;
 $top-bar-height: 2.0625rem;
 $mobile-topbar-height: 4.1875rem;
 $mobile-sidebar-width: 14rem;
@@ -25,6 +25,7 @@ $mobile-sidebar-width: 14rem;
         padding: .735rem 0;
         line-height: 1.5;
         @include shadow(0 .125rem .25rem rgba(0, 0, 0, .075));
+        height: $header-height;
     }
     .top-bar-link {
         color: $white;
@@ -109,6 +110,9 @@ $mobile-sidebar-width: 14rem;
             }
         }
     }
+    .header-bar {
+        height: $header-height;
+    }
     &.fixed-header {
         .header-bar {
             position: fixed;
@@ -117,7 +121,6 @@ $mobile-sidebar-width: 14rem;
             left: 0;
             z-index: 99;
             background-color: $white;
-            height: $header-height;
         }
     }
 }

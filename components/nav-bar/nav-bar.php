@@ -1,6 +1,6 @@
 <div class="site-header <?php echo $HederClass ?>">
   <div class="header-bar">
-    <div class="top-bar">
+    <!-- <div class="top-bar">
       <div class="header-container container px-0 px-lg-3">
         <div class="d-inline-block w-100 text-center text-lg-left">
           <div class="top-bar-bottom-line float-lg-left">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="nav-header d-inline-block w-100">
       <div class="header-container container">
         <div class="float-left pt-lg-1 pt-2">
