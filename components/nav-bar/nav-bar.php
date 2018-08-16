@@ -1,6 +1,6 @@
 <div class="site-header <?php echo $HederClass ?>">
   <div class="header-bar">
-    <div class="top-bar">
+    <!-- <div class="top-bar">
       <div class="header-container container px-0 px-lg-3">
         <div class="d-inline-block w-100 text-center text-lg-left">
           <div class="top-bar-bottom-line float-lg-left">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="nav-header d-inline-block w-100">
       <div class="header-container container">
         <div class="float-left pt-lg-1 pt-2">
@@ -44,10 +44,10 @@
               <a href="#" class="links hover-links text-uppercase font-weight-bold">Home</a>
               <ul class="sub-menu list-unstyled">
                 <li class="sub-menu-link">
-                  <a href="#" class="hover-links text-uppercase">Home1</a>
+                  <a href="../../pages/home/home.php" class="hover-links text-uppercase">Home1</a>
                 </li>
                 <li class="sub-menu-link">
-                  <a href="#" class="hover-links text-uppercase">Home2</a>
+                  <a href="../../pages/home/home-1.php" class="hover-links text-uppercase">Home2</a>
                 </li>
               </ul>
             </li>
@@ -60,10 +60,10 @@
                       <span class="hover-links title text-uppercase font-weight-bold">Home</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Home1</a>
+                      <a href="../../pages/home/home.php" class="hover-links text-uppercase">Home1</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Home2</a>
+                      <a href="../../pages/home/home.php" class="hover-links text-uppercase">Home2</a>
                     </li>
                     <li class="sub-menu-link">
                       <span class="hover-links title text-uppercase font-weight-bold">About</span>

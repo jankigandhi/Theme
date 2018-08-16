@@ -1,6 +1,6 @@
 .site-header {
   font-family: "Raleway";
-  height: 7rem; }
+  height: 4.9375rem; }
   .site-header .hover-links {
     font-size: .8rem;
     -moz-transition: 0.3s all linear;
@@ -18,7 +18,8 @@
     line-height: 1.5;
     -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); }
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    height: 4.9375rem; }
   .site-header .top-bar-link {
     color: #fff;
     text-transform: capitalize;
@@ -75,14 +76,15 @@
       border-right-color: rgba(255, 255, 255, 0.5); }
       .site-header.header-transparent .top-bar-link:first-child {
         border-left-color: rgba(255, 255, 255, 0.5); }
+  .site-header .header-bar {
+    height: 4.9375rem; }
   .site-header.fixed-header .header-bar {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 99;
-    background-color: #fff;
-    height: 7rem; }
+    background-color: #fff; }
 
 @media (min-width: 992px) {
   .site-header .sub-menu {
@@ -118,9 +120,9 @@
     visibility: visible; } }
 @media (max-width: 991.98px) {
   .site-header {
-    height: 9.5rem; }
+    height: 4.9375rem; }
     .site-header.fixed-header .header-bar {
-      height: 9.5rem; }
+      height: 4.9375rem; }
     .site-header .top-bar {
       height: 4.1875rem; }
     .site-header .top-bar-bottom-line {

@@ -169,7 +169,7 @@
         </div>
     </div>
     <div class="container my-4">
-        <div class="testimonial py-5 d-inline-block w-100">
+        <div class="testimonial testimonial-with-different-color py-5 d-inline-block w-100">
             <div class="swiper-container py-4">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

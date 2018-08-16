@@ -1,6 +1,7 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
 <link rel="stylesheet" href="../../components/card/css/card.css">
+<link rel="stylesheet" href="../../components/testimonial/css/testimonial.css">
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
@@ -58,14 +59,14 @@
   <!-- find-section -->
   <div class="find-section in-container">
     <div class="container">
-      <div class="row mx-0 align-items-lg-center">
-        <div class="border-line col-lg-2 col-md-3 py-3 px-md-3 px-0">
+      <div class="row align-items-lg-center">
+        <div class="border-line col-lg-2 col-md-3 py-3 px-3">
           <div class="mt-md-4 mt-lg-0">
             <span class="text-uppercase off-white">Find your</span>
             <h4 class="font-weight-bold text-uppercase mb-0 text-white">Holidays</h4>
           </div>
         </div>
-        <div class="col-lg-10 col-md-9 py-3 px-md-3 px-0">
+        <div class="col-lg-10 col-md-9 py-3 px-3">
           <form>
             <div class="row mx-0">
               <div class="px-0 col-xl-5 col-lg-4 col-sm-6">
@@ -98,15 +99,15 @@
   <!--  about section -->
   <div class="about-section py-5">
     <div class="container">
-      <div class="row flex-row-reverse">
-        <div class="col-md-6 py-3">
-          <div class="about-bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+      <div class="row flex-row-reverse align-items-center">
+        <div class="col-lg-6 col-md-4 py-3">
+          <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
         </div>
-        <div class="col-md-6 py-3">
+        <div class="col-lg-6 col-md-8 py-3">
           <div>
             <h5 class="text-uppercase">Welcome to the</h5>
-            <h2>Best Indianapolis Hotel!</h2>
-            <p class="light-gray">The Woods hotel, located at the very heart of Indianapolis is a welcoming retreat both for people traveling across the country and for businessmen, visiting our Rustbelt state for some commercial affairs. Here, we always make sure that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might want...</p>
+            <h3 class="text-uppercase">Lorem Ipsum is simply</h3>
+            <p class="light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <a href="#" class="btn-thick btn-min-w btn btn-outline-primary">
               Readmore
             </a>
@@ -119,292 +120,257 @@
   <div class="offer-section text-center py-5">
     <h3 class="text-uppercase">Special Offers</h3>
     <p class="light-gray">Best 2014 packages where people love to stay!</p>
-    <div class="offer-slider my-4">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
+    <div class="container">
+      <div class="offer-slider offer-slider-2 my-4">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="custom-card card">
+                <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
+                <div class="card-bg card-body text-left p-2">
+                  <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
+                  <div class="card-text d-inline-block w-100 light-gray">
+                    <p class="float-left small mb-0">Location</p>
+                    <p class="price float-right mb-0 font-weight-bold">$250</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
+          <!-- Add Arrows -->
+          <div class="btn-next swiper-button-next swiper-button-white"></div>
+          <div class="btn-prev swiper-button-prev swiper-button-white"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- service section -->
+  <div class="service-section py-5 text-center">
+    <div class="container">
+      <h3 class="text-uppercase">Holidays type</h3>
+      <p class="light-gray">Get explore your dream to travel the world!</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-sm-6 py-3">
+          <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
+            <span class="icon"><i class="fas fa-hotel"></i></span>
           </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
+          <h5>Lorem Ipsum is</h5>
+          <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#" class="font-weight-bold">Read more</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 py-3">
+          <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
+            <span class="icon"><i class="fas fa-home"></i></span>
           </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
+          <h5>Lorem Ipsum is</h5>
+          <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#" class="font-weight-bold">Read more</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 py-3">
+          <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
+            <span class="icon"><i class="fas fa-grin-hearts"></i></span>
           </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
+          <h5>Lorem Ipsum is</h5>
+          <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#" class="font-weight-bold">Read more</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 py-3">
+          <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-3">
+            <span class="icon"><i class="fas fa-camera-retro"></i></span>
           </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div href="#" class="custom-card card">
-              <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
-              <div class="card-bg card-body text-left p-2">
-                <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
-                <div class="card-text d-inline-block w-100 light-gray">
-                  <p class="float-left small mb-0">Location</p>
-                  <p class="price float-right mb-0 font-weight-bold">$250</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h5>Lorem Ipsum is</h5>
+          <p class="light-gray small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#" class="font-weight-bold">Read more</a>
         </div>
       </div>
     </div>
   </div>
   <!-- parallax banner -->
-  <div class="banner parallax-banner">
+  <div class="banner parallax-banner parallax-banner-sh">
     <div class="banner-img" style="background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/160831133045-dubai-rosemont-hotel-sphereofgold-copyrightplompmozes-full-169.jpg');"></div>
     <div class="banner-content">
       <div class="center-content">
-        <h4 class="text-white text-uppercase">Holidays type</h4>
-        <p class="off-white">get explore your dream to travel the world!</p>
-        <div class="w-100 d-inline-block mt-4">
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-hotel"></i></span>
-            </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-university"></i></span>
-            </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-camera-retro"></i></span>
-            </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-grin-hearts"></i></span>
-            </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-building"></i></span>
-            </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
-          <div class="type d-inline-block align-top p-2">
-            <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
-              <span class="icon"><i class="fas fa-home"></i></span>
-            </div>
-            <p class="name mt-2">Cruise</p>
-          </div>
+        <div class="container">
+          <h3 class="h2 text-white text-uppercase">Star hotel</h3>
+          <p class="desc off-white mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <button type="button" class="btn-thick btn-min-w btn btn-outline-white">
+          More info
+          </button>
         </div>
       </div>
     </div>
   </div>
   <!-- testimonial-section -->
   <div class="testimonial-section text-center py-5">
-    <h3 class="text-uppercase">Special Offers</h3>
-    <p class="light-gray">Best 2014 packages where people love to stay!</p>
-    <div class="testimonial-slider my-4">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
+    <div class="container">
+      <h3 class="text-uppercase">Happy Clients</h3>
+      <p class="light-gray">What customer say about us and why love our services!</p>
+      <div class="testimonial testimonial-slider my-4">
+        <div class="swiper-container pb-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="blockquote light-gray p-4 rounded mb-0">
                 <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                  <div class="circle-img mx-auto">
+                    <div class="round-img rounded-circle" style="background-image: url('../../images/img-1.jpg');"></div>
                   </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
+                  <div>
+                    <div class="small font-italic mb-3">
+                      <i class="text-primary fas fa-quote-left align-super"></i>
+                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </div>
+                    <h6 class="text-primary mb-0 text-center text-uppercase font-weight-bold">
+                    Yash
+                    <span class="d-block font-weight-bold font-italic">Frontend Developer</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blockquote light-gray p-4 rounded mb-0">
+                <div>
+                  <div class="circle-img mx-auto">
+                    <div class="round-img rounded-circle" style="background-image: url('../../images/img-3.jpg');"></div>
+                  </div>
+                  <div>
+                    <div class="small font-italic mb-3">
+                      <i class="text-primary fas fa-quote-left align-super"></i>
+                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                    </div>
+                    <h6 class="text-primary mb-0 text-center text-uppercase font-weight-bold">
+                    Chirag
+                    <span class="d-block font-weight-bold font-italic">Web Developer</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blockquote light-gray p-4 rounded mb-0">
+                <div>
+                  <div class="circle-img mx-auto">
+                    <div class="round-img rounded-circle" style="background-image: url('../../images/img-4.jpg');"></div>
+                  </div>
+                  <div>
+                    <div class="small font-italic mb-3">
+                      <i class="text-primary fas fa-quote-left align-super"></i>
+                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </div>
+                    <h6 class="text-primary mb-0 text-center text-uppercase font-weight-bold">
+                    Janki
+                    <span class="d-block font-weight-bold font-italic">Web designer</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blockquote light-gray p-4 rounded mb-0">
+                <div>
+                  <div class="circle-img mx-auto">
+                    <div class="round-img rounded-circle" style="background-image: url('../../images/img-1.jpg');"></div>
+                  </div>
+                  <div>
+                    <div class="small font-italic mb-3">
+                      <i class="text-primary fas fa-quote-left align-super"></i>
+                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                    </div>
+                    <h6 class="text-primary mb-0 text-center text-uppercase font-weight-bold">
+                    Chirag
+                    <span class="d-block font-weight-bold font-italic">Web Developer</span>
+                    </h6>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="border-top border-primary blockquote light-gray p-4 rounded bg-white">
-              <div>
-                <div>
-                  <div class="small font-italic text-left">
-                    <i class="text-primary fas fa-quote-left align-super"></i>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </div>
-                  <h6 class="text-primary mb-0 text-right text-uppercase font-weight-bold">
-                  Janki
-                  <span class="d-block font-weight-bold font-italic">Web designer</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -428,20 +394,40 @@ autoplay: {
 delay: 2000,
 },
 });
-var swiper = new Swiper('.offer-slider .swiper-container,.testimonial-slider .swiper-container', {
-slidesPerView: 'auto',
-spaceBetween: 20,
+var swiper = new Swiper('.testimonial-slider .swiper-container', {
+slidesPerView: 1,
+effect: 'fade',
 simulateTouch : true,
 loop: true,
-centeredSlides: true,
 grabCursor: true,
+speed: 1000,
+pagination: {
+  el: '.swiper-pagination',
+  clickable: true,
+},
+autoplay: {
+delay: 3000,
+},
+});
+var swiper = new Swiper('.offer-slider .swiper-container', {
+slidesPerView: 3,
+spaceBetween: 20,
+grabCursor: true,
+loop: true,
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
 speed: 1000,
 autoplay: {
 delay: 3000,
 },
 breakpoints: {
-992: {
-spaceBetween: 10,
+767: {
+slidesPerView: 2,
+},
+576: {
+slidesPerView: 1,
 },
 }
 });

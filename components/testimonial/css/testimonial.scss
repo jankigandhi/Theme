@@ -12,7 +12,7 @@
         position: relative;
         &:before {
             content: '';
-            background-color: rgba($black,.6);
+            background-color: rgba($black, .6);
             position: absolute;
             right: 0;
             left: 0;
@@ -37,13 +37,16 @@
     }
     .swiper-pagination-bullet {
         @include size(13px);
+        background-color: $primary;
     }
-    .swiper-pagination-bullet {
-        $colors: $primary, $success, $danger, $dark, $info, $warning, $secondary, ;
-        @for $i from 1 through length($colors) {
-            &:nth-child(#{$i}) {
-                &.swiper-pagination-bullet-active {
-                    background-color: nth($colors, $i);
+    &.testimonial-with-different-color {
+        .swiper-pagination-bullet {
+            $colors: $primary, $success, $danger, $dark, $info, $warning, $secondary, ;
+            @for $i from 1 through length($colors) {
+                &:nth-child(#{$i}) {
+                    &.swiper-pagination-bullet-active {
+                        background-color: nth($colors, $i);
+                    }
                 }
             }
         }

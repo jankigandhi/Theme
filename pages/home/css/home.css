@@ -13,7 +13,7 @@
 .banner {
   position: relative; }
   .banner .banner-img {
-    min-height: 600px; }
+    min-height: 400px; }
     .banner .banner-img.h-100vh {
       min-height: 100vh; }
   .banner .banner-content {
@@ -41,7 +41,7 @@
       font-weight: 300; }
 
 .off-white {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 0.7); }
 
 .find-section {
   background-color: #212529; }
@@ -52,7 +52,7 @@
   height: 24px;
   background-size: 20px 24px;
   background-color: #26ade4;
-  padding: 1.5rem 1.5rem; }
+  padding: 1.5rem; }
   .btn-next.swiper-button-disabled,
   .btn-prev.swiper-button-disabled {
     background-color: rgba(255, 255, 255, 0.2); }
@@ -74,14 +74,41 @@
   cursor: inherit; }
 .offer-slider .swiper-slide {
   width: 18.75rem; }
-.offer-slider .swiper-slide-active .card {
+.offer-slider.offer-slider-2 .swiper-slide-active .card {
+  border-color: #fff; }
+.offer-slider.offer-slider-2 .btn-next,
+.offer-slider.offer-slider-2 .btn-prev {
+  width: 12px;
+  height: 18px;
+  background-size: 12px 18px;
+  padding: 1rem; }
+
+.offer-slider:not(.offer-slider-2) .swiper-slide-active .card {
   border-color: #26ade4; }
-.offer-slider .swiper-slide-active .card-bg {
+.offer-slider:not(.offer-slider-2) .swiper-slide-active .card-bg {
   background-color: #212529; }
-.offer-slider .swiper-slide-active .card-title, .offer-slider .swiper-slide-active .price {
+.offer-slider:not(.offer-slider-2) .swiper-slide-active .card-title,
+.offer-slider:not(.offer-slider-2) .swiper-slide-active .price {
   color: #fff; }
-.offer-slider .swiper-slide-active .card-text {
+.offer-slider:not(.offer-slider-2) .swiper-slide-active .card-text {
   color: rgba(255, 255, 255, 0.7); }
+
+.circle-icon {
+  width: 7rem;
+  height: 7rem;
+  border: 3px solid #fff;
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+  cursor: pointer; }
+  .circle-icon .icon {
+    font-size: 2rem;
+    color: #fff;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
 
 .parallax-banner .banner-img {
   min-height: 500px;
@@ -92,33 +119,26 @@
   -o-transition: 0.3s all linear;
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear; }
-.parallax-banner .circle-icon {
-  width: 7rem;
-  height: 7rem;
-  border: 3px solid #fff;
-  -moz-transition: 0.3s all linear;
-  -o-transition: 0.3s all linear;
-  -webkit-transition: 0.3s all linear;
-  transition: 0.3s all linear;
-  cursor: pointer; }
-  .parallax-banner .circle-icon .icon {
-    font-size: 2rem;
-    color: #fff;
-    -moz-transition: 0.3s all linear;
-    -o-transition: 0.3s all linear;
-    -webkit-transition: 0.3s all linear;
-    transition: 0.3s all linear; }
 .parallax-banner .type:hover .circle-icon {
   border-color: #26ade4; }
 .parallax-banner .type:hover .icon,
 .parallax-banner .type:hover .name {
   color: #26ade4; }
+.parallax-banner.parallax-banner-sh .banner-img {
+  min-height: 300px; }
+.parallax-banner.parallax-banner-sh .desc {
+  max-width: 800px; }
 
 .testimonial-slider .swiper-slide {
   width: 25rem;
   opacity: .5; }
 .testimonial-slider .swiper-slide-active {
   opacity: 1; }
+
+.service-section .circle-icon {
+  border: 2px solid #6c757d; }
+  .service-section .circle-icon .icon {
+    color: #6c757d; }
 
 @media (min-width: 992px) {
   .find-section {
