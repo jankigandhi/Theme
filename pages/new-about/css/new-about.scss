@@ -1,0 +1,158 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+@mixin long-shadow($type, $color, $length, $fadeout: true,  $skew: false, $direction: right){
+  $shadow: '';
+  @if $skew == false or $type == text{
+    @if $direction == right {
+      @for $i from 0 to $length - 1 {
+        $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $color + ',';
+      }
+    }
+    @if $direction == left {
+      @for $i from 0 to $length - 1 {
+        $shadow: $shadow + $i * -1 + 'px ' + $i + 'px 0 ' + $color + ',';
+       }
+      }
+     }
+        
+   @if $fadeout == true{
+    @for $i from 1 to $length - 1 {
+      @if $type == text or $skew == false{
+        @if $direction == right{
+          $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' +       rgba($color, 1 - $i / $length) + ',';
+        }
+        @if $direction == left{
+          $shadow: $shadow + $i * -1 + 'px ' + $i + 'px 0 ' +       rgba($color, 1 - $i / $length) + ',';
+        }
+      }
+      @if ($type == box) and $skew == true{
+        @if $direction == right {
+          $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $i * .2 + 'px ' + rgba($color, 1 - $i / $length) + ',';
+        }
+        @if $direction == left {
+          $shadow: $shadow + $i * -1 + 'px ' + $i + 'px 0 ' + $i * .2 + 'px ' + rgba($color, 1 - $i / $length) + ',';
+        }
+      }
+  }
+  $shadow: $shadow + $length + 'px ' + $length + 'px 0 ' + rgba($color, 0);
+ }
+ @if $fadeout == false{
+   @if $skew == true and ( $type == box ){
+     @for $i from 0 to $length - 1 {
+            $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $i * .1 + 'px ' + $color + ',';
+      }
+   }
+    $shadow: $shadow + $length + 'px ' + $length + 'px 0 ' + rgba(0,0,0,0);
+ }
+ $shadow: unquote($shadow);
+  @if $type == 'box' {box-shadow: $shadow;}
+  @if $type == 'text' {text-shadow: $shadow;}
+}
+
+h2,
+h3,
+.text-uppercase {
+    letter-spacing: 0 !important;
+}
+
+.banner-section {
+    line-height: 0;
+    .about-banner-section {
+        @include img-inbg;
+        padding-bottom: 100vh;
+        position: relative;
+        &:before {
+            content: '';
+            background-color: rgba($black, 0.5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform (translate(-50%, -50%));
+            .sub-title {
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+            .fadeInDown {
+                animation-name: fadeInDown;
+                animation-duration: 4s;
+                animation-fill-mode: both;
+            }
+        }
+    }
+}
+
+.box-grid {
+    background-color: lighten( $gray-300, 8%);
+    .box-spacial {
+        box-shadow: inset 0 0 10px rgba($gray-500, .3);
+    }
+    .circle-round {
+        @include long-shadow(text, darken($gray-700, 5), 35, true);
+        background-image: none;
+        overflow: hidden;
+    }
+}
+
+.about-hover-section {
+    position: relative;
+    .hover-effect {
+        &:after {
+            display: none;
+        }
+        .btn-more {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform (translate(-50%, -50%));
+            opacity: 0;
+            visibility: hidden;
+            @include transition(.3s all linear);
+        }
+        &:hover {
+            .btn-more {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.contact-section {
+    position: relative;
+    .icon-circle {
+        @include size(1.5rem);
+        background-color: $gray-600;
+    }
+    .social-icons {
+        font-size: 1rem;
+    }
+    .form-desc {
+        font-size: .875rem;
+    }
+    .btn-posation {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 8rem;
+        margin-right: 2rem;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

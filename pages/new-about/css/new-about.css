@@ -1,0 +1,101 @@
+h2,
+h3,
+.text-uppercase {
+  letter-spacing: 0 !important; }
+
+.banner-section {
+  line-height: 0; }
+  .banner-section .about-banner-section {
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 100vh;
+    position: relative; }
+    .banner-section .about-banner-section:before {
+      content: '';
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; }
+    .banner-section .about-banner-section .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      .banner-section .about-banner-section .banner-text .sub-title {
+        font-size: 1.5rem;
+        line-height: 1.5; }
+      .banner-section .about-banner-section .banner-text .fadeInDown {
+        animation-name: fadeInDown;
+        animation-duration: 4s;
+        animation-fill-mode: both; }
+
+.box-grid {
+  background-color: #f5f6f8; }
+  .box-grid .box-spacial {
+    box-shadow: inset 0 0 10px rgba(173, 181, 189, 0.3); }
+  .box-grid .circle-round {
+    text-shadow: 0px 0px 0 #3d4349,1px 1px 0 #3d4349,2px 2px 0 #3d4349,3px 3px 0 #3d4349,4px 4px 0 #3d4349,5px 5px 0 #3d4349,6px 6px 0 #3d4349,7px 7px 0 #3d4349,8px 8px 0 #3d4349,9px 9px 0 #3d4349,10px 10px 0 #3d4349,11px 11px 0 #3d4349,12px 12px 0 #3d4349,13px 13px 0 #3d4349,14px 14px 0 #3d4349,15px 15px 0 #3d4349,16px 16px 0 #3d4349,17px 17px 0 #3d4349,18px 18px 0 #3d4349,19px 19px 0 #3d4349,20px 20px 0 #3d4349,21px 21px 0 #3d4349,22px 22px 0 #3d4349,23px 23px 0 #3d4349,24px 24px 0 #3d4349,25px 25px 0 #3d4349,26px 26px 0 #3d4349,27px 27px 0 #3d4349,28px 28px 0 #3d4349,29px 29px 0 #3d4349,30px 30px 0 #3d4349,31px 31px 0 #3d4349,32px 32px 0 #3d4349,33px 33px 0 #3d4349,1px 1px 0 rgba(61, 67, 73, 0.97143),2px 2px 0 rgba(61, 67, 73, 0.94286),3px 3px 0 rgba(61, 67, 73, 0.91429),4px 4px 0 rgba(61, 67, 73, 0.88571),5px 5px 0 rgba(61, 67, 73, 0.85714),6px 6px 0 rgba(61, 67, 73, 0.82857),7px 7px 0 rgba(61, 67, 73, 0.8),8px 8px 0 rgba(61, 67, 73, 0.77143),9px 9px 0 rgba(61, 67, 73, 0.74286),10px 10px 0 rgba(61, 67, 73, 0.71429),11px 11px 0 rgba(61, 67, 73, 0.68571),12px 12px 0 rgba(61, 67, 73, 0.65714),13px 13px 0 rgba(61, 67, 73, 0.62857),14px 14px 0 rgba(61, 67, 73, 0.6),15px 15px 0 rgba(61, 67, 73, 0.57143),16px 16px 0 rgba(61, 67, 73, 0.54286),17px 17px 0 rgba(61, 67, 73, 0.51429),18px 18px 0 rgba(61, 67, 73, 0.48571),19px 19px 0 rgba(61, 67, 73, 0.45714),20px 20px 0 rgba(61, 67, 73, 0.42857),21px 21px 0 rgba(61, 67, 73, 0.4),22px 22px 0 rgba(61, 67, 73, 0.37143),23px 23px 0 rgba(61, 67, 73, 0.34286),24px 24px 0 rgba(61, 67, 73, 0.31429),25px 25px 0 rgba(61, 67, 73, 0.28571),26px 26px 0 rgba(61, 67, 73, 0.25714),27px 27px 0 rgba(61, 67, 73, 0.22857),28px 28px 0 rgba(61, 67, 73, 0.2),29px 29px 0 rgba(61, 67, 73, 0.17143),30px 30px 0 rgba(61, 67, 73, 0.14286),31px 31px 0 rgba(61, 67, 73, 0.11429),32px 32px 0 rgba(61, 67, 73, 0.08571),33px 33px 0 rgba(61, 67, 73, 0.05714),35px 35px 0 rgba(61, 67, 73, 0);
+    background-image: none;
+    overflow: hidden; }
+
+.about-hover-section {
+  position: relative; }
+  .about-hover-section .hover-effect:after {
+    display: none; }
+  .about-hover-section .hover-effect .btn-more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
+  .about-hover-section .hover-effect:hover .btn-more {
+    opacity: 1;
+    visibility: visible; }
+
+.contact-section {
+  position: relative; }
+  .contact-section .icon-circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #6c757d; }
+  .contact-section .social-icons {
+    font-size: 1rem; }
+  .contact-section .form-desc {
+    font-size: .875rem; }
+  .contact-section .btn-posation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 8rem;
+    margin-right: 2rem; }
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=new-about.css.map */
