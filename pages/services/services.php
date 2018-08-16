@@ -15,7 +15,7 @@
 						Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
 					</P>
 					<div class="my-4">
-						<button type="button" class="btn-thick btn-min-w btn btn-outline-primary mx-1">Primary</button>
+						<button type="button" class="btn-thick btn-min-w btn btn-outline-white mx-1">Send</button>
 					</div>
 				</div>
 			</div>

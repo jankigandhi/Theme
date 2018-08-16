@@ -116,12 +116,15 @@
         }
     }
 }
-
+.sub-title{
+        color: $gray-500;
+    }
 .our-offered-services-section {
     background-color: $gray-200;
     .our-services-title {
         font-size: 1.7rem;
     }
+    
     .services-image {
         @include img-inbg;
         padding-bottom: 60%;

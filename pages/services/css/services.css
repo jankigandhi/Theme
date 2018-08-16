@@ -104,6 +104,9 @@
     .features-section .features-box:hover .features-icon {
       color: #fff; }
 
+.sub-title {
+  color: #adb5bd; }
+
 .our-offered-services-section {
   background-color: #e9ecef; }
   .our-offered-services-section .our-services-title {

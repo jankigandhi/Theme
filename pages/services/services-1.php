@@ -7,7 +7,7 @@
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
 	<div class="banner">
-		<div class="banner-img" style="background-image: url('images/services-banner-1.jpg');">
+		<div class="banner-img" style="background-image: url('images/our-services-2.jpg');">
 			<div class="container">
 				<div class="services-banner">
 					<h2 class="banner-text text-white mb-0 text-center my-4 font-weight-bold text-uppercase">Service for your stars</h2>
@@ -15,7 +15,7 @@
 						Behind every reward there is a story of success. Our award-winning Member Experience team makes sure the story continues. We provide unmatched customer service so that every employee loves their reward experience, every time. Support in 120 languages extends the experience around the world.
 					</P>
 					<div class="my-4">
-						<button type="button" class="btn-thick btn-min-w btn btn-outline-primary mx-1">Primary</button>
+						<button type="button" class="btn-thick btn-min-w btn btn-outline-white mx-1">Send</button>
 					</div>
 				</div>
 			</div>
@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="text-center py-4">
 				<h3 class="our-services-title text-uppercase">Our Offered Services</h3>
-				<p class="mb-0 font-weight-medium">Who are in extremely love with eco friendly system.</p>
+				<p class="sub-title mb-0 font-weight-medium">Who are in extremely love with eco friendly system.</p>
 			</div>
 			<div class="row mx-0 py-3">
 				<div class="col-md-4">
@@ -126,7 +126,7 @@
 		<div class="container">
 			<div class="text-center py-4">
 				<h3 class="font-weight-bold">Some Features that Made us Unique</h3>
-				<p class="font-weight-medium">Who are in extremely love with eco friendly system.</p>
+				<p class="sub-title font-weight-medium">Who are in extremely love with eco friendly system.</p>
 			</div>
 			<div class="row mx-0">
 				<div class="col-lg-4 col-md-6">
