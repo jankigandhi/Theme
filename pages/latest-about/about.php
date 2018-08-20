@@ -1,4 +1,5 @@
 <?php include_once '../../inc/head.php';?>
+<link rel="stylesheet" href="../../components/call-to-actions/css/call-actions.css">
 <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
@@ -43,21 +44,12 @@
                         <p class="call-sub-title font-weight-bold mb-0">Contact With Us. We Are The Top Construction Company.</p>
                         <p class="call-sub-title font-weight-bold mb-0">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.</p>
                     </div>
-                    <div class="row mx-0">
-                        <div class="col-md-6 text-right">
-                            <button type="button" class="btn-effect btn-min-w effect-3 btn-thick rounded-0 btn btn-outline-white">
-                                <span class="text-uppercase">Get in Touch</span>
-                            </button>
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <button type="button" class="btn-effect btn-min-w effect-3 btn-thick rounded-0 btn btn-outline-succes">
-                                <span class="text-uppercase">Get in Touch</span>
-                            </button>
-                        </div>
+                    <div>
+                        <button type="button" class="btn-effect btn-min-w btn-thick rounded-0 btn btn-outline-secondary">
+                        <span class="text-uppercase">Get in Touch</span>
+                        </button>
                     </div>
-                    
                 </div>
-                
             </div>
         </div>
     </div>

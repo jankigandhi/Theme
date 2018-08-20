@@ -1,0 +1,28 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.contact-page {
+	.white-box {
+		background-color: $white;
+		padding: 7%;
+		margin-top: -5rem;
+		position: relative;
+	}
+	.social-icon {
+		@include size(2.5rem);
+		background-color: theme-color("primary");
+		color: $white;
+		border-radius: 50%;
+		font-size: 1.2rem;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		margin: .5rem;
+		border: 1px solid theme-color("primary");
+		@include transition(.3s all linear);
+		@include hover-focus-active {
+			background-color: $white;
+			color: theme-color("primary");
+		}
+	}
+}
