@@ -1,0 +1,24 @@
+.services-section .banner-img .services-text {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  left: 0;
+  right: 0;
+  text-align: center; }
+.services-section .breadcrumbs-seaction {
+  background-color: #ced4da;
+  line-height: 1.5; }
+.services-section .sub-title {
+  color: #adb5bd;
+  font-size: .875rem; }
+.services-section .testimonial .card {
+  border: 0;
+  background-color: #e9ecef; }
+.services-section .testimonial .round-img {
+  border: 0; }
+
+/*# sourceMappingURL=new-services.css.map */
