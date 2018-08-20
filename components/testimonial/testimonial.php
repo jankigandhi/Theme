@@ -1,12 +1,10 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" href="../card/css/card.css">
 <link rel="stylesheet" type="text/css" href="css/testimonial.css">
 </head>
 <body>
-<?php $HederClass="bg-dark";?>
+<?php $HederClass="fixed-header";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <main>
     <div class="container my-4">

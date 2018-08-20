@@ -1,9 +1,7 @@
 <?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" href="css/button.css">
 </head>
 <body>
-<?php $HederClass="bg-dark";?>
+<?php $HederClass="fixed-header";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container text-md-left text-center">
   <h1 class="h2 text-center mt-3">Buttons</h1>
