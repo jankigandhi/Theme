@@ -50,10 +50,13 @@
 									<span class="icon"><i class="fas fa-comment-alt"></i></span>
 								</div>
 							</div>
+							<div>
+								<button class="btn-thick btn-min-w rounded-0 btn btn-primary">Send your message</button>
+							</div>
 						</form>
 					</div>
 					<div class="col-md-6">
-						<div>
+						<div class="mt-4">
 							<h5>Nice to hear You!</h5>
 							<p class="light-gray small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, perferendis earum accusamus, sunt error! Asperiores tenetur nobis commodi aliquam consequatur inventore eveniet. Labore, odit similique voluptas non. Sequi, rem!</p>
 						</div>
