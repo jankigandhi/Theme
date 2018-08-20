@@ -1,7 +1,5 @@
 <?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" href="../../css/libs/swiper.min.css">
 <link rel="stylesheet" href="../../components/map/css/map.css">
-<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 <?php $HederClass="fixed-header";?>
