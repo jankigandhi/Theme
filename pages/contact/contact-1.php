@@ -14,7 +14,7 @@
           <div class="col-md-8">
             <h4 class="mb-4">Get in touch with us</h4>
             <form class="my-3">
-              <div class="row mb-3">
+              <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
                     <div class="input-with-icon">
@@ -32,11 +32,13 @@
                   </div>
                 </div>
               </div>
-              <div class="row mb-3">
+              <div class="row">
                 <div class="col-sm-6">
-                  <div class="input-with-icon">
-                    <input type="text" class="square-box form-control" name="name" placeholder="Subject" />
-                    <span class="icon"><i class="fas fa-address-book"></i></span>
+                  <div class="form-group">
+                    <div class="input-with-icon">
+                      <input type="text" class="square-box form-control" name="name" placeholder="Subject" />
+                      <span class="icon"><i class="fas fa-address-book"></i></span>
+                    </div>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -48,7 +50,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row mb-3">
+              <div class="row">
                 <div class="col-sm-12">
                   <div class="input-effect input-with-icon">
                     <textarea class="square-box form-control" placeholder="Message"></textarea>
@@ -56,7 +58,7 @@
                   </div>
                 </div>
               </div>
-              <div>
+              <div class="mt-3">
                 <button class="btn-thick btn-min-w rounded-0 btn btn-primary">Send your message</button>
               </div>
             </form>
@@ -67,12 +69,12 @@
               <div class="d-table mb-3">
                 <p class="d-table-cell light-gray align-top pr-3"><i class="fas fa-map-marker-alt"></i></p>
                 <p class="d-table-cell light-gray align-top">
-                  304, Privilege Avenue, 
+                  304, Privilege Avenue,
                   <span class="d-block">
-                    Dr. Vikram Sarabhai Road,
+                    Dr. Vikram Sarabhai Road,Vadodara-390022
                   </span>
                   <span class="d-block">
-                    Vadodara- 390022,Gujarat,India
+                    Gujarat,India
                   </span>
                 </p>
               </div>

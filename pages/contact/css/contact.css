@@ -1,8 +1,9 @@
 .contact-page .white-box {
   background-color: #fff;
   padding: 7%;
-  margin-top: -5rem;
-  position: relative; }
+  position: relative;
+  max-width: 1000px;
+  margin: -5rem auto 0 auto; }
 .contact-page .social-icon {
   width: 2.5rem;
   height: 2.5rem;
@@ -22,5 +23,7 @@
   .contact-page .social-icon:hover, .contact-page .social-icon:focus, .contact-page .social-icon:active {
     background-color: #fff;
     color: #26ade4; }
+.contact-page textarea {
+  height: 150px !important; }
 
 /*# sourceMappingURL=contact.css.map */

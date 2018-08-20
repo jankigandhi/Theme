@@ -5,8 +5,9 @@
 	.white-box {
 		background-color: $white;
 		padding: 7%;
-		margin-top: -5rem;
 		position: relative;
+		max-width: 1000px;
+		margin: -5rem auto 0 auto;
 	}
 	.social-icon {
 		@include size(2.5rem);
@@ -24,5 +25,8 @@
 			background-color: $white;
 			color: theme-color("primary");
 		}
+	}
+	textarea {
+		height: 150px !important; 
 	}
 }
