@@ -1,12 +1,13 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../components/map/css/map.css">
+<link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 <?php $HederClass="fixed-header";?>
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
 	<div id="map"></div>
-	<div class="py-5">
+	<div class="contact-page py-5">
 		<div class="container">
 			<div>
 				<h4 class="text-center">Contact with Us</h4>
@@ -61,27 +62,52 @@
 						<div>
 							<h5>Contact Information</h5>
 							<div>
-								<h6>Business Hours</h6>
+								<h6 class="font-weight-bold">Business Hours</h6>
 								<p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus, quis officia possimus voluptatum dolorem quo asperiores unde labore saepe vitae dolorum accusamus. Aperiam neque culpa commodi, similique repellat tenetur.</p>
 							</div>
 							<div>
-								<h6>Address</h6>
-								<p class="small light-gray">
-									<span class="d-block">Hotel Finder</span>
-									<span class="d-block">1400 Lenine Ave. Zaporizhzhya, UA</span>
-								</p>
+								<h6 class="font-weight-bold">Address</h6>
+								<div class="d-table mb-3 small">
+									<p class="d-table-cell light-gray align-top pr-3"><i class="fas fa-map-marker-alt"></i></p>
+									<p class="d-table-cell light-gray align-top">
+										304, Privilege Avenue,
+										<span class="d-block">
+											Dr. Vikram Sarabhai Road,Vadodara-390022
+										</span>
+										<span class="d-block">
+											Gujarat,India
+										</span>
+									</p>
+								</div>
 							</div>
 							<div>
-								<h6>Phone Number</h6>
-								<p class="small light-gray">
-									1-555-555-555
-								</p>
+								<h6 class="font-weight-bold">Phone Number</h6>
+								<div class="d-table mb-3 small">
+									<p class="d-table-cell light-gray pr-3 align-top"><i class="fas fa-phone"></i></p>
+									<p class="d-table-cell light-gray align-top">
+										<a href="tel:+91-7600540105" class="light-gray">+91-7600540105</a>
+									</p>
+								</div>
 							</div>
 							<div>
-								<h6>Email</h6>
-								<p class="small light-gray">
-									info@testhotel.com
-								</p>
+								<h6 class="font-weight-bold">Email</h6>
+								<div class="d-table mb-3 small">
+									<p class="d-table-cell light-gray pr-3 align-top"><i class="far fa-envelope"></i></p>
+									<p class="d-table-cell light-gray align-top">
+										<a href="mailto:contact@atyantik.com" class="light-gray">contact@atyantik.com</a>
+									</p>
+								</div>
+							</div>
+							<div>
+								<a href="#" class="social-icon">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#" class="social-icon">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="social-icon">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
 							</div>
 						</div>
 					</div>
