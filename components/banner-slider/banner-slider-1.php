@@ -1,12 +1,9 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" href="../nav-bar/css/nav-bar.css">
-<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" href="css/banner-slider.css">
 </head>
 <body>
-<?php $HederClass="transparent absolute";?>
+<?php $HederClass="fixed-header";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <main>
     <div class="banner-section w-100 d-inline-block">

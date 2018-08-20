@@ -1,11 +1,8 @@
 <?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" href="../Buttons/css/button.css">
-<link rel="stylesheet" href="../form-input/css/form-input.css">
 <link rel="stylesheet" type="text/css" href="css/map.css">
 </head>
 <body>
-<?php $HederClass="bg-dark";?>
+<?php $HederClass="fixed-header";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <main>
   <div class="map-with-form map-vh">

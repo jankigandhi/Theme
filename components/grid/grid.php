@@ -1,10 +1,8 @@
 <?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" href="../typography/css/typography.css">
-<link rel="stylesheet" href="../Buttons/css/button.css">
 <link rel="stylesheet" type="text/css" href="css/grid.css">
 </head>
 <body>
-<?php $HederClass="bg-dark";?>
+<?php $HederClass="fixed-header";?>
 <?php include_once '../nav-bar/nav-bar.php';?>
 <div class="container">
     <div class="text-center my-4">
