@@ -1,0 +1,39 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.about-bg-img {
+    @include img-inbg;
+    padding-bottom: 60%;
+    height: auto;
+}
+.banner {
+    position: relative;
+    .banner-img {
+        padding-bottom: 10%;
+    }
+    .banner-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        line-height: 1.5;
+        .center-content {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0, -50%));
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+}
+.work-section {
+    background-color: $gray-200;
+    .icon {
+        font-size: 2rem;
+        color: theme-color("primary");
+    }
+}
