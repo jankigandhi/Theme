@@ -1,0 +1,47 @@
+.about-section .banner-img {
+  padding-bottom: 40%; }
+  .about-section .banner-img .about-text {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1; }
+.about-section .about-content .about-title:after {
+  content: '';
+  border-bottom: 4px solid #26ade4;
+  display: block;
+  max-width: 5%;
+  margin: 1rem auto; }
+.about-section .about-content .about-desc {
+  font-size: .875rem;
+  color: #6c757d; }
+.about-section .about-content .about-image {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  min-height: 25rem; }
+.about-section .about-content .who-we-are-title:after {
+  content: '';
+  border-bottom: 2px solid #6c757d;
+  display: block;
+  max-width: 20%;
+  margin: 1rem 0; }
+.about-section .about-content .who-we-are-desc {
+  font-size: .875rem;
+  line-height: 1.8;
+  color: #6c757d; }
+.about-section .call-section .call-sub-title {
+  font-size: 1.5rem; }
+
+/*# sourceMappingURL=about.css.map */

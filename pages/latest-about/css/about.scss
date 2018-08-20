@@ -1,0 +1,56 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+.about-section {
+    .banner-img {
+        padding-bottom: 40%;
+        .about-text {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0, -50%));
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+    .about-content {
+    	.about-title{
+    		&:after{
+    			content: '';
+    			border-bottom: 4px solid $blue;
+				display: block;
+				max-width: 5%;
+				margin: 1rem auto;
+    		}
+    	}
+    	.about-desc{
+    		font-size: .875rem;
+    		color: $gray-600;
+    	}
+        .about-image {
+            @include img-inbg;
+            min-height: 25rem;
+        }
+        .who-we-are-title{
+        	&:after{
+        		content: '';
+        		border-bottom: 2px solid $secondary;
+        		display: block;
+        		max-width: 20%;
+        		margin: 1rem 0;
+        	}
+        }
+        .who-we-are-desc{
+        	font-size: .875rem;
+        	line-height: 1.8;
+        	color: $gray-600;
+        }
+    }
+    .call-section{
+        .call-sub-title{
+            font-size: 1.5rem;
+        }
+    }
+}
