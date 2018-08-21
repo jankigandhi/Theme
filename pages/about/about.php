@@ -49,7 +49,7 @@
       <div class="row my-4">
         <div class="col-md-3">
           <div class="hexagon">
-            <span class="icon"><i class="fas fa-hotel"></i></span>
+            <span class="icon"><i class="fas fa-power-off"></i></span>
           </div>
           <div class="text-center">
             <h5>Planning</h5>
@@ -58,7 +58,7 @@
         </div>
         <div class="col-md-3">
           <div class="hexagon">
-            <span class="icon"><i class="fas fa-camera-retro"></i></span>
+            <span class="icon"><i class="fas fa-trophy"></i></span>
           </div>
           <div class="text-center">
             <h5>Prototyping</h5>
@@ -67,7 +67,7 @@
         </div>
         <div class="col-md-3">
           <div class="hexagon">
-            <span class="icon"><i class="fas fa-grin-hearts"></i></span>
+            <span class="icon"><i class="fas fa-laptop"></i></span>
           </div>
           <div class="text-center">
             <h5>Designing</h5>
@@ -76,7 +76,7 @@
         </div>
         <div class="col-md-3">
           <div class="hexagon">
-            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="icon"><i class="fas fa-mobile-alt"></i></span>
           </div>
           <div class="text-center">
             <h5>Product Launch</h5>
@@ -94,56 +94,56 @@
         <ul class="row list-unstyled">
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Web and Graphic Design</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Web and Graphic Design</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Mobile Game Design</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Mobile Game Design</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">CMS Integration</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">CMS Integration</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Software Development</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Software Development</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Website Development</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Website Development</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Mobile App Development</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Mobile App Development</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Mobile Games</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Mobile Games</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Software Development</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Software Development</span>
             </p>
           </li>
           <li class="col-sm-6">
             <p class="d-table light-gray">
-              <span class="d-table-cell"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
-              <span class="d-table-cell">Mobile App Development</span>
+              <span class="d-table-cell align-top"><i class="font-weight-bold pr-3 text-primary far fa-check-circle"></i></span>
+              <span class="d-table-cell align-top">Mobile App Development</span>
             </p>
           </li>
         </ul>
@@ -201,7 +201,7 @@
       <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
       <div class="row my-4">
         <div class="col-md-3">
-          <div class="team-box custom-card card">
+          <div class="team-box card">
             <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
               <h5 class="title text-uppercase mb-0">Your Title Here</h5>

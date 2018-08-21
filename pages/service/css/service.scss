@@ -1,0 +1,64 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.banner {
+    position: relative;
+    .banner-img {
+        padding-bottom: 10%;
+    }
+    .banner-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        line-height: 1.5;
+        .center-content {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0, -50%));
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+}
+
+.features-section {
+    .circle-icon {
+        @include size(5rem);
+        border: 6px solid theme-color("primary");
+        background-color: theme-color("primary");
+        @include transition(.3s all linear);
+        .icon {
+            font-size: 2rem;
+            color: $white;
+        }
+    }
+}
+.features-box {
+	border: 1px solid $gray-100;
+	@include transition(.3s all linear);
+	&:hover {
+		border: 1px solid theme-color("primary");
+		.circle-icon {
+			@include transform(scale(1.1));
+			border-color: rgba($white,.3);
+		}
+	}
+}
+
+.service-section,
+.skill-box,
+.features-box,
+.pricing-table {
+    background-color: $gray-100;
+}
+.accordion-section {
+	.accordion {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+}
