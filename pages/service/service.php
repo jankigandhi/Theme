@@ -171,7 +171,7 @@
   <div class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-sm-6 py-4">
           <div class="skill-box shadow-sm p-3 text-center">
             <div class="circular-progress-bar mb-3" data-percent="50">
               <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
@@ -183,7 +183,7 @@
             <p class="light-gray small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-sm-6 py-4">
           <div class="skill-box shadow-sm p-3 text-center">
             <div class="circular-progress-bar mb-3" data-percent="75">
               <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
@@ -195,7 +195,7 @@
             <p class="light-gray small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-sm-6 py-4">
           <div class="skill-box shadow-sm p-3 text-center">
             <div class="circular-progress-bar mb-3" data-percent="27">
               <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
@@ -207,7 +207,7 @@
             <p class="light-gray small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-sm-6 py-4">
           <div class="skill-box shadow-sm p-3 text-center">
             <div class="circular-progress-bar mb-3" data-percent="63">
               <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
