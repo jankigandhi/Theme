@@ -55,7 +55,7 @@
       <h3 class="mb-4">Circular Progress Bar</h3>
       <div class="row">
         <div class="col-md-3 col-sm-6 py-3 text-center">
-          <div class="circular-progress-bar progress-primary" data-percent="70">
+          <div class="circular-progress-bar" data-percent="70">
             <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
               <circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
               <circle class="progress-value bg-primary" cx="75" cy="75" r="71" stroke-width="8" />
@@ -66,7 +66,7 @@
           </p>
         </div>
         <div class="col-md-3 col-sm-6 py-3 text-center">
-          <div class="circular-progress-bar progress-primary" data-percent="85">
+          <div class="circular-progress-bar" data-percent="85">
             <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
               <circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
               <circle class="progress-value bg-success" cx="75" cy="75" r="71" stroke-width="8" />
@@ -77,7 +77,7 @@
           </p>
         </div>
         <div class="col-md-3 col-sm-6 py-3 text-center">
-          <div class="circular-progress-bar progress-primary" data-percent="60">
+          <div class="circular-progress-bar" data-percent="60">
             <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
               <circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
               <circle class="progress-value bg-danger" cx="75" cy="75" r="71" stroke-width="8" />
@@ -88,7 +88,7 @@
           </p>
         </div>
         <div class="col-md-3 col-sm-6 py-3 text-center">
-          <div class="circular-progress-bar progress-primary" data-percent="45">
+          <div class="circular-progress-bar" data-percent="45">
             <svg class="circle" width="150" height="150" viewBox="0 0 150 150">
               <circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
               <circle class="progress-value bg-info" cx="75" cy="75" r="71" stroke-width="8" />
