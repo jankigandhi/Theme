@@ -62,4 +62,58 @@
   max-width: 700px;
   margin: 0 auto; }
 
+.pricing-table .pricing-section {
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  .pricing-table .pricing-section:hover {
+    background-color: #26ade4; }
+    .pricing-table .pricing-section:hover .product-list,
+    .pricing-table .pricing-section:hover .product-title {
+      color: #fff; }
+    .pricing-table .pricing-section:hover .circle-table {
+      background-color: #fff;
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      border-color: rgba(38, 173, 228, 0.3); }
+      .pricing-table .pricing-section:hover .circle-table .circle-text {
+        color: #26ade4; }
+    .pricing-table .pricing-section:hover .btn-primary {
+      background-color: #fff;
+      color: #26ade4; }
+  .pricing-table .pricing-section .circle-table {
+    width: 6rem;
+    height: 6rem;
+    border: 6px solid #26ade4;
+    background-color: #26ade4;
+    position: relative;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
+    .pricing-table .pricing-section .circle-table .circle-text {
+      position: absolute;
+      top: 50%;
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      left: 50%;
+      line-height: 1.2;
+      color: #fff;
+      -moz-transition: 0.3s all linear;
+      -o-transition: 0.3s all linear;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear; }
+      .pricing-table .pricing-section .circle-table .circle-text .number {
+        font-size: 1.5rem; }
+  .pricing-table .pricing-section .product-list {
+    color: #adb5bd;
+    font-size: .875rem; }
+
 /*# sourceMappingURL=service.css.map */

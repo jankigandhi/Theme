@@ -38,16 +38,17 @@
         }
     }
 }
+
 .features-box {
-	border: 1px solid $gray-100;
-	@include transition(.3s all linear);
-	&:hover {
-		border: 1px solid theme-color("primary");
-		.circle-icon {
-			@include transform(scale(1.1));
-			border-color: rgba($white,.3);
-		}
-	}
+    border: 1px solid $gray-100;
+    @include transition(.3s all linear);
+    &:hover {
+        border: 1px solid theme-color("primary");
+        .circle-icon {
+            @include transform(scale(1.1));
+            border-color: rgba($white, .3);
+        }
+    }
 }
 
 .service-section,
@@ -56,9 +57,62 @@
 .pricing-table {
     background-color: $gray-100;
 }
+
 .accordion-section {
-	.accordion {
-		max-width: 700px;
-		margin: 0 auto;
-	}
+    .accordion {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+
+
+//new service css
+.pricing-table {
+    .pricing-section {
+        @include transition(.3s all linear);
+        &:hover {
+            background-color: theme-color("primary");
+            .product-list,
+            .product-title {
+                color: $white;
+            }
+            .circle-table {
+                background-color: $white;
+                @include transform(scale(1.1));
+                border-color: rgba($primary, .3);
+                .circle-text {
+                    color: theme-color("primary");
+                }
+            }
+            .btn-primary {
+                background-color: $white;
+                color: $primary;
+            }
+        }
+        .circle-table {
+            @include size(6rem);
+            border: 6px solid theme-color("primary");
+            background-color: theme-color("primary");
+            position: relative;
+            @include transition(.3s all linear);
+            .circle-text {
+                position: absolute;
+                top: 50%;
+                @include transform(translate(-50%, -50%));
+                left: 50%;
+                line-height: 1.2;
+                color: $white;
+                @include transition(.3s all linear);
+                .number {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .product-list {
+            color: $gray-500;
+            font-size: .875rem;
+        }
+    }
 }
