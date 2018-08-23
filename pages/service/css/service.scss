@@ -63,10 +63,6 @@
         margin: 0 auto;
     }
 }
-
-
-
-//new service css
 .pricing-table {
     .pricing-box {
         @include transition(.3s all linear);
@@ -108,5 +104,10 @@
             color: $gray-500;
             font-size: .875rem;
         }
+    }
+}
+.parallax-banner {
+    .banner-img {
+        background-attachment: fixed;
     }
 }

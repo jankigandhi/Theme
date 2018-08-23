@@ -10,7 +10,7 @@
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
   <div class="banner">
-    <div class="banner-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
+    <div class="banner-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
     <div class="banner-content">
       <div class="center-content">
         <div class="container">
@@ -376,6 +376,20 @@
           </div>
         </li>
       </ul>
+    </div>
+  </div>
+  <div>
+    <div class="parallax-banner banner">
+      <div class="banner-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');">
+        <div class="banner-content">
+          <div class="center-content">
+            <div class="container d-flex justify-content-md-between align-items-center flex-md-row flex-column">
+              <h4 class="text-white text-uppercase my-2">Capital is Hand Crafted-pixel perfect psd template</h4>
+              <a href="#" class="btn btn-outline-white btn-thick btn-min-w my-2">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </main>

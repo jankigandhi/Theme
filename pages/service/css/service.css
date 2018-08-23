@@ -108,4 +108,7 @@
     color: #adb5bd;
     font-size: .875rem; }
 
+.parallax-banner .banner-img {
+  background-attachment: fixed; }
+
 /*# sourceMappingURL=service.css.map */
