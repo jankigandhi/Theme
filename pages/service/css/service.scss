@@ -68,38 +68,15 @@
 
 //new service css
 .pricing-table {
-    .pricing-section {
+    .pricing-box {
         @include transition(.3s all linear);
-        &:hover {
-            background-color: theme-color("primary");
-            .product-list,
-            .product-title {
-                color: $white;
-            }
-            .circle-table {
-                background-color: $white;
-                @include transform(scale(1.1));
-                border-color: rgba($primary, .3);
-                .circle-text {
-                    color: theme-color("primary");
-                }
-            }
-            .btn-primary {
-                background-color: $white;
-                color: $primary;
-            }
-        }
-        .circle-table {
+        .circle-icon {
             @include size(6rem);
             border: 6px solid theme-color("primary");
             background-color: theme-color("primary");
             position: relative;
             @include transition(.3s all linear);
             .circle-text {
-                position: absolute;
-                top: 50%;
-                @include transform(translate(-50%, -50%));
-                left: 50%;
                 line-height: 1.2;
                 color: $white;
                 @include transition(.3s all linear);
@@ -108,8 +85,26 @@
                 }
             }
         }
-
-        .product-list {
+        &:hover {
+            background-color: theme-color("primary");
+            .price-list,
+            .price-title {
+                color: $white;
+            }
+            .circle-icon {
+                background-color: $white;
+                @include transform(scale(1.1));
+                border-color: rgba($primary, .3);
+                .circle-text {
+                    color: theme-color("primary");
+                }
+            }
+            .btn-hover {
+                background-color: $white;
+                color: theme-color("primary");
+            }
+        }
+        .price-list {
             color: $gray-500;
             font-size: .875rem;
         }

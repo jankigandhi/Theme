@@ -227,10 +227,113 @@
       <h3 class="text-uppercase">Pricing Table</h3>
       <p class="light-gray">Absolutely Stunning Design and Functionality</p>
       <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-sm-6 py-4">
           <div class="card">
-            <div class="card-body">
+            <div class="card-body pricing-box">
+              <h4 class="price-title">Standard</h4>
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto my-4">
+                <div class="circle-text">
+                  <p class="mb-0 small">$
+                    <span class="number align-top">29</span>
+                  </p>
+                  <p class="small mb-0">/month</p>
+                </div>
+              </div>
+              <ul class="list-unstyled">
+                <li class="price-list my-2">15 Projects</li>
+                <li class="price-list my-2">2 Email Marketing</li>
+                <li class="price-list my-2">5 Data Base</li>
+                <li class="price-list my-2">30 GB Stroge</li>
+                <li class="price-list my-2">Unlimited Data Transfer</li>
+                <li class="price-list my-2">50 GB Bandwith</li>
+                <li class="price-list my-2">Enhanced Security</li>
+              </ul>
+              <div class="my-4">
+                <button class="btn-hover rounded-0 btn btn-outline-primary font-weight-medium">Get Started Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 py-4">
+          <div class="card">
+            <div class="card-body pricing-box">
+              <h4 class="price-title">Business</h4>
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto my-4">
+                <div class="circle-text">
+                  <p class="mb-0 small">$
+                    <span class="number align-top">39</span>
+                  </p>
+                  <p class="small mb-0">/month</p>
+                </div>
+              </div>
+              <ul class="list-unstyled">
+                <li class="price-list my-2">15 Projects</li>
+                <li class="price-list my-2">2 Email Marketing</li>
+                <li class="price-list my-2">5 Data Base</li>
+                <li class="price-list my-2">30 GB Stroge</li>
+                <li class="price-list my-2">Unlimited Data Transfer</li>
+                <li class="price-list my-2">50 GB Bandwith</li>
+                <li class="price-list my-2">Enhanced Security</li>
+              </ul>
+              <div class="my-4">
+                <button class="btn-hover rounded-0 btn btn-outline-primary font-weight-medium">Get Started Now</button>
+              </div>
               
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 py-4">
+          <div class="card">
+            <div class="card-body pricing-box">
+              <h4 class="price-title">Premium</h4>
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto my-4">
+                <div class="circle-text">
+                  <p class="mb-0 small">$
+                    <span class="number align-top">49</span>
+                  </p>
+                  <p class="small mb-0">/month</p>
+                </div>
+              </div>
+              <ul class="list-unstyled">
+                <li class="price-list my-2">15 Projects</li>
+                <li class="price-list my-2">2 Email Marketing</li>
+                <li class="price-list my-2">5 Data Base</li>
+                <li class="price-list my-2">30 GB Stroge</li>
+                <li class="price-list my-2">Unlimited Data Transfer</li>
+                <li class="price-list my-2">50 GB Bandwith</li>
+                <li class="price-list my-2">Enhanced Security</li>
+              </ul>
+              <div class="my-4">
+                <button class="btn-hover rounded-0 btn btn-outline-primary font-weight-medium">Get Started Now</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 py-4">
+          <div class="card">
+            <div class="card-body pricing-box">
+              <h4 class="price-title">Ultimate</h4>
+              <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center mx-auto my-4">
+                <div class="circle-text">
+                  <p class="mb-0 small">$
+                    <span class="number align-top">59</span>
+                  </p>
+                  <p class="small mb-0">/month</p>
+                </div>
+              </div>
+              <ul class="list-unstyled">
+                <li class="price-list my-2">15 Projects</li>
+                <li class="price-list my-2">2 Email Marketing</li>
+                <li class="price-list my-2">5 Data Base</li>
+                <li class="price-list my-2">30 GB Stroge</li>
+                <li class="price-list my-2">Unlimited Data Transfer</li>
+                <li class="price-list my-2">50 GB Bandwith</li>
+                <li class="price-list my-2">Enhanced Security</li>
+              </ul>
+              <div class="my-4">
+                <button class="btn-hover rounded-0 btn btn-outline-primary font-weight-medium">Get Started Now</button>
+              </div>
             </div>
           </div>
         </div>
