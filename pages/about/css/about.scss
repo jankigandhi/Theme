@@ -118,26 +118,26 @@
             visibility: hidden;
             @include transition(.3s all linear);
         }
-        &:hover {
-            &:before {
-                opacity: 1;
-                visibility: visible;
-            }
-            .team-content {
-                bottom: auto;
-                top: 50%;
-                @include transform(translateY(-50%));
-                background-color: transparent;
-                z-index: 2;
-                .title,
-                .post {
-                    color: $white;
-                }
-            }
-            .social-icon {
-                background-color: $white;
-                color: rgba(theme-color("primary"), .8);
-            }
-        }
+        // &:hover {
+        //     &:before {
+        //         opacity: 1;
+        //         visibility: visible;
+        //     }
+        //     .team-content {
+        //         bottom: auto;
+        //         top: 50%;
+        //         @include transform(translateY(-50%));
+        //         background-color: transparent;
+        //         z-index: 2;
+        //         .title,
+        //         .post {
+        //             color: $white;
+        //         }
+        //     }
+        //     .social-icon {
+        //         background-color: $white;
+        //         color: rgba(theme-color("primary"), .8);
+        //     }
+        // }
     }
 }
