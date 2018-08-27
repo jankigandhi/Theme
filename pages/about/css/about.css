@@ -124,24 +124,5 @@
     -o-transition: 0.3s all linear;
     -webkit-transition: 0.3s all linear;
     transition: 0.3s all linear; }
-  .team-section .team-box:hover:before {
-    opacity: 1;
-    visibility: visible; }
-  .team-section .team-box:hover .team-content {
-    bottom: auto;
-    top: 50%;
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background-color: transparent;
-    z-index: 2; }
-    .team-section .team-box:hover .team-content .title,
-    .team-section .team-box:hover .team-content .post {
-      color: #fff; }
-  .team-section .team-box:hover .social-icon {
-    background-color: #fff;
-    color: rgba(38, 173, 228, 0.8); }
 
 /*# sourceMappingURL=about.css.map */
