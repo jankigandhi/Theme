@@ -1,0 +1,114 @@
+.banner {
+  position: relative; }
+  .banner .banner-img {
+    padding-bottom: 10%; }
+  .banner .banner-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    line-height: 1.5; }
+    .banner .banner-content .center-content {
+      position: absolute;
+      top: 50%;
+      -moz-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 1; }
+
+.features-section .circle-icon {
+  width: 5rem;
+  height: 5rem;
+  border: 6px solid #26ade4;
+  background-color: #26ade4;
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  .features-section .circle-icon .icon {
+    font-size: 2rem;
+    color: #fff; }
+
+.features-box {
+  border: 1px solid #f8f9fa;
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  .features-box:hover {
+    border: 1px solid #26ade4; }
+    .features-box:hover .circle-icon {
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      border-color: rgba(255, 255, 255, 0.3); }
+
+.service-section,
+.skill-box,
+.features-box,
+.pricing-table {
+  background-color: #f8f9fa; }
+
+.accordion-section .accordion {
+  max-width: 700px;
+  margin: 0 auto; }
+
+.pricing-table .pricing-box {
+  -moz-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  .pricing-table .pricing-box .circle-icon {
+    width: 6rem;
+    height: 6rem;
+    border: 6px solid #26ade4;
+    background-color: #26ade4;
+    position: relative;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
+    .pricing-table .pricing-box .circle-icon .circle-text {
+      line-height: 1.2;
+      color: #fff;
+      -moz-transition: 0.3s all linear;
+      -o-transition: 0.3s all linear;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear; }
+      .pricing-table .pricing-box .circle-icon .circle-text .number {
+        font-size: 1.5rem; }
+  .pricing-table .pricing-box:hover {
+    background-color: #26ade4; }
+    .pricing-table .pricing-box:hover .price-list,
+    .pricing-table .pricing-box:hover .price-title {
+      color: #fff; }
+    .pricing-table .pricing-box:hover .circle-icon {
+      background-color: #fff;
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      border-color: rgba(38, 173, 228, 0.3); }
+      .pricing-table .pricing-box:hover .circle-icon .circle-text {
+        color: #26ade4; }
+    .pricing-table .pricing-box:hover .btn-hover {
+      background-color: #fff;
+      color: #26ade4; }
+  .pricing-table .pricing-box .price-list {
+    color: #adb5bd;
+    font-size: .875rem; }
+
+.parallax-banner .banner-img {
+  background-attachment: fixed; }
+
+/*# sourceMappingURL=service.css.map */

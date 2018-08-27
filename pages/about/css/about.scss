@@ -1,0 +1,143 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.about-bg-img {
+    @include img-inbg;
+    padding-bottom: 60%;
+    height: auto;
+}
+
+.banner {
+    position: relative;
+    .banner-img {
+        padding-bottom: 10%;
+    }
+    .banner-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        line-height: 1.5;
+        .center-content {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0, -50%));
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+}
+
+.work-section {
+	.icon {
+        font-size: 2rem;
+        color: $white;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 50%;
+        margin-top: -1.5rem;
+    }
+}
+
+.hexagon {
+    position: relative;
+    margin: 1em auto;
+    width: 3.75em;
+    height: 6.25em;
+    border-radius: .5em/.25em;
+    background-color: theme-color("primary");
+    &:before,
+    &:after {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+        background: inherit;
+        content: '';
+    }
+    &:before {
+        @include transform(rotate(60deg));
+    }
+    &:after {
+        @include transform(rotate(-60deg));
+    }
+}
+
+.work-section,
+.team-section {
+    background-color: $gray-100;
+}
+
+.team-section {
+    .social-icon {
+        @include size(2rem);
+        background-color: $gray-600;
+        color: $white;
+        border-radius: 50%;
+        font-size: 1rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: .2rem;
+        @include transition(.3s all linear);
+        @include hover-focus-active {
+            background-color: transparent;
+            color: $gray-600;
+        }
+    }
+    .bg-img {
+        padding-bottom: 135%;
+    }
+    .team-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $gray-100;
+        @include transition(.3s all linear);
+    }
+    .team-box {
+        cursor: pointer;
+        &:before {
+            content: '';
+            background-color: rgba(theme-color("primary"), .8);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            z-index: 1;
+            opacity: 0;
+            visibility: hidden;
+            @include transition(.3s all linear);
+        }
+        &:hover {
+            &:before {
+                opacity: 1;
+                visibility: visible;
+            }
+            .team-content {
+                bottom: auto;
+                top: 50%;
+                @include transform(translateY(-50%));
+                background-color: transparent;
+                z-index: 2;
+                .title,
+                .post {
+                    color: $white;
+                }
+            }
+            .social-icon {
+                background-color: $white;
+                color: rgba(theme-color("primary"), .8);
+            }
+        }
+    }
+}

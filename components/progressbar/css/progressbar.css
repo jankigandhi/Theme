@@ -1,11 +1,11 @@
 .bg-primary {
-  stroke: #0088cc; }
+  stroke: #26ade4; }
 
 .bg-secondary {
   stroke: #6c757d; }
 
 .bg-success {
-  stroke: #4caf50; }
+  stroke: #47b475; }
 
 .bg-info {
   stroke: #17a2b8; }
@@ -20,7 +20,10 @@
   stroke: #f8f9fa; }
 
 .bg-dark {
-  stroke: #343a40; }
+  stroke: #212529; }
+
+.bg-bluish-gray {
+  stroke: #2c3e50; }
 
 .progress-rounded {
   border-radius: 1.25rem; }
