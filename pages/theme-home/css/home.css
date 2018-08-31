@@ -18,18 +18,21 @@
     font-size: .875rem; }
   .theme-home-page .banner-content .home-banner-text .banner-desc {
     max-width: 26.25rem; }
+.theme-home-page .features-section .features-title {
+  font-size: 2rem; }
 .theme-home-page .features-section .social-icon {
   font-size: 1.8rem; }
 .theme-home-page .features-section .features-desc {
   color: #6c757d;
   font-size: .875rem; }
-.theme-home-page .pages-testimonal {
-  background-color: #adb5bd; }
-  .theme-home-page .pages-testimonal .monials-desc {
-    font-size: .875rem;
-    max-width: 430px;
-    line-height: 1.7; }
-  .theme-home-page .pages-testimonal .pages-images {
+.theme-home-page .slider-section {
+  background-color: #e3e3e3; }
+  .theme-home-page .slider-section .slider-title {
+    font-size: 1.5rem; }
+  .theme-home-page .slider-section .slider-desc {
+    max-width: 30.625rem;
+    color: #6c757d; }
+  .theme-home-page .slider-section .img-bg {
     height: 500px; }
 
 /*# sourceMappingURL=home.css.map */

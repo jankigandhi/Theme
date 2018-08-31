@@ -36,7 +36,7 @@
         <div class="features-section">
             <div class="container">
                 <div class="my-5">
-                    <h4 class="text-center text-uppercase">features</h4>
+                    <h4 class="features-title text-center text-uppercase">features</h4>
                 </div>
                 <div class="row mx-0">
                     <div class="col-lg-4 col-md-6 py-3">
@@ -120,12 +120,57 @@
                 </div>
             </div>
         </div>
-        <div class="cta-button-section bg-primary py-5">
+        <div class="button-section bg-primary py-5">
             <div class="container">
                 <div class="text-center">
                     <h4 class="text-white mb-0 my-4">Building a website has never been so fun.</h4>
                     <div class="my-4">
                         <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">C T A</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-section">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h5 class="slider-title mb-0">Elegant and Impressive Portfolio Pages</h5>
+                    <p class="slider-desc mx-auto mb-0 my-4 font-weight-medium">Not just the homepage, we have designed many different beautiful portfolio single pages to achieve your different needs.</p>        
+                </div>
+            </div>
+            <div class="pages-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <img class="img-bg mw-100" src="images/home.png" alt=" Home-Page">
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <img class="img-bg mw-100" src="images/home-1.png" alt="Home-1-page">
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <img class="img-bg mw-100" src="images/about.png" alt="About-page">
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <img class="img-bg mw-100" src="images/contact-1.png" alt="contact-1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <img class="img-bg mw-100" src="images/services.png" alt="Services-page">
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <img class="img-bg mw-100" src="images/contact.png" alt="Contact-page">
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -139,6 +184,15 @@
 var swiper = new Swiper('.banner-section .swiper-container', {
 slidesPerView: 1,
 effect: 'fade',
+speed: 1000,
+loop: true,
+autoplay: {
+delay: 3000,
+},
+});
+var swiper = new Swiper('.pages-slider .swiper-container', {
+slidesPerView: 4,
+spaceBetween: 20,
 speed: 1000,
 loop: true,
 autoplay: {
