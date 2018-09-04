@@ -1,6 +1,8 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" href="../../css/libs/swiper.min.css">
 <link rel="stylesheet" href="../../components/banner-slider/css/banner-slider.css">
+<link rel="stylesheet" href="../../components/testimonial/css/testimonial.css">
+<link rel="stylesheet" href="../../components/img-gallery/css/gallery.css">
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
@@ -124,8 +126,10 @@
             <div class="container">
                 <div class="text-center">
                     <h4 class="text-white mb-0 my-4">Building a website has never been so fun.</h4>
+                    <p class="text-white">Using Pofo demo data importer tool you can either import all demo data with single click or you can choose your desired pages / posts / portfolios to import and also import theme options, menus, widgets, revolution sliders, contact forms and MailChimp form separately as per your need.
+                    </p>
                     <div class="my-4">
-                        <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">C T A</button>
+                        <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">Get Started</button>
                     </div>
                 </div>
             </div>
@@ -134,11 +138,11 @@
             <div class="container">
                 <div class="text-center py-5">
                     <h5 class="slider-title mb-0">Elegant and Impressive Portfolio Pages</h5>
-                    <p class="slider-desc mx-auto mb-0 my-4 font-weight-medium">Not just the homepage, we have designed many different beautiful portfolio single pages to achieve your different needs.</p>        
+                    <p class="slider-desc mx-auto mb-0 my-4 font-weight-medium">Not just the homepage, we have designed many different beautiful portfolio single pages to achieve your different needs.</p>
                 </div>
             </div>
             <div class="pages-slider">
-                <div class="swiper-container">
+                <div class="swiper-container py-5">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide text-center">
                             <div href="#">
@@ -175,30 +179,113 @@
                 </div>
             </div>
         </div>
+        <div class="Parallax-section">
+            <div class="testimonial">
+                <div class="banner py-5" style="background-image: url('images/banner-img.jpg');">
+                    <div class="container">
+                        <div class="testimonial py-5 d-inline-block w-100">
+                            <div class="h5 text-center">
+                                <h2 class="Parallax-title text-white">Video & Parallax Backgrounds</h2>
+                                <p class="Parallax-desc text-white mx-auto mb-0 py-4">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam. Nullam non gravida purus, nec  eleifend tincidunt nisi.Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam. Nullam non gravida purus, nec  eleifend tincidunt nisi.</p>
+                                <div class="py-4">
+                                    <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">Call To Action</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="element-section">
+            <div class="grid my-4 mx-0">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="element-item web-design">
+                                <img class="element-page" src="images/call to action-element.png">
+                                <img class="element-page" src="images/call to actions-element-1.png">
+                                <img class="element-page" src="images/button-element.png">
+                                <img class="element-page" src="images/button-element-1.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="element-item web-design">
+                                <img class="element-page" src="images/accordions-element.png">
+                                <img class="element-page" src="images/alerts-element.png">
+                                <img class="element-page" src="images/alerts-element-1.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 <?php include_once '../../components/footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
+<script src="../../js/isotope.pkgd.js"></script>
+<script src="../../js/imagesloaded.pkgd.js"></script>
+
+<!-- <script type="text/javascript">
+var grid = document.querySelector('.grid');
+var iso = new Isotope( grid, {
+itemSelector: '.element-item',
+percentPosition: true,
+});
+imagesLoaded( grid ).on( 'progress', function() {
+// layout Isotope after each image loads
+iso.layout();
+});
+</script> -->
+
 <script>
-var swiper = new Swiper('.banner-section .swiper-container', {
-slidesPerView: 1,
-effect: 'fade',
-speed: 1000,
-loop: true,
-autoplay: {
-delay: 3000,
-},
-});
-var swiper = new Swiper('.pages-slider .swiper-container', {
-slidesPerView: 4,
-spaceBetween: 20,
-speed: 1000,
-loop: true,
-autoplay: {
-delay: 3000,
-},
-});
+    var swiper = new Swiper('.banner-section .swiper-container', {
+    slidesPerView: 1,
+    effect: 'fade',
+    speed: 1000,
+    loop: true,
+    autoplay: {
+    delay: 3000,
+    },
+    });
+    var swiper = new Swiper('.pages-slider .swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+    delay: 3000,
+    },
+    breakpoints: {
+    1030: {
+    slidesPerView: 3,
+    },
+    950: {
+    slidesPerView: 2,
+    },
+    576: {
+    slidesPerView: 1,
+    },
+    }
+    });
+    var swiper = new Swiper('.element-section .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+    delay: 3000,
+    },
+    breakpoints: {
+    950: {
+    slidesPerView: 2,
+    },
+    576: {
+    slidesPerView: 1,
+    },
+    }
+    });
 </script>
 </body>
 </html>
