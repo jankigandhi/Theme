@@ -27,21 +27,27 @@
   color: #6c757d;
   font-size: .875rem; }
 .theme-home-page .slider-section {
-  background-color: #eaeaea; }
+  background-color: #f7f7f7; }
   .theme-home-page .slider-section .slider-title {
     font-size: 1.5rem; }
   .theme-home-page .slider-section .slider-desc {
     max-width: 30.625rem;
     color: #6c757d; }
   .theme-home-page .slider-section .img-bg {
-    height: 500px;
-    width: 320px; }
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 100%;
+    background-size: contain; }
 .theme-home-page .Parallax-section .testimonial {
   position: relative;
   line-height: 0; }
 .theme-home-page .Parallax-section .Parallax-desc {
   max-width: 810px; }
-.theme-home-page .element-section .element-item .element-page {
-  height: 200px; }
 
 /*# sourceMappingURL=home.css.map */

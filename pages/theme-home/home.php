@@ -146,35 +146,35 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide text-center">
                             <div href="#">
-                                <img class="img-bg mw-100" src="images/home.png" alt=" Home-Page">
+                                <!-- <img class="img-bg mw-100" src="images/home.png" alt=" Home-Page"> -->
+                                <div class="img-bg" style="background-image: url('images/home.png');"></div>
                             </div>
                         </div>
                         <div class="swiper-slide text-center">
                             <div href="#">
-                                <img class="img-bg mw-100" src="images/home-1.png" alt="Home-1-page">
+                                <div class="img-bg" style="background-image: url('images/home-1.png');"></div>
                             </div>
                         </div>
                         <div class="swiper-slide text-center">
                             <div href="#">
-                                <img class="img-bg mw-100" src="images/about.png" alt="About-page">
+                                <div class="img-bg" style="background-image: url('images/about.png');"></div>
                             </div>
                         </div>
                         <div class="swiper-slide text-center">
                             <div href="#">
-                                <img class="img-bg mw-100" src="images/contact-1.png" alt="contact-1">
+                                <div class="img-bg" style="background-image: url('images/contact-1.png');"></div>
                             </div>
                         </div>
                         <div class="swiper-slide text-center">
                             <div href="#">
-                                <img class="img-bg mw-100" src="images/services.png" alt="Services-page">
+                                <div class="img-bg" style="background-image: url('images/services.png');"></div>
                             </div>
                         </div>
                         <div class="swiper-slide text-center">
                             <div href="#">
-                                <img class="img-bg mw-100" src="images/contact.png" alt="Contact-page">
+                                <div class="img-bg" style="background-image: url('images/contact.png');"></div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -190,29 +190,6 @@
                                 <div class="py-4">
                                     <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">Call To Action</button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="element-section">
-            <div class="grid my-4 mx-0">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="element-item web-design">
-                                <img class="element-page" src="images/call to action-element.png">
-                                <img class="element-page" src="images/call to actions-element-1.png">
-                                <img class="element-page" src="images/button-element.png">
-                                <img class="element-page" src="images/button-element-1.png">
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div class="element-item web-design">
-                                <img class="element-page" src="images/accordions-element.png">
-                                <img class="element-page" src="images/alerts-element.png">
-                                <img class="element-page" src="images/alerts-element-1.png">
                             </div>
                         </div>
                     </div>

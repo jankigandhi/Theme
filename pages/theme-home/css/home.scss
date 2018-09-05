@@ -42,7 +42,7 @@ $light-gray: #f7f7f7;
         }
     }
     .slider-section {
-        background-color: darken($light-gray, 5%);
+        background-color: $light-gray;
         .slider-title {
             font-size: 1.5rem;
         }
@@ -51,8 +51,9 @@ $light-gray: #f7f7f7;
             color: $gray-600;
         }
         .img-bg {
-            height: 500px;
-            width: 320px;
+            @include img-inbg;
+            padding-bottom: 100%;
+            background-size: contain;
         }
     }
     .Parallax-section {
@@ -62,13 +63,6 @@ $light-gray: #f7f7f7;
         }
         .Parallax-desc {
             max-width: 810px;
-        }
-    }
-    .element-section {
-        .element-item {
-            .element-page {
-                height: 200px;
-            }
         }
     }
 }
