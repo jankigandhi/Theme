@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="../../components/banner-slider/css/banner-slider.css">
 <link rel="stylesheet" href="../../components/testimonial/css/testimonial.css">
 <link rel="stylesheet" href="../../components/img-gallery/css/gallery.css">
+<link rel="stylesheet" href="../../css/libs/glightbox.min.css">
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
@@ -35,146 +36,90 @@
                 </div>
             </div>
         </div>
-        <div class="features-section">
+        <div class="service-section py-5">
             <div class="container">
-                <div class="my-5">
-                    <h4 class="features-title text-center text-uppercase">features</h4>
+                <div class="py-4">
+                    <h3 class="text-uppercase text-center">We Provide Capital Services</h3>
+                    <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
                 </div>
-                <div class="row mx-0">
-                    <div class="col-lg-4 col-md-6 py-3">
-                        <div class="row mx-0">
-                            <div class="col-2">
-                                <span class="social-icon">
-                                    <i class="fas fa-archway text-primary"></i>
-                                </span>
+                <ul class="row list-unstyled">
+                    <li class="col-md-6 py-2">
+                        <div class="d-table">
+                            <div class="d-table-cell pr-3 align-top">
+                                <span class="ti-pencil-alt light-gray"></span>
                             </div>
-                            <div class="col-10">
-                                <h5>Drag & Drop Page Builder</h5>
-                                <p class="features-desc">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam.</p>
+                            <div class="d-table-cell align-top">
+                                <h6>Get to know where we live</h6>
+                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 py-3">
-                        <div class="row mx-0">
-                            <div class="col-2">
-                                <span class="social-icon">
-                                    <i class="fas fa-book text-primary"></i>
-                                </span>
+                    </li>
+                    <li class="col-md-6 py-2">
+                        <div class="d-table">
+                            <div class="d-table-cell pr-3 align-top">
+                                <span class="ti-pencil-alt light-gray"></span>
                             </div>
-                            <div class="col-10">
-                                <h5>Layout Options</h5>
-                                <p  class="features-desc">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam.</p>
+                            <div class="d-table-cell align-top">
+                                <h6>Get to know where we live</h6>
+                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 py-3">
-                        <div class="row mx-0">
-                            <div class="col-2">
-                                <span class="social-icon">
-                                    <i class="fas fa-coins text-primary"></i>
-                                </span>
+                    </li>
+                    <li class="col-md-6 py-2">
+                        <div class="d-table">
+                            <div class="d-table-cell pr-3 align-top">
+                                <span class="ti-pencil-alt light-gray"></span>
                             </div>
-                            <div class="col-10">
-                                <h5>Affordable Pricing</h5>
-                                <p  class="features-desc">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam.</p>
+                            <div class="d-table-cell align-top">
+                                <h6>Get to know where we live</h6>
+                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 py-3">
-                        <div class="row mx-0">
-                            <div class="col-2">
-                                <span class="social-icon">
-                                    <i class="fas fa-thumbs-up text-primary"></i>
-                                </span>
+                    </li>
+                    <li class="col-md-6 py-2">
+                        <div class="d-table">
+                            <div class="d-table-cell pr-3 align-top">
+                                <span class="ti-pencil-alt light-gray"></span>
                             </div>
-                            <div class="col-10">
-                                <h5>Satisfaction Guaranteed</h5>
-                                <p  class="features-desc">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam.</p>
+                            <div class="d-table-cell align-top">
+                                <h6>Get to know where we live</h6>
+                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 py-3">
-                        <div class="row mx-0">
-                            <div class="col-2">
-                                <span class="social-icon">
-                                    <i class="fas fa-lock text-primary"></i>
-                                </span>
+                    </li>
+                    <li class="col-md-6 py-2">
+                        <div class="d-table">
+                            <div class="d-table-cell pr-3 align-top">
+                                <span class="ti-pencil-alt light-gray"></span>
                             </div>
-                            <div class="col-10">
-                                <h5>Secure & Modern Code</h5>
-                                <p  class="features-desc">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam.</p>
+                            <div class="d-table-cell align-top">
+                                <h6>Get to know where we live</h6>
+                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 py-3">
-                        <div class="row mx-0">
-                            <div class="col-2">
-                                <span class="social-icon">
-                                    <i class="fas fa-drum-steelpan text-primary"></i>
-                                </span>
+                    </li>
+                    <li class="col-md-6 py-2">
+                        <div class="d-table">
+                            <div class="d-table-cell pr-3 align-top">
+                                <span class="ti-pencil-alt light-gray"></span>
                             </div>
-                            <div class="col-10">
-                                <h5>Unparalleled Support</h5>
-                                <p  class="features-desc">Vestibulum lobortis. Donec at euismod nibh, eu bibendum quam.</p>
+                            <div class="d-table-cell align-top">
+                                <h6>Get to know where we live</h6>
+                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="button-section bg-primary py-5">
+        <div class="demo-section bg-primary py-5">
             <div class="container">
                 <div class="text-center">
                     <h4 class="text-white mb-0 my-4">Building a website has never been so fun.</h4>
-                    <p class="text-white">Using Pofo demo data importer tool you can either import all demo data with single click or you can choose your desired pages / posts / portfolios to import and also import theme options, menus, widgets, revolution sliders, contact forms and MailChimp form separately as per your need.
+                    <p class="demo-desc text-white mx-auto">Using Pofo demo data importer tool you can either import all demo data with single click or you can choose your desired pages / posts / portfolios to import and also import theme options, menus, widgets, revolution sliders, contact forms and MailChimp form separately as per your need.
                     </p>
                     <div class="my-4">
                         <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">Get Started</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slider-section">
-            <div class="container">
-                <div class="text-center py-5">
-                    <h5 class="slider-title mb-0">Elegant and Impressive Portfolio Pages</h5>
-                    <p class="slider-desc mx-auto mb-0 my-4 font-weight-medium">Not just the homepage, we have designed many different beautiful portfolio single pages to achieve your different needs.</p>
-                </div>
-            </div>
-            <div class="pages-slider">
-                <div class="swiper-container py-5">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <!-- <img class="img-bg mw-100" src="images/home.png" alt=" Home-Page"> -->
-                                <div class="img-bg" style="background-image: url('images/home.png');"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <div class="img-bg" style="background-image: url('images/home-1.png');"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <div class="img-bg" style="background-image: url('images/about.png');"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <div class="img-bg" style="background-image: url('images/contact-1.png');"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <div class="img-bg" style="background-image: url('images/services.png');"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <div class="img-bg" style="background-image: url('images/contact.png');"></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -196,15 +141,65 @@
                 </div>
             </div>
         </div>
-        <div class="slider-section">
-            <div class="pages-slider">
-                <div class="swiper-container py-5">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide text-center">
-                            <div href="#">
-                                <div class="img-bg" style="background-image: url('images/button-elements.png');"></div>
-                            </div>
-                        </div>
+        <div class="gallery-section">
+            <div>
+                <h2 class="text-center font-weight-bold py-4">Gallery-Filter</h2>
+                <div class="button-group filters-button-group px-3">
+                    <button class="button btn btn-link px-0 is-checked" data-filter="*">
+                    View All
+                    <span class="px-2">/</span>
+                    </button>
+                    <button class="button btn btn-link px-0" data-filter=".web-design">
+                    Web Design
+                    <span class="px-2">/</span>
+                    </button>
+                    <button class="button btn btn-link px-0" data-filter=".graphic-design">     Graphic Design
+                    <span class="px-2">/</span>
+                    </button>
+                    <button class="button btn btn-link px-0" data-filter=".website-templates">
+                    Website Templates
+                    </button>
+                </div>
+                <div class="grid row mx-0">
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
+                        <a href="../../images/gallery-1.png" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-1.png');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
+                        <a href="../../images/gallery-2.png" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-2.png');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
+                        <a href="images/gallery-img.jpg" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('images/gallery-img.jpg');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item graphic-design">
+                        <a href="../../images/gallery-1.png" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-1.png');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
+                        <a href="../../images/gallery-2.png" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-2.png');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
+                        <a href="images/gallery-img.jpg" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('images/gallery-img.jpg');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
+                        <a href="../../images/gallery-1.png" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-1.png');"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item graphic-design">
+                        <a href="../../images/gallery-2.png" class="img-block d-block glightbox">
+                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-2.png');"></div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -214,53 +209,70 @@
 <?php include_once '../../components/footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
+<script src="../../js/glightbox.min.js"></script>
 <script>
-    var swiper = new Swiper('.banner-section .swiper-container', {
-    slidesPerView: 1,
-    effect: 'fade',
-    speed: 1000,
-    loop: true,
-    autoplay: {
-    delay: 3000,
-    },
-    });
-    var swiper = new Swiper('.pages-slider .swiper-container', {
-    slidesPerView: 4,
-    spaceBetween: 10,
-    speed: 1000,
-    loop: true,
-    autoplay: {
-    delay: 3000,
-    },
-    breakpoints: {
-    1030: {
-    slidesPerView: 3,
-    },
-    950: {
-    slidesPerView: 2,
-    },
-    576: {
-    slidesPerView: 1,
-    },
-    }
-    });
-    var swiper = new Swiper('.element-section .swiper-container', {
-    slidesPerView: 3,
-    spaceBetween: 10,
-    speed: 1000,
-    loop: true,
-    autoplay: {
-    delay: 3000,
-    },
-    breakpoints: {
-    950: {
-    slidesPerView: 2,
-    },
-    576: {
-    slidesPerView: 1,
-    },
-    }
-    });
+  var lightbox = GLightbox();
+</script>
+<!-- isotop -->
+<script src="../../js/isotope.pkgd.js"></script>
+<script>
+  // init Isotope
+  var iso = new Isotope( '.grid', {
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows'
+  });
+  // filter functions
+  var filterFns = {
+  // show if number is greater than 50
+  numberGreaterThan50: function( itemElem ) {
+  var number = itemElem.querySelector('.number').textContent;
+  return parseInt( number, 10 ) > 50;
+  },
+  // show if name ends with -ium
+  ium: function( itemElem ) {
+  var name = itemElem.querySelector('.name').textContent;
+  return name.match( /ium$/ );
+  }
+  };
+  // bind filter button click
+  var filtersElem = document.querySelector('.filters-button-group');
+  filtersElem.addEventListener( 'click', function( event ) {
+  // only work with buttons
+  if ( !matchesSelector( event.target, 'button' ) ) {
+  return;
+  }
+  var filterValue = event.target.getAttribute('data-filter');
+  // use matching filter function
+  filterValue = filterFns[ filterValue ] || filterValue;
+  iso.arrange({ filter: filterValue });
+  });
+  // change is-checked class on buttons
+  var buttonGroups = document.querySelectorAll('.button-group');
+  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+  var buttonGroup = buttonGroups[i];
+  radioButtonGroup( buttonGroup );
+  }
+  function radioButtonGroup( buttonGroup ) {
+  buttonGroup.addEventListener( 'click', function( event ) {
+  // only work with buttons
+  if ( !matchesSelector( event.target, 'button' ) ) {
+  return;
+  }
+  buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+  event.target.classList.add('is-checked');
+  });
+  }
+</script>
+<script>
+var swiper = new Swiper('.banner-section .swiper-container', {
+slidesPerView: 1,
+effect: 'fade',
+speed: 1000,
+loop: true,
+autoplay: {
+delay: 3000,
+},
+});
 </script>
 </body>
-</html>
+</html> 

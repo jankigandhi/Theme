@@ -41,19 +41,9 @@ $light-gray: #f7f7f7;
             font-size: .875rem;
         }
     }
-    .slider-section {
-        background-color: $light-gray;
-        .slider-title {
-            font-size: 1.5rem;
-        }
-        .slider-desc {
-            max-width: 30.625rem;
-            color: $gray-600;
-        }
-        .img-bg {
-            @include img-inbg;
-            padding-bottom: 100%;
-            background-size: contain;
+    .demo-section {
+        .demo-desc {
+            max-width: 800px;
         }
     }
     .Parallax-section {
@@ -66,8 +56,3 @@ $light-gray: #f7f7f7;
         }
     }
 }
-
-
-
-
-
