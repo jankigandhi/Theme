@@ -43,8 +43,7 @@
     position: relative;
     display: inline-block;
     padding-bottom: 100%;
-    background-size: contain;
-    width: 400px; }
+    background-size: contain; }
 .theme-home-page .Parallax-section .testimonial {
   position: relative;
   line-height: 0; }

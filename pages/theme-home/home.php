@@ -196,26 +196,24 @@
                 </div>
             </div>
         </div>
+        <div class="slider-section">
+            <div class="pages-slider">
+                <div class="swiper-container py-5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide text-center">
+                            <div href="#">
+                                <div class="img-bg" style="background-image: url('images/button-elements.png');"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 <?php include_once '../../components/footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
-<script src="../../js/isotope.pkgd.js"></script>
-<script src="../../js/imagesloaded.pkgd.js"></script>
-
-<!-- <script type="text/javascript">
-var grid = document.querySelector('.grid');
-var iso = new Isotope( grid, {
-itemSelector: '.element-item',
-percentPosition: true,
-});
-imagesLoaded( grid ).on( 'progress', function() {
-// layout Isotope after each image loads
-iso.layout();
-});
-</script> -->
-
 <script>
     var swiper = new Swiper('.banner-section .swiper-container', {
     slidesPerView: 1,
