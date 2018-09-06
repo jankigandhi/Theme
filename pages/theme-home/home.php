@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="home-banner-text">
+            <div class="home-banner-text w-100">
                 <h3 class="home-title mb-0 text-white text-center">Foundry brings your content to life in stunning clarity</h3>
                 <p class="sub-title text-uppercase text-white text-center mb-0 py-3 font-weight-medium">A Complete Block-Based Solution</p>
                 <P class="banner-desc text-white text-center mx-auto mb-0">Build beautiful, contemporary sites in just moments with Foundry and Variant Page Builder.</P>
@@ -46,66 +46,66 @@
                     <li class="col-md-6 py-2">
                         <div class="d-table">
                             <div class="d-table-cell pr-3 align-top">
-                                <span class="ti-pencil-alt light-gray"></span>
+                                <span class="ti-hummer light-gray services-icon text-primary"></span>
                             </div>
                             <div class="d-table-cell align-top">
-                                <h6>Get to know where we live</h6>
-                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
+                                <h5 class="services-title">Divi Page Builder</h5>
+                                <p class="service-desc light-gray font-weight-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-6 py-2">
                         <div class="d-table">
                             <div class="d-table-cell pr-3 align-top">
-                                <span class="ti-pencil-alt light-gray"></span>
+                                <span class="ti-thumb-up light-gray services-icon text-primary"></span>
                             </div>
                             <div class="d-table-cell align-top">
-                                <h6>Get to know where we live</h6>
-                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
+                                <h5>Pre-Made Layouts</h5>
+                                <p class="service-desc light-gray font-weight-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-6 py-2">
                         <div class="d-table">
                             <div class="d-table-cell pr-3 align-top">
-                                <span class="ti-pencil-alt light-gray"></span>
+                                <span class="ti-bar-chart-alt light-gray services-icon text-primary"></span>
                             </div>
                             <div class="d-table-cell align-top">
-                                <h6>Get to know where we live</h6>
-                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
+                                <h5>Import & Export Layouts</h5>
+                                <p class="service-desc light-gray font-weight-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-6 py-2">
                         <div class="d-table">
                             <div class="d-table-cell pr-3 align-top">
-                                <span class="ti-pencil-alt light-gray"></span>
+                                <span class="ti-settings light-gray services-icon text-primary"></span>
                             </div>
                             <div class="d-table-cell align-top">
-                                <h6>Get to know where we live</h6>
-                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
+                                <h5>Diverse Modules</h5>
+                                <p class="service-desc light-gray font-weight-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-6 py-2">
                         <div class="d-table">
                             <div class="d-table-cell pr-3 align-top">
-                                <span class="ti-pencil-alt light-gray"></span>
+                                <span class="ti-light-bulb light-gray services-icon text-primary"></span>
                             </div>
                             <div class="d-table-cell align-top">
-                                <h6>Get to know where we live</h6>
-                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
+                                <h5>Fully Responsive</h5>
+                                <p class="service-desc light-gray font-weight-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-6 py-2">
                         <div class="d-table">
                             <div class="d-table-cell pr-3 align-top">
-                                <span class="ti-pencil-alt light-gray"></span>
+                                <span class="ti-sharethis light-gray services-icon text-primary"></span>
                             </div>
                             <div class="d-table-cell align-top">
-                                <h6>Get to know where we live</h6>
-                                <p class="small light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
+                                <h5>Woo-Commerce Ready</h5>
+                                <p class="service-desc light-gray font-weight-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid iusto quas, eius, nesciunt exercitationem minima ipsa culpa voluptatem voluptatum est ad optio, asperiores fuga consequuntur, sit hic similique veritatis?</p>
                             </div>
                         </div>
                     </li>
@@ -141,65 +141,57 @@
                 </div>
             </div>
         </div>
-        <div class="gallery-section">
-            <div>
-                <h2 class="text-center font-weight-bold py-4">Gallery-Filter</h2>
-                <div class="button-group filters-button-group px-3">
-                    <button class="button btn btn-link px-0 is-checked" data-filter="*">
-                    View All
-                    <span class="px-2">/</span>
-                    </button>
-                    <button class="button btn btn-link px-0" data-filter=".web-design">
-                    Web Design
-                    <span class="px-2">/</span>
-                    </button>
-                    <button class="button btn btn-link px-0" data-filter=".graphic-design">     Graphic Design
-                    <span class="px-2">/</span>
-                    </button>
-                    <button class="button btn btn-link px-0" data-filter=".website-templates">
-                    Website Templates
-                    </button>
+        <div class="container">
+            <div class="my-5">
+                <div class="row mx-0 py-5">
+                    <div class="col-md-6">
+                        <h4 class="my-4">Highly Customizable</h4>
+                        <p class="font-weight-medium light-gray mb-0">Give  your event business the digital exposure that it deserves with a custom profile made free of charge by us. Entice potential clients with multimedia options that showcase all your details, accolades, and offerings in a beautifully engaging manner. An Eventerprise profile helps you sell your services, products, or venues by making it easy for clients to find, share and connect with you.</p>
+                        <div class="my-5">
+                            <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-primary">
+                                <span class="btn-text text-3e">Read More</span>
+                                <span class="btn-icon icon-3e right">
+                                    <i class="zmdi zmdi-long-arrow-right"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-content" style="background-image: url('images/metting-img.jpg');"></div>
+                    </div>
                 </div>
-                <div class="grid row mx-0">
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
-                        <a href="../../images/gallery-1.png" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-1.png');"></div>
-                        </a>
+                <div class="row mx-0 py-5 flex-row-reverse">
+                    <div class="col-md-6">
+                        <h4 class="my-4">One Click Demo Importer</h4>
+                        <p class="font-weight-medium light-gray">Give  your event business the digital exposure that it deserves with a custom profile made free of charge by us. Entice potential clients with multimedia options that showcase all your details, accolades, and offerings in a beautifully engaging manner. An Eventerprise profile helps you sell your services, products, or venues by making it easy for clients to find, share and connect with you.</p>
+                        <div class="my-5 text-right">
+                            <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-primary">
+                                <span class="btn-text text-3e">Read More</span>
+                                <span class="btn-icon icon-3e right">
+                                    <i class="zmdi zmdi-long-arrow-right"></i>
+                                </span>
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
-                        <a href="../../images/gallery-2.png" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-2.png');"></div>
-                        </a>
+                    <div class="col-md-6">
+                        <div class="img-content" style="background-image: url('images/group-img.jpg');"></div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
-                        <a href="images/gallery-img.jpg" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('images/gallery-img.jpg');"></div>
-                        </a>
+                </div>
+                <div class="row mx-0 py-5">
+                    <div class="col-md-6">
+                        <h4 class="my-4">Check out our all ready demos</h4>
+                        <p class="font-weight-medium light-gray">Give  your event business the digital exposure that it deserves with a custom profile made free of charge by us. Entice potential clients with multimedia options that showcase all your details, accolades, and offerings in a beautifully engaging manner. An Eventerprise profile helps you sell your services, products, or venues by making it easy for clients to find, share and connect with you.</p>
+                        <div class="my-5">
+                            <button type="button" class="btn-effect-3 btn-min-w btn-thick btn-rounded btn btn-outline-primary">
+                                <span class="btn-text text-3e">Read More</span>
+                                <span class="btn-icon icon-3e right">
+                                    <i class="zmdi zmdi-long-arrow-right"></i>
+                                </span>
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item graphic-design">
-                        <a href="../../images/gallery-1.png" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-1.png');"></div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item web-design">
-                        <a href="../../images/gallery-2.png" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-2.png');"></div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
-                        <a href="images/gallery-img.jpg" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('images/gallery-img.jpg');"></div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item website-templates">
-                        <a href="../../images/gallery-1.png" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-1.png');"></div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 p-2 element-item graphic-design">
-                        <a href="../../images/gallery-2.png" class="img-block d-block glightbox">
-                            <div class="gallery-img hover-effect" style="background-image: url('../../images/gallery-2.png');"></div>
-                        </a>
+                    <div class="col-md-6">
+                        <div class="img-content" style="background-image: url('images/banner-img-3.jpg');"></div>
                     </div>
                 </div>
             </div>
@@ -211,57 +203,57 @@
 <script src="../../js/swiper.min.js"></script>
 <script src="../../js/glightbox.min.js"></script>
 <script>
-  var lightbox = GLightbox();
+var lightbox = GLightbox();
 </script>
 <!-- isotop -->
 <script src="../../js/isotope.pkgd.js"></script>
 <script>
-  // init Isotope
-  var iso = new Isotope( '.grid', {
-  itemSelector: '.element-item',
-  layoutMode: 'fitRows'
-  });
-  // filter functions
-  var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function( itemElem ) {
-  var number = itemElem.querySelector('.number').textContent;
-  return parseInt( number, 10 ) > 50;
-  },
-  // show if name ends with -ium
-  ium: function( itemElem ) {
-  var name = itemElem.querySelector('.name').textContent;
-  return name.match( /ium$/ );
-  }
-  };
-  // bind filter button click
-  var filtersElem = document.querySelector('.filters-button-group');
-  filtersElem.addEventListener( 'click', function( event ) {
-  // only work with buttons
-  if ( !matchesSelector( event.target, 'button' ) ) {
-  return;
-  }
-  var filterValue = event.target.getAttribute('data-filter');
-  // use matching filter function
-  filterValue = filterFns[ filterValue ] || filterValue;
-  iso.arrange({ filter: filterValue });
-  });
-  // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll('.button-group');
-  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
-  var buttonGroup = buttonGroups[i];
-  radioButtonGroup( buttonGroup );
-  }
-  function radioButtonGroup( buttonGroup ) {
-  buttonGroup.addEventListener( 'click', function( event ) {
-  // only work with buttons
-  if ( !matchesSelector( event.target, 'button' ) ) {
-  return;
-  }
-  buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
-  event.target.classList.add('is-checked');
-  });
-  }
+// init Isotope
+var iso = new Isotope( '.grid', {
+itemSelector: '.element-item',
+layoutMode: 'fitRows'
+});
+// filter functions
+var filterFns = {
+// show if number is greater than 50
+numberGreaterThan50: function( itemElem ) {
+var number = itemElem.querySelector('.number').textContent;
+return parseInt( number, 10 ) > 50;
+},
+// show if name ends with -ium
+ium: function( itemElem ) {
+var name = itemElem.querySelector('.name').textContent;
+return name.match( /ium$/ );
+}
+};
+// bind filter button click
+var filtersElem = document.querySelector('.filters-button-group');
+filtersElem.addEventListener( 'click', function( event ) {
+// only work with buttons
+if ( !matchesSelector( event.target, 'button' ) ) {
+return;
+}
+var filterValue = event.target.getAttribute('data-filter');
+// use matching filter function
+filterValue = filterFns[ filterValue ] || filterValue;
+iso.arrange({ filter: filterValue });
+});
+// change is-checked class on buttons
+var buttonGroups = document.querySelectorAll('.button-group');
+for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+var buttonGroup = buttonGroups[i];
+radioButtonGroup( buttonGroup );
+}
+function radioButtonGroup( buttonGroup ) {
+buttonGroup.addEventListener( 'click', function( event ) {
+// only work with buttons
+if ( !matchesSelector( event.target, 'button' ) ) {
+return;
+}
+buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+event.target.classList.add('is-checked');
+});
+}
 </script>
 <script>
 var swiper = new Swiper('.banner-section .swiper-container', {
@@ -275,4 +267,4 @@ delay: 3000,
 });
 </script>
 </body>
-</html> 
+</html>

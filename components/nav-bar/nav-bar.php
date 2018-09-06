@@ -41,7 +41,7 @@
         <nav class="float-right">
           <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block mt-lg-1">
             <li class="header-links d-lg-inline-block">
-              <a href="#" class="links hover-links text-uppercase font-weight-bold">Home</a>
+              <a href="../../pages/theme-home/home.php" class="links hover-links text-uppercase font-weight-bold">Home</a>
               <!-- <ul class="sub-menu list-unstyled">
                 <li class="sub-menu-link">
                   <a href="../../pages/home/home.php" class="hover-links text-uppercase">Home1</a>

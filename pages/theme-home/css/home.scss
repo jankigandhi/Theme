@@ -16,8 +16,9 @@ $light-gray: #f7f7f7;
         .home-banner-text {
             position: absolute;
             top: 50%;
-            @include transform(translate(-50%, -50%));
-            left: 50%;
+            @include transform(translate(0%, -50%));
+            left: 0%;
+            text-align: center;
             line-height: 1.5;
             z-index: 1;
             .sub-title {
@@ -29,15 +30,11 @@ $light-gray: #f7f7f7;
             }
         }
     }
-    .features-section {
-        .features-title {
-            font-size: 2rem;
+    .service-section{
+        .services-icon{
+            font-size: 1.3rem;
         }
-        .social-icon {
-            font-size: 1.8rem;
-        }
-        .features-desc {
-            color: $gray-600;
+        .service-desc{
             font-size: .875rem;
         }
     }
@@ -54,5 +51,9 @@ $light-gray: #f7f7f7;
         .Parallax-desc {
             max-width: 810px;
         }
+    }
+    .img-content{
+        @include img-inbg;
+        padding-bottom: 60%;
     }
 }

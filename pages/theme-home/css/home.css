@@ -6,12 +6,13 @@
 .theme-home-page .banner-content .home-banner-text {
   position: absolute;
   top: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%;
+  -moz-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  left: 0%;
+  text-align: center;
   line-height: 1.5;
   z-index: 1; }
   .theme-home-page .banner-content .home-banner-text .sub-title {
@@ -19,12 +20,9 @@
   .theme-home-page .banner-content .home-banner-text .banner-desc {
     max-width: 26.25rem;
     font-size: 1.2rem; }
-.theme-home-page .features-section .features-title {
-  font-size: 2rem; }
-.theme-home-page .features-section .social-icon {
-  font-size: 1.8rem; }
-.theme-home-page .features-section .features-desc {
-  color: #6c757d;
+.theme-home-page .service-section .services-icon {
+  font-size: 1.3rem; }
+.theme-home-page .service-section .service-desc {
   font-size: .875rem; }
 .theme-home-page .demo-section .demo-desc {
   max-width: 800px; }
@@ -33,5 +31,15 @@
   line-height: 0; }
 .theme-home-page .Parallax-section .Parallax-desc {
   max-width: 810px; }
+.theme-home-page .img-content {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 60%; }
 
 /*# sourceMappingURL=home.css.map */
