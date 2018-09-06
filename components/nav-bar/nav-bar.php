@@ -40,16 +40,16 @@
         </div>
         <nav class="float-right">
           <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block mt-lg-1">
-            <li class="header-links link-arrow d-lg-inline-block">
+            <li class="header-links d-lg-inline-block">
               <a href="#" class="links hover-links text-uppercase font-weight-bold">Home</a>
-              <ul class="sub-menu list-unstyled">
+              <!-- <ul class="sub-menu list-unstyled">
                 <li class="sub-menu-link">
                   <a href="../../pages/home/home.php" class="hover-links text-uppercase">Home1</a>
                 </li>
                 <li class="sub-menu-link">
                   <a href="../../pages/home/home-1.php" class="hover-links text-uppercase">Home2</a>
                 </li>
-              </ul>
+              </ul> -->
             </li>
             <li class="header-links link-arrow d-lg-inline-block">
               <a href="#" class="links hover-links text-uppercase font-weight-bold">Pages</a>
@@ -69,7 +69,7 @@
                       <span class="hover-links title text-uppercase font-weight-bold">About</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">About1</a>
+                      <a href="../../pages/about/about.php" class="hover-links text-uppercase">About1</a>
                     </li>
                     <li class="sub-menu-link">
                       <a href="#" class="hover-links text-uppercase">About2</a>
@@ -82,7 +82,7 @@
                       <span class="hover-links title text-uppercase font-weight-bold">Service</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Service1</a>
+                      <a href="../../pages/service/service.php" class="hover-links text-uppercase">Service1</a>
                     </li>
                     <li class="sub-menu-link">
                       <a href="#" class="hover-links text-uppercase">Service2</a>
@@ -91,10 +91,10 @@
                       <span class="hover-links title text-uppercase font-weight-bold">Contact</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Contact1</a>
+                      <a href="../../pages/contact/contact.php" class="hover-links text-uppercase">Contact1</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Contact2</a>
+                      <a href="../../pages/contact/contact-1.php" class="hover-links text-uppercase">Contact2</a>
                     </li>
                   </ul>
                 </li>
@@ -106,114 +106,105 @@
                 <li class="menu-col">
                   <ul class="list-unstyled">
                     <li class="sub-menu-link">
-                      <span class="hover-links title text-uppercase font-weight-bold">Elements</span>
+                      <a href="../../components/typography/typography.php" class="hover-links text-uppercase">Typography</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Typography</a>
+                      <a href="../../components/Buttons/button.php" class="hover-links text-uppercase">Buttons</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Buttons</a>
+                      <a href="../../components/alert/alert.php" class="hover-links text-uppercase">Alert</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Alert</a>
+                      <a href="../../components/grid/grid.php" class="hover-links text-uppercase">Grid</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Grid</a>
-                    </li>
-                    <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Card</a>
+                      <a href="../../components/card/card.php" class="hover-links text-uppercase">Card</a>
                     </li>
                     <li class="sub-menu-link">
                       <span class="hover-links title text-uppercase font-weight-bold">Image Gallery</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Gallery1</a>
+                      <a href="../../components/img-gallery/gallery-1.php" class="hover-links text-uppercase">Gallery1</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Gallery2</a>
+                      <a href="../../components/img-gallery/gallery-2.php" class="hover-links text-uppercase">Gallery2</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Gallery3</a>
+                      <a href="../../components/img-gallery/gallery-3.php" class="hover-links text-uppercase">Gallery3</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Gallery4</a>
+                      <a href="../../components/img-gallery/gallery-4.php" class="hover-links text-uppercase">Gallery4</a>
                     </li>
                   </ul>
                 </li>
                 <li class="menu-col">
                   <ul class="list-unstyled">
                     <li class="sub-menu-link">
-                      <span class="hover-links title text-uppercase font-weight-bold">Elements</span>
+                      <a href="../../components/accordions/accordions.php" class="hover-links text-uppercase">Accordions</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Accordions</a>
+                      <a href="../../components/pagination/pagination.php" class="hover-links text-uppercase">Pagination</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Pagination</a>
+                      <a href="../../components/progressbar/progressbar.php" class="hover-links text-uppercase">Progressbar</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Progressbar</a>
+                      <a href="../../components/process-steps/process-steps.php" class="hover-links text-uppercase">Process steps</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Process steps</a>
+                      <a href="../../components/breadcrumbs/breadcrumbs.php" class="hover-links text-uppercase">Breadcrumbs</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Breadcrumbs</a>
+                      <a href="../../components/testimonial/testimonial.php" class="hover-links text-uppercase">Testimonial</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Testimonial</a>
+                      <a href="../../components/modal/modal.php" class="hover-links text-uppercase">Modals</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Modals</a>
+                      <a href="../../components/call-to-actions/call-to-actions.php" class="hover-links text-uppercase">Call To Actions</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Call To Actions</a>
+                      <a href="../../components/form-input/form-input.php" class="hover-links text-uppercase">Form Input</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Form Input</a>
-                    </li>
-                    <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Table</a>
+                      <a href="../../components/table/table.php" class="hover-links text-uppercase">Table</a>
                     </li>
                   </ul>
                 </li>
                 <li class="menu-col">
                   <ul class="list-unstyled">
-                    <li class="sub-menu-link">
-                      <span class="hover-links title text-uppercase font-weight-bold">Elements</span>
-                    </li>
                     <li class="sub-menu-link">
                       <span class="hover-links title text-uppercase font-weight-bold">Navbar</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Default navbar</a>
+                      <a href="default-navbar.php" class="hover-links text-uppercase">Default navbar</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Transparent navbar</a>
+                      <a href="transparent-navbar.php" class="hover-links text-uppercase">Transparent navbar</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Fixed navbar</a>
+                      <a href="fixed-navbar.php" class="hover-links text-uppercase">Fixed navbar</a>
                     </li>
                     <li class="sub-menu-link">
                       <span class="hover-links title text-uppercase font-weight-bold">Slider</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Banner Slider</a>
+                      <a href="../../components/banner-slider/banner-slider.php" class="hover-links text-uppercase">Banner Slider</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Banner Slider1</a>
+                      <a href="../../components/banner-slider/banner-slider-1.php" class="hover-links text-uppercase">Banner Slider1</a>
                     </li>
                     <li class="sub-menu-link">
                       <span class="hover-links title text-uppercase font-weight-bold">Google Maps</span>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Maps</a>
+                      <a href="../../components/map/map.php" class="hover-links text-uppercase">Maps</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Full height Map</a>
+                      <a href="../../components/map/full-height-map.php" class="hover-links text-uppercase">Full height Map</a>
                     </li>
                     <li class="sub-menu-link">
-                      <a href="#" class="hover-links text-uppercase">Map with form</a>
+                      <a href="../../components/map/map-with-form.php" class="hover-links text-uppercase">Map with form</a>
                     </li>
                   </ul>
                 </li>
@@ -221,14 +212,14 @@
             </li>
             <li class="header-links link-arrow d-lg-inline-block">
               <a href="#" class="links hover-links text-uppercase font-weight-bold">Contact Us</a>
-              <ul class="sub-menu list-unstyled">
+             <!--  <ul class="sub-menu list-unstyled">
                 <li class="sub-menu-link">
                   <a href="#" class="hover-links text-uppercase">Contact1</a>
                 </li>
                 <li class="sub-menu-link">
                   <a href="#" class="hover-links text-uppercase">Contact2</a>
                 </li>
-              </ul>
+              </ul> -->
             </li>
           </ul>
           <div class="d-inline-block px-3">
