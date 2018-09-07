@@ -25,6 +25,7 @@
         }
     }
 }
+
 .features-section {
     .circle-icon {
         @include size(5rem);
@@ -63,6 +64,7 @@
         margin: 0 auto;
     }
 }
+
 .pricing-table {
     .pricing-box {
         @include transition(.3s all linear);
@@ -106,6 +108,7 @@
         }
     }
 }
+
 .parallax-banner {
     .banner-img {
         background-attachment: fixed;
@@ -115,26 +118,50 @@
 
 
 // services-1 page css
-
-.services-pages{
-    line-height: 0;
-    .banner-img{
+.services-pages {
+    .banner-img {
         min-height: 500px;
-        padding-bottom: 45%;
-        line-height: 1.5;
-    }
-    .services-text{
-         position: absolute;
+        padding-bottom: 60%;
+        .services-contain {
+            position: absolute;
             top: 50%;
             @include transform(translate(0, -50%));
             left: 0;
             right: 0;
             text-align: center;
             z-index: 1;
-            .services-title{
-                max-width: 31.25rem;
+            .service-desc {
+                max-width: 25rem;
             }
+        }
+    }
+    .blog-images {
+        @include img-inbg;
+        padding-bottom: 60%;
+    }
+    .feacher-section {
+        .social-icon {
+            font-size: 2rem;
+        }
+        .feacher-desc{
+            font-size: .875rem;
+            max-width: 310px;
+            line-height: 1.7;
+        }
+    }
+    .parallax-banner{
+        .banner-img{
+            @include img-inbg;
+            padding-bottom: 30%;
+        }
+        .banner-content{
+            .play-icon{
+                font-size: 4rem;
+            }
+        }
+        .parallax-desc{
+            max-width: 43.75rem;
+            line0-height: 1.5;
+        }
     }
 }
-
-
