@@ -25,12 +25,12 @@
 .theme-home-page .service-section .service-desc {
   font-size: .875rem; }
 .theme-home-page .demo-section .demo-desc {
-  max-width: 800px; }
+  max-width: 50rem; }
 .theme-home-page .Parallax-section .testimonial {
   position: relative;
   line-height: 0; }
 .theme-home-page .Parallax-section .Parallax-desc {
-  max-width: 810px; }
+  max-width: 50.625rem; }
 .theme-home-page .img-content {
   height: 100%;
   overflow: hidden;
