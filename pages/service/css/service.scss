@@ -111,3 +111,30 @@
         background-attachment: fixed;
     }
 }
+
+
+
+// services-1 page css
+
+.services-pages{
+    line-height: 0;
+    .banner-img{
+        min-height: 500px;
+        padding-bottom: 45%;
+        line-height: 1.5;
+    }
+    .services-text{
+         position: absolute;
+            top: 50%;
+            @include transform(translate(0, -50%));
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1;
+            .services-title{
+                max-width: 31.25rem;
+            }
+    }
+}
+
+

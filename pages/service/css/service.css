@@ -111,4 +111,25 @@
 .parallax-banner .banner-img {
   background-attachment: fixed; }
 
+.services-pages {
+  line-height: 0; }
+  .services-pages .banner-img {
+    min-height: 500px;
+    padding-bottom: 45%;
+    line-height: 1.5; }
+  .services-pages .services-text {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1; }
+    .services-pages .services-text .services-title {
+      max-width: 31.25rem; }
+
 /*# sourceMappingURL=service.css.map */
