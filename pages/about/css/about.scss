@@ -1,6 +1,7 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
+$pink-light: #f7f7f7;
 .about-bg-img {
     @include img-inbg;
     padding-bottom: 60%;
@@ -33,7 +34,7 @@
 }
 
 .work-section {
-	.icon {
+    .icon {
         font-size: 2rem;
         color: $white;
         position: absolute;
@@ -117,8 +118,7 @@
             opacity: 0;
             visibility: hidden;
             @include transition(.3s all linear);
-        }
-        // &:hover {
+        } // &:hover {
         //     &:before {
         //         opacity: 1;
         //         visibility: visible;
@@ -139,5 +139,48 @@
         //         color: rgba(theme-color("primary"), .8);
         //     }
         // }
+    }
+}
+
+//about-1 css
+.about-pages {
+    .banner {
+        .banner-img {
+            padding-bottom: 40%;
+            min-height: 500px;
+            background-position: top;
+        }
+        .banner-content {
+            .about-title {
+                max-width: 690px;
+                font-size: calc(2.5rem + 1vw);
+                line-height: 1.1;
+            }
+            .about-desc {
+                max-width: 750px;
+            }
+        }
+    }
+    .project-info{
+        .project-content{
+            &:hover{
+                border: 3px solid $primary;
+            }
+        }
+        .icon-social{
+            font-size: 3rem;
+        }
+        .number{
+            font-size: 1.5rem;
+        }
+    }
+    .reason-work{
+        .about-img{
+            @include img-inbg;
+            padding-bottom: 60%;
+        }
+        .reason-content{
+            background-color: darken($pink-light , 5%);
+        }
     }
 }
