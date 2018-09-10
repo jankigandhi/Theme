@@ -146,7 +146,7 @@ $pink-light: #f7f7f7;
 .about-pages {
     .banner {
         .banner-img {
-            padding-bottom: 40%;
+            padding-bottom: 60%;
             min-height: 500px;
             background-position: top;
         }
@@ -161,32 +161,45 @@ $pink-light: #f7f7f7;
             }
         }
     }
-    .project-info{
-        .project-content{
-            &:hover{
-                border: 3px solid $primary;
-            }
-        }
-        .icon-social{
+    .project-info {
+        .icon-social {
             font-size: 3rem;
         }
-        .number{
+        .number {
             font-size: 1.5rem;
         }
     }
-    .reason-work{
-        .about-img{
+    .reason-work {
+        .about-img {
             @include img-inbg;
             padding-bottom: 60%;
         }
-        .reason-content{
-            background-color: darken($pink-light , 5%);
+        .reason-content {
+            background-color: darken($pink-light, 5%);
         }
-        .reason-desc{
+        .reason-desc {
             font-size: .875rem;
             max-width: 345px;
             line-height: 1.5;
         }
     }
-
+    .logo-side {
+        background-color: $pink-light;
+        .logo-width {
+            width: 150px;
+        }
+    }
+    .parallax-banner{
+        &.banner{
+            .banner-img{
+                @include img-inbg;
+                padding-bottom: 30%
+            }
+        }
+    }
+    .new-project {
+        .project-title {
+            max-width: 600px;
+        }
+    }
 }

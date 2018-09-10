@@ -27,19 +27,19 @@
                     <h5 class="text-white font-weight-medium text-uppercase">Links</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a class="footer-links" href="#">Home</a>
+                            <a class="footer-links" href="../../pages/home/home.php">Home</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="#">About us</a>
+                            <a class="footer-links" href="../../pages/about/about.php">About us</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="#">Services</a>
+                            <a class="footer-links" href="../../pages/service/service.php">Services</a>
                         </li>
                         <li>
                             <a class="footer-links" href="#">Blog</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="#">Contact Us</a>
+                            <a class="footer-links" href="../../pages/contact/contact.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>

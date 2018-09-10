@@ -126,7 +126,7 @@
     transition: 0.3s all linear; }
 
 .about-pages .banner .banner-img {
-  padding-bottom: 40%;
+  padding-bottom: 60%;
   min-height: 500px;
   background-position: top; }
 .about-pages .banner .banner-content .about-title {
@@ -135,8 +135,6 @@
   line-height: 1.1; }
 .about-pages .banner .banner-content .about-desc {
   max-width: 750px; }
-.about-pages .project-info .project-content:hover {
-  border: 3px solid #26ade4; }
 .about-pages .project-info .icon-social {
   font-size: 3rem; }
 .about-pages .project-info .number {
@@ -157,5 +155,21 @@
   font-size: .875rem;
   max-width: 345px;
   line-height: 1.5; }
+.about-pages .logo-side {
+  background-color: #f7f7f7; }
+  .about-pages .logo-side .logo-width {
+    width: 150px; }
+.about-pages .parallax-banner.banner .banner-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 30%; }
+.about-pages .new-project .project-title {
+  max-width: 600px; }
 
 /*# sourceMappingURL=about.css.map */
