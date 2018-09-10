@@ -79,11 +79,22 @@
                     <div class="about-img" style="background-image: url('images/about-img.jpg');"></div>
                 </div>
                 <div class="col-md-6 px-0 reason-content">
-                    <h3 class="text-center py-5 text-uppercase">Some Reasons To Work Together</h3>
-                    <div class="row mx-0">
-                        <div class="col-md-6 px-4">
-                            <h5><span class="pr-3 text-primary">01.</span> We believe in creativity</h5>
-                        </div>
+                    <div class="p-5">
+                        <h3 class="text-center py-5 text-uppercase">Some Reasons To Work Together</h3>
+                        <div class="row mx-0">
+                            <div class="col-md-6 px-4">
+                                <h5><span class="pr-3 text-primary">01.</span> We believe in creativity</h5>
+                                <p class="reason-desc light-gray">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                            </div>
+                            <div class="col-md-6 px-4">
+                                <h5><span class="pr-3 text-primary">02.</span> We believe in quality</h5>
+                                <p class="reason-desc light-gray">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                            </div>
+                            <div class="col-md-6 px-4">
+                                <h5><span class="pr-3 text-primary">02.</span> We believe in quality</h5>
+                                <p class="reason-desc light-gray">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                            </div>
+                        </div>      
                     </div>
                 </div>
             </div>

@@ -182,5 +182,11 @@ $pink-light: #f7f7f7;
         .reason-content{
             background-color: darken($pink-light , 5%);
         }
+        .reason-desc{
+            font-size: .875rem;
+            max-width: 345px;
+            line-height: 1.5;
+        }
     }
+
 }

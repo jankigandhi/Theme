@@ -153,5 +153,9 @@
   padding-bottom: 60%; }
 .about-pages .reason-work .reason-content {
   background-color: #eaeaea; }
+.about-pages .reason-work .reason-desc {
+  font-size: .875rem;
+  max-width: 345px;
+  line-height: 1.5; }
 
 /*# sourceMappingURL=about.css.map */
