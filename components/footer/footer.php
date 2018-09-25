@@ -36,9 +36,6 @@
                             <a class="footer-links" href="../../pages/service/service.php">Services</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="#">Blog</a>
-                        </li>
-                        <li>
                             <a class="footer-links" href="../../pages/contact/contact.php">Contact Us</a>
                         </li>
                     </ul>
@@ -101,10 +98,10 @@
                         <a href="mailto:contact@atyantik.com" class="footer-links">contact@atyantik.com</a>
                     </p>
                     <div class="social-section">
-                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-tumblr"></i></a>
-                        <a href="#" class="footer-links social-icon p-2"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://www.facebook.com" class="footer-links social-icon p-2" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" class="footer-links social-icon p-2" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.tumblr.com/" class="footer-links social-icon p-2" target="blank"><i class="fab fa-tumblr"></i></a>
+                        <a href="https://in.pinterest.com" class="footer-links social-icon p-2" target="blank"><i class="fab fa-pinterest"></i></a>
                     </div>
                 </div>
             </div>

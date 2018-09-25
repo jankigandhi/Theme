@@ -38,7 +38,7 @@
                     <a href="#">Logo</a>
                     </h1>
                 </div>
-                <nav class="float-right">
+                <nav class="header-nav float-right">
                     <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block mt-lg-1">
                         <li class="header-links d-lg-inline-block">
                             <a href="#" class="links hover-links text-uppercase font-weight-bold">Home</a>
@@ -211,7 +211,7 @@
                             </ul>
                         </li>
                         <li class="header-links d-lg-inline-block">
-                            <a href="#" class="links hover-links text-uppercase font-weight-bold">Contact Us</a>
+                            <a href="../../pages/contact/contact.php" class="links hover-links text-uppercase font-weight-bold">Contact Us</a>
                             <!--  <ul class="sub-menu list-unstyled">
                                 <li class="sub-menu-link">
                                     <a href="#" class="hover-links text-uppercase">Contact1</a>
@@ -224,8 +224,14 @@
                     </ul>
                     <div class="d-inline-block px-3">
                         <button class="btn-search btn btn-outline-secondary rounded-circle d-flex btn-thick p-0 justify-content-center align-items-center">
-                        <i class="fas fa-search"></i>
+                            <i class="fas fa-search"></i>
+                            <div class="function">
+                                <form class="search-form">
+                                    <input class="input-text" type="text" placeholder="Type Here">
+                                </form>
+                            </div>
                         </button>
+                        
                     </div>
                     <div class="d-inline-block d-lg-none">
                         <button class="menu-toggle btn btn-link">
