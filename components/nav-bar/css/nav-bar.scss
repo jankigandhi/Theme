@@ -10,6 +10,9 @@ $mobile-sidebar-width: 14rem;
 .site-header {
     font-family: "Raleway";
     height: $header-height;
+    .logo-class{
+        max-width: 6.7rem;
+    }
 
     .hover-links {
         font-size: .8rem;

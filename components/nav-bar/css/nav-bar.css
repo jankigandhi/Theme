@@ -1,6 +1,8 @@
 .site-header {
   font-family: "Raleway";
   height: 4.9375rem; }
+  .site-header .logo-class {
+    max-width: 6.7rem; }
   .site-header .hover-links {
     font-size: .8rem;
     -moz-transition: 0.3s all linear;

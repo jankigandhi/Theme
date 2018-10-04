@@ -33,10 +33,11 @@
         </div> -->
         <div class="nav-header d-inline-block w-100">
             <div class="header-container container">
-                <div class="float-left pt-lg-1 pt-2">
-                    <h1 class="h2 font-weight-bold text-uppercase mb-0">
-                    <a href="../../pages/theme-home/home.php">Logo</a>
-                    </h1>
+                <div class="logo-class float-left pt-lg-1 pt-2">
+                    <a href="../../pages/theme-home/home.php" class="d-inline-block">
+                        <img class="mw-100" src="../../images/themes-logo.png" alt="theme-logo"/>
+                    </a>
+                    
                 </div>
                 <nav class="header-nav float-right">
                     <ul class="mobile-menu list-unstyled mb-0 py-1 d-inline-block mt-lg-1">
