@@ -36,9 +36,6 @@
                             <a class="footer-links" href="#">Services</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="#">Blog</a>
-                        </li>
-                        <li>
                             <a class="footer-links" href="#">Contact Us</a>
                         </li>
                     </ul>
