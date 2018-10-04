@@ -27,7 +27,7 @@
                     <h5 class="text-white font-weight-medium text-uppercase">Links</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a class="footer-links" href="../../pages/home/home.php">Home</a>
+                            <a class="footer-links" href="../../pages/theme-home/home.php">Home</a>
                         </li>
                         <li>
                             <a class="footer-links" href="../../pages/about/about.php">About us</a>
