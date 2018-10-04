@@ -45,10 +45,6 @@
     width: 2.5rem;
     height: 2.5rem;
     font-weight: bold; }
-    .site-header .btn-search:hover .function {
-      opacity: 1;
-      visibility: visible;
-      transform: translate3d(0, 0px, 0); }
   .site-header .sub-menu-link a,
   .site-header .sub-menu-link .title {
     color: rgba(255, 255, 255, 0.7);
@@ -57,31 +53,37 @@
     white-space: normal; }
   .site-header .sub-menu-link .title {
     color: #fff; }
-  .site-header .function {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 60px;
-    width: 200px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    background: #292929;
-    transition: all 0.3s linear;
-    opacity: 0;
-    visibility: hidden; }
-    .site-header .function .search-form {
-      padding: 6px 6px;
-      display: inline-block;
-      width: 100%;
-      line-height: 37px; }
-    .site-header .function .input-text {
-      background: #f5f5f5;
-      border: none;
-      width: 100%;
-      height: 50px;
-      padding-left: 20px;
-      border-radius: 0;
-      font-size: 14px; }
+  .site-header .search-item {
+    position: relative; }
+    .site-header .search-item .function {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 60px;
+      width: 200px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      cursor: default;
+      background: #292929;
+      transition: all 0.3s linear;
+      opacity: 0;
+      visibility: hidden; }
+      .site-header .search-item .function .search-form {
+        padding: 6px 6px;
+        display: inline-block;
+        width: 100%;
+        line-height: 37px; }
+      .site-header .search-item .function .input-text {
+        background: #f5f5f5;
+        border: none;
+        width: 100%;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 0;
+        font-size: 14px; }
+    .site-header .search-item:hover .function {
+      opacity: 1;
+      visibility: visible;
+      transform: translate3d(0, 0px, 0); }
   .site-header.header-transparent {
     position: absolute;
     left: 0;

@@ -1,0 +1,59 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+
+$light-gray: #f7f7f7;
+
+.theme-home-page {
+    .banner-content {
+        .banner-section {
+            line-height: 0;
+            .home-title {
+                font-size: calc(2rem + 1vw);
+                line-height: 1.3;
+            }
+        }
+        .home-banner-text {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0%, -50%));
+            left: 0%;
+            text-align: center;
+            line-height: 1.5;
+            z-index: 1;
+            .sub-title {
+                font-size: .875rem;
+            }
+            .banner-desc {
+                max-width: 26.25rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .service-section{
+        .services-icon{
+            font-size: 1.3rem;
+        }
+        .service-desc{
+            font-size: .875rem;
+        }
+    }
+    .demo-section {
+        .demo-desc {
+            max-width: 50rem;
+        }
+    }
+    .Parallax-section {
+        .testimonial {
+            position: relative;
+            line-height: 0;
+        }
+        .Parallax-desc {
+            max-width: 50.625rem;
+        }
+    }
+    .img-content{
+        @include img-inbg;
+        padding-bottom: 60%;
+    }
+}

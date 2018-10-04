@@ -222,16 +222,15 @@
                             </ul> -->
                         </li>
                     </ul>
-                    <div class="d-inline-block px-3">
+                    <div class="search-item d-inline-block px-3">
                         <button class="btn-search btn btn-outline-secondary rounded-circle d-flex btn-thick p-0 justify-content-center align-items-center">
                             <i class="fas fa-search"></i>
-                            <div class="function">
-                                <form class="search-form">
-                                    <input class="input-text" type="text" placeholder="Type Here">
-                                </form>
-                            </div>
                         </button>
-                        
+                        <div class="function">
+                            <form class="search-form">
+                                <input class="input-text" type="text" placeholder="Type Here" />
+                            </form>
+                        </div>
                     </div>
                     <div class="d-inline-block d-lg-none">
                         <button class="menu-toggle btn btn-link">
