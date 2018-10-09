@@ -186,7 +186,7 @@ var lightbox = GLightbox();
   });
   }
 </script>
-<script type="text/javascript">
+<script>
 var grid = document.querySelector('.grid');
 var iso = new Isotope( grid, {
 itemSelector: '.element-item',

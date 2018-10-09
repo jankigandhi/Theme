@@ -1,5 +1,5 @@
 <script src="../../js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript">
+<script>
 $(document).ready(function() {
   $(".one-open .accordion-toggle").on("click", function() {
     var $this = $(this);
