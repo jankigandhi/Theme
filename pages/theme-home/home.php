@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="home-banner-text w-100">
+            <div class="home-banner-text w-100 p-3">
                 <h3 class="home-title mb-0 text-white text-center">Foundry brings your content to life in stunning clarity</h3>
                 <p class="sub-title text-uppercase text-white text-center mb-0 py-3 font-weight-medium">A Complete Block-Based Solution</p>
                 <P class="banner-desc text-white text-center mx-auto mb-0">Build beautiful, contemporary sites in just moments with Foundry and Variant Page Builder.</P>

@@ -44,8 +44,8 @@
                     <h5 class="text-white font-weight-medium text-uppercase">Latest News</h5>
                     <ul class="list-unstyled">
                         <li class="d-table mb-2">
-                            <div class="img-box d-table-cell align-top">
-                               <img src="../../images/gallery-1.png" class="news-thumb-img mw-100 rounded" />
+                            <div class="img-box d-table-cell align-top"> 
+                               <img src="../../images/gallery-1.png" class="news-thumb-img mw-100 rounded" alt="gallery-2" />
                             </div>
                             <div class="d-table-cell align-top pl-2">
                                 <p class="mb-0 small">
@@ -58,7 +58,7 @@
                         </li>
                         <li class="d-table mb-2">
                             <div class="img-box d-table-cell align-top">
-                               <img src="../../images/gallery-2.png" class="news-thumb-img mw-100 rounded" />
+                               <img src="../../images/gallery-2.png" class="news-thumb-img mw-100 rounded" alt="gallery-2" />
                             </div>
                             <div class="d-table-cell align-top pl-2">
                                 <p class="mb-0 small">

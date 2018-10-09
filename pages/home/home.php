@@ -123,7 +123,7 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -132,10 +132,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -144,10 +144,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -156,10 +156,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -168,10 +168,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -180,10 +180,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -192,10 +192,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -204,10 +204,10 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div href="#" class="custom-card card">
+                        <a href="#" class="custom-card card">
                             <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
@@ -216,7 +216,7 @@
                                     <p class="price float-right mb-0 font-weight-bold">$250</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

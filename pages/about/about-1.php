@@ -218,40 +218,40 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-1.png">
+                            <img class="logo-width" src="images/logo-1.png" alt="Logo-1"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-2.png">
+                            <img class="logo-width" src="images/logo-2.png" alt="Logo-2"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-3.png">
+                            <img class="logo-width" src="images/logo-3.png" alt="Logo-3"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-4.png">
+                            <img class="logo-width" src="images/logo-4.png" alt="Logo-4"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-5.png">
+                            <img class="logo-width" src="images/logo-5.png" alt="Logo-5"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-6.png">
+                            <img class="logo-width" src="images/logo-6.png" alt="Logo-6"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-1.png">
+                            <img class="logo-width" src="images/logo-1.png" alt="Logo-1"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-2.png">
+                            <img class="logo-width" src="images/logo-2.png" alt="Logo-2"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-3.png">
+                            <img class="logo-width" src="images/logo-3.png" alt="Logo-3"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-4.png">
+                            <img class="logo-width" src="images/logo-4.png" alt="Logo-4"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-5.png">
+                            <img class="logo-width" src="images/logo-5.png" alt="Logo-5"/>
                         </div>
                         <div class="swiper-slide text-center">
-                            <img class="logo-width" src="images/logo-6.png">
+                            <img class="logo-width" src="images/logo-6.png" alt="Logo-6"/>
                         </div>
                     </div>
                 </div>
