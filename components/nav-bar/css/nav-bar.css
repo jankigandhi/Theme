@@ -26,6 +26,8 @@
     border-right: 1px solid #383f45; }
     .site-header .top-bar-link:first-child {
       border-left: 1px solid #383f45; }
+  .site-header .logo-icon {
+    height: 3.5rem; }
   .site-header .header-links {
     position: relative; }
     .site-header .header-links.link-arrow .links {
