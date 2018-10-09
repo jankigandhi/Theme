@@ -34,9 +34,6 @@
         <div class="nav-header d-inline-block w-100">
             <div class="header-container container">
                 <div class="logo-class float-left pt-lg-1 pt-2">
-                    <a href="../../pages/theme-home/home.php" class="d-inline-block">
-                        <img class="mw-100" src="../../images/themes-logo.png" alt="theme-logo"/>
-                    </a>
                     
                 </div>
                 <nav class="header-nav float-right">
