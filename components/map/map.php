@@ -38,7 +38,7 @@
 <?php include_once '../footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX-gnjI10taggMKTIc8jNd6VAobfU3leY" type="text/javascript"></script>
-<script type="text/javascript">
+<script>
   var map;
   var locations = [
     ['Bondi Beach', -33.890542, 151.274856, 4],
@@ -72,7 +72,7 @@
     })(marker, i));
   }
 </script>
-<script type="text/javascript">
+<script>
   var map;
   var locations = [
     ['Bondi Beach', -33.890542, 151.274856, 4],
@@ -106,7 +106,7 @@
     })(marker, i));
   }
 </script>
-<script type="text/javascript">
+<script>
   var map;
   var locations = [
     ['Bondi Beach', -33.890542, 151.274856, 4],
@@ -140,7 +140,7 @@
     })(marker, i));
   }
 </script>
-<script type="text/javascript">
+<script>
   var map;
   var locations = [
     ['Bondi Beach', -33.890542, 151.274856, 4],
