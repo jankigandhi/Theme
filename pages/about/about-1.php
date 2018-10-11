@@ -27,7 +27,7 @@
         <div class="about-project-section my-5">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-lg-3 col-md-6  py-4">
+                    <div class="col-lg-3 col-md-6 py-4">
                         <div class="text-center">
                             <span class="icon-social">
                                 <i class="far fa-heart text-primary"></i>

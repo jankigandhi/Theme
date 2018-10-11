@@ -47,7 +47,7 @@
       <h3 class="text-uppercase text-center">How it Works</h3>
       <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
       <div class="row my-4">
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-power-off"></i></span>
           </div>
@@ -56,7 +56,7 @@
             <p class="light-gray small px-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-trophy"></i></span>
           </div>
@@ -65,7 +65,7 @@
             <p class="light-gray small px-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-laptop"></i></span>
           </div>
@@ -74,7 +74,7 @@
             <p class="light-gray small px-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-mobile-alt"></i></span>
           </div>
@@ -200,7 +200,7 @@
       <h3 class="text-uppercase text-center">Meet the team</h3>
       <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
       <div class="row my-4">
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box card">
             <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
@@ -220,7 +220,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box custom-card card">
             <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
@@ -240,7 +240,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box custom-card card">
             <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
@@ -260,7 +260,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box custom-card card">
             <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
