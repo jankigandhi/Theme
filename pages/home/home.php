@@ -40,8 +40,8 @@
             <div class="btn-next swiper-button-next swiper-button-white"></div>
             <div class="btn-prev swiper-button-prev swiper-button-white"></div>
         </div>
-        <div class="banner-content">
-            <div class="center-content mx-5 mt-sm-0 mt-5">
+        <div class="banner-content-section">
+            <div class="banner-content mx-5 mt-sm-0 mt-5">
                 <h2 class="text-white text-uppercase">To Travel is to live</h2>
                 <p class="inst text-white">You Don't Need Magic to Disapper. All you need is a destination.</p>
                 <div class="mt-4">
@@ -55,13 +55,13 @@
             </div>
         </div>
     </div>
-    <!-- find-section -->
-    <div class="find-section">
+    <!-- find-search-section -->
+    <div class="search-section">
         <div class="container">
             <div class="row align-items-lg-center">
                 <div class="border-line col-lg-2 col-md-3 py-3 px-3">
                     <div class="mt-md-4 mt-lg-0">
-                        <span class="text-uppercase off-white">Find your</span>
+                        <span class="text-uppercase text-desc-gray">Find your</span>
                         <h4 class="font-weight-bold text-uppercase mb-0 text-white">Holidays</h4>
                     </div>
                 </div>
@@ -96,11 +96,11 @@
         </div>
     </div>
     <!--  about section -->
-    <div class="about-section py-5">
+    <div class="py-5">
         <div class="container">
             <div class="row flex-row-reverse align-items-center">
                 <div class="col-lg-6 col-md-4 py-3">
-                    <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
+                    <div class="home-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
                 </div>
                 <div class="col-lg-6 col-md-8 py-3">
                     <div>
@@ -225,11 +225,11 @@
     <!-- parallax banner -->
     <div class="banner parallax-banner">
         <div class="banner-img" style="background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/160831133045-dubai-rosemont-hotel-sphereofgold-copyrightplompmozes-full-169.jpg');"></div>
-        <div class="banner-content">
-            <div class="center-content">
+        <div class="banner-content-section">
+            <div class="banner-content">
                 <div class="container">
                     <h3 class="text-white text-uppercase">Holidays type</h3>
-                    <p class="off-white">Get explore your dream to travel the world!</p>
+                    <p class="text-desc-gray">Get explore your dream to travel the world!</p>
                     <div class="w-100 d-inline-block mt-4">
                         <div class="type d-inline-block align-top p-2">
                             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
