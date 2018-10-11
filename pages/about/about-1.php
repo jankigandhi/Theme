@@ -12,8 +12,8 @@
     <div class="about-pages">
         <div class="banner">
             <div class="banner-img" style="background-image: url('images/banner-img.jpg');"></div>
-            <div class="banner-content">
-                <div class="center-content">
+            <div class="banner-content-section">
+                <div class="banner-content">
                     <div class="container">
                         <h3 class="about-title text-white mx-auto">We are not your average brand agency</h3>
                         <p class="text-white about-desc mx-auto py-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is printing and typesetting simply dummy text.</p>
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="project-info my-5">
+        <div class="about-project-section my-5">
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-lg-3 col-md-6  py-4">
@@ -74,30 +74,30 @@
                 </div>
             </div>
         </div>
-        <div class="reason-work">
+        <div class="faq-section">
             <div class="row mx-0 my-5">
                 <div class="col-md-6 px-0 ">
-                    <div class="about-img" style="background-image: url('images/about-img.jpg');"></div>
+                    <div class="faq-about-img" style="background-image: url('images/about-img.jpg');"></div>
                 </div>
-                <div class="col-md-6 px-0 reason-content">
+                <div class="faq-content col-md-6 px-0">
                     <div class="p-5">
                         <h3 class="text-center py-5 text-uppercase">Some Reasons To Work Together</h3>
                         <div class="row mx-0">
                             <div class="col-lg-6 py-4 text-md-left text-center">
                                 <h5><span class="pr-3 text-primary">01.</span> We believe in creativity</h5>
-                                <p class="reason-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                                <p class="faq-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                             </div>
                             <div class="col-lg-6 py-4 text-md-left text-center">
                                 <h5><span class="pr-3 text-primary">02.</span> We believe in quality</h5>
-                                <p class="reason-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                                <p class="faq-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                             </div>
                             <div class="col-lg-6 py-4 text-md-left text-center">
                                 <h5><span class="pr-3 text-primary">03.</span> We believe in abilities</h5>
-                                <p class="reason-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                                <p class="faq-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                             </div>
                             <div class="col-lg-6 py-4 text-md-left text-center">
                                 <h5><span class="pr-3 text-primary">04.</span> We believe in relation</h5>
-                                <p class="reason-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                                <p class="faq-desc light-gray mx-auto">Lorem Ipsum is simply text the printing and typesetting standard industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <div class="logo-side py-5">
+        <div class="custom-swiper py-5">
             <div class="container">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -259,11 +259,11 @@
         </div>
         <div class="parallax-banner banner">
             <div class="banner-img" style="background-image: url('images/parellex-img.jpg');">
-                <div class="banner-content">
-                    <div class="center-content">
+                <div class="banner-content-section">
+                    <div class="banner-content">
                         <div class="container">
-                            <div class="new-project">
-                                <h2 class="text-white py-4 font-weight-bold project-title mx-auto">We Would Love To Hear About Start Your New Project?</h2>
+                            <div class="new-about-project-section">
+                                <h2 class="project-title text-white py-4 font-weight-bold  mx-auto">We Would Love To Hear About Start Your New Project?</h2>
                                 <div class="my-2">
                                     <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">Start New Project</button>
                                 </div>
@@ -280,7 +280,7 @@
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
 <script>
-var swiper = new Swiper('.logo-side .swiper-container', {
+var swiper = new Swiper('.custom-swiper .swiper-container', {
 preloadImages: false,
 lazy: true,
 speed: 1500,

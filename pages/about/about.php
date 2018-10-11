@@ -10,8 +10,8 @@
 <main>
   <div class="banner">
     <div class="banner-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
-    <div class="banner-content">
-      <div class="center-content">
+    <div class="banner-content-section">
+      <div class="banner-content">
         <div class="container">
           <h3 class="text-white text-uppercase">About Us</h3>
         </div>
@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>
-  <div class="work-section py-5">
+  <div class="about-section py-5">
     <div class="container">
       <h3 class="text-uppercase text-center">How it Works</h3>
       <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
