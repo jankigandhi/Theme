@@ -312,7 +312,7 @@
 <?php include_once '../footer/footer.php';?>
 <?php include_once '../../inc/foot.php';?>
 <script src="../../js/swiper.min.js"></script>
-<script type="text/javascript">
+<script>
 var swiper = new Swiper('.swiper-container', {
 slidesPerView: 3,
 spaceBetween: 30,

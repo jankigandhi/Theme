@@ -108,6 +108,6 @@
         </div>
     </div>
     <div class="footer-bottom text-center pt-4">
-        <p class="copy-right mb-0">© 2018 Theme | Terms & conditions | Website executed by Atyantik Technology</p>
+        <p class="copy-right mb-0">&copy; 2018 Theme | Terms &amp; conditions | Website executed by Atyantik Technology</p>
     </div>
 </div>
