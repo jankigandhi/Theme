@@ -1,12 +1,12 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
+
 .about-bg-img {
     @include img-inbg;
     padding-bottom: 60%;
     height: auto;
 }
-
 .banner {
     position: relative;
     .banner-img {
@@ -38,15 +38,12 @@
         }
     }
 }
-
 .off-white {
     color: rgba($white, .7);
 }
-
 .find-section {
     background-color: $gray-900;
 }
-
 .btn-next,
 .btn-prev {
     width: 20px;
@@ -58,20 +55,16 @@
         background-color: rgba($white, .2);
     }
 }
-
 .btn-prev {
     left: 0;
 }
-
 .btn-next {
     right: 0;
 }
-
 .offer-section,
 .testimonial-section {
     background-color: $gray-200;
 }
-
 .offer-slider {
     .card-bg {
         background-color: $white;
@@ -98,7 +91,6 @@
         }
     }
 }
-
 .offer-slider:not(.offer-slider-2) {
     .swiper-slide-active {
         .card {
@@ -116,7 +108,6 @@
         }
     }
 }
-
 .circle-icon {
     @include size(7rem);
     border: 3px solid $white;
@@ -128,7 +119,6 @@
         @include transition(.3s all linear);
     }
 }
-
 .parallax-banner {
     .banner-img {
         min-height: 500px;
@@ -158,7 +148,6 @@
         }
     }
 }
-
 .testimonial-slider {
     .swiper-slide {
         width: 25rem;
@@ -168,7 +157,6 @@
         opacity: 1;
     }
 }
-
 .service-section {
     .circle-icon {
         border: 2px solid $gray-600;

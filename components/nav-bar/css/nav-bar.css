@@ -26,7 +26,8 @@
     border-right: 1px solid #383f45; }
     .site-header .top-bar-link:first-child {
       border-left: 1px solid #383f45; }
-  .site-header .logo-icon {
+  .site-header .logo-icon-b,
+  .site-header .logo-icon-w {
     height: 4rem; }
   .site-header .header-links {
     position: relative; }
@@ -140,6 +141,8 @@
       border-right-color: rgba(255, 255, 255, 0.5); }
       .site-header.header-transparent .top-bar-link:first-child {
         border-left-color: rgba(255, 255, 255, 0.5); }
+    .site-header.header-transparent .logo-icon-b {
+      display: none; }
   .site-header .header-bar {
     height: 4.9375rem; }
   .site-header.fixed-header .header-bar {
@@ -252,6 +255,13 @@
         visibility: visible; }
     .site-header.header-transparent .top-bar-bottom-line {
       border-bottom-color: rgba(255, 255, 255, 0.5); } }
+@media (max-width: 767.98px) {
+  .site-header .search-item .function {
+    margin-top: 40px; }
+  .site-header .search-item:hover .function {
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(0, 0px, 0); } }
 .overflow-hidden {
   overflow: hidden; }
 

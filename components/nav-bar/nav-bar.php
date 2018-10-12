@@ -35,8 +35,8 @@
             <div class="header-container container">
                 <div class="logo-class float-left">
                     <a href="../../pages/theme-home/home.php" class="d-inline-block">
-                        <img class="logo-icon mw-100" src="../../images/logo-b.png" alt="Theme-logo-blue"/>
-                        <img class="logo-icon mw-100" src="../../images/logo-w.png" alt="Theme-logo-white"/>
+                        <img class="logo-icon-b mw-100" src="../../images/logo-b.png" alt="Theme-logo-blue"/>
+                        <img class="logo-icon-w  mw-100" src="../../images/logo-w.png" alt="Theme-logo-white"/>
                     </a>
                 </div>
                 <nav class="header-nav float-right">

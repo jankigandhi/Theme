@@ -25,7 +25,6 @@
         }
     }
 }
-
 .features-section {
     .circle-icon {
         @include size(5rem);
@@ -38,7 +37,6 @@
         }
     }
 }
-
 .features-box {
     border: 1px solid $gray-100;
     @include transition(.3s all linear);
@@ -50,21 +48,18 @@
         }
     }
 }
-
 .service-section,
 .skill-box,
 .features-box,
 .pricing-table {
     background-color: $gray-100;
 }
-
 .accordion-section {
     .accordion {
         max-width: 700px;
         margin: 0 auto;
     }
 }
-
 .pricing-table {
     .pricing-box {
         @include transition(.3s all linear);
@@ -108,7 +103,6 @@
         }
     }
 }
-
 .parallax-banner {
     .banner-img {
         background-attachment: fixed;

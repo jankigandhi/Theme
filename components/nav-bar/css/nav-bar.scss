@@ -10,6 +10,7 @@ $mobile-sidebar-width: 14rem;
 .site-header {
     font-family: "Raleway";
     height: $header-height;
+
     .hover-links {
         font-size: .8rem;
         @include transition(.3s all linear);
@@ -18,20 +19,17 @@ $mobile-sidebar-width: 14rem;
             color: theme-color("primary");
         }
     }
-    
     .top-bar {
         height: $top-bar-height;
         background-color: $gray-900;
         border-bottom: 1px solid lighten($gray-900, 10%);
     }
-
     .nav-header {
         padding: .735rem 0;
         line-height: 1.5;
         @include shadow(0 .125rem .25rem rgba(0, 0, 0, .075));
         height: $header-height;
     }
-    
     .top-bar-link {
         color: $white;
         text-transform: capitalize;
@@ -41,7 +39,8 @@ $mobile-sidebar-width: 14rem;
             border-left: 1px solid lighten($gray-900, 10%);
         }
     }
-    .logo-icon{
+    .logo-icon-b,
+    .logo-icon-w {
         height: 4rem;
     }
     .header-links {
@@ -61,21 +60,16 @@ $mobile-sidebar-width: 14rem;
             }
         }
     }
-
     .links {
         display: inline-block;
         color: $gray-600;
         padding: .657rem 1rem;
     }
-
     .btn-search {
         @include size(2.5rem);
         font-weight: bold;
-
     }
-
     .sub-menu-link {
-
         a,
         .title {
             color: rgba($white, .7);
@@ -83,12 +77,10 @@ $mobile-sidebar-width: 14rem;
             display: block;
             white-space: normal;
         }
-
         .title {
             color: $white;
         }
     }
-
     .search-item {
         position: relative;
         .function {
@@ -103,14 +95,12 @@ $mobile-sidebar-width: 14rem;
             transition: all 0.3s linear;
             opacity: 0;
             visibility: hidden;
-
             .search-form {
                 padding: 6px 6px;
                 display: inline-block;
                 width: 100%;
                 line-height: 37px;
             }
-
             .input-text {
                 background: #f5f5f5;
                 border: none;
@@ -121,7 +111,6 @@ $mobile-sidebar-width: 14rem;
                 font-size: 14px;
             }
         }
-
         &:hover {
             .function {
                 opacity: 1;
@@ -130,31 +119,24 @@ $mobile-sidebar-width: 14rem;
             }
         }
     }
-
-
     &.header-transparent {
         position: absolute;
         left: 0;
         right: 0;
         z-index: 11;
-
         .nav-header {
             box-shadow: none;
-
             .header-nav {
                 position: relative;
             }
         }
-
         .top-bar {
             background-color: transparent;
             border-bottom-color: rgba($white, .5);
         }
-
         .links {
             color: $white;
         }
-
         .header-links {
             &.link-arrow {
                 .links {
@@ -164,7 +146,6 @@ $mobile-sidebar-width: 14rem;
                 }
             }
         }
-
         .btn-search {
             border-color: $white;
             color: $white;
@@ -177,7 +158,6 @@ $mobile-sidebar-width: 14rem;
                 }
             }
         }
-
         .function {
             position: absolute;
             right: 0;
@@ -190,14 +170,12 @@ $mobile-sidebar-width: 14rem;
             transition: all 0.3s linear;
             opacity: 0;
             visibility: hidden;
-
             .search-form {
                 padding: 6px 6px;
                 display: inline-block;
                 width: 100%;
                 line-height: 37px;
             }
-
             .input-text {
                 background: #f5f5f5;
                 border: none;
@@ -208,17 +186,18 @@ $mobile-sidebar-width: 14rem;
                 font-size: 14px;
             }
         }
-
         .menu-toggle {
             color: $white;
         }
-
         .top-bar-link {
             border-right-color: rgba($white, .5);
-
             &:first-child {
                 border-left-color: rgba($white, .5);
             }
+        }
+
+        .logo-icon-b {
+            display: none;
         }
     }
 
@@ -371,6 +350,24 @@ $mobile-sidebar-width: 14rem;
         &.header-transparent {
             .top-bar-bottom-line {
                 border-bottom-color: rgba($white, .5);
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .site-header {
+        .search-item {
+            .function {
+                margin-top: 40px;
+            }
+
+            &:hover {
+                .function {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translate3d(0, 0px, 0);
+                }
             }
         }
     }

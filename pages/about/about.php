@@ -7,7 +7,7 @@
 <body>
 <?php $HederClass="fixed-header";?>
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
-<main>
+<main class="about-section">
   <div class="banner">
     <div class="banner-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
     <div class="banner-content">
