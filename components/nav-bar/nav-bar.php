@@ -228,7 +228,7 @@
                         </button>
                         <div class="function">
                             <form class="search-form">
-                                <input class="input-text" type="text" placeholder="Type Here" />
+                                <input class="form-control rounded-0 py-2" type="text" placeholder="Type Here" />
                             </form>
                         </div>
                     </div>

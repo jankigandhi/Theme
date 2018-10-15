@@ -1,4 +1,4 @@
-.about-bg-img {
+.home-bg-img {
   height: 100%;
   overflow: hidden;
   background-size: cover;
@@ -16,7 +16,7 @@
     min-height: 400px; }
     .banner .banner-img.h-100vh {
       min-height: 100vh; }
-  .banner .banner-content {
+  .banner .banner-content-section {
     position: absolute;
     left: 0;
     right: 0;
@@ -24,7 +24,7 @@
     top: 0;
     bottom: 0;
     line-height: 1.5; }
-    .banner .banner-content .center-content {
+    .banner .banner-content-section .banner-content {
       position: absolute;
       top: 50%;
       -moz-transform: translate(0, -50%);
@@ -36,14 +36,14 @@
       right: 0;
       text-align: center;
       z-index: 1; }
-    .banner .banner-content .inst {
+    .banner .banner-content-section .inst {
       font-size: 1.5rem;
       font-weight: 300; }
 
-.off-white {
+.text-desc-gray {
   color: rgba(255, 255, 255, 0.7); }
 
-.find-section {
+.search-section {
   background-color: #212529; }
 
 .btn-next,
@@ -141,18 +141,18 @@
     color: #6c757d; }
 
 @media (min-width: 992px) {
-  .find-section {
+  .search-section {
     margin-top: -5.5rem;
     position: relative;
     z-index: 11; }
-    .find-section.in-container {
+    .search-section.mw-1280 {
       max-width: 1280px;
       margin: -2.75rem auto 0 auto; } }
 @media (min-width: 768px) {
-  .find-section .border-line {
+  .search-section .border-line {
     position: relative;
     border-right: 1px solid rgba(255, 255, 255, 0.5); }
-    .find-section .border-line:before, .find-section .border-line:after {
+    .search-section .border-line:before, .search-section .border-line:after {
       content: '';
       width: 0;
       height: 0;
@@ -163,13 +163,13 @@
       right: 0;
       top: 50%;
       margin-top: -.5rem; }
-    .find-section .border-line:after {
+    .search-section .border-line:after {
       margin-right: -.4375rem; }
-    .find-section .border-line:before {
+    .search-section .border-line:before {
       border-left-color: rgba(255, 255, 255, 0.5);
       margin-right: -.5rem; } }
 @media (max-width: 767.98px) {
-  .banner .banner-content .inst {
+  .banner .banner-content-section .inst {
     font-size: 1.2rem; }
 
   .border-line {

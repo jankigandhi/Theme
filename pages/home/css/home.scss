@@ -1,12 +1,12 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-.about-bg-img {
+//banner css
+.home-bg-img {
     @include img-inbg;
     padding-bottom: 60%;
     height: auto;
 }
-
 .banner {
     position: relative;
     .banner-img {
@@ -15,7 +15,7 @@
             min-height: 100vh;
         }
     }
-    .banner-content {
+    .banner-content-section {
         position: absolute;
         left: 0;
         right: 0;
@@ -23,7 +23,7 @@
         top: 0;
         bottom: 0;
         line-height: 1.5;
-        .center-content {
+        .banner-content {
             position: absolute;
             top: 50%;
             @include transform(translate(0, -50%));
@@ -38,15 +38,13 @@
         }
     }
 }
-
-.off-white {
+.text-desc-gray {
     color: rgba($white, .7);
 }
-
-.find-section {
+//search-section bg-color css
+.search-section {
     background-color: $gray-900;
 }
-
 .btn-next,
 .btn-prev {
     width: 20px;
@@ -58,20 +56,17 @@
         background-color: rgba($white, .2);
     }
 }
-
 .btn-prev {
     left: 0;
 }
-
 .btn-next {
     right: 0;
 }
-
+//offer-section css
 .offer-section,
 .testimonial-section {
     background-color: $gray-200;
 }
-
 .offer-slider {
     .card-bg {
         background-color: $white;
@@ -128,7 +123,7 @@
         @include transition(.3s all linear);
     }
 }
-
+//parallax-banner css
 .parallax-banner {
     .banner-img {
         min-height: 500px;
@@ -168,7 +163,7 @@
         opacity: 1;
     }
 }
-
+//service-section css
 .service-section {
     .circle-icon {
         border: 2px solid $gray-600;
@@ -179,11 +174,11 @@
 }
 
 @include media-breakpoint-up(lg) {
-    .find-section {
+    .search-section {
         margin-top: -5.5rem;
         position: relative;
         z-index: 11;
-        &.in-container {
+        &.mw-1280 {
             max-width: 1280px;
             margin: -2.75rem auto 0 auto;
         }
@@ -191,7 +186,7 @@
 }
 
 @include media-breakpoint-up(md) {
-    .find-section {
+    .search-section {
         .border-line {
             position: relative;
             border-right: 1px solid rgba($white, .5);
@@ -221,7 +216,7 @@
 
 @include media-breakpoint-down(sm) {
     .banner {
-        .banner-content {
+        .banner-content-section {
             .inst {
                 font-size: 1.2rem;
             }

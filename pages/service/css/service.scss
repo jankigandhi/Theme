@@ -6,7 +6,7 @@
     .banner-img {
         padding-bottom: 10%;
     }
-    .banner-content {
+    .banner-content-section {
         position: absolute;
         left: 0;
         right: 0;
@@ -14,7 +14,7 @@
         top: 0;
         bottom: 0;
         line-height: 1.5;
-        .center-content {
+        .banner-content {
             position: absolute;
             top: 50%;
             @include transform(translate(0, -50%));
@@ -25,7 +25,7 @@
         }
     }
 }
-
+//features-section css
 .features-section {
     .circle-icon {
         @include size(5rem);
@@ -38,7 +38,6 @@
         }
     }
 }
-
 .features-box {
     border: 1px solid $gray-100;
     @include transition(.3s all linear);
@@ -50,21 +49,20 @@
         }
     }
 }
-
 .service-section,
 .skill-box,
 .features-box,
 .pricing-table {
     background-color: $gray-100;
 }
-
+//accordion css
 .accordion-section {
     .accordion {
         max-width: 700px;
         margin: 0 auto;
     }
 }
-
+//pricing-table css
 .pricing-table {
     .pricing-box {
         @include transition(.3s all linear);
@@ -108,21 +106,18 @@
         }
     }
 }
-
+//parallax-banner css
 .parallax-banner {
     .banner-img {
         background-attachment: fixed;
     }
 }
-
-
-
 // services-1 page css
 .services-pages {
     .banner-img {
         min-height: 500px;
         padding-bottom: 60%;
-        .services-contain {
+        .services-content-section {
             position: absolute;
             top: 50%;
             @include transform(translate(0, -50%));
@@ -139,22 +134,24 @@
         @include img-inbg;
         padding-bottom: 60%;
     }
-    .feacher-section {
+    //feature-section css
+    .feature-section {
         .social-icon {
             font-size: 2rem;
         }
-        .feacher-desc{
+        .feature-desc{
             font-size: .875rem;
             max-width: 310px;
             line-height: 1.7;
         }
     }
+    //parallax-banner css
     .parallax-banner{
         .banner-img{
             @include img-inbg;
             padding-bottom: 30%;
         }
-        .banner-content{
+        .banner-content-section{
             .play-icon{
                 font-size: 4rem;
             }

@@ -11,7 +11,7 @@
 <main>
 	<div class="services-pages">
 		<div class="banner-img" style="background-image: url('images/services-banner.jpg');">
-			<div class="services-contain">
+			<div class="services-content-section">
 				<div class="container">
 					<p class="text-white mb-0">We provide innovative solutions to expand business</p>
 					<h2 class="service-desc text-white mb-0 mx-auto py-4">We have been helping build brands</h2>
@@ -22,7 +22,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="services-contain my-5">
+			<div class="services-content-section my-5">
 				<h3 class="text-center font-weight-bold text-uppercase">Why Work With Us?</h3>
 				<div class="row mx-0">
 					<div class="col-md-4">
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="feacher-section bg-primary py-5">
+		<div class="feature-section bg-primary py-5">
 			<div class="container">
 				<div class="row mx-0">
 					<div class="col-lg-4 col-md-6 my-5">
@@ -65,7 +65,7 @@
 							</span>
 							<div>
 								<h5 class="text-white mb-0 my-2">Web Development</h5>
-								<p class="feacher-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+								<p class="feature-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
 							</div>
 						</div>
 					</div>
@@ -76,7 +76,7 @@
 							</span>
 							<div>
 								<h5 class="text-white mb-0 my-2">Logo & Identity</h5>
-								<p class="feacher-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+								<p class="feature-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
 							</div>
 						</div>
 					</div>
@@ -87,7 +87,7 @@
 							</span>
 							<div>
 								<h5 class="text-white mb-0 my-2">Graphics Design</h5>
-								<p class="feacher-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+								<p class="feature-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
 							</div>
 						</div>
 					</div>
@@ -98,7 +98,7 @@
 							</span>
 							<div>
 								<h5 class="text-white mb-0 my-2">App Development</h5>
-								<p class="feacher-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+								<p class="feature-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
 							</div>
 						</div>
 					</div>
@@ -109,7 +109,7 @@
 							</span>
 							<div>
 								<h5 class="text-white mb-0 my-2">Social Marketing</h5>
-								<p class="feacher-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+								<p class="feature-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
 							</div>
 						</div>
 					</div>
@@ -120,7 +120,7 @@
 							</span>
 							<div>
 								<h5 class="text-white mb-0 my-2">Content Creation</h5>
-								<p class="feacher-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+								<p class="feature-desc mx-auto text-white mb-0 font-weight-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
 							</div>
 						</div>
 					</div>
@@ -248,8 +248,8 @@
 		<div>
 			<div class="parallax-banner banner">
 				<div class="banner-img" style="background-image: url('images/services-banner-1.jpg');">
-					<div class="banner-content">
-						<div class="center-content">
+					<div class="banner-content-section">
+						<div class="banner-content">
 							<div class="container">
 								<span class="play-icon">
 									<i class="far fa-play-circle text-white"></i>

@@ -7,13 +7,13 @@ $pink-light: #f7f7f7;
     padding-bottom: 60%;
     height: auto;
 }
-
+//banner css
 .banner {
     position: relative;
     .banner-img {
         padding-bottom: 10%;
     }
-    .banner-content {
+    .banner-content-section {
         position: absolute;
         left: 0;
         right: 0;
@@ -21,7 +21,7 @@ $pink-light: #f7f7f7;
         top: 0;
         bottom: 0;
         line-height: 1.5;
-        .center-content {
+        .banner-content {
             position: absolute;
             top: 50%;
             @include transform(translate(0, -50%));
@@ -32,8 +32,8 @@ $pink-light: #f7f7f7;
         }
     }
 }
-
-.work-section {
+//about-section css
+.about-section {
     .icon {
         font-size: 2rem;
         color: $white;
@@ -46,7 +46,7 @@ $pink-light: #f7f7f7;
         margin-top: -1.5rem;
     }
 }
-
+//hexagon css
 .hexagon {
     position: relative;
     margin: 1em auto;
@@ -54,6 +54,7 @@ $pink-light: #f7f7f7;
     height: 6.25em;
     border-radius: .5em/.25em;
     background-color: theme-color("primary");
+
     &:before,
     &:after {
         position: absolute;
@@ -63,19 +64,20 @@ $pink-light: #f7f7f7;
         background: inherit;
         content: '';
     }
+
     &:before {
         @include transform(rotate(60deg));
     }
+
     &:after {
         @include transform(rotate(-60deg));
     }
 }
-
-.work-section,
+.about-section,
 .team-section {
     background-color: $gray-100;
 }
-
+//team-section css
 .team-section {
     .social-icon {
         @include size(2rem);
@@ -118,7 +120,9 @@ $pink-light: #f7f7f7;
             opacity: 0;
             visibility: hidden;
             @include transition(.3s all linear);
-        } // &:hover {
+        }
+
+        // &:hover {
         //     &:before {
         //         opacity: 1;
         //         visibility: visible;
@@ -141,16 +145,16 @@ $pink-light: #f7f7f7;
         // }
     }
 }
-
 //about-1 css
 .about-pages {
+    //banner css
     .banner {
         .banner-img {
             padding-bottom: 60%;
             min-height: 500px;
             background-position: top;
         }
-        .banner-content {
+        .banner-content-section {
             .about-title {
                 max-width: 690px;
                 font-size: calc(2.5rem + 1vw);
@@ -161,7 +165,8 @@ $pink-light: #f7f7f7;
             }
         }
     }
-    .project-info {
+    //about-project-section css
+    .about-project-section {
         .icon-social {
             font-size: 3rem;
         }
@@ -169,35 +174,39 @@ $pink-light: #f7f7f7;
             font-size: 1.5rem;
         }
     }
-    .reason-work {
-        .about-img {
+    //faq-section css
+    .faq-section {
+        .faq-about-img {
             @include img-inbg;
             padding-bottom: 60%;
         }
-        .reason-content {
+        .faq-content {
             background-color: darken($pink-light, 5%);
         }
-        .reason-desc {
+        .faq-desc {
             font-size: .875rem;
             max-width: 345px;
             line-height: 1.5;
         }
     }
-    .logo-side {
+    //custom-swiper css
+    .custom-swiper {
         background-color: $pink-light;
         .logo-width {
             width: 150px;
         }
     }
-    .parallax-banner{
-        &.banner{
-            .banner-img{
+    //parallax-banner css
+    .parallax-banner {
+        &.banner {
+            .banner-img {
                 @include img-inbg;
                 padding-bottom: 30%
             }
         }
     }
-    .new-project {
+    //new-about-project-section css
+    .new-about-project-section {
         .project-title {
             max-width: 600px;
         }
