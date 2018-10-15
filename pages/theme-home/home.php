@@ -16,7 +16,7 @@
                 <div class="swiper-container h-100vh">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="banner" style="background-image: url('images/banner-img.jpg');"></div>
+                            <div class="banner" style="background-image: url('images/gallery-img.jpg');"></div>
                         </div>
                         <div class="swiper-slide">
                             <div class="banner" style="background-image: url('images/banner-img-2.jpg');"></div>
@@ -28,8 +28,8 @@
                 </div>
             </div>
             <div class="home-banner-text w-100 p-3">
-                <h3 class="home-title mb-0 text-white text-center">Foundry brings your content to life in stunning clarity</h3>
-                <p class="sub-title text-uppercase text-white text-center mb-0 py-3 font-weight-medium">A Complete Block-Based Solution</p>
+                <h3 class="home-title mb-0 text-white text-center">We bring your content to life with stunning clarity</h3>
+                <p class="sub-title text-uppercase text-white text-center mb-0 py-3 font-weight-medium">A Complete Web-Based Solution</p>
                 <P class="banner-desc text-white text-center mx-auto mb-0">Build beautiful, contemporary sites in just moments with Foundry and Variant Page Builder.</P>
                 <div class="text-center my-5">
                     <button type="button" class="btn-thick btn-min-w rounded-0 btn btn-outline-white">Call To Action</button>

@@ -33,9 +33,10 @@
         </div> -->
         <div class="nav-header d-inline-block w-100">
             <div class="header-container container">
-                <div class="logo-class float-left">
-                    <a href="../../pages/theme-home/home.php" class="d-inline-block">
-                        <img class="logo-icon mw-100" src="../../images/theme-logo.png" alt="Theme-logo"/>    
+                <div class="site-logo float-left">
+                    <a href="../../pages/theme-home/home.php" class="logo-text d-inline-block font-weight-bold">
+                        <!-- <img class="logo-icon mw-100" src="../../images/theme-logo.png" alt="Theme-logo"/> --> 
+                        Ultimate.   
                     </a>
                 </div>
                 <nav class="header-nav float-right">

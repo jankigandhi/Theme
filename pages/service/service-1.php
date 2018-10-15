@@ -10,7 +10,7 @@
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
 	<div class="services-pages">
-		<div class="banner-img" style="background-image: url('images/services-banner.jpg');">
+		<div class="banner-img" style="background-image: url('images/services-banner-3.jpg');">
 			<div class="services-content-section">
 				<div class="container">
 					<p class="text-white mb-0">We provide innovative solutions to expand business</p>
@@ -45,7 +45,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="my-4">
-							<div class= "blog-images" style="background-image: url('images/blog-img-2.jpg');"></div>
+							<div class= "blog-images" style="background-image: url('images/blog-img-3.jpg');"></div>
 							<div class="blog-contain text-center">
 								<h5>We believe in creativit</h5>
 								<p class="light-gray">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>

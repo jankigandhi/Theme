@@ -10,6 +10,15 @@ $mobile-sidebar-width: 14rem;
 .site-header {
     font-family: "Raleway";
     height: $header-height;
+
+    .site-logo {
+        .logo-text {
+            color: $blue;
+            font-size: 2rem;
+            line-height: 1.8;
+        }
+    }
+
     .hover-links {
         font-size: .8rem;
         @include transition(.3s all linear);
@@ -18,7 +27,7 @@ $mobile-sidebar-width: 14rem;
             color: theme-color("primary");
         }
     }
-    
+
     .top-bar {
         height: $top-bar-height;
         background-color: $gray-900;
@@ -31,7 +40,7 @@ $mobile-sidebar-width: 14rem;
         @include shadow(0 .125rem .25rem rgba(0, 0, 0, .075));
         height: $header-height;
     }
-    
+
     .top-bar-link {
         color: $white;
         text-transform: capitalize;
@@ -41,11 +50,14 @@ $mobile-sidebar-width: 14rem;
             border-left: 1px solid lighten($gray-900, 10%);
         }
     }
-    .logo-icon{
+
+    .logo-icon {
         height: 3.5rem;
     }
+
     .header-links {
         position: relative;
+
         &.link-arrow {
             .links {
                 position: relative;
@@ -91,6 +103,7 @@ $mobile-sidebar-width: 14rem;
 
     .search-item {
         position: relative;
+
         .function {
             position: absolute;
             right: 0;
@@ -198,6 +211,12 @@ $mobile-sidebar-width: 14rem;
 
             &:first-child {
                 border-left-color: rgba($white, .5);
+            }
+        }
+
+        .site-logo {
+            .logo-text {
+                color: $white;
             }
         }
     }

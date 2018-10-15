@@ -10,7 +10,7 @@
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main>
 	<div class="banner">
-		<div class="banner-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
+		<div class="banner-img" style="background-image: url('images/banner-service.jpg');"></div>
 		<div class="banner-content-section">
 			<div class="banner-content">
 				<div class="container">
@@ -380,7 +380,7 @@
 	</div>
 	<div>
 		<div class="parallax-banner banner">
-			<div class="banner-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');">
+			<div class="banner-img" style="background-image: url('../../images/banner-hotel-6.jpg');">
 				<div class="banner-content-section">
 					<div class="banner-content">
 						<div class="container d-flex justify-content-md-between align-items-center flex-md-row flex-column">

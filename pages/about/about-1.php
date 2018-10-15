@@ -11,7 +11,7 @@
 <main>
     <div class="about-pages">
         <div class="banner">
-            <div class="banner-img" style="background-image: url('images/banner-img.jpg');"></div>
+            <div class="banner-img" style="background-image: url('images/about-img-1.jpg');"></div>
             <div class="banner-content-section">
                 <div class="banner-content">
                     <div class="container">
@@ -258,7 +258,7 @@
             </div>
         </div>
         <div class="parallax-banner banner">
-            <div class="banner-img" style="background-image: url('images/parellex-img.jpg');">
+            <div class="banner-img" style="background-image: url('images/services-banner-1.jpg');">
                 <div class="banner-content-section">
                     <div class="banner-content">
                         <div class="container">

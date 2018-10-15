@@ -1,6 +1,10 @@
 .site-header {
   font-family: "Raleway";
   height: 4.9375rem; }
+  .site-header .site-logo .logo-text {
+    color: #26ade4;
+    font-size: 2rem;
+    line-height: 1.8; }
   .site-header .hover-links {
     font-size: .8rem;
     -moz-transition: 0.3s all linear;
@@ -124,6 +128,8 @@
       border-right-color: rgba(255, 255, 255, 0.5); }
       .site-header.header-transparent .top-bar-link:first-child {
         border-left-color: rgba(255, 255, 255, 0.5); }
+    .site-header.header-transparent .site-logo .logo-text {
+      color: #fff; }
   .site-header .header-bar {
     height: 4.9375rem; }
   .site-header.fixed-header .header-bar {
