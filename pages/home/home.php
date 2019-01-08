@@ -12,27 +12,27 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="banner-img h-100vh swiper-lazy" data-background="https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg">
+                    <div class="banner-img h-100vh swiper-lazy" style="background-image: url('../../images/banner-hotel-4.jpg');">
                         <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner-img h-100vh swiper-lazy" data-background="https://images.alphacoders.com/498/498263.jpg">
+                    <div class="banner-img h-100vh swiper-lazy" style="background-image: url('../../images/banner-hotel-3.jpg');">
                         <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner-img h-100vh swiper-lazy" data-background="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg">
+                    <div class="banner-img h-100vh swiper-lazy" style="background-image: url('../../images/banner-hotel-2.jpg');">
                         <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner-img h-100vh swiper-lazy" data-background="https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg">
+                    <div class="banner-img h-100vh swiper-lazy" style="background-image: url('../../images/banner-hotel-5.jpg');">
                         <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner-img h-100vh swiper-lazy" data-background="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg">
+                    <div class="banner-img h-100vh swiper-lazy" style="background-image: url('../../images/banner-hotel.jpg');">
                         <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                 </div>
@@ -40,8 +40,8 @@
             <div class="btn-next swiper-button-next swiper-button-white"></div>
             <div class="btn-prev swiper-button-prev swiper-button-white"></div>
         </div>
-        <div class="banner-content">
-            <div class="center-content mx-5 mt-sm-0 mt-5">
+        <div class="banner-content-section">
+            <div class="banner-content mx-5 mt-sm-0 mt-5">
                 <h2 class="text-white text-uppercase">To Travel is to live</h2>
                 <p class="inst text-white">You Don't Need Magic to Disapper. All you need is a destination.</p>
                 <div class="mt-4">
@@ -55,13 +55,13 @@
             </div>
         </div>
     </div>
-    <!-- find-section -->
-    <div class="find-section">
+    <!-- find-search-section -->
+    <div class="search-section">
         <div class="container">
             <div class="row align-items-lg-center">
                 <div class="border-line col-lg-2 col-md-3 py-3 px-3">
                     <div class="mt-md-4 mt-lg-0">
-                        <span class="text-uppercase off-white">Find your</span>
+                        <span class="text-uppercase text-desc-gray">Find your</span>
                         <h4 class="font-weight-bold text-uppercase mb-0 text-white">Holidays</h4>
                     </div>
                 </div>
@@ -96,11 +96,11 @@
         </div>
     </div>
     <!--  about section -->
-    <div class="about-section py-5">
+    <div class="py-5">
         <div class="container">
             <div class="row flex-row-reverse align-items-center">
                 <div class="col-lg-6 col-md-4 py-3">
-                    <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
+                    <div class="home-bg-img" style="background-image: url('../../images/hotel-2.jpg');"></div>
                 </div>
                 <div class="col-lg-6 col-md-8 py-3">
                     <div>
@@ -124,7 +124,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/hotel-1.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -136,7 +136,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/banner-hotel-5.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -148,7 +148,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/hotel-2.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -160,7 +160,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/banner-hotel-3.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -172,7 +172,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_244914.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/banner-hotel-2.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -184,7 +184,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Hotel-Wallpaper-HD-Computer-Download-PIC-WPC00952.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/banner-hotel.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -196,7 +196,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('http://www.pacifichoteldehradun.in/images/dehradun_landing_page.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/banner-hotel-4.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -208,7 +208,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="custom-card card">
-                            <div class="bg-img" style="background-image: url('https://media.alienwarearena.com/media/wallpapers-3d-hotel-design-hd-wallpaper-artistic-hd-wallpapers.jpg');"></div>
+                            <div class="bg-img" style="background-image: url('../../images/banner-hotel-6.jpg');"></div>
                             <div class="card-bg card-body text-left p-2">
                                 <h5 class="card-title font-weight-bold mb-2 text-uppercase">Hotel Name</h5>
                                 <div class="card-text d-inline-block w-100 light-gray">
@@ -224,12 +224,12 @@
     </div>
     <!-- parallax banner -->
     <div class="banner parallax-banner">
-        <div class="banner-img" style="background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/160831133045-dubai-rosemont-hotel-sphereofgold-copyrightplompmozes-full-169.jpg');"></div>
-        <div class="banner-content">
-            <div class="center-content">
+        <div class="banner-img" style="background-image: url('../../images/banner-hotel-6.jpg');"></div>
+        <div class="banner-content-section">
+            <div class="banner-content text-white">
                 <div class="container">
                     <h3 class="text-white text-uppercase">Holidays type</h3>
-                    <p class="off-white">Get explore your dream to travel the world!</p>
+                    <p class="text-desc-gray">Get explore your dream to travel the world!</p>
                     <div class="w-100 d-inline-block mt-4">
                         <div class="type d-inline-block align-top p-2">
                             <div class="circle-icon rounded-circle d-flex justify-content-center align-items-center">
@@ -431,7 +431,7 @@ delay: 2000,
 },
 });
 var swiper = new Swiper('.offer-slider .swiper-container,.testimonial-slider .swiper-container', {
-slidesPerView: 'auto',
+slidesPerView: 4,
 spaceBetween: 20,
 simulateTouch : true,
 loop: true,
@@ -440,10 +440,20 @@ grabCursor: true,
 speed: 1000,
 autoplay: {
 delay: 3000,
+
 },
 breakpoints: {
 992: {
 spaceBetween: 10,
+slidesPerView: 3,
+},
+786: {
+spaceBetween: 10,
+slidesPerView: 2,
+},
+
+576: {
+slidesPerView: 1,
 },
 }
 });

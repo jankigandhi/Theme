@@ -1,10 +1,9 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
-
 $light-gray: #f7f7f7;
-
 .theme-home-page {
+    //banner css
     .banner-content {
         .banner-section {
             line-height: 0;
@@ -30,6 +29,7 @@ $light-gray: #f7f7f7;
             }
         }
     }
+    //service-section css
     .service-section{
         .services-icon{
             font-size: 1.3rem;
@@ -38,11 +38,13 @@ $light-gray: #f7f7f7;
             font-size: .875rem;
         }
     }
+    //demo-section css
     .demo-section {
         .demo-desc {
             max-width: 50rem;
         }
     }
+    //Parallax-section css
     .Parallax-section {
         .testimonial {
             position: relative;
@@ -52,6 +54,7 @@ $light-gray: #f7f7f7;
             max-width: 50.625rem;
         }
     }
+    //img-content css
     .img-content{
         @include img-inbg;
         padding-bottom: 60%;

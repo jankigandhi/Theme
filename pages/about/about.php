@@ -9,11 +9,11 @@
 <?php include_once '../../components/nav-bar/nav-bar.php';?>
 <main class="about-section">
   <div class="banner">
-    <div class="banner-img" style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-luxury-hotel-HD-images-PIC-WPC00963.jpg');"></div>
-    <div class="banner-content">
-      <div class="center-content">
+    <div class="banner-img" style="background-image: url('../../images/banner-hotel-2.jpg');"></div>
+    <div class="banner-content-section">
+      <div class="banner-content">
         <div class="container">
-          <h3 class="text-white text-uppercase">About Us</h3>
+          <h3 class="center-content text-white text-uppercase">About Us</h3>
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@
     <div class="container">
       <ul class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">
+          <a href="http://localhost/theme/pages/theme-home/home.php">
             <i class="zmdi zmdi-home"></i>
             Home
           </a>
@@ -38,16 +38,16 @@
         <p class="light-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </div>
       <div class="col-md-5 py-2">
-        <div class="about-bg-img" style="background-image: url('https://images.alphacoders.com/498/498263.jpg');"></div>
+        <div class="about-bg-img" style="background-image: url('../../images/banner-hotel.jpg');"></div>
       </div>
     </div>
   </div>
-  <div class="work-section py-5">
+  <div class="about-section py-5">
     <div class="container">
       <h3 class="text-uppercase text-center">How it Works</h3>
       <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
       <div class="row my-4">
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-power-off"></i></span>
           </div>
@@ -56,7 +56,7 @@
             <p class="light-gray small px-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-trophy"></i></span>
           </div>
@@ -65,7 +65,7 @@
             <p class="light-gray small px-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-laptop"></i></span>
           </div>
@@ -74,7 +74,7 @@
             <p class="light-gray small px-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-4">
           <div class="hexagon">
             <span class="icon"><i class="fas fa-mobile-alt"></i></span>
           </div>
@@ -200,9 +200,9 @@
       <h3 class="text-uppercase text-center">Meet the team</h3>
       <p class="light-gray text-center">Absolutely Stunning Design and Functionality</p>
       <div class="row my-4">
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box card">
-            <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
+            <div class="bg-img" style="background-image: url('../../images/img-6.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
               <h5 class="title text-uppercase mb-0">Your Title Here</h5>
               <span class="post font-italic small light-gray">Co-Founder</span>
@@ -220,9 +220,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box custom-card card">
-            <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
+            <div class="bg-img" style="background-image: url('../../images/img-7.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
               <h5 class="title text-uppercase mb-0">Your Title Here</h5>
               <span class="post font-italic small light-gray">Co-Founder</span>
@@ -240,9 +240,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box custom-card card">
-            <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
+            <div class="bg-img" style="background-image: url('../../images/img-8.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
               <h5 class="title text-uppercase mb-0">Your Title Here</h5>
               <span class="post font-italic small light-gray">Co-Founder</span>
@@ -260,9 +260,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 pb-md-2 pb-5">
           <div class="team-box custom-card card">
-            <div class="bg-img" style="background-image: url('../../images/img-5.jpg');"></div>
+            <div class="bg-img" style="background-image: url('../../images/img-9.jpg');"></div>
             <div class="team-content card-body p-2 text-center">
               <h5 class="title text-uppercase mb-0">Your Title Here</h5>
               <span class="post font-italic small light-gray">Co-Founder</span>

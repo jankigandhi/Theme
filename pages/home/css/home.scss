@@ -2,20 +2,25 @@
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
 
-.about-bg-img {
+//banner css
+.home-bg-img {
     @include img-inbg;
     padding-bottom: 60%;
     height: auto;
 }
+
 .banner {
     position: relative;
+
     .banner-img {
         min-height: 400px;
+
         &.h-100vh {
             min-height: 100vh;
         }
     }
-    .banner-content {
+
+    .banner-content-section {
         position: absolute;
         left: 0;
         right: 0;
@@ -23,7 +28,8 @@
         top: 0;
         bottom: 0;
         line-height: 1.5;
-        .center-content {
+
+        .banner-content {
             position: absolute;
             top: 50%;
             @include transform(translate(0, -50%));
@@ -32,205 +38,245 @@
             text-align: center;
             z-index: 1;
         }
+
         .inst {
             font-size: 1.5rem;
             font-weight: 300;
         }
     }
 }
-.off-white {
-    color: rgba($white, .7);
-}
+
 .find-section {
-    background-color: $gray-900;
-}
-.btn-next,
-.btn-prev {
-    width: 20px;
-    height: 24px;
-    background-size: 20px 24px;
-    background-color: theme-color("primary");
-    padding: 1.5rem;
-    &.swiper-button-disabled {
-        background-color: rgba($white, .2);
+    .text-desc-gray {
+        color: rgba($white, .7);
     }
-}
-.btn-prev {
-    left: 0;
-}
-.btn-next {
-    right: 0;
-}
-.offer-section,
-.testimonial-section {
-    background-color: $gray-200;
-}
-.offer-slider {
-    .card-bg {
-        background-color: $white;
+
+    //search-section bg-color css
+    .search-section {
+        background-color: $gray-900;
     }
-    .card {
-        border: 3px solid $white;
-        cursor: inherit;
+
+    .btn-next,
+    .btn-prev {
+        width: 20px;
+        height: 24px;
+        background-size: 20px 24px;
+        background-color: theme-color("primary");
+        padding: 1.5rem;
+
+        &.swiper-button-disabled {
+            background-color: rgba($white, .2);
+        }
     }
-    .swiper-slide {
-        width: 18.75rem;
+
+    .btn-prev {
+        left: 0;
     }
-    &.offer-slider-2 {
-        .swiper-slide-active {
-            .card {
-                border-color: $white;
+
+    .btn-next {
+        right: 0;
+    }
+
+    .offer-section,
+    .testimonial-section {
+        background-color: $gray-200;
+    }
+
+    .offer-slider {
+        .card-bg {
+            background-color: $white;
+        }
+
+        .card {
+            border: 3px solid $white;
+            cursor: inherit;
+        }
+
+        .swiper-slide {
+            width: 18.75rem;
+        }
+
+        &.offer-slider-2 {
+            .swiper-slide-active {
+                .card {
+                    border-color: $white;
+                }
+            }
+
+            .btn-next,
+            .btn-prev {
+                width: 12px;
+                height: 18px;
+                background-size: 12px 18px;
+                padding: 1rem;
             }
         }
-        .btn-next,
-        .btn-prev {
-            width: 12px;
-            height: 18px;
-            background-size: 12px 18px;
-            padding: 1rem;
+    }
+
+    .offer-slider:not(.offer-slider-2) {
+        .swiper-slide-active {
+            .card {
+                border-color: theme-color("primary");
+            }
+
+            .card-bg {
+                background-color: $gray-900;
+            }
+
+            .card-title,
+            .price {
+                color: $white;
+            }
+
+            .card-text {
+                color: rgba($white, .7);
+            }
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .search-section {
+            margin-top: -5.5rem;
+            position: relative;
+            z-index: 11;
+
+            &.mw-1280 {
+                max-width: 1280px;
+                margin: -2.75rem auto 0 auto;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .search-section {
+            .border-line {
+                position: relative;
+                border-right: 1px solid rgba($white, .5);
+
+                &:before,
+                &:after {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-top: .5rem solid transparent;
+                    border-bottom: .5rem solid transparent;
+                    border-left: .5rem solid $gray-900;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    margin-top: -.5rem;
+                }
+
+                &:after {
+                    margin-right: -.4375rem;
+                }
+
+                &:before {
+                    border-left-color: rgba($white, .5);
+                    margin-right: -.5rem;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .banner {
+            .banner-content-section {
+                .inst {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .border-line {
+            border-bottom: 1px solid rgba($white, .5);
+        }
+
+        .offer-slider {
+            .swiper-slide {
+                width: 14rem;
+            }
+        }
+
+        .testimonial-slider {
+            .swiper-slide {
+                width: 20rem;
+            }
+        }
+
+        .parallax-banner {
+            .banner-img {
+                min-height: 700px;
+            }
         }
     }
 }
-.offer-slider:not(.offer-slider-2) {
-    .swiper-slide-active {
-        .card {
-            border-color: theme-color("primary");
-        }
-        .card-bg {
-            background-color: $gray-900;
-        }
-        .card-title,
-        .price {
-            color: $white;
-        }
-        .card-text {
-            color: rgba($white, .7);
-        }
-    }
-}
+
 .circle-icon {
     @include size(7rem);
     border: 3px solid $white;
     @include transition(.3s all linear);
     cursor: pointer;
+
     .icon {
         font-size: 2rem;
         color: $white;
         @include transition(.3s all linear);
     }
 }
+
 .parallax-banner {
     .banner-img {
         min-height: 500px;
         background-attachment: fixed;
     }
+
     .name {
         color: $white;
         @include transition(.3s all linear);
     }
+
     .type {
         &:hover {
             .circle-icon {
                 border-color: theme-color("primary");
             }
+
             .icon,
             .name {
                 color: theme-color("primary");
             }
         }
     }
+
     &.parallax-banner-sh {
         .banner-img {
             min-height: 300px;
         }
+
         .desc {
             max-width: 800px;
         }
     }
 }
+
 .testimonial-slider {
     .swiper-slide {
         width: 25rem;
         opacity: .5;
     }
+
     .swiper-slide-active {
         opacity: 1;
     }
 }
+
 .service-section {
     .circle-icon {
         border: 2px solid $gray-600;
+
         .icon {
             color: $gray-600;
-        }
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    .find-section {
-        margin-top: -5.5rem;
-        position: relative;
-        z-index: 11;
-        &.in-container {
-            max-width: 1280px;
-            margin: -2.75rem auto 0 auto;
-        }
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .find-section {
-        .border-line {
-            position: relative;
-            border-right: 1px solid rgba($white, .5);
-            &:before,
-            &:after {
-                content: '';
-                width: 0;
-                height: 0;
-                border-top: .5rem solid transparent;
-                border-bottom: .5rem solid transparent;
-                border-left: .5rem solid $gray-900;
-                position: absolute;
-                right: 0;
-                top: 50%;
-                margin-top: -.5rem;
-            }
-            &:after {
-                margin-right: -.4375rem;
-            }
-            &:before {
-                border-left-color: rgba($white, .5);
-                margin-right: -.5rem;
-            }
-        }
-    }
-}
-
-@include media-breakpoint-down(sm) {
-    .banner {
-        .banner-content {
-            .inst {
-                font-size: 1.2rem;
-            }
-        }
-    }
-    .border-line {
-        border-bottom: 1px solid rgba($white, .5);
-    }
-    .offer-slider {
-        .swiper-slide {
-            width: 14rem;
-        }
-    }
-    .testimonial-slider {
-        .swiper-slide {
-            width: 20rem;
-        }
-    }
-    .parallax-banner {
-        .banner-img {
-            min-height: 700px;
         }
     }
 }

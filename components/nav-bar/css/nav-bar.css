@@ -1,6 +1,10 @@
 .site-header {
   font-family: "Raleway";
   height: 4.9375rem; }
+  .site-header .site-logo .logo-text {
+    color: #26ade4;
+    font-size: 2rem;
+    line-height: 1.8; }
   .site-header .hover-links {
     font-size: .8rem;
     -moz-transition: 0.3s all linear;
@@ -66,7 +70,7 @@
       width: 200px;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
       cursor: default;
-      background: #292929;
+      background: #26ade4;
       transition: all 0.3s linear;
       opacity: 0;
       visibility: hidden; }
@@ -75,14 +79,6 @@
         display: inline-block;
         width: 100%;
         line-height: 37px; }
-      .site-header .search-item .function .input-text {
-        background: #f5f5f5;
-        border: none;
-        width: 100%;
-        height: 50px;
-        padding-left: 20px;
-        border-radius: 0;
-        font-size: 14px; }
     .site-header .search-item:hover .function {
       opacity: 1;
       visibility: visible;
@@ -118,7 +114,7 @@
       width: 200px;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
       cursor: default;
-      background: #292929;
+      background: #26ade4;
       transition: all 0.3s linear;
       opacity: 0;
       visibility: hidden; }

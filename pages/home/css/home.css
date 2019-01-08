@@ -1,4 +1,4 @@
-.about-bg-img {
+.home-bg-img {
   height: 100%;
   overflow: hidden;
   background-size: cover;
@@ -16,7 +16,7 @@
     min-height: 400px; }
     .banner .banner-img.h-100vh {
       min-height: 100vh; }
-  .banner .banner-content {
+  .banner .banner-content-section {
     position: absolute;
     left: 0;
     right: 0;
@@ -24,7 +24,7 @@
     top: 0;
     bottom: 0;
     line-height: 1.5; }
-    .banner .banner-content .center-content {
+    .banner .banner-content-section .banner-content {
       position: absolute;
       top: 50%;
       -moz-transform: translate(0, -50%);
@@ -36,62 +36,94 @@
       right: 0;
       text-align: center;
       z-index: 1; }
-    .banner .banner-content .inst {
+    .banner .banner-content-section .inst {
       font-size: 1.5rem;
       font-weight: 300; }
 
-.off-white {
+.find-section .text-desc-gray {
   color: rgba(255, 255, 255, 0.7); }
-
-.find-section {
+.find-section .search-section {
   background-color: #212529; }
-
-.btn-next,
-.btn-prev {
+.find-section .btn-next,
+.find-section .btn-prev {
   width: 20px;
   height: 24px;
   background-size: 20px 24px;
   background-color: #26ade4;
   padding: 1.5rem; }
-  .btn-next.swiper-button-disabled,
-  .btn-prev.swiper-button-disabled {
+  .find-section .btn-next.swiper-button-disabled,
+  .find-section .btn-prev.swiper-button-disabled {
     background-color: rgba(255, 255, 255, 0.2); }
-
-.btn-prev {
+.find-section .btn-prev {
   left: 0; }
-
-.btn-next {
+.find-section .btn-next {
   right: 0; }
-
-.offer-section,
-.testimonial-section {
+.find-section .offer-section,
+.find-section .testimonial-section {
   background-color: #e9ecef; }
-
-.offer-slider .card-bg {
+.find-section .offer-slider .card-bg {
   background-color: #fff; }
-.offer-slider .card {
+.find-section .offer-slider .card {
   border: 3px solid #fff;
   cursor: inherit; }
-.offer-slider .swiper-slide {
+.find-section .offer-slider .swiper-slide {
   width: 18.75rem; }
-.offer-slider.offer-slider-2 .swiper-slide-active .card {
+.find-section .offer-slider.offer-slider-2 .swiper-slide-active .card {
   border-color: #fff; }
-.offer-slider.offer-slider-2 .btn-next,
-.offer-slider.offer-slider-2 .btn-prev {
+.find-section .offer-slider.offer-slider-2 .btn-next,
+.find-section .offer-slider.offer-slider-2 .btn-prev {
   width: 12px;
   height: 18px;
   background-size: 12px 18px;
   padding: 1rem; }
-
-.offer-slider:not(.offer-slider-2) .swiper-slide-active .card {
+.find-section .offer-slider:not(.offer-slider-2) .swiper-slide-active .card {
   border-color: #26ade4; }
-.offer-slider:not(.offer-slider-2) .swiper-slide-active .card-bg {
+.find-section .offer-slider:not(.offer-slider-2) .swiper-slide-active .card-bg {
   background-color: #212529; }
-.offer-slider:not(.offer-slider-2) .swiper-slide-active .card-title,
-.offer-slider:not(.offer-slider-2) .swiper-slide-active .price {
+.find-section .offer-slider:not(.offer-slider-2) .swiper-slide-active .card-title,
+.find-section .offer-slider:not(.offer-slider-2) .swiper-slide-active .price {
   color: #fff; }
-.offer-slider:not(.offer-slider-2) .swiper-slide-active .card-text {
+.find-section .offer-slider:not(.offer-slider-2) .swiper-slide-active .card-text {
   color: rgba(255, 255, 255, 0.7); }
+@media (min-width: 992px) {
+  .find-section .search-section {
+    margin-top: -5.5rem;
+    position: relative;
+    z-index: 11; }
+    .find-section .search-section.mw-1280 {
+      max-width: 1280px;
+      margin: -2.75rem auto 0 auto; } }
+@media (min-width: 768px) {
+  .find-section .search-section .border-line {
+    position: relative;
+    border-right: 1px solid rgba(255, 255, 255, 0.5); }
+    .find-section .search-section .border-line:before, .find-section .search-section .border-line:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: .5rem solid transparent;
+      border-bottom: .5rem solid transparent;
+      border-left: 0.5rem solid #212529;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -.5rem; }
+    .find-section .search-section .border-line:after {
+      margin-right: -.4375rem; }
+    .find-section .search-section .border-line:before {
+      border-left-color: rgba(255, 255, 255, 0.5);
+      margin-right: -.5rem; } }
+@media (max-width: 767.98px) {
+  .find-section .banner .banner-content-section .inst {
+    font-size: 1.2rem; }
+  .find-section .border-line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  .find-section .offer-slider .swiper-slide {
+    width: 14rem; }
+  .find-section .testimonial-slider .swiper-slide {
+    width: 20rem; }
+  .find-section .parallax-banner .banner-img {
+    min-height: 700px; } }
 
 .circle-icon {
   width: 7rem;
@@ -139,49 +171,5 @@
   border: 2px solid #6c757d; }
   .service-section .circle-icon .icon {
     color: #6c757d; }
-
-@media (min-width: 992px) {
-  .find-section {
-    margin-top: -5.5rem;
-    position: relative;
-    z-index: 11; }
-    .find-section.in-container {
-      max-width: 1280px;
-      margin: -2.75rem auto 0 auto; } }
-@media (min-width: 768px) {
-  .find-section .border-line {
-    position: relative;
-    border-right: 1px solid rgba(255, 255, 255, 0.5); }
-    .find-section .border-line:before, .find-section .border-line:after {
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: .5rem solid transparent;
-      border-bottom: .5rem solid transparent;
-      border-left: 0.5rem solid #212529;
-      position: absolute;
-      right: 0;
-      top: 50%;
-      margin-top: -.5rem; }
-    .find-section .border-line:after {
-      margin-right: -.4375rem; }
-    .find-section .border-line:before {
-      border-left-color: rgba(255, 255, 255, 0.5);
-      margin-right: -.5rem; } }
-@media (max-width: 767.98px) {
-  .banner .banner-content .inst {
-    font-size: 1.2rem; }
-
-  .border-line {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
-
-  .offer-slider .swiper-slide {
-    width: 14rem; }
-
-  .testimonial-slider .swiper-slide {
-    width: 20rem; }
-
-  .parallax-banner .banner-img {
-    min-height: 700px; } }
 
 /*# sourceMappingURL=home.css.map */

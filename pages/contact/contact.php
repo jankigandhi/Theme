@@ -24,14 +24,14 @@
 							<div class="form-group">
 								<label class="small light-gray text-uppercase font-weight-medium">Email</label>
 								<div class="input-with-icon">
-									<input type="email" class="square-box form-control" name="email" placeholder="Email" />
+									<input type="email" class="square-box form-control" name="email" placeholder="Email" required="" />
 									<span class="icon"><i class="fas fa-envelope"></i></span>
 								</div>
 							</div>
 							<div class="form-group">
 								<label class="small light-gray text-uppercase font-weight-medium">Phone Number</label>
 								<div class="input-with-icon">
-									<input type="text" class="square-box form-control" name="phone_no" placeholder="Phone Number" />
+									<input type="phone_no" class="square-box form-control" name="phone_no" placeholder="Phone Number" />
 									<span class="icon"><i class="fas fa-phone"></i></span>
 								</div>
 							</div>
@@ -68,8 +68,8 @@
 							<div>
 								<h6 class="font-weight-bold">Address</h6>
 								<div class="d-table mb-3 small">
-									<p class="d-table-cell light-gray align-top pr-3"><i class="fas fa-map-marker-alt"></i></p>
-									<p class="d-table-cell light-gray align-top">
+									<p class="light-gray d-table-cell align-top pr-3"><i class="fas fa-map-marker-alt"></i></p>
+									<p class="light-gray d-table-cell align-top">
 										304, Privilege Avenue,
 										<span class="d-block">
 											Dr. Vikram Sarabhai Road,Vadodara-390022
@@ -83,8 +83,8 @@
 							<div>
 								<h6 class="font-weight-bold">Phone Number</h6>
 								<div class="d-table mb-3 small">
-									<p class="d-table-cell light-gray pr-3 align-top"><i class="fas fa-phone"></i></p>
-									<p class="d-table-cell light-gray align-top">
+									<p class="light-gray d-table-cell pr-3 align-top"><i class="fas fa-phone"></i></p>
+									<p class="light-gray d-table-cell align-top">
 										<a href="tel:+91-7600540105" class="light-gray">+91-7600540105</a>
 									</p>
 								</div>
@@ -92,14 +92,14 @@
 							<div>
 								<h6 class="font-weight-bold">Email</h6>
 								<div class="d-table mb-3 small">
-									<p class="d-table-cell light-gray pr-3 align-top"><i class="far fa-envelope"></i></p>
-									<p class="d-table-cell light-gray align-top">
+									<p class="light-gray d-table-cell pr-3 align-top"><i class="far fa-envelope"></i></p>
+									<p class="light-gray d-table-cell align-top">
 										<a href="mailto:contact@atyantik.com" class="light-gray">contact@atyantik.com</a>
 									</p>
 								</div>
 							</div>
 							<div>
-								<a href="#" class="social-icon">
+								<a href="#" class="social-icon ml-0">
 									<i class="fab fa-facebook-f"></i>
 								</a>
 								<a href="#" class="social-icon">

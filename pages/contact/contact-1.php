@@ -92,7 +92,7 @@
               </div>
             </div>
             <div>
-              <a href="#" class="social-icon">
+              <a href="#" class="social-icon ml-0">
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a href="#" class="social-icon">
