@@ -62,7 +62,7 @@
                 <div class="border-line col-lg-2 col-md-3 py-3 px-3">
                     <div class="mt-md-4 mt-lg-0">
                         <span class="text-uppercase text-desc-gray">Find your</span>
-                        <h4 class="font-weight-bold text-uppercase mb-0 text-white">Holidays</h4>
+                        <h4 class="font-weight-bold text-uppercase mb-0">Holidays</h4>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-9 py-3 px-3">
