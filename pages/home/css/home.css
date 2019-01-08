@@ -143,7 +143,7 @@
     transition: 0.3s all linear; }
 
 .parallax-banner .banner-img {
-  min-height: 500px;
+  min-height: 550px;
   background-attachment: fixed; }
 .parallax-banner .name {
   color: #fff;
