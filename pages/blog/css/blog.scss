@@ -1,0 +1,39 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.blog-page{
+	line-height: 0;
+	.blog-img{
+		padding-bottom: 35%;
+		.blog-content{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			line-height: 3;
+			.blog-title{
+				font-size: calc(3rem + 1vw);
+			}
+			.blog-desc{
+				font-size: 1.5rem;
+			}
+		}
+	}
+	.blog-div{
+		max-width: 700px;
+		.blog-desc{
+			font-size: 1.7rem;
+			line-height: 1.5;
+			color: $black;
+		}
+		.blog-date{
+			line-height: 1.5;
+		}
+		&:after{
+			content: '';
+			border-bottom: 1px solid $gray-600;
+			display: flex;
+			margin: 1.5rem 0;
+		}
+	}
+}
